@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.6",
-    "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
+    "versao": "1.0.7",
+    "novidades": "A tela de atualização agora diz o tempo real de indisponibilidade: por volta de um minuto.",
     "obrigatoria": false,
     "publicada_em": "2026-08-31"
   },
   "anteriores": [
+    {
+      "versao": "1.0.6",
+      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
     {
       "versao": "1.0.5",
       "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
