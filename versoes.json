@@ -1,4 +1,9 @@
 {
-  "atual": null,
+  "atual": {
+    "versao": "1.0.0",
+    "novidades": "A primeira versão publicada do Als Copilot. A partir daqui, atualizar é apertar um botão: quando sair uma versão nova, quem administra a instalação recebe um aviso e atualiza pela tela, sem perder nenhum dado.",
+    "obrigatoria": false,
+    "publicada_em": "2026-08-31"
+  },
   "anteriores": []
 }
