@@ -1,9 +1,16 @@
 {
   "atual": {
-    "versao": "1.0.0",
-    "novidades": "A primeira versão publicada do Als Copilot. A partir daqui, atualizar é apertar um botão: quando sair uma versão nova, quem administra a instalação recebe um aviso e atualiza pela tela, sem perder nenhum dado.",
+    "versao": "1.0.1",
+    "novidades": "Corrige a instalação em máquina nova: o banco nascia com o esquema pela metade.",
     "obrigatoria": false,
     "publicada_em": "2026-08-31"
   },
-  "anteriores": []
+  "anteriores": [
+    {
+      "versao": "1.0.0",
+      "novidades": "A primeira versão publicada do Als Copilot. A partir daqui, atualizar é apertar um botão: quando sair uma versão nova, quem administra a instalação recebe um aviso e atualiza pela tela, sem perder nenhum dado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    }
+  ]
 }
