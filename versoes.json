@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.14",
-    "novidades": "O catálogo passa a guardar quem responde por cada item — é assim que o agente sabe para quem passar o atendimento. Quem vem da sua fonte é reconhecido pelo telefone ou pelo e-mail.",
+    "versao": "1.0.15",
+    "novidades": "Esqueceu a senha? Agora dá para recuperar sozinho pela tela de entrada: o código chega no seu WhatsApp. Cada pessoa cadastra o próprio canal no perfil. E o passo que passa o atendimento para a equipe, nos processos, voltou a funcionar.",
     "obrigatoria": false,
     "publicada_em": "2026-09-01"
   },
   "anteriores": [
+    {
+      "versao": "1.0.14",
+      "novidades": "O catálogo passa a guardar quem responde por cada item — é assim que o agente sabe para quem passar o atendimento. Quem vem da sua fonte é reconhecido pelo telefone ou pelo e-mail.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
     {
       "versao": "1.0.13",
       "novidades": "O catálogo passa a trazer o endereço da página de cada item — o agente manda o link em vez de dezenas de fotos. E a permissão marcada na tela de Workflows agora é gravada de verdade.",
