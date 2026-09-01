@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.12",
-    "novidades": "Conserta de verdade o agendamento do catálogo: a versão anterior tinha a correção, mas ela não chegava a rodar. E a tela de Canais volta a falar com o WhatsApp.",
+    "versao": "1.0.13",
+    "novidades": "O catálogo passa a trazer o endereço da página de cada item — o agente manda o link em vez de dezenas de fotos. E a permissão marcada na tela de Workflows agora é gravada de verdade.",
     "obrigatoria": false,
     "publicada_em": "2026-09-01"
   },
   "anteriores": [
+    {
+      "versao": "1.0.12",
+      "novidades": "Conserta de verdade o agendamento do catálogo: a versão anterior tinha a correção, mas ela não chegava a rodar. E a tela de Canais volta a falar com o WhatsApp.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
     {
       "versao": "1.0.11",
       "novidades": "Conserta o agendamento que atualiza o catálogo: em instalações novas ele falhava dizendo 'credencial inválida'. O catálogo agora guarda o endereço da página de cada item, e o WhatsApp não perde mais mensagem quando a conexão cai.",
