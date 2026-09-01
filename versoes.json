@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.10",
-    "novidades": "Conecte a assinatura do agente pela tela: Configurações → Provedores → Conectar, com um código de uso único.",
+    "versao": "1.0.11",
+    "novidades": "Conserta o agendamento que atualiza o catálogo: em instalações novas ele falhava dizendo 'credencial inválida'. O catálogo agora guarda o endereço da página de cada item, e o WhatsApp não perde mais mensagem quando a conexão cai.",
     "obrigatoria": false,
-    "publicada_em": "2026-08-31"
+    "publicada_em": "2026-09-01"
   },
   "anteriores": [
+    {
+      "versao": "1.0.10",
+      "novidades": "Conecte a assinatura do agente pela tela: Configurações → Provedores → Conectar, com um código de uso único.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
     {
       "versao": "1.0.9",
       "novidades": "A atualização ficou mais robusta, com barra de progresso e volta automática comprovada.",
