@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.16",
-    "novidades": "O Als Copilot agora nasce pronto com a instalação e é o agente da empresa: só o dono e o administrador falam com ele, ele enxerga tudo e cria, ajusta, liga e desliga os outros agentes a pedido. Na lista de Agentes ele fica no topo. O canal dele só responde a quem for aprovado.",
+    "versao": "1.0.17",
+    "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
     "obrigatoria": false,
     "publicada_em": "2026-09-02"
   },
   "anteriores": [
+    {
+      "versao": "1.0.16",
+      "novidades": "O Als Copilot agora nasce pronto com a instalação e é o agente da empresa: só o dono e o administrador falam com ele, ele enxerga tudo e cria, ajusta, liga e desliga os outros agentes a pedido. Na lista de Agentes ele fica no topo. O canal dele só responde a quem for aprovado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-02"
+    },
     {
       "versao": "1.0.15",
       "novidades": "Esqueceu a senha? Agora dá para recuperar sozinho pela tela de entrada: o código chega no seu WhatsApp. Cada pessoa cadastra o próprio canal no perfil. E o passo que passa o atendimento para a equipe, nos processos, voltou a funcionar.",
