@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.17",
-    "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
+    "versao": "1.0.18",
+    "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
     "obrigatoria": false,
     "publicada_em": "2026-09-02"
   },
   "anteriores": [
+    {
+      "versao": "1.0.17",
+      "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-02"
+    },
     {
       "versao": "1.0.16",
       "novidades": "O Als Copilot agora nasce pronto com a instalação e é o agente da empresa: só o dono e o administrador falam com ele, ele enxerga tudo e cria, ajusta, liga e desliga os outros agentes a pedido. Na lista de Agentes ele fica no topo. O canal dele só responde a quem for aprovado.",
