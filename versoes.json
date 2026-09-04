@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.19",
-    "novidades": "Agora dá para parar o agente no meio de uma resposta, e o que ele já tinha escrito não se perde mais ao fechar a aba. A tela do Als Copilot voltou a ser só sua conversa com o agente — o WhatsApp fica em Atendimentos. E em Configurações → Conexões você liga sua conta para o agente alcançar e-mail, agenda e planilhas: quando alguém pedir algo do e-mail dele, o agente oferece o login na própria conversa, e pede sua confirmação antes de mandar qualquer coisa.",
+    "versao": "1.0.20",
+    "novidades": "O agente voltou a responder no WhatsApp de canal recém-conectado: uma mensagem entregue duas vezes pelo WhatsApp era descartada como repetida, e o canal ficava mudo. No CRM, o valor da negociação passou a ser o do item que a pessoa quer — antes era a soma de tudo o que o agente tinha mostrado, e um cliente que viu três imóveis aparecia com a soma dos três. Clique no item para marcar qual vale. No editor de workflow dá para mudar o nome e a descrição, duplicar um passo e arrastar para mudar a ordem; e na lista, duplicar um workflow inteiro.",
     "obrigatoria": false,
     "publicada_em": "2026-09-04"
   },
   "anteriores": [
+    {
+      "versao": "1.0.19",
+      "novidades": "Agora dá para parar o agente no meio de uma resposta, e o que ele já tinha escrito não se perde mais ao fechar a aba. A tela do Als Copilot voltou a ser só sua conversa com o agente — o WhatsApp fica em Atendimentos. E em Configurações → Conexões você liga sua conta para o agente alcançar e-mail, agenda e planilhas: quando alguém pedir algo do e-mail dele, o agente oferece o login na própria conversa, e pede sua confirmação antes de mandar qualquer coisa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
     {
       "versao": "1.0.18",
       "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
