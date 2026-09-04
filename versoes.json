@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.22",
-    "novidades": "O aviso que chega ao celular de quem recebe um atendimento ficou mais fácil de usar: os dados vêm em linhas separadas e destacadas, e há um link que abre a conversa com o cliente em um toque — sem precisar copiar o telefone e procurar o contato.",
+    "versao": "1.0.23",
+    "novidades": "Quem chega por um anúncio do Instagram ou do Facebook agora é reconhecido: o agente passa a ver o título e o texto do anúncio junto com a mensagem, procura o item no catálogo e encaminha para quem responde por ele. Antes só chegava a frase automática do anúncio, e o encaminhamento dependia de ela por acaso citar o que a pessoa queria.",
     "obrigatoria": false,
     "publicada_em": "2026-09-04"
   },
   "anteriores": [
+    {
+      "versao": "1.0.22",
+      "novidades": "O aviso que chega ao celular de quem recebe um atendimento ficou mais fácil de usar: os dados vêm em linhas separadas e destacadas, e há um link que abre a conversa com o cliente em um toque — sem precisar copiar o telefone e procurar o contato.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
     {
       "versao": "1.0.21",
       "novidades": "O agente voltou a entender prazo escrito por extenso: um passo que dizia \"espere uma hora\" fazia o processo ser recusado antes de começar, e o cliente ouvia que faltava prazo. Agora vale \"uma hora\", \"duas horas\", \"quinze minutos\", \"meia hora\" — do mesmo jeito que \"1 hora\" sempre valeu. E conversa com o agente da empresa deixou de virar lead no CRM e card em Atendimentos: quem responde pela empresa não é cliente dela.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.3",
       "novidades": "Conserta a troca de versão: o passo que guarda o caminho de volta falhava e a atualização parava por segurança.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.2",
-      "novidades": "O botão de atualizar agora se identifica antes de baixar — a 1.0.1 não conseguia baixar a versão nova.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
     }
