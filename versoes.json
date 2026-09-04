@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.21",
-    "novidades": "O agente voltou a entender prazo escrito por extenso: um passo que dizia \"espere uma hora\" fazia o processo ser recusado antes de começar, e o cliente ouvia que faltava prazo. Agora vale \"uma hora\", \"duas horas\", \"quinze minutos\", \"meia hora\" — do mesmo jeito que \"1 hora\" sempre valeu. E conversa com o agente da empresa deixou de virar lead no CRM e card em Atendimentos: quem responde pela empresa não é cliente dela.",
+    "versao": "1.0.22",
+    "novidades": "O aviso que chega ao celular de quem recebe um atendimento ficou mais fácil de usar: os dados vêm em linhas separadas e destacadas, e há um link que abre a conversa com o cliente em um toque — sem precisar copiar o telefone e procurar o contato.",
     "obrigatoria": false,
     "publicada_em": "2026-09-04"
   },
   "anteriores": [
+    {
+      "versao": "1.0.21",
+      "novidades": "O agente voltou a entender prazo escrito por extenso: um passo que dizia \"espere uma hora\" fazia o processo ser recusado antes de começar, e o cliente ouvia que faltava prazo. Agora vale \"uma hora\", \"duas horas\", \"quinze minutos\", \"meia hora\" — do mesmo jeito que \"1 hora\" sempre valeu. E conversa com o agente da empresa deixou de virar lead no CRM e card em Atendimentos: quem responde pela empresa não é cliente dela.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
     {
       "versao": "1.0.20",
       "novidades": "O agente voltou a responder no WhatsApp de canal recém-conectado: uma mensagem entregue duas vezes pelo WhatsApp era descartada como repetida, e o canal ficava mudo. No CRM, o valor da negociação passou a ser o do item que a pessoa quer — antes era a soma de tudo o que o agente tinha mostrado, e um cliente que viu três imóveis aparecia com a soma dos três. Clique no item para marcar qual vale. No editor de workflow dá para mudar o nome e a descrição, duplicar um passo e arrastar para mudar a ordem; e na lista, duplicar um workflow inteiro.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.2",
       "novidades": "O botão de atualizar agora se identifica antes de baixar — a 1.0.1 não conseguia baixar a versão nova.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.1",
-      "novidades": "Corrige a instalação em máquina nova: o banco nascia com o esquema pela metade.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
     }
