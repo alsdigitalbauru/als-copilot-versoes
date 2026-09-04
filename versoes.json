@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.18",
-    "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
+    "versao": "1.0.19",
+    "novidades": "Agora dá para parar o agente no meio de uma resposta, e o que ele já tinha escrito não se perde mais ao fechar a aba. A tela do Als Copilot voltou a ser só sua conversa com o agente — o WhatsApp fica em Atendimentos. E em Configurações → Conexões você liga sua conta para o agente alcançar e-mail, agenda e planilhas: quando alguém pedir algo do e-mail dele, o agente oferece o login na própria conversa, e pede sua confirmação antes de mandar qualquer coisa.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-02"
+    "publicada_em": "2026-09-04"
   },
   "anteriores": [
+    {
+      "versao": "1.0.18",
+      "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-02"
+    },
     {
       "versao": "1.0.17",
       "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
