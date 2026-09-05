@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.24",
-    "novidades": "Quem escreve pela primeira vez passou a ser encaminhado: a mensagem do cliente agora entra em Atendimentos no momento em que chega, e não só depois da resposta do agente. Antes, um processo de passar o atendimento acionado logo na primeira mensagem não encontrava a conversa e desistia — o cliente ouvia que o encaminhamento não tinha sido concluído.",
+    "versao": "1.0.25",
+    "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-04"
+    "publicada_em": "2026-09-05"
   },
   "anteriores": [
+    {
+      "versao": "1.0.24",
+      "novidades": "Quem escreve pela primeira vez passou a ser encaminhado: a mensagem do cliente agora entra em Atendimentos no momento em que chega, e não só depois da resposta do agente. Antes, um processo de passar o atendimento acionado logo na primeira mensagem não encontrava a conversa e desistia — o cliente ouvia que o encaminhamento não tinha sido concluído.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
     {
       "versao": "1.0.23",
       "novidades": "Quem chega por um anúncio do Instagram ou do Facebook agora é reconhecido: o agente passa a ver o título e o texto do anúncio junto com a mensagem, procura o item no catálogo e encaminha para quem responde por ele. Antes só chegava a frase automática do anúncio, e o encaminhamento dependia de ela por acaso citar o que a pessoa queria.",
@@ -116,12 +122,6 @@
     },
     {
       "versao": "1.0.5",
-      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.4",
       "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
