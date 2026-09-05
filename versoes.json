@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.27",
-    "novidades": "Correção: o cliente que volta a escrever mais de 30 minutos depois da última passagem gera uma passagem nova, e o corretor recebe o cartão de novo, avisando que ele voltou. Antes, o segundo contato do mesmo cliente no mesmo dia ficava sem cartão.",
+    "versao": "1.0.28",
+    "novidades": "O cartão de passagem ficou curto: nome, celular, uma linha de resumo e o link para falar com o lead num toque. O anúncio de onde o lead veio aparece como prévia em cima do cartão, com título, texto, foto e link.",
     "obrigatoria": false,
     "publicada_em": "2026-09-05"
   },
   "anteriores": [
+    {
+      "versao": "1.0.27",
+      "novidades": "Correção: o cliente que volta a escrever mais de 30 minutos depois da última passagem gera uma passagem nova, e o corretor recebe o cartão de novo, avisando que ele voltou. Antes, o segundo contato do mesmo cliente no mesmo dia ficava sem cartão.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
     {
       "versao": "1.0.26",
       "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.8",
       "novidades": "Versão de ensaio do caminho de volta — quebrada de propósito. Não é para uso.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.7",
-      "novidades": "A tela de atualização agora diz o tempo real de indisponibilidade: por volta de um minuto.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
     }
