@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.25",
-    "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
+    "versao": "1.0.26",
+    "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
     "obrigatoria": false,
     "publicada_em": "2026-09-05"
   },
   "anteriores": [
+    {
+      "versao": "1.0.25",
+      "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
     {
       "versao": "1.0.24",
       "novidades": "Quem escreve pela primeira vez passou a ser encaminhado: a mensagem do cliente agora entra em Atendimentos no momento em que chega, e não só depois da resposta do agente. Antes, um processo de passar o atendimento acionado logo na primeira mensagem não encontrava a conversa e desistia — o cliente ouvia que o encaminhamento não tinha sido concluído.",
@@ -116,12 +122,6 @@
     },
     {
       "versao": "1.0.6",
-      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.5",
       "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
