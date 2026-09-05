@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.26",
-    "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
+    "versao": "1.0.27",
+    "novidades": "Correção: o cliente que volta a escrever mais de 30 minutos depois da última passagem gera uma passagem nova, e o corretor recebe o cartão de novo, avisando que ele voltou. Antes, o segundo contato do mesmo cliente no mesmo dia ficava sem cartão.",
     "obrigatoria": false,
     "publicada_em": "2026-09-05"
   },
   "anteriores": [
+    {
+      "versao": "1.0.26",
+      "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
     {
       "versao": "1.0.25",
       "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.7",
       "novidades": "A tela de atualização agora diz o tempo real de indisponibilidade: por volta de um minuto.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.6",
-      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
     }
