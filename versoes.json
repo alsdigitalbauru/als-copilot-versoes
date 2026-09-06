@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.30",
-    "novidades": "O agente volta a encaminhar o lead assim que o cadastro existe, sem esperar a próxima mensagem",
+    "versao": "1.0.31",
+    "novidades": "O lead é encaminhado mesmo sem dizer o nome, e a resposta digitada na tela chega ao cliente",
     "obrigatoria": false,
     "publicada_em": "2026-09-06"
   },
   "anteriores": [
+    {
+      "versao": "1.0.30",
+      "novidades": "O agente volta a encaminhar o lead assim que o cadastro existe, sem esperar a próxima mensagem",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-06"
+    },
     {
       "versao": "1.0.29",
       "novidades": "Correção na leitura do anúncio: a conversa e o cartão passam a dizer 'veio de anúncio' também quando o WhatsApp manda o clique sem os detalhes, e em conversas com mensagem temporária.",
@@ -119,12 +125,6 @@
       "novidades": "Conserta o agendamento que atualiza o catálogo: em instalações novas ele falhava dizendo 'credencial inválida'. O catálogo agora guarda o endereço da página de cada item, e o WhatsApp não perde mais mensagem quando a conexão cai.",
       "obrigatoria": false,
       "publicada_em": "2026-09-01"
-    },
-    {
-      "versao": "1.0.10",
-      "novidades": "Conecte a assinatura do agente pela tela: Configurações → Provedores → Conectar, com um código de uso único.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
     }
   ]
 }
