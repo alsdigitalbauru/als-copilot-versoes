@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.29",
-    "novidades": "Correção na leitura do anúncio: a conversa e o cartão passam a dizer 'veio de anúncio' também quando o WhatsApp manda o clique sem os detalhes, e em conversas com mensagem temporária.",
+    "versao": "1.0.30",
+    "novidades": "O agente volta a encaminhar o lead assim que o cadastro existe, sem esperar a próxima mensagem",
     "obrigatoria": false,
-    "publicada_em": "2026-09-05"
+    "publicada_em": "2026-09-06"
   },
   "anteriores": [
+    {
+      "versao": "1.0.29",
+      "novidades": "Correção na leitura do anúncio: a conversa e o cartão passam a dizer 'veio de anúncio' também quando o WhatsApp manda o clique sem os detalhes, e em conversas com mensagem temporária.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
     {
       "versao": "1.0.28",
       "novidades": "O cartão de passagem ficou curto: nome, celular, uma linha de resumo e o link para falar com o lead num toque. O anúncio de onde o lead veio aparece como prévia em cima do cartão, com título, texto, foto e link.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.10",
       "novidades": "Conecte a assinatura do agente pela tela: Configurações → Provedores → Conectar, com um código de uso único.",
-      "obrigatoria": false,
-      "publicada_em": "2026-08-31"
-    },
-    {
-      "versao": "1.0.9",
-      "novidades": "A atualização ficou mais robusta, com barra de progresso e volta automática comprovada.",
       "obrigatoria": false,
       "publicada_em": "2026-08-31"
     }
