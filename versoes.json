@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.33",
-    "novidades": "O agente agora cumpre a espera do processo: quando ele diz que volta em uma hora, ele volta na hora certa e faz o que estava combinado — inclusive falar com alguém da equipe pelo WhatsApp. Antes a hora passava em silêncio.",
+    "versao": "1.0.34",
+    "novidades": "O agente conversa antes de perguntar, em vez de emendar perguntas comerciais logo no começo. E quando fala de um item do catálogo, mostra a foto na conversa em vez de mandar só o link.",
     "obrigatoria": false,
     "publicada_em": "2026-09-08"
   },
   "anteriores": [
+    {
+      "versao": "1.0.33",
+      "novidades": "O agente agora cumpre a espera do processo: quando ele diz que volta em uma hora, ele volta na hora certa e faz o que estava combinado — inclusive falar com alguém da equipe pelo WhatsApp. Antes a hora passava em silêncio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-08"
+    },
     {
       "versao": "1.0.32",
       "novidades": "Quem escreve pelo WhatsApp agora entra no funil na hora: a ficha e o card do CRM nascem juntos, mesmo quando a pessoa não diz o nome. E na tela de Atendimentos a resposta que chegou ao cliente não aparece mais como não enviada, com a foto de quem escreveu em cada mensagem.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.14",
       "novidades": "O catálogo passa a guardar quem responde por cada item — é assim que o agente sabe para quem passar o atendimento. Quem vem da sua fonte é reconhecido pelo telefone ou pelo e-mail.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-01"
-    },
-    {
-      "versao": "1.0.13",
-      "novidades": "O catálogo passa a trazer o endereço da página de cada item — o agente manda o link em vez de dezenas de fotos. E a permissão marcada na tela de Workflows agora é gravada de verdade.",
       "obrigatoria": false,
       "publicada_em": "2026-09-01"
     }
