@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.40",
-    "titulo": "Gerar a chave de segurança pela tela, agora funcionando de verdade",
+    "versao": "1.0.41",
+    "titulo": "Correção urgente: gerar a chave de segurança não derruba mais a instalação",
     "itens": [
-      "O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio.",
-      "Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava."
+      "Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava.",
+      "Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro."
     ],
-    "novidades": "Gerar a chave de segurança pela tela, agora funcionando de verdade O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio. Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava.",
+    "novidades": "Correção urgente: gerar a chave de segurança não derruba mais a instalação Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava. Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro.",
     "obrigatoria": false,
     "publicada_em": "2026-09-09"
   },
   "anteriores": [
+    {
+      "versao": "1.0.40",
+      "titulo": "Gerar a chave de segurança pela tela, agora funcionando de verdade",
+      "itens": [
+        "O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio.",
+        "Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava."
+      ],
+      "novidades": "Gerar a chave de segurança pela tela, agora funcionando de verdade O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio. Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
     {
       "versao": "1.0.39",
       "titulo": "O botão de gerar a chave de segurança agora funciona",
@@ -143,12 +154,6 @@
     {
       "versao": "1.0.21",
       "novidades": "O agente voltou a entender prazo escrito por extenso: um passo que dizia \"espere uma hora\" fazia o processo ser recusado antes de começar, e o cliente ouvia que faltava prazo. Agora vale \"uma hora\", \"duas horas\", \"quinze minutos\", \"meia hora\" — do mesmo jeito que \"1 hora\" sempre valeu. E conversa com o agente da empresa deixou de virar lead no CRM e card em Atendimentos: quem responde pela empresa não é cliente dela.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-04"
-    },
-    {
-      "versao": "1.0.20",
-      "novidades": "O agente voltou a responder no WhatsApp de canal recém-conectado: uma mensagem entregue duas vezes pelo WhatsApp era descartada como repetida, e o canal ficava mudo. No CRM, o valor da negociação passou a ser o do item que a pessoa quer — antes era a soma de tudo o que o agente tinha mostrado, e um cliente que viu três imóveis aparecia com a soma dos três. Clique no item para marcar qual vale. No editor de workflow dá para mudar o nome e a descrição, duplicar um passo e arrastar para mudar a ordem; e na lista, duplicar um workflow inteiro.",
       "obrigatoria": false,
       "publicada_em": "2026-09-04"
     }
