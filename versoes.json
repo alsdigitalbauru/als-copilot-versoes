@@ -1,19 +1,30 @@
 {
   "atual": {
-    "versao": "1.0.38",
-    "titulo": "O agente volta a criar imagens, e a tela resolve a segurança sozinha",
+    "versao": "1.0.39",
+    "titulo": "O botão de gerar a chave de segurança agora funciona",
     "itens": [
-      "O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso.",
-      "Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança.",
-      "Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora.",
-      "Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível.",
-      "O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora."
+      "Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar.",
+      "Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa."
     ],
-    "novidades": "O agente volta a criar imagens, e a tela resolve a segurança sozinha O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso. Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança. Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora. Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível. O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora.",
+    "novidades": "O botão de gerar a chave de segurança agora funciona Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar. Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa.",
     "obrigatoria": false,
     "publicada_em": "2026-09-09"
   },
   "anteriores": [
+    {
+      "versao": "1.0.38",
+      "titulo": "O agente volta a criar imagens, e a tela resolve a segurança sozinha",
+      "itens": [
+        "O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso.",
+        "Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança.",
+        "Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora.",
+        "Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível.",
+        "O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora."
+      ],
+      "novidades": "O agente volta a criar imagens, e a tela resolve a segurança sozinha O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso. Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança. Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora. Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível. O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
     {
       "versao": "1.0.37",
       "titulo": "A tela de Atualizações conta o que mudou",
@@ -135,12 +146,6 @@
       "novidades": "Agora dá para parar o agente no meio de uma resposta, e o que ele já tinha escrito não se perde mais ao fechar a aba. A tela do Als Copilot voltou a ser só sua conversa com o agente — o WhatsApp fica em Atendimentos. E em Configurações → Conexões você liga sua conta para o agente alcançar e-mail, agenda e planilhas: quando alguém pedir algo do e-mail dele, o agente oferece o login na própria conversa, e pede sua confirmação antes de mandar qualquer coisa.",
       "obrigatoria": false,
       "publicada_em": "2026-09-04"
-    },
-    {
-      "versao": "1.0.18",
-      "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-02"
     }
   ]
 }
