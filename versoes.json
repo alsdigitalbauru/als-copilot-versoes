@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.34",
-    "novidades": "O agente conversa antes de perguntar, em vez de emendar perguntas comerciais logo no começo. E quando fala de um item do catálogo, mostra a foto na conversa em vez de mandar só o link.",
+    "versao": "1.0.35",
+    "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-08"
+    "publicada_em": "2026-09-09"
   },
   "anteriores": [
+    {
+      "versao": "1.0.34",
+      "novidades": "O agente conversa antes de perguntar, em vez de emendar perguntas comerciais logo no começo. E quando fala de um item do catálogo, mostra a foto na conversa em vez de mandar só o link.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-08"
+    },
     {
       "versao": "1.0.33",
       "novidades": "O agente agora cumpre a espera do processo: quando ele diz que volta em uma hora, ele volta na hora certa e faz o que estava combinado — inclusive falar com alguém da equipe pelo WhatsApp. Antes a hora passava em silêncio.",
@@ -117,12 +123,6 @@
     {
       "versao": "1.0.15",
       "novidades": "Esqueceu a senha? Agora dá para recuperar sozinho pela tela de entrada: o código chega no seu WhatsApp. Cada pessoa cadastra o próprio canal no perfil. E o passo que passa o atendimento para a equipe, nos processos, voltou a funcionar.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-01"
-    },
-    {
-      "versao": "1.0.14",
-      "novidades": "O catálogo passa a guardar quem responde por cada item — é assim que o agente sabe para quem passar o atendimento. Quem vem da sua fonte é reconhecido pelo telefone ou pelo e-mail.",
       "obrigatoria": false,
       "publicada_em": "2026-09-01"
     }
