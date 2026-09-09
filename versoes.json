@@ -1,11 +1,17 @@
 {
   "atual": {
-    "versao": "1.0.35",
-    "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
+    "versao": "1.0.36",
+    "novidades": "O cartão de atendimento volta a chegar no WhatsApp de quem vai atender — ele estava saindo para um endereço que o WhatsApp aceita e ninguém recebe, e o sistema dava como entregue. O Als Copilot passa a cadastrar, atualizar e desativar itens do catálogo a partir de uma planilha mandada na conversa. Mandando várias mensagens seguidas, o agente responde uma vez só, entendendo o conjunto. Sair da tela não perde mais a resposta em andamento, e o menu mostra quando ele está trabalhando. As respostas no WhatsApp ficaram mais limpas e sem tabelas quebradas, e quando o item não está no catálogo ele oferece procurar na internet. O processo do agente pode começar sozinho assim que o cliente escreve.",
     "obrigatoria": false,
     "publicada_em": "2026-09-09"
   },
   "anteriores": [
+    {
+      "versao": "1.0.35",
+      "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
     {
       "versao": "1.0.34",
       "novidades": "O agente conversa antes de perguntar, em vez de emendar perguntas comerciais logo no começo. E quando fala de um item do catálogo, mostra a foto na conversa em vez de mandar só o link.",
@@ -119,12 +125,6 @@
       "novidades": "O Als Copilot agora nasce pronto com a instalação e é o agente da empresa: só o dono e o administrador falam com ele, ele enxerga tudo e cria, ajusta, liga e desliga os outros agentes a pedido. Na lista de Agentes ele fica no topo. O canal dele só responde a quem for aprovado.",
       "obrigatoria": false,
       "publicada_em": "2026-09-02"
-    },
-    {
-      "versao": "1.0.15",
-      "novidades": "Esqueceu a senha? Agora dá para recuperar sozinho pela tela de entrada: o código chega no seu WhatsApp. Cada pessoa cadastra o próprio canal no perfil. E o passo que passa o atendimento para a equipe, nos processos, voltou a funcionar.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-01"
     }
   ]
 }
