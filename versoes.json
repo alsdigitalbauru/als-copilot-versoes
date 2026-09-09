@@ -1,11 +1,25 @@
 {
   "atual": {
-    "versao": "1.0.36",
-    "novidades": "O cartão de atendimento volta a chegar no WhatsApp de quem vai atender — ele estava saindo para um endereço que o WhatsApp aceita e ninguém recebe, e o sistema dava como entregue. O Als Copilot passa a cadastrar, atualizar e desativar itens do catálogo a partir de uma planilha mandada na conversa. Mandando várias mensagens seguidas, o agente responde uma vez só, entendendo o conjunto. Sair da tela não perde mais a resposta em andamento, e o menu mostra quando ele está trabalhando. As respostas no WhatsApp ficaram mais limpas e sem tabelas quebradas, e quando o item não está no catálogo ele oferece procurar na internet. O processo do agente pode começar sozinho assim que o cliente escreve.",
+    "versao": "1.0.37",
+    "titulo": "A tela de Atualizações conta o que mudou",
+    "itens": [
+      "A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida.",
+      "Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido.",
+      "O texto do que mudou não é mais cortado no meio de uma palavra.",
+      "Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo.",
+      "Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais."
+    ],
+    "novidades": "A tela de Atualizações conta o que mudou A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida. Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido. O texto do que mudou não é mais cortado no meio de uma palavra. Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo. Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais.",
     "obrigatoria": false,
     "publicada_em": "2026-09-09"
   },
   "anteriores": [
+    {
+      "versao": "1.0.36",
+      "novidades": "O cartão de atendimento volta a chegar no WhatsApp de quem vai atender — ele estava saindo para um endereço que o WhatsApp aceita e ninguém recebe, e o sistema dava como entregue. O Als Copilot passa a cadastrar, atualizar e desativar itens do catálogo a partir de uma planilha mandada na conversa. Mandando várias mensagens seguidas, o agente responde uma vez só, entendendo o conjunto. Sair da tela não perde mais a resposta em andamento, e o menu mostra quando ele está trabalhando. As respostas no WhatsApp ficaram mais limpas e sem tabelas quebradas, e quando o item não está no catálogo ele oferece procurar na internet. O processo do agente pode começar sozinho assim que o cliente escreve.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
     {
       "versao": "1.0.35",
       "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
@@ -117,12 +131,6 @@
     {
       "versao": "1.0.17",
       "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-02"
-    },
-    {
-      "versao": "1.0.16",
-      "novidades": "O Als Copilot agora nasce pronto com a instalação e é o agente da empresa: só o dono e o administrador falam com ele, ele enxerga tudo e cria, ajusta, liga e desliga os outros agentes a pedido. Na lista de Agentes ele fica no topo. O canal dele só responde a quem for aprovado.",
       "obrigatoria": false,
       "publicada_em": "2026-09-02"
     }
