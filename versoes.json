@@ -1,19 +1,33 @@
 {
   "atual": {
-    "versao": "1.0.37",
-    "titulo": "A tela de Atualizações conta o que mudou",
+    "versao": "1.0.38",
+    "titulo": "O agente volta a criar imagens, e a tela resolve a segurança sozinha",
     "itens": [
-      "A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida.",
-      "Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido.",
-      "O texto do que mudou não é mais cortado no meio de uma palavra.",
-      "Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo.",
-      "Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais."
+      "O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso.",
+      "Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança.",
+      "Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora.",
+      "Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível.",
+      "O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora."
     ],
-    "novidades": "A tela de Atualizações conta o que mudou A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida. Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido. O texto do que mudou não é mais cortado no meio de uma palavra. Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo. Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais.",
+    "novidades": "O agente volta a criar imagens, e a tela resolve a segurança sozinha O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso. Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança. Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora. Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível. O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora.",
     "obrigatoria": false,
     "publicada_em": "2026-09-09"
   },
   "anteriores": [
+    {
+      "versao": "1.0.37",
+      "titulo": "A tela de Atualizações conta o que mudou",
+      "itens": [
+        "A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida.",
+        "Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido.",
+        "O texto do que mudou não é mais cortado no meio de uma palavra.",
+        "Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo.",
+        "Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais."
+      ],
+      "novidades": "A tela de Atualizações conta o que mudou A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida. Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido. O texto do que mudou não é mais cortado no meio de uma palavra. Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo. Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
     {
       "versao": "1.0.36",
       "novidades": "O cartão de atendimento volta a chegar no WhatsApp de quem vai atender — ele estava saindo para um endereço que o WhatsApp aceita e ninguém recebe, e o sistema dava como entregue. O Als Copilot passa a cadastrar, atualizar e desativar itens do catálogo a partir de uma planilha mandada na conversa. Mandando várias mensagens seguidas, o agente responde uma vez só, entendendo o conjunto. Sair da tela não perde mais a resposta em andamento, e o menu mostra quando ele está trabalhando. As respostas no WhatsApp ficaram mais limpas e sem tabelas quebradas, e quando o item não está no catálogo ele oferece procurar na internet. O processo do agente pode começar sozinho assim que o cliente escreve.",
@@ -125,12 +139,6 @@
     {
       "versao": "1.0.18",
       "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-02"
-    },
-    {
-      "versao": "1.0.17",
-      "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
       "obrigatoria": false,
       "publicada_em": "2026-09-02"
     }
