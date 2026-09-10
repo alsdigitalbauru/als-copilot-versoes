@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.44",
-    "titulo": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso",
+    "versao": "1.0.45",
+    "titulo": "A permissão de internet do agente passa a valer de verdade",
     "itens": [
-      "A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado.",
-      "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho."
+      "Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito.",
+      "O Als Copilot continua pesquisando normalmente."
     ],
-    "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho.",
+    "novidades": "A permissão de internet do agente passa a valer de verdade Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito. O Als Copilot continua pesquisando normalmente.",
     "obrigatoria": false,
     "publicada_em": "2026-09-10"
   },
   "anteriores": [
+    {
+      "versao": "1.0.44",
+      "titulo": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso",
+      "itens": [
+        "A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado.",
+        "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho."
+      ],
+      "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
     {
       "versao": "1.0.43",
       "titulo": "O agente lê seus arquivos, e o cartão passa a saber se chegou",
@@ -169,12 +180,6 @@
       "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
       "obrigatoria": false,
       "publicada_em": "2026-09-05"
-    },
-    {
-      "versao": "1.0.24",
-      "novidades": "Quem escreve pela primeira vez passou a ser encaminhado: a mensagem do cliente agora entra em Atendimentos no momento em que chega, e não só depois da resposta do agente. Antes, um processo de passar o atendimento acionado logo na primeira mensagem não encontrava a conversa e desistia — o cliente ouvia que o encaminhamento não tinha sido concluído.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-04"
     }
   ]
 }
