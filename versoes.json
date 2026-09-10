@@ -1,17 +1,31 @@
 {
   "atual": {
-    "versao": "1.0.42",
-    "titulo": "A atualização para de mentir quando algo dá errado",
+    "versao": "1.0.43",
+    "titulo": "O agente lê seus arquivos, e o cartão passa a saber se chegou",
     "itens": [
-      "Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo.",
-      "Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado.",
-      "Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial."
+      "Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo.",
+      "Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois.",
+      "Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item.",
+      "O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado.",
+      "Em instalação nova, a última fase do funil nasce como Lead Perdido."
     ],
-    "novidades": "A atualização para de mentir quando algo dá errado Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo. Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado. Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial.",
+    "novidades": "O agente lê seus arquivos, e o cartão passa a saber se chegou Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo. Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois. Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item. O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado. Em instalação nova, a última fase do funil nasce como Lead Perdido.",
     "obrigatoria": false,
     "publicada_em": "2026-09-10"
   },
   "anteriores": [
+    {
+      "versao": "1.0.42",
+      "titulo": "A atualização para de mentir quando algo dá errado",
+      "itens": [
+        "Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo.",
+        "Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado.",
+        "Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial."
+      ],
+      "novidades": "A atualização para de mentir quando algo dá errado Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo. Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado. Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
     {
       "versao": "1.0.41",
       "titulo": "Correção urgente: gerar a chave de segurança não derruba mais a instalação",
@@ -154,12 +168,6 @@
     {
       "versao": "1.0.23",
       "novidades": "Quem chega por um anúncio do Instagram ou do Facebook agora é reconhecido: o agente passa a ver o título e o texto do anúncio junto com a mensagem, procura o item no catálogo e encaminha para quem responde por ele. Antes só chegava a frase automática do anúncio, e o encaminhamento dependia de ela por acaso citar o que a pessoa queria.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-04"
-    },
-    {
-      "versao": "1.0.22",
-      "novidades": "O aviso que chega ao celular de quem recebe um atendimento ficou mais fácil de usar: os dados vêm em linhas separadas e destacadas, e há um link que abre a conversa com o cliente em um toque — sem precisar copiar o telefone e procurar o contato.",
       "obrigatoria": false,
       "publicada_em": "2026-09-04"
     }
