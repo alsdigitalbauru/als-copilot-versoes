@@ -1,16 +1,28 @@
 {
   "atual": {
-    "versao": "1.0.41",
-    "titulo": "Correção urgente: gerar a chave de segurança não derruba mais a instalação",
+    "versao": "1.0.42",
+    "titulo": "A atualização para de mentir quando algo dá errado",
     "itens": [
-      "Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava.",
-      "Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro."
+      "Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo.",
+      "Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado.",
+      "Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial."
     ],
-    "novidades": "Correção urgente: gerar a chave de segurança não derruba mais a instalação Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava. Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro.",
+    "novidades": "A atualização para de mentir quando algo dá errado Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo. Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado. Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-09"
+    "publicada_em": "2026-09-10"
   },
   "anteriores": [
+    {
+      "versao": "1.0.41",
+      "titulo": "Correção urgente: gerar a chave de segurança não derruba mais a instalação",
+      "itens": [
+        "Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava.",
+        "Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro."
+      ],
+      "novidades": "Correção urgente: gerar a chave de segurança não derruba mais a instalação Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava. Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
     {
       "versao": "1.0.40",
       "titulo": "Gerar a chave de segurança pela tela, agora funcionando de verdade",
@@ -148,12 +160,6 @@
     {
       "versao": "1.0.22",
       "novidades": "O aviso que chega ao celular de quem recebe um atendimento ficou mais fácil de usar: os dados vêm em linhas separadas e destacadas, e há um link que abre a conversa com o cliente em um toque — sem precisar copiar o telefone e procurar o contato.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-04"
-    },
-    {
-      "versao": "1.0.21",
-      "novidades": "O agente voltou a entender prazo escrito por extenso: um passo que dizia \"espere uma hora\" fazia o processo ser recusado antes de começar, e o cliente ouvia que faltava prazo. Agora vale \"uma hora\", \"duas horas\", \"quinze minutos\", \"meia hora\" — do mesmo jeito que \"1 hora\" sempre valeu. E conversa com o agente da empresa deixou de virar lead no CRM e card em Atendimentos: quem responde pela empresa não é cliente dela.",
       "obrigatoria": false,
       "publicada_em": "2026-09-04"
     }
