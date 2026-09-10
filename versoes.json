@@ -1,16 +1,28 @@
 {
   "atual": {
-    "versao": "1.0.45",
-    "titulo": "A permissão de internet do agente passa a valer de verdade",
+    "versao": "1.0.46",
+    "titulo": "O processo agora se liga ao agente sem sair da tela",
     "itens": [
-      "Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito.",
-      "O Als Copilot continua pesquisando normalmente."
+      "Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar.",
+      "O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima.",
+      "Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora."
     ],
-    "novidades": "A permissão de internet do agente passa a valer de verdade Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito. O Als Copilot continua pesquisando normalmente.",
+    "novidades": "O processo agora se liga ao agente sem sair da tela Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar. O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima. Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora.",
     "obrigatoria": false,
     "publicada_em": "2026-09-10"
   },
   "anteriores": [
+    {
+      "versao": "1.0.45",
+      "titulo": "A permissão de internet do agente passa a valer de verdade",
+      "itens": [
+        "Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito.",
+        "O Als Copilot continua pesquisando normalmente."
+      ],
+      "novidades": "A permissão de internet do agente passa a valer de verdade Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito. O Als Copilot continua pesquisando normalmente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
     {
       "versao": "1.0.44",
       "titulo": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso",
@@ -172,12 +184,6 @@
     {
       "versao": "1.0.26",
       "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-05"
-    },
-    {
-      "versao": "1.0.25",
-      "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
       "obrigatoria": false,
       "publicada_em": "2026-09-05"
     }
