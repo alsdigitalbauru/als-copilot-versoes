@@ -4,9 +4,9 @@
     "titulo": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso",
     "itens": [
       "A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado.",
-      "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho (vale a partir da atualização seguinte a esta)."
+      "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho."
     ],
-    "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho (vale a partir da atualização seguinte a esta).",
+    "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho.",
     "obrigatoria": false,
     "publicada_em": "2026-09-10"
   },
