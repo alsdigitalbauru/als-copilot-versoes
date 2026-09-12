@@ -1,17 +1,36 @@
 {
   "atual": {
-    "versao": "1.0.46",
-    "titulo": "O processo agora se liga ao agente sem sair da tela",
+    "versao": "1.0.47",
+    "titulo": "Equipes por área, arquivos na conversa e cobrança mais justa",
     "itens": [
-      "Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar.",
-      "O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima.",
-      "Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora."
+      "Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo.",
+      "Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito.",
+      "Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto.",
+      "A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade.",
+      "Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários.",
+      "Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa.",
+      "A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber.",
+      "Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença.",
+      "O dono da empresa grava sozinho o 'quando usar este processo'.",
+      "Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp."
     ],
-    "novidades": "O processo agora se liga ao agente sem sair da tela Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar. O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima. Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora.",
+    "novidades": "Equipes por área, arquivos na conversa e cobrança mais justa Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo. Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito. Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto. A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade. Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários. Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa. A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber. Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença. O dono da empresa grava sozinho o 'quando usar este processo'. Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-10"
+    "publicada_em": "2026-09-12"
   },
   "anteriores": [
+    {
+      "versao": "1.0.46",
+      "titulo": "O processo agora se liga ao agente sem sair da tela",
+      "itens": [
+        "Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar.",
+        "O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima.",
+        "Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora."
+      ],
+      "novidades": "O processo agora se liga ao agente sem sair da tela Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar. O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima. Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
     {
       "versao": "1.0.45",
       "titulo": "A permissão de internet do agente passa a valer de verdade",
@@ -178,12 +197,6 @@
     {
       "versao": "1.0.27",
       "novidades": "Correção: o cliente que volta a escrever mais de 30 minutos depois da última passagem gera uma passagem nova, e o corretor recebe o cartão de novo, avisando que ele voltou. Antes, o segundo contato do mesmo cliente no mesmo dia ficava sem cartão.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-05"
-    },
-    {
-      "versao": "1.0.26",
-      "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
       "obrigatoria": false,
       "publicada_em": "2026-09-05"
     }
