@@ -1,24 +1,40 @@
 {
   "atual": {
-    "versao": "1.0.47",
-    "titulo": "Equipes por área, arquivos na conversa e cobrança mais justa",
+    "versao": "1.0.48",
+    "titulo": "Consertos no agente e a nova tela de Uso",
     "itens": [
-      "Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo.",
-      "Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito.",
-      "Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto.",
-      "A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade.",
-      "Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários.",
-      "Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa.",
-      "A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber.",
-      "Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença.",
-      "O dono da empresa grava sozinho o 'quando usar este processo'.",
-      "Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp."
+      "O agente não marca mais compromisso para uma data que já passou — antes ele marcava e dizia que tinha dado certo.",
+      "Com duas negociações de mesmo nome, o agente pergunta qual é, em vez de escolher uma em silêncio.",
+      "O lembrete anotado na conversa não se perde mais quando o agente falha na hora de gravar.",
+      "Renomear uma equipe deixava o processo sem encontrar ninguém; agora ele continua achando.",
+      "O Als Copilot não trava mais em silêncio quando muita gente usa ao mesmo tempo.",
+      "A tela de Custos, que mostrava sempre zero, virou a tela Uso: uma barra com quanto da assinatura já foi consumido.",
+      "O banco passa a garantir uma empresa por instalação."
     ],
-    "novidades": "Equipes por área, arquivos na conversa e cobrança mais justa Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo. Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito. Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto. A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade. Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários. Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa. A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber. Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença. O dono da empresa grava sozinho o 'quando usar este processo'. Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp.",
+    "novidades": "Consertos no agente e a nova tela de Uso O agente não marca mais compromisso para uma data que já passou — antes ele marcava e dizia que tinha dado certo. Com duas negociações de mesmo nome, o agente pergunta qual é, em vez de escolher uma em silêncio. O lembrete anotado na conversa não se perde mais quando o agente falha na hora de gravar. Renomear uma equipe deixava o processo sem encontrar ninguém; agora ele continua achando. O Als Copilot não trava mais em silêncio quando muita gente usa ao mesmo tempo. A tela de Custos, que mostrava sempre zero, virou a tela Uso: uma barra com quanto da assinatura já foi consumido. O banco passa a garantir uma empresa por instalação.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-12"
+    "publicada_em": "2026-09-13"
   },
   "anteriores": [
+    {
+      "versao": "1.0.47",
+      "titulo": "Equipes por área, arquivos na conversa e cobrança mais justa",
+      "itens": [
+        "Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo.",
+        "Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito.",
+        "Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto.",
+        "A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade.",
+        "Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários.",
+        "Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa.",
+        "A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber.",
+        "Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença.",
+        "O dono da empresa grava sozinho o 'quando usar este processo'.",
+        "Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp."
+      ],
+      "novidades": "Equipes por área, arquivos na conversa e cobrança mais justa Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo. Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito. Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto. A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade. Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários. Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa. A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber. Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença. O dono da empresa grava sozinho o 'quando usar este processo'. Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-12"
+    },
     {
       "versao": "1.0.46",
       "titulo": "O processo agora se liga ao agente sem sair da tela",
@@ -191,12 +207,6 @@
     {
       "versao": "1.0.28",
       "novidades": "O cartão de passagem ficou curto: nome, celular, uma linha de resumo e o link para falar com o lead num toque. O anúncio de onde o lead veio aparece como prévia em cima do cartão, com título, texto, foto e link.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-05"
-    },
-    {
-      "versao": "1.0.27",
-      "novidades": "Correção: o cliente que volta a escrever mais de 30 minutos depois da última passagem gera uma passagem nova, e o corretor recebe o cartão de novo, avisando que ele voltou. Antes, o segundo contato do mesmo cliente no mesmo dia ficava sem cartão.",
       "obrigatoria": false,
       "publicada_em": "2026-09-05"
     }
