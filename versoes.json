@@ -1,19 +1,36 @@
 {
   "atual": {
-    "versao": "1.0.49",
-    "titulo": "O agente espera você terminar de falar",
+    "versao": "1.0.50",
+    "titulo": "O Als Copilot cria artes com a sua marca e sugere o próximo passo",
     "itens": [
-      "Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando.",
-      "Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto.",
-      "O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu.",
-      "Atualizar a instalação deixou de apagar a memória das conversas em andamento.",
-      "O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes."
+      "Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa.",
+      "Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas.",
+      "O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências.",
+      "Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente.",
+      "Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta.",
+      "Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM.",
+      "A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais.",
+      "O reaquecimento automático de leads foi desligado."
     ],
-    "novidades": "O agente espera você terminar de falar Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando. Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto. O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu. Atualizar a instalação deixou de apagar a memória das conversas em andamento. O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes.",
+    "novidades": "O Als Copilot cria artes com a sua marca e sugere o próximo passo Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa. Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas. O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências. Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente. Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta. Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM. A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais. O reaquecimento automático de leads foi desligado.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-13"
+    "publicada_em": "2026-09-15"
   },
   "anteriores": [
+    {
+      "versao": "1.0.49",
+      "titulo": "O agente espera você terminar de falar",
+      "itens": [
+        "Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando.",
+        "Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto.",
+        "O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu.",
+        "Atualizar a instalação deixou de apagar a memória das conversas em andamento.",
+        "O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes."
+      ],
+      "novidades": "O agente espera você terminar de falar Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando. Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto. O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu. Atualizar a instalação deixou de apagar a memória das conversas em andamento. O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-13"
+    },
     {
       "versao": "1.0.48",
       "titulo": "Consertos no agente e a nova tela de Uso",
@@ -211,12 +228,6 @@
       "novidades": "O agente volta a encaminhar o lead assim que o cadastro existe, sem esperar a próxima mensagem",
       "obrigatoria": false,
       "publicada_em": "2026-09-06"
-    },
-    {
-      "versao": "1.0.29",
-      "novidades": "Correção na leitura do anúncio: a conversa e o cartão passam a dizer 'veio de anúncio' também quando o WhatsApp manda o clique sem os detalhes, e em conversas com mensagem temporária.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-05"
     }
   ]
 }
