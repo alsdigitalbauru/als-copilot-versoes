@@ -1,22 +1,37 @@
 {
   "atual": {
-    "versao": "1.0.50",
-    "titulo": "O Als Copilot cria artes com a sua marca e sugere o próximo passo",
+    "versao": "1.0.51",
+    "titulo": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar",
     "itens": [
-      "Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa.",
-      "Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas.",
-      "O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências.",
-      "Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente.",
-      "Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta.",
-      "Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM.",
-      "A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais.",
-      "O reaquecimento automático de leads foi desligado."
+      "Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou.",
+      "Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada.",
+      "O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar.",
+      "Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou.",
+      "A conversa não se perde mais quando o motor reinicia no meio de uma resposta.",
+      "Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre."
     ],
-    "novidades": "O Als Copilot cria artes com a sua marca e sugere o próximo passo Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa. Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas. O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências. Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente. Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta. Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM. A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais. O reaquecimento automático de leads foi desligado.",
+    "novidades": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou. Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada. O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar. Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou. A conversa não se perde mais quando o motor reinicia no meio de uma resposta. Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-15"
+    "publicada_em": "2026-09-17"
   },
   "anteriores": [
+    {
+      "versao": "1.0.50",
+      "titulo": "O Als Copilot cria artes com a sua marca e sugere o próximo passo",
+      "itens": [
+        "Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa.",
+        "Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas.",
+        "O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências.",
+        "Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente.",
+        "Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta.",
+        "Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM.",
+        "A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais.",
+        "O reaquecimento automático de leads foi desligado."
+      ],
+      "novidades": "O Als Copilot cria artes com a sua marca e sugere o próximo passo Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa. Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas. O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências. Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente. Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta. Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM. A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais. O reaquecimento automático de leads foi desligado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-15"
+    },
     {
       "versao": "1.0.49",
       "titulo": "O agente espera você terminar de falar",
@@ -220,12 +235,6 @@
     {
       "versao": "1.0.31",
       "novidades": "O lead é encaminhado mesmo sem dizer o nome, e a resposta digitada na tela chega ao cliente",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-06"
-    },
-    {
-      "versao": "1.0.30",
-      "novidades": "O agente volta a encaminhar o lead assim que o cadastro existe, sem esperar a próxima mensagem",
       "obrigatoria": false,
       "publicada_em": "2026-09-06"
     }
