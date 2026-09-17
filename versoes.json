@@ -8,7 +8,10 @@
       "O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar.",
       "Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou.",
       "A conversa não se perde mais quando o motor reinicia no meio de uma resposta.",
-      "Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre."
+      "Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
+      "Cada contato ganha um perfil montado sozinho a partir da conversa: de onde é, o que procura, o que o preocupa e por onde chegou — sem o agente precisar perguntar nada a mais.",
+      "Quando alguém da equipe escreve para o Als Copilot pelo WhatsApp, é a MESMA conversa que aparece na tela: o que você falou no celular continua no computador, e o que você pode ver é o mesmo nos dois.",
+      "O agente passou a saber que tem as ferramentas de conexão que já estavam ligadas para ele — antes ele as recebia e não sabia usar."
     ],
     "novidades": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou. Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada. O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar. Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou. A conversa não se perde mais quando o motor reinicia no meio de uma resposta. Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
     "obrigatoria": false,
