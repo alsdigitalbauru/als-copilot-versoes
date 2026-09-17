@@ -1,18 +1,34 @@
 {
   "atual": {
-    "versao": "1.0.52",
-    "titulo": "O funil mostra todos os negócios, sem limite",
+    "versao": "1.0.53",
+    "titulo": "As fotos, o lembrete do compromisso e o agente que sumiu",
     "itens": [
-      "O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem.",
-      "Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim.",
-      "O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela.",
-      "A visão em Lista ganhou páginas, com o total ao lado."
+      "Quem manda um álbum de fotos recebe UMA resposta, sobre o conjunto — e não uma resposta por foto.",
+      "Compromisso nasce com lembrete ligado, e o aviso chega pelo WhatsApp e por e-mail, na antecedência que você escolher (de 5 minutos a 1 dia).",
+      "O lembrete parou de chegar duas vezes.",
+      "Conversa presa a um agente que não existe mais aparece no topo da tela de Agentes, e o Als Copilot avisa você para escolher quem assume.",
+      "Remover um agente passou a perguntar quem herda as conversas dele, em vez de deixá-las sem dono.",
+      "O agente classifica itens do catálogo em categorias, criando a categoria quando ela ainda não existe.",
+      "A tela de Conexões diz quando cada conexão começou e se o agente realmente alcança o serviço."
     ],
-    "novidades": "O funil mostra todos os negócios, sem limite O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem. Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim. O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela. A visão em Lista ganhou páginas, com o total ao lado.",
+    "novidades": "As fotos, o lembrete do compromisso e o agente que sumiu Quem manda um álbum de fotos recebe UMA resposta, sobre o conjunto — e não uma resposta por foto. Compromisso nasce com lembrete ligado, e o aviso chega pelo WhatsApp e por e-mail, na antecedência que você escolher (de 5 minutos a 1 dia). O lembrete parou de chegar duas vezes. Conversa presa a um agente que não existe mais aparece no topo da tela de Agentes, e o Als Copilot avisa você para escolher quem assume. Remover um agente passou a perguntar quem herda as conversas dele, em vez de deixá-las sem dono. O agente classifica itens do catálogo em categorias, criando a categoria quando ela ainda não existe. A tela de Conexões diz quando cada conexão começou e se o agente realmente alcança o serviço.",
     "obrigatoria": false,
     "publicada_em": "2026-09-17"
   },
   "anteriores": [
+    {
+      "versao": "1.0.52",
+      "titulo": "O funil mostra todos os negócios, sem limite",
+      "itens": [
+        "O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem.",
+        "Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim.",
+        "O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela.",
+        "A visão em Lista ganhou páginas, com o total ao lado."
+      ],
+      "novidades": "O funil mostra todos os negócios, sem limite O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem. Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim. O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela. A visão em Lista ganhou páginas, com o total ao lado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-17"
+    },
     {
       "versao": "1.0.51",
       "titulo": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar",
@@ -241,12 +257,6 @@
       "novidades": "O agente agora cumpre a espera do processo: quando ele diz que volta em uma hora, ele volta na hora certa e faz o que estava combinado — inclusive falar com alguém da equipe pelo WhatsApp. Antes a hora passava em silêncio.",
       "obrigatoria": false,
       "publicada_em": "2026-09-08"
-    },
-    {
-      "versao": "1.0.32",
-      "novidades": "Quem escreve pelo WhatsApp agora entra no funil na hora: a ficha e o card do CRM nascem juntos, mesmo quando a pessoa não diz o nome. E na tela de Atendimentos a resposta que chegou ao cliente não aparece mais como não enviada, com a foto de quem escreveu em cada mensagem.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-06"
     }
   ]
 }
