@@ -1,19 +1,36 @@
 {
   "atual": {
-    "versao": "1.0.54",
-    "titulo": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede",
+    "versao": "1.0.55",
+    "titulo": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido",
     "itens": [
-      "Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça.",
-      "Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou.",
-      "Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento.",
-      "Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher.",
-      "Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa."
+      "O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido.",
+      "Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele.",
+      "Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento.",
+      "O valor no topo do funil soma só os negócios em andamento.",
+      "Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez.",
+      "O agente abre planilhas anexadas e faz contas nelas.",
+      "Correção: o agente voltou a responder a quem trabalha com arquivos.",
+      "O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo."
     ],
-    "novidades": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça. Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou. Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento. Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher. Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa.",
+    "novidades": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido. Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele. Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento. O valor no topo do funil soma só os negócios em andamento. Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez. O agente abre planilhas anexadas e faz contas nelas. Correção: o agente voltou a responder a quem trabalha com arquivos. O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo.",
     "obrigatoria": false,
     "publicada_em": "2026-09-18"
   },
   "anteriores": [
+    {
+      "versao": "1.0.54",
+      "titulo": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede",
+      "itens": [
+        "Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça.",
+        "Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou.",
+        "Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento.",
+        "Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher.",
+        "Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa."
+      ],
+      "novidades": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça. Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou. Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento. Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher. Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
     {
       "versao": "1.0.53",
       "titulo": "As fotos, o lembrete do compromisso e o agente que sumiu",
@@ -259,12 +276,6 @@
       "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
       "obrigatoria": false,
       "publicada_em": "2026-09-09"
-    },
-    {
-      "versao": "1.0.34",
-      "novidades": "O agente conversa antes de perguntar, em vez de emendar perguntas comerciais logo no começo. E quando fala de um item do catálogo, mostra a foto na conversa em vez de mandar só o link.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-08"
     }
   ]
 }
