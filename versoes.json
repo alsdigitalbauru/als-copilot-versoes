@@ -1,22 +1,37 @@
 {
   "atual": {
-    "versao": "1.0.55",
-    "titulo": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido",
+    "versao": "1.0.56",
+    "titulo": "O agente pergunta à equipe como foi o atendimento e atualiza o funil",
     "itens": [
-      "O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido.",
-      "Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele.",
-      "Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento.",
-      "O valor no topo do funil soma só os negócios em andamento.",
-      "Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez.",
-      "O agente abre planilhas anexadas e faz contas nelas.",
-      "Correção: o agente voltou a responder a quem trabalha com arquivos.",
-      "O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo."
+      "Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela.",
+      "Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa.",
+      "A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação.",
+      "A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes.",
+      "Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo.",
+      "As instruções das skills não têm mais o limite de 4.000 caracteres."
     ],
-    "novidades": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido. Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele. Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento. O valor no topo do funil soma só os negócios em andamento. Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez. O agente abre planilhas anexadas e faz contas nelas. Correção: o agente voltou a responder a quem trabalha com arquivos. O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo.",
+    "novidades": "O agente pergunta à equipe como foi o atendimento e atualiza o funil Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela. Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa. A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação. A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes. Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo. As instruções das skills não têm mais o limite de 4.000 caracteres.",
     "obrigatoria": false,
     "publicada_em": "2026-09-18"
   },
   "anteriores": [
+    {
+      "versao": "1.0.55",
+      "titulo": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido",
+      "itens": [
+        "O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido.",
+        "Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele.",
+        "Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento.",
+        "O valor no topo do funil soma só os negócios em andamento.",
+        "Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez.",
+        "O agente abre planilhas anexadas e faz contas nelas.",
+        "Correção: o agente voltou a responder a quem trabalha com arquivos.",
+        "O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo."
+      ],
+      "novidades": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido. Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele. Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento. O valor no topo do funil soma só os negócios em andamento. Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez. O agente abre planilhas anexadas e faz contas nelas. Correção: o agente voltou a responder a quem trabalha com arquivos. O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
     {
       "versao": "1.0.54",
       "titulo": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede",
@@ -268,12 +283,6 @@
     {
       "versao": "1.0.36",
       "novidades": "O cartão de atendimento volta a chegar no WhatsApp de quem vai atender — ele estava saindo para um endereço que o WhatsApp aceita e ninguém recebe, e o sistema dava como entregue. O Als Copilot passa a cadastrar, atualizar e desativar itens do catálogo a partir de uma planilha mandada na conversa. Mandando várias mensagens seguidas, o agente responde uma vez só, entendendo o conjunto. Sair da tela não perde mais a resposta em andamento, e o menu mostra quando ele está trabalhando. As respostas no WhatsApp ficaram mais limpas e sem tabelas quebradas, e quando o item não está no catálogo ele oferece procurar na internet. O processo do agente pode começar sozinho assim que o cliente escreve.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-09"
-    },
-    {
-      "versao": "1.0.35",
-      "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
       "obrigatoria": false,
       "publicada_em": "2026-09-09"
     }
