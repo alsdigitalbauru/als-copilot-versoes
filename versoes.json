@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.58",
-    "titulo": "O agente não volta a procurar cliente de negócio encerrado",
+    "versao": "1.0.59",
+    "titulo": "Quem é da equipe não vira cliente no WhatsApp de atendimento",
     "itens": [
-      "Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora.",
-      "Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora."
+      "Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes.",
+      "Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado."
     ],
-    "novidades": "O agente não volta a procurar cliente de negócio encerrado Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora. Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora.",
+    "novidades": "Quem é da equipe não vira cliente no WhatsApp de atendimento Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes. Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado.",
     "obrigatoria": false,
     "publicada_em": "2026-09-19"
   },
   "anteriores": [
+    {
+      "versao": "1.0.58",
+      "titulo": "O agente não volta a procurar cliente de negócio encerrado",
+      "itens": [
+        "Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora.",
+        "Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora."
+      ],
+      "novidades": "O agente não volta a procurar cliente de negócio encerrado Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora. Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-19"
+    },
     {
       "versao": "1.0.57",
       "titulo": "O agente volta ao cliente que parou de responder",
@@ -273,20 +284,6 @@
         "Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa."
       ],
       "novidades": "O botão de gerar a chave de segurança agora funciona Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar. Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-09"
-    },
-    {
-      "versao": "1.0.38",
-      "titulo": "O agente volta a criar imagens, e a tela resolve a segurança sozinha",
-      "itens": [
-        "O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso.",
-        "Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança.",
-        "Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora.",
-        "Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível.",
-        "O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora."
-      ],
-      "novidades": "O agente volta a criar imagens, e a tela resolve a segurança sozinha O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso. Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança. Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora. Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível. O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora.",
       "obrigatoria": false,
       "publicada_em": "2026-09-09"
     }
