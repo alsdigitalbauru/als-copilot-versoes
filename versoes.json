@@ -1,18 +1,29 @@
 {
   "atual": {
-    "versao": "1.0.57",
-    "titulo": "O agente volta ao cliente que parou de responder",
+    "versao": "1.0.58",
+    "titulo": "O agente não volta a procurar cliente de negócio encerrado",
     "itens": [
-      "Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias).",
-      "A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento.",
-      "Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina.",
-      "A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio."
+      "Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora.",
+      "Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora."
     ],
-    "novidades": "O agente volta ao cliente que parou de responder Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias). A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento. Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina. A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio.",
+    "novidades": "O agente não volta a procurar cliente de negócio encerrado Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora. Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-18"
+    "publicada_em": "2026-09-19"
   },
   "anteriores": [
+    {
+      "versao": "1.0.57",
+      "titulo": "O agente volta ao cliente que parou de responder",
+      "itens": [
+        "Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias).",
+        "A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento.",
+        "Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina.",
+        "A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio."
+      ],
+      "novidades": "O agente volta ao cliente que parou de responder Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias). A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento. Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina. A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
     {
       "versao": "1.0.56",
       "titulo": "O agente pergunta à equipe como foi o atendimento e atualiza o funil",
@@ -276,20 +287,6 @@
         "O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora."
       ],
       "novidades": "O agente volta a criar imagens, e a tela resolve a segurança sozinha O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso. Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança. Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora. Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível. O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-09"
-    },
-    {
-      "versao": "1.0.37",
-      "titulo": "A tela de Atualizações conta o que mudou",
-      "itens": [
-        "A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida.",
-        "Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido.",
-        "O texto do que mudou não é mais cortado no meio de uma palavra.",
-        "Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo.",
-        "Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais."
-      ],
-      "novidades": "A tela de Atualizações conta o que mudou A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida. Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido. O texto do que mudou não é mais cortado no meio de uma palavra. Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo. Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais.",
       "obrigatoria": false,
       "publicada_em": "2026-09-09"
     }
