@@ -1,16 +1,30 @@
 {
   "atual": {
-    "versao": "1.0.59",
-    "titulo": "Quem é da equipe não vira cliente no WhatsApp de atendimento",
+    "versao": "1.0.60",
+    "titulo": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela",
     "itens": [
-      "Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes.",
-      "Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado."
+      "O Als Copilot pode usar um navegador de verdade: entrar num site, preencher, baixar um arquivo. Acontece na tela de conversa, você vê ao vivo e assume quando ele pedir login ou código. Nasce DESLIGADO — quem liga é o administrador, na tela de Uso.",
+      "O que ele baixa vai para a tela Arquivos. E um arquivo da empresa só sai para um site com o seu Sim, num cartão que aparece na conversa.",
+      "Contas conectadas virou uma tela só: cada pessoa conecta as contas dela, fica uma conta por serviço, e o agente manda o link dessa tela em vez de pedir autorização no meio da conversa.",
+      "Quem não é dono nem administrador também consegue conectar as contas dele e usar as instruções da empresa falando com o Als Copilot pelo WhatsApp.",
+      "PDF, planilha e documento de texto enviados pelo WhatsApp e pelo Telegram agora chegam ao agente."
     ],
-    "novidades": "Quem é da equipe não vira cliente no WhatsApp de atendimento Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes. Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado.",
+    "novidades": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela O Als Copilot pode usar um navegador de verdade: entrar num site, preencher, baixar um arquivo. Acontece na tela de conversa, você vê ao vivo e assume quando ele pedir login ou código. Nasce DESLIGADO — quem liga é o administrador, na tela de Uso. O que ele baixa vai para a tela Arquivos. E um arquivo da empresa só sai para um site com o seu Sim, num cartão que aparece na conversa. Contas conectadas virou uma tela só: cada pessoa conecta as contas dela, fica uma conta por serviço, e o agente manda o link dessa tela em vez de pedir autorização no meio da conversa. Quem não é dono nem administrador também consegue conectar as contas dele e usar as instruções da empresa falando com o Als Copilot pelo WhatsApp. PDF, planilha e documento de texto enviados pelo WhatsApp e pelo Telegram agora chegam ao agente.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-19"
+    "publicada_em": "2026-09-20"
   },
   "anteriores": [
+    {
+      "versao": "1.0.59",
+      "titulo": "Quem é da equipe não vira cliente no WhatsApp de atendimento",
+      "itens": [
+        "Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes.",
+        "Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado."
+      ],
+      "novidades": "Quem é da equipe não vira cliente no WhatsApp de atendimento Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes. Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-19"
+    },
     {
       "versao": "1.0.58",
       "titulo": "O agente não volta a procurar cliente de negócio encerrado",
@@ -273,17 +287,6 @@
         "Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava."
       ],
       "novidades": "Gerar a chave de segurança pela tela, agora funcionando de verdade O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio. Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-09"
-    },
-    {
-      "versao": "1.0.39",
-      "titulo": "O botão de gerar a chave de segurança agora funciona",
-      "itens": [
-        "Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar.",
-        "Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa."
-      ],
-      "novidades": "O botão de gerar a chave de segurança agora funciona Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar. Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa.",
       "obrigatoria": false,
       "publicada_em": "2026-09-09"
     }
