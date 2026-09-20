@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.64",
-    "titulo": "O endereço de retorno das conexões diretas",
+    "versao": "1.0.65",
+    "titulo": "O pedido de permissão do Meta Ads, enxuto",
     "itens": [
-      "Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada.",
-      "A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço."
+      "O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro.",
+      "A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele."
     ],
-    "novidades": "O endereço de retorno das conexões diretas Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada. A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço.",
+    "novidades": "O pedido de permissão do Meta Ads, enxuto O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro. A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele.",
     "obrigatoria": false,
     "publicada_em": "2026-09-20"
   },
   "anteriores": [
+    {
+      "versao": "1.0.64",
+      "titulo": "O endereço de retorno das conexões diretas",
+      "itens": [
+        "Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada.",
+        "A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço."
+      ],
+      "novidades": "O endereço de retorno das conexões diretas Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada. A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
     {
       "versao": "1.0.63",
       "titulo": "Conexões diretas: o Meta Ads sem intermediário",
@@ -276,17 +287,6 @@
         "O Als Copilot continua pesquisando normalmente."
       ],
       "novidades": "A permissão de internet do agente passa a valer de verdade Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito. O Als Copilot continua pesquisando normalmente.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-10"
-    },
-    {
-      "versao": "1.0.44",
-      "titulo": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso",
-      "itens": [
-        "A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado.",
-        "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho."
-      ],
-      "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho.",
       "obrigatoria": false,
       "publicada_em": "2026-09-10"
     }
