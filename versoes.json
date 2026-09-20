@@ -1,17 +1,31 @@
 {
   "atual": {
-    "versao": "1.0.62",
-    "titulo": "O agente sabe quando usar a conexão oficial e quando usar o navegador",
+    "versao": "1.0.63",
+    "titulo": "Conexões diretas: o Meta Ads sem intermediário",
     "itens": [
-      "Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta.",
-      "Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua.",
-      "Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial."
+      "Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads.",
+      "O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho.",
+      "Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão.",
+      "A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela.",
+      "Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo."
     ],
-    "novidades": "O agente sabe quando usar a conexão oficial e quando usar o navegador Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta. Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua. Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial.",
+    "novidades": "Conexões diretas: o Meta Ads sem intermediário Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads. O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho. Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão. A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela. Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo.",
     "obrigatoria": false,
     "publicada_em": "2026-09-20"
   },
   "anteriores": [
+    {
+      "versao": "1.0.62",
+      "titulo": "O agente sabe quando usar a conexão oficial e quando usar o navegador",
+      "itens": [
+        "Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta.",
+        "Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua.",
+        "Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial."
+      ],
+      "novidades": "O agente sabe quando usar a conexão oficial e quando usar o navegador Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta. Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua. Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
     {
       "versao": "1.0.61",
       "titulo": "O navegador do agente baixa PDF",
@@ -276,18 +290,6 @@
         "Em instalação nova, a última fase do funil nasce como Lead Perdido."
       ],
       "novidades": "O agente lê seus arquivos, e o cartão passa a saber se chegou Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo. Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois. Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item. O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado. Em instalação nova, a última fase do funil nasce como Lead Perdido.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-10"
-    },
-    {
-      "versao": "1.0.42",
-      "titulo": "A atualização para de mentir quando algo dá errado",
-      "itens": [
-        "Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo.",
-        "Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado.",
-        "Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial."
-      ],
-      "novidades": "A atualização para de mentir quando algo dá errado Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo. Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado. Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial.",
       "obrigatoria": false,
       "publicada_em": "2026-09-10"
     }
