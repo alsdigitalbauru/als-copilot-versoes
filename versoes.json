@@ -1,19 +1,30 @@
 {
   "atual": {
-    "versao": "1.0.63",
-    "titulo": "Conexões diretas: o Meta Ads sem intermediário",
+    "versao": "1.0.64",
+    "titulo": "O endereço de retorno das conexões diretas",
     "itens": [
-      "Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads.",
-      "O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho.",
-      "Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão.",
-      "A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela.",
-      "Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo."
+      "Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada.",
+      "A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço."
     ],
-    "novidades": "Conexões diretas: o Meta Ads sem intermediário Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads. O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho. Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão. A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela. Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo.",
+    "novidades": "O endereço de retorno das conexões diretas Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada. A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço.",
     "obrigatoria": false,
     "publicada_em": "2026-09-20"
   },
   "anteriores": [
+    {
+      "versao": "1.0.63",
+      "titulo": "Conexões diretas: o Meta Ads sem intermediário",
+      "itens": [
+        "Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads.",
+        "O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho.",
+        "Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão.",
+        "A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela.",
+        "Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo."
+      ],
+      "novidades": "Conexões diretas: o Meta Ads sem intermediário Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads. O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho. Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão. A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela. Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
     {
       "versao": "1.0.62",
       "titulo": "O agente sabe quando usar a conexão oficial e quando usar o navegador",
@@ -276,20 +287,6 @@
         "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho."
       ],
       "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-10"
-    },
-    {
-      "versao": "1.0.43",
-      "titulo": "O agente lê seus arquivos, e o cartão passa a saber se chegou",
-      "itens": [
-        "Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo.",
-        "Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois.",
-        "Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item.",
-        "O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado.",
-        "Em instalação nova, a última fase do funil nasce como Lead Perdido."
-      ],
-      "novidades": "O agente lê seus arquivos, e o cartão passa a saber se chegou Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo. Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois. Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item. O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado. Em instalação nova, a última fase do funil nasce como Lead Perdido.",
       "obrigatoria": false,
       "publicada_em": "2026-09-10"
     }
