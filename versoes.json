@@ -1,16 +1,28 @@
 {
   "atual": {
-    "versao": "1.0.61",
-    "titulo": "O navegador do agente baixa PDF",
+    "versao": "1.0.62",
+    "titulo": "O agente sabe quando usar a conexão oficial e quando usar o navegador",
     "itens": [
-      "Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum.",
-      "A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB."
+      "Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta.",
+      "Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua.",
+      "Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial."
     ],
-    "novidades": "O navegador do agente baixa PDF Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum. A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB.",
+    "novidades": "O agente sabe quando usar a conexão oficial e quando usar o navegador Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta. Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua. Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial.",
     "obrigatoria": false,
     "publicada_em": "2026-09-20"
   },
   "anteriores": [
+    {
+      "versao": "1.0.61",
+      "titulo": "O navegador do agente baixa PDF",
+      "itens": [
+        "Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum.",
+        "A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB."
+      ],
+      "novidades": "O navegador do agente baixa PDF Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum. A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
     {
       "versao": "1.0.60",
       "titulo": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela",
@@ -278,17 +290,6 @@
       "novidades": "A atualização para de mentir quando algo dá errado Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo. Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado. Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial.",
       "obrigatoria": false,
       "publicada_em": "2026-09-10"
-    },
-    {
-      "versao": "1.0.41",
-      "titulo": "Correção urgente: gerar a chave de segurança não derruba mais a instalação",
-      "itens": [
-        "Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava.",
-        "Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro."
-      ],
-      "novidades": "Correção urgente: gerar a chave de segurança não derruba mais a instalação Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava. Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-09"
     }
   ]
 }
