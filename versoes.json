@@ -1,16 +1,31 @@
 {
   "atual": {
-    "versao": "1.0.66",
-    "titulo": "A janela ao vivo do navegador volta a abrir",
+    "versao": "1.0.67",
+    "titulo": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo",
     "itens": [
-      "O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum.",
-      "Toda atualização agora manda o porteiro reler a configuração."
+      "Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar.",
+      "Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio.",
+      "O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome.",
+      "Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado.",
+      "O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está.",
+      "A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha."
     ],
-    "novidades": "A janela ao vivo do navegador volta a abrir O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum. Toda atualização agora manda o porteiro reler a configuração.",
+    "novidades": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar. Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio. O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome. Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado. O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está. A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha.",
     "obrigatoria": false,
     "publicada_em": "2026-09-21"
   },
   "anteriores": [
+    {
+      "versao": "1.0.66",
+      "titulo": "A janela ao vivo do navegador volta a abrir",
+      "itens": [
+        "O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum.",
+        "Toda atualização agora manda o porteiro reler a configuração."
+      ],
+      "novidades": "A janela ao vivo do navegador volta a abrir O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum. Toda atualização agora manda o porteiro reler a configuração.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-21"
+    },
     {
       "versao": "1.0.65",
       "titulo": "O pedido de permissão do Meta Ads, enxuto",
@@ -277,18 +292,6 @@
       "novidades": "Equipes por área, arquivos na conversa e cobrança mais justa Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo. Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito. Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto. A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade. Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários. Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa. A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber. Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença. O dono da empresa grava sozinho o 'quando usar este processo'. Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp.",
       "obrigatoria": false,
       "publicada_em": "2026-09-12"
-    },
-    {
-      "versao": "1.0.46",
-      "titulo": "O processo agora se liga ao agente sem sair da tela",
-      "itens": [
-        "Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar.",
-        "O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima.",
-        "Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora."
-      ],
-      "novidades": "O processo agora se liga ao agente sem sair da tela Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar. O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima. Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-10"
     }
   ]
 }
