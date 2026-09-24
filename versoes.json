@@ -1,17 +1,28 @@
 {
   "atual": {
-    "versao": "1.0.68",
-    "titulo": "O agente fica mais preciso: quem responde, fotos e a hora certa",
+    "versao": "1.0.69",
+    "titulo": "Anúncio de lote não recebe mais casa",
     "itens": [
-      "O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe.",
-      "As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido.",
-      "A mensagem de retomada, quando o cliente some, agora sabe a hora certa."
+      "Quem chega por um anúncio só recebe imóvel do mesmo tipo do anúncio (lote, apartamento, casa em condomínio, casa de bairro).",
+      "Sem imóvel do tipo do anúncio no catálogo, o atendimento passa direto ao responsável, sem o agente tentar atender."
     ],
-    "novidades": "O agente fica mais preciso: quem responde, fotos e a hora certa O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe. As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido. A mensagem de retomada, quando o cliente some, agora sabe a hora certa.",
+    "novidades": "Anúncio de lote não recebe mais casa Quem chega por um anúncio só recebe imóvel do mesmo tipo do anúncio (lote, apartamento, casa em condomínio, casa de bairro). Sem imóvel do tipo do anúncio no catálogo, o atendimento passa direto ao responsável, sem o agente tentar atender.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-23"
+    "publicada_em": "2026-09-24"
   },
   "anteriores": [
+    {
+      "versao": "1.0.68",
+      "titulo": "O agente fica mais preciso: quem responde, fotos e a hora certa",
+      "itens": [
+        "O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe.",
+        "As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido.",
+        "A mensagem de retomada, quando o cliente some, agora sabe a hora certa."
+      ],
+      "novidades": "O agente fica mais preciso: quem responde, fotos e a hora certa O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe. As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido. A mensagem de retomada, quando o cliente some, agora sabe a hora certa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-23"
+    },
     {
       "versao": "1.0.67",
       "titulo": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo",
@@ -267,22 +278,6 @@
         "O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes."
       ],
       "novidades": "O agente espera você terminar de falar Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando. Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto. O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu. Atualizar a instalação deixou de apagar a memória das conversas em andamento. O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-13"
-    },
-    {
-      "versao": "1.0.48",
-      "titulo": "Consertos no agente e a nova tela de Uso",
-      "itens": [
-        "O agente não marca mais compromisso para uma data que já passou — antes ele marcava e dizia que tinha dado certo.",
-        "Com duas negociações de mesmo nome, o agente pergunta qual é, em vez de escolher uma em silêncio.",
-        "O lembrete anotado na conversa não se perde mais quando o agente falha na hora de gravar.",
-        "Renomear uma equipe deixava o processo sem encontrar ninguém; agora ele continua achando.",
-        "O Als Copilot não trava mais em silêncio quando muita gente usa ao mesmo tempo.",
-        "A tela de Custos, que mostrava sempre zero, virou a tela Uso: uma barra com quanto da assinatura já foi consumido.",
-        "O banco passa a garantir uma empresa por instalação."
-      ],
-      "novidades": "Consertos no agente e a nova tela de Uso O agente não marca mais compromisso para uma data que já passou — antes ele marcava e dizia que tinha dado certo. Com duas negociações de mesmo nome, o agente pergunta qual é, em vez de escolher uma em silêncio. O lembrete anotado na conversa não se perde mais quando o agente falha na hora de gravar. Renomear uma equipe deixava o processo sem encontrar ninguém; agora ele continua achando. O Als Copilot não trava mais em silêncio quando muita gente usa ao mesmo tempo. A tela de Custos, que mostrava sempre zero, virou a tela Uso: uma barra com quanto da assinatura já foi consumido. O banco passa a garantir uma empresa por instalação.",
       "obrigatoria": false,
       "publicada_em": "2026-09-13"
     }
