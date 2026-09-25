@@ -1,16 +1,31 @@
 {
   "atual": {
-    "versao": "1.0.70",
-    "titulo": "A busca do catálogo acha lotes e imóveis sem preço",
+    "versao": "1.0.71",
+    "titulo": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado)",
     "itens": [
-      "Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço.",
-      "A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio."
+      "O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado.",
+      "A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem.",
+      "Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre.",
+      "Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade.",
+      "A equipe da empresa volta a poder conversar com os agentes de atendimento.",
+      "Uma falha nas contas conectadas não tira mais os plugins do agente."
     ],
-    "novidades": "A busca do catálogo acha lotes e imóveis sem preço Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço. A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio.",
+    "novidades": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado) O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado. A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem. Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre. Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade. A equipe da empresa volta a poder conversar com os agentes de atendimento. Uma falha nas contas conectadas não tira mais os plugins do agente.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-24"
+    "publicada_em": "2026-09-25"
   },
   "anteriores": [
+    {
+      "versao": "1.0.70",
+      "titulo": "A busca do catálogo acha lotes e imóveis sem preço",
+      "itens": [
+        "Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço.",
+        "A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio."
+      ],
+      "novidades": "A busca do catálogo acha lotes e imóveis sem preço Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço. A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-24"
+    },
     {
       "versao": "1.0.69",
       "titulo": "Anúncio de lote não recebe mais casa",
@@ -260,23 +275,6 @@
       "novidades": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou. Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada. O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar. Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou. A conversa não se perde mais quando o motor reinicia no meio de uma resposta. Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
       "obrigatoria": false,
       "publicada_em": "2026-09-17"
-    },
-    {
-      "versao": "1.0.50",
-      "titulo": "O Als Copilot cria artes com a sua marca e sugere o próximo passo",
-      "itens": [
-        "Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa.",
-        "Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas.",
-        "O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências.",
-        "Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente.",
-        "Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta.",
-        "Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM.",
-        "A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais.",
-        "O reaquecimento automático de leads foi desligado."
-      ],
-      "novidades": "O Als Copilot cria artes com a sua marca e sugere o próximo passo Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa. Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas. O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências. Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente. Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta. Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM. A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais. O reaquecimento automático de leads foi desligado.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-15"
     }
   ]
 }
