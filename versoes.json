@@ -1,17 +1,28 @@
 {
   "atual": {
-    "versao": "1.0.75",
-    "titulo": "O agente não trava e lê o catálogo inteiro",
+    "versao": "1.0.76",
+    "titulo": "O agente resume cada item do catálogo",
     "itens": [
-      "Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos.",
-      "Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa.",
-      "O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo."
+      "Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo.",
+      "Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item."
     ],
-    "novidades": "O agente não trava e lê o catálogo inteiro Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos. Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa. O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo.",
+    "novidades": "O agente resume cada item do catálogo Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo. Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item.",
     "obrigatoria": false,
     "publicada_em": "2026-09-25"
   },
   "anteriores": [
+    {
+      "versao": "1.0.75",
+      "titulo": "O agente não trava e lê o catálogo inteiro",
+      "itens": [
+        "Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos.",
+        "Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa.",
+        "O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo."
+      ],
+      "novidades": "O agente não trava e lê o catálogo inteiro Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos. Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa. O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
     {
       "versao": "1.0.74",
       "titulo": "A lista de modelos fica em dia com o cérebro novo",
@@ -238,23 +249,6 @@
         "As instruções das skills não têm mais o limite de 4.000 caracteres."
       ],
       "novidades": "O agente pergunta à equipe como foi o atendimento e atualiza o funil Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela. Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa. A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação. A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes. Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo. As instruções das skills não têm mais o limite de 4.000 caracteres.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-18"
-    },
-    {
-      "versao": "1.0.55",
-      "titulo": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido",
-      "itens": [
-        "O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido.",
-        "Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele.",
-        "Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento.",
-        "O valor no topo do funil soma só os negócios em andamento.",
-        "Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez.",
-        "O agente abre planilhas anexadas e faz contas nelas.",
-        "Correção: o agente voltou a responder a quem trabalha com arquivos.",
-        "O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo."
-      ],
-      "novidades": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido. Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele. Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento. O valor no topo do funil soma só os negócios em andamento. Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez. O agente abre planilhas anexadas e faz contas nelas. Correção: o agente voltou a responder a quem trabalha com arquivos. O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo.",
       "obrigatoria": false,
       "publicada_em": "2026-09-18"
     }
