@@ -1,20 +1,31 @@
 {
   "atual": {
-    "versao": "1.0.71",
-    "titulo": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado)",
+    "versao": "1.0.72",
+    "titulo": "O cérebro novo passa a vir em toda instalação (desligado)",
     "itens": [
-      "O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado.",
-      "A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem.",
-      "Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre.",
-      "Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade.",
-      "A equipe da empresa volta a poder conversar com os agentes de atendimento.",
-      "Uma falha nas contas conectadas não tira mais os plugins do agente."
+      "O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento.",
+      "Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado."
     ],
-    "novidades": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado) O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado. A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem. Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre. Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade. A equipe da empresa volta a poder conversar com os agentes de atendimento. Uma falha nas contas conectadas não tira mais os plugins do agente.",
+    "novidades": "O cérebro novo passa a vir em toda instalação (desligado) O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento. Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado.",
     "obrigatoria": false,
     "publicada_em": "2026-09-25"
   },
   "anteriores": [
+    {
+      "versao": "1.0.71",
+      "titulo": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado)",
+      "itens": [
+        "O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado.",
+        "A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem.",
+        "Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre.",
+        "Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade.",
+        "A equipe da empresa volta a poder conversar com os agentes de atendimento.",
+        "Uma falha nas contas conectadas não tira mais os plugins do agente."
+      ],
+      "novidades": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado) O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado. A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem. Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre. Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade. A equipe da empresa volta a poder conversar com os agentes de atendimento. Uma falha nas contas conectadas não tira mais os plugins do agente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
     {
       "versao": "1.0.70",
       "titulo": "A busca do catálogo acha lotes e imóveis sem preço",
@@ -255,24 +266,6 @@
         "A visão em Lista ganhou páginas, com o total ao lado."
       ],
       "novidades": "O funil mostra todos os negócios, sem limite O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem. Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim. O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela. A visão em Lista ganhou páginas, com o total ao lado.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-17"
-    },
-    {
-      "versao": "1.0.51",
-      "titulo": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar",
-      "itens": [
-        "Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou.",
-        "Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada.",
-        "O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar.",
-        "Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou.",
-        "A conversa não se perde mais quando o motor reinicia no meio de uma resposta.",
-        "Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
-        "Cada contato ganha um perfil montado sozinho a partir da conversa: de onde é, o que procura, o que o preocupa e por onde chegou — sem o agente precisar perguntar nada a mais.",
-        "Quando alguém da equipe escreve para o Als Copilot pelo WhatsApp, é a MESMA conversa que aparece na tela: o que você falou no celular continua no computador, e o que você pode ver é o mesmo nos dois.",
-        "O agente passou a saber que tem as ferramentas de conexão que já estavam ligadas para ele — antes ele as recebia e não sabia usar."
-      ],
-      "novidades": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou. Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada. O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar. Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou. A conversa não se perde mais quando o motor reinicia no meio de uma resposta. Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
       "obrigatoria": false,
       "publicada_em": "2026-09-17"
     }
