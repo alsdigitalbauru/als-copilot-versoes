@@ -1,15 +1,25 @@
 {
   "atual": {
-    "versao": "1.0.73",
-    "titulo": "O Als Copilot da tela volta a responder com o cérebro novo",
+    "versao": "1.0.74",
+    "titulo": "A lista de modelos fica em dia com o cérebro novo",
     "itens": [
-      "Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa."
+      "Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada."
     ],
-    "novidades": "O Als Copilot da tela volta a responder com o cérebro novo Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa.",
+    "novidades": "A lista de modelos fica em dia com o cérebro novo Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada.",
     "obrigatoria": false,
     "publicada_em": "2026-09-25"
   },
   "anteriores": [
+    {
+      "versao": "1.0.73",
+      "titulo": "O Als Copilot da tela volta a responder com o cérebro novo",
+      "itens": [
+        "Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa."
+      ],
+      "novidades": "O Als Copilot da tela volta a responder com o cérebro novo Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
     {
       "versao": "1.0.72",
       "titulo": "O cérebro novo passa a vir em toda instalação (desligado)",
@@ -249,22 +259,6 @@
       "novidades": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça. Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou. Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento. Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher. Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa.",
       "obrigatoria": false,
       "publicada_em": "2026-09-18"
-    },
-    {
-      "versao": "1.0.53",
-      "titulo": "As fotos, o lembrete do compromisso e o agente que sumiu",
-      "itens": [
-        "Quem manda um álbum de fotos recebe UMA resposta, sobre o conjunto — e não uma resposta por foto.",
-        "Compromisso nasce com lembrete ligado, e o aviso chega pelo WhatsApp e por e-mail, na antecedência que você escolher (de 5 minutos a 1 dia).",
-        "O lembrete parou de chegar duas vezes.",
-        "Conversa presa a um agente que não existe mais aparece no topo da tela de Agentes, e o Als Copilot avisa você para escolher quem assume.",
-        "Remover um agente passou a perguntar quem herda as conversas dele, em vez de deixá-las sem dono.",
-        "O agente classifica itens do catálogo em categorias, criando a categoria quando ela ainda não existe.",
-        "A tela de Conexões diz quando cada conexão começou e se o agente realmente alcança o serviço."
-      ],
-      "novidades": "As fotos, o lembrete do compromisso e o agente que sumiu Quem manda um álbum de fotos recebe UMA resposta, sobre o conjunto — e não uma resposta por foto. Compromisso nasce com lembrete ligado, e o aviso chega pelo WhatsApp e por e-mail, na antecedência que você escolher (de 5 minutos a 1 dia). O lembrete parou de chegar duas vezes. Conversa presa a um agente que não existe mais aparece no topo da tela de Agentes, e o Als Copilot avisa você para escolher quem assume. Remover um agente passou a perguntar quem herda as conversas dele, em vez de deixá-las sem dono. O agente classifica itens do catálogo em categorias, criando a categoria quando ela ainda não existe. A tela de Conexões diz quando cada conexão começou e se o agente realmente alcança o serviço.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-17"
     }
   ]
 }
