@@ -1,21 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.77",
-    "titulo": "Relatórios, painel mais claro e atendimento que não perde mensagem",
-    "itens": [
-      "Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios.",
-      "A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado.",
-      "Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar.",
-      "Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois.",
-      "Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil.",
-      "O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita.",
-      "Agora dá para apagar uma tarefa, com confirmação."
-    ],
-    "novidades": "Relatórios, painel mais claro e atendimento que não perde mensagem Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios. A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado. Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar. Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois. Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil. O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita. Agora dá para apagar uma tarefa, com confirmação.",
+    "versao": "1.0.78",
+    "novidades": "O agente lembra do aviso que ele mesmo mandou e fala como gente: o recado ao dono passa a ser gravado na conversa (era por isso que ele perguntava 'qual cliente?' quando o dono respondia), a saudação vira 'Bom dia, Fulano! Tudo bem?' pela hora de quem lê, e os textos da ronda perdem o tom de robô. Vai junto o menu lateral reagrupado e a saída do cérebro DeepSeek de todo lugar.",
     "obrigatoria": false,
     "publicada_em": "2026-09-26"
   },
   "anteriores": [
+    {
+      "versao": "1.0.77",
+      "titulo": "Relatórios, painel mais claro e atendimento que não perde mensagem",
+      "itens": [
+        "Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios.",
+        "A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado.",
+        "Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar.",
+        "Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois.",
+        "Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil.",
+        "O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita.",
+        "Agora dá para apagar uma tarefa, com confirmação."
+      ],
+      "novidades": "Relatórios, painel mais claro e atendimento que não perde mensagem Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios. A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado. Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar. Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois. Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil. O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita. Agora dá para apagar uma tarefa, com confirmação.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-26"
+    },
     {
       "versao": "1.0.76",
       "titulo": "O agente resume cada item do catálogo",
@@ -239,19 +245,6 @@
       "novidades": "O agente não volta a procurar cliente de negócio encerrado Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora. Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora.",
       "obrigatoria": false,
       "publicada_em": "2026-09-19"
-    },
-    {
-      "versao": "1.0.57",
-      "titulo": "O agente volta ao cliente que parou de responder",
-      "itens": [
-        "Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias).",
-        "A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento.",
-        "Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina.",
-        "A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio."
-      ],
-      "novidades": "O agente volta ao cliente que parou de responder Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias). A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento. Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina. A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-18"
     }
   ]
 }
