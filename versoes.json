@@ -1,11 +1,24 @@
 {
   "atual": {
-    "versao": "1.0.78",
-    "novidades": "O agente lembra do aviso que ele mesmo mandou e fala como gente: o recado ao dono passa a ser gravado na conversa (era por isso que ele perguntava 'qual cliente?' quando o dono respondia), a saudação vira 'Bom dia, Fulano! Tudo bem?' pela hora de quem lê, e os textos da ronda perdem o tom de robô. Vai junto o menu lateral reagrupado e a saída do cérebro DeepSeek de todo lugar.",
+    "versao": "1.0.79",
+    "titulo": "O agente lê Word e Excel, e passar o atendimento cala o agente",
+    "itens": [
+      "O agente agora lê arquivos Word (.docx) e Excel (.xlsx) que chegam pelo WhatsApp e pelo Telegram.",
+      "Passou o atendimento para alguém, o agente não fala mais com o cliente: quem recebeu é cobrado, e existe como devolver a conversa ao agente.",
+      "O card do cliente mostra a foto de quem está atendendo, e lead perdido não recebe mais cobrança.",
+      "Novo cérebro opcional, com crédito medido em reais, desligado por padrão."
+    ],
+    "novidades": "O agente lê Word e Excel, e passar o atendimento cala o agente O agente agora lê arquivos Word (.docx) e Excel (.xlsx) que chegam pelo WhatsApp e pelo Telegram. Passou o atendimento para alguém, o agente não fala mais com o cliente: quem recebeu é cobrado, e existe como devolver a conversa ao agente. O card do cliente mostra a foto de quem está atendendo, e lead perdido não recebe mais cobrança. Novo cérebro opcional, com crédito medido em reais, desligado por padrão.",
     "obrigatoria": false,
     "publicada_em": "2026-09-26"
   },
   "anteriores": [
+    {
+      "versao": "1.0.78",
+      "novidades": "O agente lembra do aviso que ele mesmo mandou e fala como gente: o recado ao dono passa a ser gravado na conversa (era por isso que ele perguntava 'qual cliente?' quando o dono respondia), a saudação vira 'Bom dia, Fulano! Tudo bem?' pela hora de quem lê, e os textos da ronda perdem o tom de robô. Vai junto o menu lateral reagrupado e a saída do cérebro DeepSeek de todo lugar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-26"
+    },
     {
       "versao": "1.0.77",
       "titulo": "Relatórios, painel mais claro e atendimento que não perde mensagem",
@@ -232,17 +245,6 @@
         "Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado."
       ],
       "novidades": "Quem é da equipe não vira cliente no WhatsApp de atendimento Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes. Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-19"
-    },
-    {
-      "versao": "1.0.58",
-      "titulo": "O agente não volta a procurar cliente de negócio encerrado",
-      "itens": [
-        "Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora.",
-        "Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora."
-      ],
-      "novidades": "O agente não volta a procurar cliente de negócio encerrado Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora. Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora.",
       "obrigatoria": false,
       "publicada_em": "2026-09-19"
     }
