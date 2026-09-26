@@ -1,16 +1,32 @@
 {
   "atual": {
-    "versao": "1.0.76",
-    "titulo": "O agente resume cada item do catálogo",
+    "versao": "1.0.77",
+    "titulo": "Relatórios, painel mais claro e atendimento que não perde mensagem",
     "itens": [
-      "Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo.",
-      "Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item."
+      "Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios.",
+      "A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado.",
+      "Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar.",
+      "Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois.",
+      "Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil.",
+      "O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita.",
+      "Agora dá para apagar uma tarefa, com confirmação."
     ],
-    "novidades": "O agente resume cada item do catálogo Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo. Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item.",
+    "novidades": "Relatórios, painel mais claro e atendimento que não perde mensagem Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios. A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado. Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar. Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois. Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil. O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita. Agora dá para apagar uma tarefa, com confirmação.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-25"
+    "publicada_em": "2026-09-26"
   },
   "anteriores": [
+    {
+      "versao": "1.0.76",
+      "titulo": "O agente resume cada item do catálogo",
+      "itens": [
+        "Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo.",
+        "Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item."
+      ],
+      "novidades": "O agente resume cada item do catálogo Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo. Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
     {
       "versao": "1.0.75",
       "titulo": "O agente não trava e lê o catálogo inteiro",
@@ -234,21 +250,6 @@
         "A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio."
       ],
       "novidades": "O agente volta ao cliente que parou de responder Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias). A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento. Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina. A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-18"
-    },
-    {
-      "versao": "1.0.56",
-      "titulo": "O agente pergunta à equipe como foi o atendimento e atualiza o funil",
-      "itens": [
-        "Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela.",
-        "Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa.",
-        "A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação.",
-        "A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes.",
-        "Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo.",
-        "As instruções das skills não têm mais o limite de 4.000 caracteres."
-      ],
-      "novidades": "O agente pergunta à equipe como foi o atendimento e atualiza o funil Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela. Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa. A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação. A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes. Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo. As instruções das skills não têm mais o limite de 4.000 caracteres.",
       "obrigatoria": false,
       "publicada_em": "2026-09-18"
     }
