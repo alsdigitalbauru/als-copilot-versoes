@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.81",
-    "titulo": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp",
+    "versao": "1.0.82",
+    "titulo": "Ajustes na narração e na voz ao vivo",
     "itens": [
-      "Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado.",
-      "Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link."
+      "A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot.",
+      "O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador."
     ],
-    "novidades": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado. Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link.",
+    "novidades": "Ajustes na narração e na voz ao vivo A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot. O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador.",
     "obrigatoria": false,
     "publicada_em": "2026-09-27"
   },
   "anteriores": [
+    {
+      "versao": "1.0.81",
+      "titulo": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp",
+      "itens": [
+        "Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado.",
+        "Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link."
+      ],
+      "novidades": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado. Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-27"
+    },
     {
       "versao": "1.0.80",
       "titulo": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp",
@@ -233,17 +244,6 @@
         "Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial."
       ],
       "novidades": "O agente sabe quando usar a conexão oficial e quando usar o navegador Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta. Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua. Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-20"
-    },
-    {
-      "versao": "1.0.61",
-      "titulo": "O navegador do agente baixa PDF",
-      "itens": [
-        "Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum.",
-        "A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB."
-      ],
-      "novidades": "O navegador do agente baixa PDF Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum. A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB.",
       "obrigatoria": false,
       "publicada_em": "2026-09-20"
     }
