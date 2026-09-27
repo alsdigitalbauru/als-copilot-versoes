@@ -1,18 +1,29 @@
 {
   "atual": {
-    "versao": "1.0.80",
-    "titulo": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp",
+    "versao": "1.0.81",
+    "titulo": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp",
     "itens": [
-      "O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido.",
-      "Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador).",
-      "Não manda mensagem pra um lead que já foi passado pro corretor.",
-      "Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone)."
+      "Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado.",
+      "Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link."
     ],
-    "novidades": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido. Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador). Não manda mensagem pra um lead que já foi passado pro corretor. Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone).",
+    "novidades": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado. Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link.",
     "obrigatoria": false,
     "publicada_em": "2026-09-27"
   },
   "anteriores": [
+    {
+      "versao": "1.0.80",
+      "titulo": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp",
+      "itens": [
+        "O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido.",
+        "Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador).",
+        "Não manda mensagem pra um lead que já foi passado pro corretor.",
+        "Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone)."
+      ],
+      "novidades": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido. Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador). Não manda mensagem pra um lead que já foi passado pro corretor. Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone).",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-27"
+    },
     {
       "versao": "1.0.79",
       "titulo": "O agente lê Word e Excel, e passar o atendimento cala o agente",
@@ -233,20 +244,6 @@
         "A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB."
       ],
       "novidades": "O navegador do agente baixa PDF Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum. A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-20"
-    },
-    {
-      "versao": "1.0.60",
-      "titulo": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela",
-      "itens": [
-        "O Als Copilot pode usar um navegador de verdade: entrar num site, preencher, baixar um arquivo. Acontece na tela de conversa, você vê ao vivo e assume quando ele pedir login ou código. Nasce DESLIGADO — quem liga é o administrador, na tela de Uso.",
-        "O que ele baixa vai para a tela Arquivos. E um arquivo da empresa só sai para um site com o seu Sim, num cartão que aparece na conversa.",
-        "Contas conectadas virou uma tela só: cada pessoa conecta as contas dela, fica uma conta por serviço, e o agente manda o link dessa tela em vez de pedir autorização no meio da conversa.",
-        "Quem não é dono nem administrador também consegue conectar as contas dele e usar as instruções da empresa falando com o Als Copilot pelo WhatsApp.",
-        "PDF, planilha e documento de texto enviados pelo WhatsApp e pelo Telegram agora chegam ao agente."
-      ],
-      "novidades": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela O Als Copilot pode usar um navegador de verdade: entrar num site, preencher, baixar um arquivo. Acontece na tela de conversa, você vê ao vivo e assume quando ele pedir login ou código. Nasce DESLIGADO — quem liga é o administrador, na tela de Uso. O que ele baixa vai para a tela Arquivos. E um arquivo da empresa só sai para um site com o seu Sim, num cartão que aparece na conversa. Contas conectadas virou uma tela só: cada pessoa conecta as contas dela, fica uma conta por serviço, e o agente manda o link dessa tela em vez de pedir autorização no meio da conversa. Quem não é dono nem administrador também consegue conectar as contas dele e usar as instruções da empresa falando com o Als Copilot pelo WhatsApp. PDF, planilha e documento de texto enviados pelo WhatsApp e pelo Telegram agora chegam ao agente.",
       "obrigatoria": false,
       "publicada_em": "2026-09-20"
     }
