@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.83",
-    "titulo": "Duas correções: uso visível pro dono e um agente que ficava calado à toa",
+    "versao": "1.0.84",
+    "titulo": "O agente para de ofertar o produto errado do anúncio",
     "itens": [
-      "O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado.",
-      "Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma."
+      "Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar.",
+      "O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha."
     ],
-    "novidades": "Duas correções: uso visível pro dono e um agente que ficava calado à toa O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado. Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma.",
+    "novidades": "O agente para de ofertar o produto errado do anúncio Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar. O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha.",
     "obrigatoria": false,
     "publicada_em": "2026-09-28"
   },
   "anteriores": [
+    {
+      "versao": "1.0.83",
+      "titulo": "Duas correções: uso visível pro dono e um agente que ficava calado à toa",
+      "itens": [
+        "O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado.",
+        "Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma."
+      ],
+      "novidades": "Duas correções: uso visível pro dono e um agente que ficava calado à toa O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado. Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-28"
+    },
     {
       "versao": "1.0.82",
       "titulo": "Ajustes na narração e na voz ao vivo",
@@ -229,20 +240,6 @@
         "A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço."
       ],
       "novidades": "O endereço de retorno das conexões diretas Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada. A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-20"
-    },
-    {
-      "versao": "1.0.63",
-      "titulo": "Conexões diretas: o Meta Ads sem intermediário",
-      "itens": [
-        "Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads.",
-        "O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho.",
-        "Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão.",
-        "A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela.",
-        "Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo."
-      ],
-      "novidades": "Conexões diretas: o Meta Ads sem intermediário Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads. O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho. Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão. A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela. Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo.",
       "obrigatoria": false,
       "publicada_em": "2026-09-20"
     }
