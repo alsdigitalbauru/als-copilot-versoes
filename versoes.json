@@ -1,16 +1,27 @@
 {
   "atual": {
-    "versao": "1.0.82",
-    "titulo": "Ajustes na narração e na voz ao vivo",
+    "versao": "1.0.83",
+    "titulo": "Duas correções: uso visível pro dono e um agente que ficava calado à toa",
     "itens": [
-      "A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot.",
-      "O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador."
+      "O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado.",
+      "Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma."
     ],
-    "novidades": "Ajustes na narração e na voz ao vivo A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot. O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador.",
+    "novidades": "Duas correções: uso visível pro dono e um agente que ficava calado à toa O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado. Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-27"
+    "publicada_em": "2026-09-28"
   },
   "anteriores": [
+    {
+      "versao": "1.0.82",
+      "titulo": "Ajustes na narração e na voz ao vivo",
+      "itens": [
+        "A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot.",
+        "O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador."
+      ],
+      "novidades": "Ajustes na narração e na voz ao vivo A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot. O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-27"
+    },
     {
       "versao": "1.0.81",
       "titulo": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp",
@@ -232,18 +243,6 @@
         "Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo."
       ],
       "novidades": "Conexões diretas: o Meta Ads sem intermediário Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads. O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho. Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão. A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela. Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-20"
-    },
-    {
-      "versao": "1.0.62",
-      "titulo": "O agente sabe quando usar a conexão oficial e quando usar o navegador",
-      "itens": [
-        "Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta.",
-        "Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua.",
-        "Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial."
-      ],
-      "novidades": "O agente sabe quando usar a conexão oficial e quando usar o navegador Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta. Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua. Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial.",
       "obrigatoria": false,
       "publicada_em": "2026-09-20"
     }
