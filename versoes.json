@@ -1,16 +1,30 @@
 {
   "atual": {
-    "versao": "1.0.84",
-    "titulo": "O agente para de ofertar o produto errado do anúncio",
+    "versao": "1.0.85",
+    "titulo": "Passar atendimento fica mais direto, e o agente segue de recepção",
     "itens": [
-      "Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar.",
-      "O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha."
+      "Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção.",
+      "Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar).",
+      "O jeito antigo de passar atendimento pelos processos foi desativado.",
+      "O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda.",
+      "O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir."
     ],
-    "novidades": "O agente para de ofertar o produto errado do anúncio Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar. O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha.",
+    "novidades": "Passar atendimento fica mais direto, e o agente segue de recepção Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção. Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar). O jeito antigo de passar atendimento pelos processos foi desativado. O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda. O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-28"
+    "publicada_em": "2026-09-30"
   },
   "anteriores": [
+    {
+      "versao": "1.0.84",
+      "titulo": "O agente para de ofertar o produto errado do anúncio",
+      "itens": [
+        "Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar.",
+        "O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha."
+      ],
+      "novidades": "O agente para de ofertar o produto errado do anúncio Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar. O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-28"
+    },
     {
       "versao": "1.0.83",
       "titulo": "Duas correções: uso visível pro dono e um agente que ficava calado à toa",
@@ -229,17 +243,6 @@
         "A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele."
       ],
       "novidades": "O pedido de permissão do Meta Ads, enxuto O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro. A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-20"
-    },
-    {
-      "versao": "1.0.64",
-      "titulo": "O endereço de retorno das conexões diretas",
-      "itens": [
-        "Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada.",
-        "A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço."
-      ],
-      "novidades": "O endereço de retorno das conexões diretas Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada. A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço.",
       "obrigatoria": false,
       "publicada_em": "2026-09-20"
     }
