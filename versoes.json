@@ -1,19 +1,36 @@
 {
   "atual": {
-    "versao": "1.0.85",
-    "titulo": "Passar atendimento fica mais direto, e o agente segue de recepção",
+    "versao": "1.0.86",
+    "titulo": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram",
     "itens": [
-      "Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção.",
-      "Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar).",
-      "O jeito antigo de passar atendimento pelos processos foi desativado.",
-      "O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda.",
-      "O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir."
+      "O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para.",
+      "Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais.",
+      "Histórico da personalidade do agente: veja as trocas e volte a um texto antigo.",
+      "O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto.",
+      "O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado).",
+      "O cabeçalho da conversa só mostra a pasta quando alguém a escolheu.",
+      "Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado.",
+      "O motor de IA foi atualizado para a versão mais nova."
     ],
-    "novidades": "Passar atendimento fica mais direto, e o agente segue de recepção Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção. Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar). O jeito antigo de passar atendimento pelos processos foi desativado. O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda. O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir.",
+    "novidades": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para. Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais. Histórico da personalidade do agente: veja as trocas e volte a um texto antigo. O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto. O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado). O cabeçalho da conversa só mostra a pasta quando alguém a escolheu. Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado. O motor de IA foi atualizado para a versão mais nova.",
     "obrigatoria": false,
-    "publicada_em": "2026-09-30"
+    "publicada_em": "2026-10-02"
   },
   "anteriores": [
+    {
+      "versao": "1.0.85",
+      "titulo": "Passar atendimento fica mais direto, e o agente segue de recepção",
+      "itens": [
+        "Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção.",
+        "Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar).",
+        "O jeito antigo de passar atendimento pelos processos foi desativado.",
+        "O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda.",
+        "O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir."
+      ],
+      "novidades": "Passar atendimento fica mais direto, e o agente segue de recepção Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção. Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar). O jeito antigo de passar atendimento pelos processos foi desativado. O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda. O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-30"
+    },
     {
       "versao": "1.0.84",
       "titulo": "O agente para de ofertar o produto errado do anúncio",
@@ -234,17 +251,6 @@
       "novidades": "A janela ao vivo do navegador volta a abrir O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum. Toda atualização agora manda o porteiro reler a configuração.",
       "obrigatoria": false,
       "publicada_em": "2026-09-21"
-    },
-    {
-      "versao": "1.0.65",
-      "titulo": "O pedido de permissão do Meta Ads, enxuto",
-      "itens": [
-        "O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro.",
-        "A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele."
-      ],
-      "novidades": "O pedido de permissão do Meta Ads, enxuto O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro. A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-20"
     }
   ]
 }
