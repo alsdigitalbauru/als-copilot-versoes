@@ -1,22 +1,36 @@
 {
   "atual": {
-    "versao": "1.0.86",
-    "titulo": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram",
+    "versao": "1.1.0",
+    "titulo": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor",
     "itens": [
-      "O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para.",
-      "Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais.",
-      "Histórico da personalidade do agente: veja as trocas e volte a um texto antigo.",
-      "O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto.",
-      "O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado).",
-      "O cabeçalho da conversa só mostra a pasta quando alguém a escolheu.",
-      "Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado.",
-      "O motor de IA foi atualizado para a versão mais nova."
+      "Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa.",
+      "O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento.",
+      "Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h.",
+      "O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio.",
+      "Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado."
     ],
-    "novidades": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para. Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais. Histórico da personalidade do agente: veja as trocas e volte a um texto antigo. O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto. O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado). O cabeçalho da conversa só mostra a pasta quando alguém a escolheu. Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado. O motor de IA foi atualizado para a versão mais nova.",
+    "novidades": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa. O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento. Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h. O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio. Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-02"
+    "publicada_em": "2026-10-03"
   },
   "anteriores": [
+    {
+      "versao": "1.0.86",
+      "titulo": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram",
+      "itens": [
+        "O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para.",
+        "Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais.",
+        "Histórico da personalidade do agente: veja as trocas e volte a um texto antigo.",
+        "O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto.",
+        "O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado).",
+        "O cabeçalho da conversa só mostra a pasta quando alguém a escolheu.",
+        "Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado.",
+        "O motor de IA foi atualizado para a versão mais nova."
+      ],
+      "novidades": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para. Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais. Histórico da personalidade do agente: veja as trocas e volte a um texto antigo. O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto. O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado). O cabeçalho da conversa só mostra a pasta quando alguém a escolheu. Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado. O motor de IA foi atualizado para a versão mais nova.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-02"
+    },
     {
       "versao": "1.0.85",
       "titulo": "Passar atendimento fica mais direto, e o agente segue de recepção",
@@ -238,17 +252,6 @@
         "A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha."
       ],
       "novidades": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar. Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio. O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome. Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado. O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está. A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-21"
-    },
-    {
-      "versao": "1.0.66",
-      "titulo": "A janela ao vivo do navegador volta a abrir",
-      "itens": [
-        "O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum.",
-        "Toda atualização agora manda o porteiro reler a configuração."
-      ],
-      "novidades": "A janela ao vivo do navegador volta a abrir O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum. Toda atualização agora manda o porteiro reler a configuração.",
       "obrigatoria": false,
       "publicada_em": "2026-09-21"
     }
