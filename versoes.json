@@ -1,19 +1,33 @@
 {
   "atual": {
-    "versao": "1.1.0",
-    "titulo": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor",
+    "versao": "1.2.0",
+    "titulo": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir",
     "itens": [
-      "Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa.",
-      "O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento.",
-      "Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h.",
-      "O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio.",
-      "Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado."
+      "Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático.",
+      "A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado.",
+      "Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar).",
+      "Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento.",
+      "O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda."
     ],
-    "novidades": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa. O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento. Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h. O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio. Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado.",
+    "novidades": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático. A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado. Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar). Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento. O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-03"
+    "publicada_em": "2026-10-05"
   },
   "anteriores": [
+    {
+      "versao": "1.1.0",
+      "titulo": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor",
+      "itens": [
+        "Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa.",
+        "O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento.",
+        "Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h.",
+        "O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio.",
+        "Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado."
+      ],
+      "novidades": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa. O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento. Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h. O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio. Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-03"
+    },
     {
       "versao": "1.0.86",
       "titulo": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram",
@@ -239,21 +253,6 @@
       "novidades": "O agente fica mais preciso: quem responde, fotos e a hora certa O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe. As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido. A mensagem de retomada, quando o cliente some, agora sabe a hora certa.",
       "obrigatoria": false,
       "publicada_em": "2026-09-23"
-    },
-    {
-      "versao": "1.0.67",
-      "titulo": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo",
-      "itens": [
-        "Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar.",
-        "Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio.",
-        "O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome.",
-        "Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado.",
-        "O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está.",
-        "A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha."
-      ],
-      "novidades": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar. Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio. O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome. Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado. O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está. A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-21"
     }
   ]
 }
