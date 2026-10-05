@@ -1,19 +1,33 @@
 {
   "atual": {
-    "versao": "1.2.0",
-    "titulo": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir",
+    "versao": "1.3.0",
+    "titulo": "A Ronda vira a única e passar atendimento fica só por equipe",
     "itens": [
-      "Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático.",
-      "A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado.",
-      "Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar).",
-      "Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento.",
-      "O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda."
+      "A Ronda passa a cobrar o corretor sozinha, sem chave de ligar; a ronda antiga saiu de vez.",
+      "A tela do Piloto Automático ficou mais simples: pausa, o que falta, últimas ações e dias e horários.",
+      "Passar atendimento agora é só por equipe: cada equipe diz o que atende (com \"ou\" e com reserva) e a categoria deixa de decidir.",
+      "Na tela de Passar atendimento dá para criar equipe e copiar a configuração de outra.",
+      "Ao atualizar, o que a versão anterior deixou pendente é apagado, e as categorias já configuradas viram regras de equipe."
     ],
-    "novidades": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático. A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado. Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar). Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento. O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda.",
+    "novidades": "A Ronda vira a única e passar atendimento fica só por equipe A Ronda passa a cobrar o corretor sozinha, sem chave de ligar; a ronda antiga saiu de vez. A tela do Piloto Automático ficou mais simples: pausa, o que falta, últimas ações e dias e horários. Passar atendimento agora é só por equipe: cada equipe diz o que atende (com \"ou\" e com reserva) e a categoria deixa de decidir. Na tela de Passar atendimento dá para criar equipe e copiar a configuração de outra. Ao atualizar, o que a versão anterior deixou pendente é apagado, e as categorias já configuradas viram regras de equipe.",
     "obrigatoria": false,
     "publicada_em": "2026-10-05"
   },
   "anteriores": [
+    {
+      "versao": "1.2.0",
+      "titulo": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir",
+      "itens": [
+        "Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático.",
+        "A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado.",
+        "Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar).",
+        "Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento.",
+        "O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda."
+      ],
+      "novidades": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático. A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado. Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar). Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento. O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-05"
+    },
     {
       "versao": "1.1.0",
       "titulo": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor",
@@ -241,18 +255,6 @@
       "novidades": "Anúncio de lote não recebe mais casa Quem chega por um anúncio só recebe imóvel do mesmo tipo do anúncio (lote, apartamento, casa em condomínio, casa de bairro). Sem imóvel do tipo do anúncio no catálogo, o atendimento passa direto ao responsável, sem o agente tentar atender.",
       "obrigatoria": false,
       "publicada_em": "2026-09-24"
-    },
-    {
-      "versao": "1.0.68",
-      "titulo": "O agente fica mais preciso: quem responde, fotos e a hora certa",
-      "itens": [
-        "O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe.",
-        "As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido.",
-        "A mensagem de retomada, quando o cliente some, agora sabe a hora certa."
-      ],
-      "novidades": "O agente fica mais preciso: quem responde, fotos e a hora certa O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe. As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido. A mensagem de retomada, quando o cliente some, agora sabe a hora certa.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-23"
     }
   ]
 }
