@@ -1,19 +1,31 @@
 {
   "atual": {
-    "versao": "1.4.1",
-    "titulo": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou",
+    "versao": "1.4.2",
+    "titulo": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat",
     "itens": [
-      "Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos.",
-      "Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir.",
-      "Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro.",
-      "Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado.",
-      "O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens."
+      "Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora.",
+      "O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor.",
+      "Na chamada de voz, o Als Copilot não repete mais o que já explicou."
     ],
-    "novidades": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos. Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir. Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro. Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado. O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens.",
+    "novidades": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora. O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor. Na chamada de voz, o Als Copilot não repete mais o que já explicou.",
     "obrigatoria": false,
     "publicada_em": "2026-10-06"
   },
   "anteriores": [
+    {
+      "versao": "1.4.1",
+      "titulo": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou",
+      "itens": [
+        "Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos.",
+        "Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir.",
+        "Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro.",
+        "Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado.",
+        "O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens."
+      ],
+      "novidades": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos. Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir. Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro. Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado. O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-06"
+    },
     {
       "versao": "1.4.0",
       "titulo": "O Als Copilot passa a ler documentos grandes",
@@ -244,21 +256,6 @@
         "Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado."
       ],
       "novidades": "O cérebro novo passa a vir em toda instalação (desligado) O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento. Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-25"
-    },
-    {
-      "versao": "1.0.71",
-      "titulo": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado)",
-      "itens": [
-        "O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado.",
-        "A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem.",
-        "Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre.",
-        "Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade.",
-        "A equipe da empresa volta a poder conversar com os agentes de atendimento.",
-        "Uma falha nas contas conectadas não tira mais os plugins do agente."
-      ],
-      "novidades": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado) O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado. A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem. Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre. Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade. A equipe da empresa volta a poder conversar com os agentes de atendimento. Uma falha nas contas conectadas não tira mais os plugins do agente.",
       "obrigatoria": false,
       "publicada_em": "2026-09-25"
     }
