@@ -1,19 +1,33 @@
 {
   "atual": {
-    "versao": "1.4.0",
-    "titulo": "O Als Copilot passa a ler documentos grandes",
+    "versao": "1.4.1",
+    "titulo": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou",
     "itens": [
-      "PDFs e textos guardados em Arquivos, mesmo os muito grandes, passam a ser lidos aos poucos em segundo plano.",
-      "Pergunte ao Als Copilot o que diz um documento, quantas vezes algo aparece nele e em que página está.",
-      "Os arquivos que já estavam guardados também entram na leitura.",
-      "Apagar um arquivo também apaga o que o sistema leu dele.",
-      "A janela de agentes prontos ganha abas por nicho e a escolha da conexão de WhatsApp de cada agente."
+      "Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos.",
+      "Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir.",
+      "Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro.",
+      "Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado.",
+      "O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens."
     ],
-    "novidades": "O Als Copilot passa a ler documentos grandes PDFs e textos guardados em Arquivos, mesmo os muito grandes, passam a ser lidos aos poucos em segundo plano. Pergunte ao Als Copilot o que diz um documento, quantas vezes algo aparece nele e em que página está. Os arquivos que já estavam guardados também entram na leitura. Apagar um arquivo também apaga o que o sistema leu dele. A janela de agentes prontos ganha abas por nicho e a escolha da conexão de WhatsApp de cada agente.",
+    "novidades": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos. Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir. Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro. Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado. O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens.",
     "obrigatoria": false,
     "publicada_em": "2026-10-06"
   },
   "anteriores": [
+    {
+      "versao": "1.4.0",
+      "titulo": "O Als Copilot passa a ler documentos grandes",
+      "itens": [
+        "PDFs e textos guardados em Arquivos, mesmo os muito grandes, passam a ser lidos aos poucos em segundo plano.",
+        "Pergunte ao Als Copilot o que diz um documento, quantas vezes algo aparece nele e em que página está.",
+        "Os arquivos que já estavam guardados também entram na leitura.",
+        "Apagar um arquivo também apaga o que o sistema leu dele.",
+        "A janela de agentes prontos ganha abas por nicho e a escolha da conexão de WhatsApp de cada agente."
+      ],
+      "novidades": "O Als Copilot passa a ler documentos grandes PDFs e textos guardados em Arquivos, mesmo os muito grandes, passam a ser lidos aos poucos em segundo plano. Pergunte ao Als Copilot o que diz um documento, quantas vezes algo aparece nele e em que página está. Os arquivos que já estavam guardados também entram na leitura. Apagar um arquivo também apaga o que o sistema leu dele. A janela de agentes prontos ganha abas por nicho e a escolha da conexão de WhatsApp de cada agente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-06"
+    },
     {
       "versao": "1.3.0",
       "titulo": "A Ronda vira a única e passar atendimento fica só por equipe",
@@ -247,17 +261,6 @@
       "novidades": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado) O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado. A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem. Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre. Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade. A equipe da empresa volta a poder conversar com os agentes de atendimento. Uma falha nas contas conectadas não tira mais os plugins do agente.",
       "obrigatoria": false,
       "publicada_em": "2026-09-25"
-    },
-    {
-      "versao": "1.0.70",
-      "titulo": "A busca do catálogo acha lotes e imóveis sem preço",
-      "itens": [
-        "Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço.",
-        "A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio."
-      ],
-      "novidades": "A busca do catálogo acha lotes e imóveis sem preço Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço. A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-24"
     }
   ]
 }
