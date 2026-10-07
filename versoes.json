@@ -1,20 +1,32 @@
 {
   "atual": {
-    "versao": "1.4.4",
-    "titulo": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida",
+    "versao": "1.4.5",
+    "titulo": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu",
     "itens": [
-      "A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu.",
-      "A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída.",
-      "A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos.",
-      "O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados.",
-      "Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir.",
-      "Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado."
+      "Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa.",
+      "O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo.",
+      "Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção."
     ],
-    "novidades": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu. A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída. A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos. O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados. Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir. Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado.",
+    "novidades": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa. O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo. Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção.",
     "obrigatoria": false,
     "publicada_em": "2026-10-07"
   },
   "anteriores": [
+    {
+      "versao": "1.4.4",
+      "titulo": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida",
+      "itens": [
+        "A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu.",
+        "A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída.",
+        "A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos.",
+        "O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados.",
+        "Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir.",
+        "Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado."
+      ],
+      "novidades": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu. A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída. A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos. O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados. Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir. Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
     {
       "versao": "1.4.3",
       "titulo": "O Als Copilot passa a ter memória permanente",
@@ -252,16 +264,6 @@
         "O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo."
       ],
       "novidades": "O agente não trava e lê o catálogo inteiro Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos. Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa. O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-25"
-    },
-    {
-      "versao": "1.0.74",
-      "titulo": "A lista de modelos fica em dia com o cérebro novo",
-      "itens": [
-        "Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada."
-      ],
-      "novidades": "A lista de modelos fica em dia com o cérebro novo Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada.",
       "obrigatoria": false,
       "publicada_em": "2026-09-25"
     }
