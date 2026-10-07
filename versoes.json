@@ -1,17 +1,29 @@
 {
   "atual": {
-    "versao": "1.4.2",
-    "titulo": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat",
+    "versao": "1.4.3",
+    "titulo": "O Als Copilot passa a ter memória permanente",
     "itens": [
-      "Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora.",
-      "O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor.",
-      "Na chamada de voz, o Als Copilot não repete mais o que já explicou."
+      "O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp.",
+      "Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova.",
+      "Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar."
     ],
-    "novidades": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora. O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor. Na chamada de voz, o Als Copilot não repete mais o que já explicou.",
+    "novidades": "O Als Copilot passa a ter memória permanente O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp. Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova. Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-06"
+    "publicada_em": "2026-10-07"
   },
   "anteriores": [
+    {
+      "versao": "1.4.2",
+      "titulo": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat",
+      "itens": [
+        "Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora.",
+        "O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor.",
+        "Na chamada de voz, o Als Copilot não repete mais o que já explicou."
+      ],
+      "novidades": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora. O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor. Na chamada de voz, o Als Copilot não repete mais o que já explicou.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-06"
+    },
     {
       "versao": "1.4.1",
       "titulo": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou",
@@ -245,17 +257,6 @@
         "Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa."
       ],
       "novidades": "O Als Copilot da tela volta a responder com o cérebro novo Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-25"
-    },
-    {
-      "versao": "1.0.72",
-      "titulo": "O cérebro novo passa a vir em toda instalação (desligado)",
-      "itens": [
-        "O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento.",
-        "Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado."
-      ],
-      "novidades": "O cérebro novo passa a vir em toda instalação (desligado) O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento. Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado.",
       "obrigatoria": false,
       "publicada_em": "2026-09-25"
     }
