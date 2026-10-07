@@ -1,17 +1,32 @@
 {
   "atual": {
-    "versao": "1.4.3",
-    "titulo": "O Als Copilot passa a ter memória permanente",
+    "versao": "1.4.4",
+    "titulo": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida",
     "itens": [
-      "O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp.",
-      "Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova.",
-      "Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar."
+      "A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu.",
+      "A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída.",
+      "A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos.",
+      "O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados.",
+      "Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir.",
+      "Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado."
     ],
-    "novidades": "O Als Copilot passa a ter memória permanente O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp. Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova. Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar.",
+    "novidades": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu. A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída. A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos. O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados. Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir. Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado.",
     "obrigatoria": false,
     "publicada_em": "2026-10-07"
   },
   "anteriores": [
+    {
+      "versao": "1.4.3",
+      "titulo": "O Als Copilot passa a ter memória permanente",
+      "itens": [
+        "O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp.",
+        "Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova.",
+        "Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar."
+      ],
+      "novidades": "O Als Copilot passa a ter memória permanente O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp. Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova. Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
     {
       "versao": "1.4.2",
       "titulo": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat",
@@ -247,16 +262,6 @@
         "Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada."
       ],
       "novidades": "A lista de modelos fica em dia com o cérebro novo Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-25"
-    },
-    {
-      "versao": "1.0.73",
-      "titulo": "O Als Copilot da tela volta a responder com o cérebro novo",
-      "itens": [
-        "Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa."
-      ],
-      "novidades": "O Als Copilot da tela volta a responder com o cérebro novo Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa.",
       "obrigatoria": false,
       "publicada_em": "2026-09-25"
     }
