@@ -1,17 +1,31 @@
 {
   "atual": {
-    "versao": "1.4.5",
-    "titulo": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu",
+    "versao": "1.4.6",
+    "titulo": "O Als Copilot fica mais seguro e conta o que está fazendo",
     "itens": [
-      "Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa.",
-      "O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo.",
-      "Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção."
+      "O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas.",
+      "O Als Copilot responde somente aos números que o dono aprovou.",
+      "O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu.",
+      "O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem.",
+      "A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio."
     ],
-    "novidades": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa. O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo. Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção.",
+    "novidades": "O Als Copilot fica mais seguro e conta o que está fazendo O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas. O Als Copilot responde somente aos números que o dono aprovou. O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu. O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem. A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio.",
     "obrigatoria": false,
     "publicada_em": "2026-10-07"
   },
   "anteriores": [
+    {
+      "versao": "1.4.5",
+      "titulo": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu",
+      "itens": [
+        "Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa.",
+        "O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo.",
+        "Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção."
+      ],
+      "novidades": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa. O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo. Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
     {
       "versao": "1.4.4",
       "titulo": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida",
@@ -252,18 +266,6 @@
         "Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item."
       ],
       "novidades": "O agente resume cada item do catálogo Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo. Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-25"
-    },
-    {
-      "versao": "1.0.75",
-      "titulo": "O agente não trava e lê o catálogo inteiro",
-      "itens": [
-        "Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos.",
-        "Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa.",
-        "O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo."
-      ],
-      "novidades": "O agente não trava e lê o catálogo inteiro Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos. Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa. O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo.",
       "obrigatoria": false,
       "publicada_em": "2026-09-25"
     }
