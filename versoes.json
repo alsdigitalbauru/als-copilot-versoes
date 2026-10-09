@@ -1,21 +1,46 @@
 {
   "atual": {
-    "versao": "1.4.7",
-    "titulo": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado",
+    "versao": "1.4.8",
+    "titulo": "A Ronda obedece o dono e troca quem cuida do lead; o dono escolhe o que fazer com quem para de responder",
     "itens": [
-      "Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais.",
-      "Cartão de contato enviado por iPhone não perde mais o telefone.",
-      "O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir.",
-      "O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar.",
-      "A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga.",
-      "A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também.",
-      "O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto."
+      "Administrador e titular podem trocar o responsável de um lead pela tela do CRM.",
+      "O rodapé da janela do agente fica fixo, e a grade de conexões não corta mais nome nem botão.",
+      "A busca do catálogo também encontra o item pelo código, não só pelo nome.",
+      "A ficha de detalhes do item não perde informações quando o item tem muitas fotos.",
+      "A orientação da fonte de dados vale também para o mapeamento dos campos, e um campo pode ter mais de um candidato.",
+      "O agente abre o item certo quando o nome pedido está quase igual ao cadastrado, desde que não haja dúvida.",
+      "Esse reconhecimento de nome quase igual também vale quando a diferença está no meio do nome.",
+      "O atendimento imobiliário faz uma pergunta por vez, sem perguntas de 'isso ou aquilo' esperando sim ou não.",
+      "Com o perfil da pessoa completo e duas tentativas sem agradar, o atendimento imobiliário convida alguém da equipe a mostrar opções e combinar a visita.",
+      "Na conversa com a Ronda, o dono e o administrador agem em qualquer lead, sem restrição, e podem reabrir um negócio encerrado.",
+      "Quando há dois clientes com o mesmo nome, a Ronda fica com o que ela acabou de cobrar; se ainda houver dúvida, pergunta qual, mostrando o telefone de cada um.",
+      "A Ronda troca quem cuida do lead quando a pessoa diz que ele é de outra da equipe: a nova responsável recebe o aviso do atendimento e passa a ser a cobrada.",
+      "A Ronda só confirma o que de fato fez no sistema.",
+      "Na aba Regras do agente pronto de atendimento, o dono escolhe o que acontece quando a pessoa para de responder: passar para a equipe (padrão) ou continuar insistindo.",
+      "Com 'continuar insistindo', o agente volta a procurar a pessoa em 1 hora, 1 dia, 3 dias e 7 dias, sem passar o atendimento por causa do silêncio.",
+      "O Als Copilot também consegue mudar, pela conversa, a escolha do que fazer quando a pessoa para de responder."
     ],
-    "novidades": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais. Cartão de contato enviado por iPhone não perde mais o telefone. O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir. O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar. A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga. A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também. O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto.",
+    "novidades": "A Ronda obedece o dono e troca quem cuida do lead; o dono escolhe o que fazer com quem para de responder Administrador e titular podem trocar o responsável de um lead pela tela do CRM. O rodapé da janela do agente fica fixo, e a grade de conexões não corta mais nome nem botão. A busca do catálogo também encontra o item pelo código, não só pelo nome. A ficha de detalhes do item não perde informações quando o item tem muitas fotos. A orientação da fonte de dados vale também para o mapeamento dos campos, e um campo pode ter mais de um candidato. O agente abre o item certo quando o nome pedido está quase igual ao cadastrado, desde que não haja dúvida. Esse reconhecimento de nome quase igual também vale quando a diferença está no meio do nome. O atendimento imobiliário faz uma pergunta por vez, sem perguntas de 'isso ou aquilo' esperando sim ou não. Com o perfil da pessoa completo e duas tentativas sem agradar, o atendimento imobiliário convida alguém da equipe a mostrar opções e combinar a visita. Na conversa com a Ronda, o dono e o administrador agem em qualquer lead, sem restrição, e podem reabrir um negócio encerrado. Quando há dois clientes com o mesmo nome, a Ronda fica com o que ela acabou de cobrar; se ainda houver dúvida, pergunta qual, mostrando o telefone de cada um. A Ronda troca quem cuida do lead quando a pessoa diz que ele é de outra da equipe: a nova responsável recebe o aviso do atendimento e passa a ser a cobrada. A Ronda só confirma o que de fato fez no sistema. Na aba Regras do agente pronto de atendimento, o dono escolhe o que acontece quando a pessoa para de responder: passar para a equipe (padrão) ou continuar insistindo. Com 'continuar insistindo', o agente volta a procurar a pessoa em 1 hora, 1 dia, 3 dias e 7 dias, sem passar o atendimento por causa do silêncio. O Als Copilot também consegue mudar, pela conversa, a escolha do que fazer quando a pessoa para de responder.",
     "obrigatoria": false,
     "publicada_em": "2026-10-09"
   },
   "anteriores": [
+    {
+      "versao": "1.4.7",
+      "titulo": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado",
+      "itens": [
+        "Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais.",
+        "Cartão de contato enviado por iPhone não perde mais o telefone.",
+        "O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir.",
+        "O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar.",
+        "A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga.",
+        "A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também.",
+        "O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto."
+      ],
+      "novidades": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais. Cartão de contato enviado por iPhone não perde mais o telefone. O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir. O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar. A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga. A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também. O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-09"
+    },
     {
       "versao": "1.4.6",
       "titulo": "O Als Copilot fica mais seguro e conta o que está fazendo",
@@ -255,22 +280,6 @@
     {
       "versao": "1.0.78",
       "novidades": "O agente lembra do aviso que ele mesmo mandou e fala como gente: o recado ao dono passa a ser gravado na conversa (era por isso que ele perguntava 'qual cliente?' quando o dono respondia), a saudação vira 'Bom dia, Fulano! Tudo bem?' pela hora de quem lê, e os textos da ronda perdem o tom de robô. Vai junto o menu lateral reagrupado e a saída do cérebro DeepSeek de todo lugar.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-26"
-    },
-    {
-      "versao": "1.0.77",
-      "titulo": "Relatórios, painel mais claro e atendimento que não perde mensagem",
-      "itens": [
-        "Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios.",
-        "A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado.",
-        "Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar.",
-        "Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois.",
-        "Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil.",
-        "O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita.",
-        "Agora dá para apagar uma tarefa, com confirmação."
-      ],
-      "novidades": "Relatórios, painel mais claro e atendimento que não perde mensagem Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios. A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado. Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar. Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois. Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil. O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita. Agora dá para apagar uma tarefa, com confirmação.",
       "obrigatoria": false,
       "publicada_em": "2026-09-26"
     }
