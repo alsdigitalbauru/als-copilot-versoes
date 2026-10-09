@@ -1,19 +1,35 @@
 {
   "atual": {
-    "versao": "1.4.6",
-    "titulo": "O Als Copilot fica mais seguro e conta o que está fazendo",
+    "versao": "1.4.7",
+    "titulo": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado",
     "itens": [
-      "O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas.",
-      "O Als Copilot responde somente aos números que o dono aprovou.",
-      "O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu.",
-      "O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem.",
-      "A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio."
+      "Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais.",
+      "Cartão de contato enviado por iPhone não perde mais o telefone.",
+      "O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir.",
+      "O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar.",
+      "A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga.",
+      "A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também.",
+      "O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto."
     ],
-    "novidades": "O Als Copilot fica mais seguro e conta o que está fazendo O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas. O Als Copilot responde somente aos números que o dono aprovou. O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu. O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem. A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio.",
+    "novidades": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais. Cartão de contato enviado por iPhone não perde mais o telefone. O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir. O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar. A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga. A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também. O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-07"
+    "publicada_em": "2026-10-09"
   },
   "anteriores": [
+    {
+      "versao": "1.4.6",
+      "titulo": "O Als Copilot fica mais seguro e conta o que está fazendo",
+      "itens": [
+        "O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas.",
+        "O Als Copilot responde somente aos números que o dono aprovou.",
+        "O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu.",
+        "O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem.",
+        "A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio."
+      ],
+      "novidades": "O Als Copilot fica mais seguro e conta o que está fazendo O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas. O Als Copilot responde somente aos números que o dono aprovou. O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu. O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem. A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
     {
       "versao": "1.4.5",
       "titulo": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu",
@@ -257,17 +273,6 @@
       "novidades": "Relatórios, painel mais claro e atendimento que não perde mensagem Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios. A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado. Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar. Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois. Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil. O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita. Agora dá para apagar uma tarefa, com confirmação.",
       "obrigatoria": false,
       "publicada_em": "2026-09-26"
-    },
-    {
-      "versao": "1.0.76",
-      "titulo": "O agente resume cada item do catálogo",
-      "itens": [
-        "Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo.",
-        "Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item."
-      ],
-      "novidades": "O agente resume cada item do catálogo Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo. Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-25"
     }
   ]
 }
