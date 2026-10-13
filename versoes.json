@@ -1,16 +1,57 @@
 {
   "atual": {
-    "versao": "1.4.10",
-    "titulo": "A atualização para a versão nova passa a funcionar em todas as instalações",
+    "versao": "1.5.0",
+    "titulo": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável",
     "itens": [
-      "A atualização a partir da 1.4.8 liga o serviço novo dos agentes prontos, em vez de voltar para a versão anterior.",
-      "A publicação de cada versão passa a enviar todas as peças que monta, inclusive a do serviço novo dos agentes prontos."
+      "Todos os agentes passam a pensar num cérebro só, o novo, e o cérebro antigo sai do sistema.",
+      "Sai da tela de Uso a escolha de cérebro, e sai o cérebro que usava chave de API da OpenAI.",
+      "A conexão com a assinatura do ChatGPT passa a ser do próprio sistema: conectar, renovar o login antes de vencer e consultar os modelos e o limite da conta.",
+      "O sistema fica mais leve: o motor perde o programa do cérebro antigo (de 1,6 GB para 0,4 GB) e a instalação deixa de precisar de uma proteção que só ele usava.",
+      "O motor deixa de ter o código do cérebro antigo; tarefas automáticas em conversas antigas continuam pedindo autorização antes de usar o navegador.",
+      "Cada agente criado do zero leva a própria personalidade, as regras e os processos dele para o novo cérebro.",
+      "Todos os agentes prontos (Ronda, roteador de leads e os do nicho Imobiliário) passam a pensar no novo cérebro.",
+      "Atendimento conduzido por processo, perguntas do sistema, tarefas e processos agendados passam a rodar no novo cérebro.",
+      "A voz ao vivo continua funcionando com o novo cérebro.",
+      "O Als Copilot passa a pensar no novo cérebro, com o mesmo jeito de falar e as mesmas ferramentas.",
+      "O que está acontecendo no momento (tarefas, ideias esperando, quem está falando) chega ao novo cérebro a cada mensagem, junto com a foto que a pessoa mandar.",
+      "Correções no novo cérebro: imagem gerada fora de canal, narração do que ele está fazendo e testes do motor.",
+      "Preparação do banco de dados para o novo cérebro.",
+      "A memória do Als Copilot passa a ser a do novo cérebro, uma por pessoa, e já nasce com o que ele tinha anotado antes.",
+      "A memória do Als Copilot guarda o que o dono e a equipe pedirem para lembrar, inclusive códigos de acesso, como o de uma porta.",
+      "O Als Copilot carrega só as ferramentas de que precisa em cada pedido, e responde mais rápido.",
+      "As skills passam a ser lidas do jeito do novo cérebro: o agente abre a skill quando o assunto pede, ou quando alguém a chama com /nome.",
+      "Saem as ferramentas antigas de skill e de memória, que o novo cérebro já faz sozinho.",
+      "O novo cérebro pede aprovação antes de agir fora do sistema, e trabalha sozinho nas tarefas agendadas.",
+      "O Als Copilot gera arquivos de verdade (PDF, planilha, Word e gráfico) num espaço isolado, e se recupera sozinho de tropeços.",
+      "O agente lê também as imagens de dentro de um PDF, não só o texto.",
+      "Quando a IA está sobrecarregada, o agente tenta de novo com um modelo um degrau abaixo, em vez de deixar a pessoa sem resposta.",
+      "A troca para um modelo um degrau abaixo vale também no novo cérebro.",
+      "A peça com enfeite gerado por IA volta a funcionar, e o enfeite não aparece solto na conversa.",
+      "O agente Social Media passa a publicar de verdade: quatro correções no caminho da publicação.",
+      "O serviço dos agentes prontos responde ao vivo e entrega peças e arquivos durante a conversa.",
+      "Na tela de conversa, o dono volta a poder escolher outro agente para testá-lo sem precisar do WhatsApp.",
+      "Lista de conversas e chat com rolagem contínua e separação por dia.",
+      "O \"Pensando…\" aparece ao lado do robô, o anexo que chega pelo canal aparece como etiqueta, e o envio de arquivo mostra o progresso real.",
+      "Os testes que conferem quem pode acessar cada parte do sistema passam a cobrir quatro rotas novas.",
+      "Ajuste interno: o ambiente de testes reinicia o serviço dos agentes junto com o resto.",
+      "Ajuste interno nos testes automáticos da tela e do catálogo."
     ],
-    "novidades": "A atualização para a versão nova passa a funcionar em todas as instalações A atualização a partir da 1.4.8 liga o serviço novo dos agentes prontos, em vez de voltar para a versão anterior. A publicação de cada versão passa a enviar todas as peças que monta, inclusive a do serviço novo dos agentes prontos.",
+    "novidades": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável Todos os agentes passam a pensar num cérebro só, o novo, e o cérebro antigo sai do sistema. Sai da tela de Uso a escolha de cérebro, e sai o cérebro que usava chave de API da OpenAI. A conexão com a assinatura do ChatGPT passa a ser do próprio sistema: conectar, renovar o login antes de vencer e consultar os modelos e o limite da conta. O sistema fica mais leve: o motor perde o programa do cérebro antigo (de 1,6 GB para 0,4 GB) e a instalação deixa de precisar de uma proteção que só ele usava. O motor deixa de ter o código do cérebro antigo; tarefas automáticas em conversas antigas continuam pedindo autorização antes de usar o navegador. Cada agente criado do zero leva a própria personalidade, as regras e os processos dele para o novo cérebro. Todos os agentes prontos (Ronda, roteador de leads e os do nicho Imobiliário) passam a pensar no novo cérebro. Atendimento conduzido por processo, perguntas do sistema, tarefas e processos agendados passam a rodar no novo cérebro. A voz ao vivo continua funcionando com o novo cérebro. O Als Copilot passa a pensar no novo cérebro, com o mesmo jeito de falar e as mesmas ferramentas. O que está acontecendo no momento (tarefas, ideias esperando, quem está falando) chega ao novo cérebro a cada mensagem, junto com a foto que a pessoa mandar. Correções no novo cérebro: imagem gerada fora de canal, narração do que ele está fazendo e testes do motor. Preparação do banco de dados para o novo cérebro. A memória do Als Copilot passa a ser a do novo cérebro, uma por pessoa, e já nasce com o que ele tinha anotado antes. A memória do Als Copilot guarda o que o dono e a equipe pedirem para lembrar, inclusive códigos de acesso, como o de uma porta. O Als Copilot carrega só as ferramentas de que precisa em cada pedido, e responde mais rápido. As skills passam a ser lidas do jeito do novo cérebro: o agente abre a skill quando o assunto pede, ou quando alguém a chama com /nome. Saem as ferramentas antigas de skill e de memória, que o novo cérebro já faz sozinho. O novo cérebro pede aprovação antes de agir fora do sistema, e trabalha sozinho nas tarefas agendadas. O Als Copilot gera arquivos de verdade (PDF, planilha, Word e gráfico) num espaço isolado, e se recupera sozinho de tropeços. O agente lê também as imagens de dentro de um PDF, não só o texto. Quando a IA está sobrecarregada, o agente tenta de novo com um modelo um degrau abaixo, em vez de deixar a pessoa sem resposta. A troca para um modelo um degrau abaixo vale também no novo cérebro. A peça com enfeite gerado por IA volta a funcionar, e o enfeite não aparece solto na conversa. O agente Social Media passa a publicar de verdade: quatro correções no caminho da publicação. O serviço dos agentes prontos responde ao vivo e entrega peças e arquivos durante a conversa. Na tela de conversa, o dono volta a poder escolher outro agente para testá-lo sem precisar do WhatsApp. Lista de conversas e chat com rolagem contínua e separação por dia. O \"Pensando…\" aparece ao lado do robô, o anexo que chega pelo canal aparece como etiqueta, e o envio de arquivo mostra o progresso real. Os testes que conferem quem pode acessar cada parte do sistema passam a cobrir quatro rotas novas. Ajuste interno: o ambiente de testes reinicia o serviço dos agentes junto com o resto. Ajuste interno nos testes automáticos da tela e do catálogo.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-10"
+    "publicada_em": "2026-10-13"
   },
   "anteriores": [
+    {
+      "versao": "1.4.10",
+      "titulo": "A atualização para a versão nova passa a funcionar em todas as instalações",
+      "itens": [
+        "A atualização a partir da 1.4.8 liga o serviço novo dos agentes prontos, em vez de voltar para a versão anterior.",
+        "A publicação de cada versão passa a enviar todas as peças que monta, inclusive a do serviço novo dos agentes prontos."
+      ],
+      "novidades": "A atualização para a versão nova passa a funcionar em todas as instalações A atualização a partir da 1.4.8 liga o serviço novo dos agentes prontos, em vez de voltar para a versão anterior. A publicação de cada versão passa a enviar todas as peças que monta, inclusive a do serviço novo dos agentes prontos.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-10"
+    },
     {
       "versao": "1.4.9",
       "titulo": "Agente Social Media, Ronda que não cobra de novo quem já respondeu e motor novo para agentes prontos",
@@ -302,19 +343,6 @@
         "Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link."
       ],
       "novidades": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado. Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-27"
-    },
-    {
-      "versao": "1.0.80",
-      "titulo": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp",
-      "itens": [
-        "O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido.",
-        "Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador).",
-        "Não manda mensagem pra um lead que já foi passado pro corretor.",
-        "Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone)."
-      ],
-      "novidades": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido. Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador). Não manda mensagem pra um lead que já foi passado pro corretor. Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone).",
       "obrigatoria": false,
       "publicada_em": "2026-09-27"
     }
