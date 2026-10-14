@@ -1,18 +1,28 @@
 {
   "atual": {
-    "versao": "1.5.3",
-    "titulo": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente",
+    "versao": "1.5.4",
+    "titulo": "O agente tenta outro modelo quando a IA está sobrecarregada, em todo agente",
     "itens": [
-      "A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste.",
-      "O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes.",
-      "O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez.",
-      "A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre."
+      "Quando a assinatura fica momentaneamente sem capacidade, os agentes prontos (corretor, ronda, social media, etc.) agora tentam responder com outro modelo antes de desistir — o agente padrão já fazia isso desde a versão anterior."
     ],
-    "novidades": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste. O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes. O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez. A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre.",
+    "novidades": "O agente tenta outro modelo quando a IA está sobrecarregada, em todo agente Quando a assinatura fica momentaneamente sem capacidade, os agentes prontos (corretor, ronda, social media, etc.) agora tentam responder com outro modelo antes de desistir — o agente padrão já fazia isso desde a versão anterior.",
     "obrigatoria": false,
     "publicada_em": "2026-10-14"
   },
   "anteriores": [
+    {
+      "versao": "1.5.3",
+      "titulo": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente",
+      "itens": [
+        "A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste.",
+        "O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes.",
+        "O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez.",
+        "A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre."
+      ],
+      "novidades": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste. O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes. O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez. A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-14"
+    },
     {
       "versao": "1.5.2",
       "titulo": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem",
@@ -367,17 +377,6 @@
       "novidades": "Passar atendimento fica mais direto, e o agente segue de recepção Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção. Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar). O jeito antigo de passar atendimento pelos processos foi desativado. O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda. O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir.",
       "obrigatoria": false,
       "publicada_em": "2026-09-30"
-    },
-    {
-      "versao": "1.0.84",
-      "titulo": "O agente para de ofertar o produto errado do anúncio",
-      "itens": [
-        "Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar.",
-        "O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha."
-      ],
-      "novidades": "O agente para de ofertar o produto errado do anúncio Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar. O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-28"
     }
   ]
 }
