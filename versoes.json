@@ -1,43 +1,58 @@
 {
   "atual": {
-    "versao": "1.5.1",
-    "titulo": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio",
+    "versao": "1.5.2",
+    "titulo": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem",
     "itens": [
-      "A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema.",
-      "O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas.",
-      "O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot.",
-      "Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais.",
-      "O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso.",
-      "Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova.",
-      "A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe.",
-      "A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo.",
-      "A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder.",
-      "A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão.",
-      "Só o dono da casa exclui categoria do catálogo.",
-      "Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe.",
-      "O Als Copilot passa a conhecer a própria empresa em que trabalha.",
-      "Quem nunca respondeu vai para o Lead Frio, e não para o corretor.",
-      "As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio.",
-      "Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu.",
-      "O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas.",
-      "A Ronda cobra uma pessoa só por negócio, nunca duas juntas.",
-      "A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado.",
-      "O ritmo das ideias vira uma configuração na tela do Piloto Automático.",
-      "O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável.",
-      "O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria.",
-      "O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres.",
-      "O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados.",
-      "O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda.",
-      "Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica.",
-      "A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\".",
-      "Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo.",
-      "Registros internos e a lista de pendências atualizados."
+      "O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto.",
+      "A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\".",
+      "Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação.",
+      "A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados.",
+      "O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra.",
+      "Textos internos do código e da documentação atualizados para descrever a regra de hoje."
     ],
-    "novidades": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema. O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas. O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot. Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais. O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso. Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova. A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe. A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo. A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder. A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão. Só o dono da casa exclui categoria do catálogo. Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe. O Als Copilot passa a conhecer a própria empresa em que trabalha. Quem nunca respondeu vai para o Lead Frio, e não para o corretor. As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio. Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu. O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas. A Ronda cobra uma pessoa só por negócio, nunca duas juntas. A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado. O ritmo das ideias vira uma configuração na tela do Piloto Automático. O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável. O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria. O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres. O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados. O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda. Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica. A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\". Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo. Registros internos e a lista de pendências atualizados.",
+    "novidades": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto. A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\". Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação. A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados. O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra. Textos internos do código e da documentação atualizados para descrever a regra de hoje.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-13"
+    "publicada_em": "2026-10-14"
   },
   "anteriores": [
+    {
+      "versao": "1.5.1",
+      "titulo": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio",
+      "itens": [
+        "A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema.",
+        "O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas.",
+        "O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot.",
+        "Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais.",
+        "O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso.",
+        "Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova.",
+        "A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe.",
+        "A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo.",
+        "A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder.",
+        "A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão.",
+        "Só o dono da casa exclui categoria do catálogo.",
+        "Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe.",
+        "O Als Copilot passa a conhecer a própria empresa em que trabalha.",
+        "Quem nunca respondeu vai para o Lead Frio, e não para o corretor.",
+        "As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio.",
+        "Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu.",
+        "O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas.",
+        "A Ronda cobra uma pessoa só por negócio, nunca duas juntas.",
+        "A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado.",
+        "O ritmo das ideias vira uma configuração na tela do Piloto Automático.",
+        "O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável.",
+        "O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria.",
+        "O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres.",
+        "O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados.",
+        "O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda.",
+        "Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica.",
+        "A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\".",
+        "Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo.",
+        "Registros internos e a lista de pendências atualizados."
+      ],
+      "novidades": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema. O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas. O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot. Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais. O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso. Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova. A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe. A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo. A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder. A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão. Só o dono da casa exclui categoria do catálogo. Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe. O Als Copilot passa a conhecer a própria empresa em que trabalha. Quem nunca respondeu vai para o Lead Frio, e não para o corretor. As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio. Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu. O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas. A Ronda cobra uma pessoa só por negócio, nunca duas juntas. A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado. O ritmo das ideias vira uma configuração na tela do Piloto Automático. O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável. O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria. O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres. O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados. O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda. Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica. A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\". Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo. Registros internos e a lista de pendências atualizados.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-13"
+    },
     {
       "versao": "1.5.0",
       "titulo": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável",
@@ -361,17 +376,6 @@
       "novidades": "Duas correções: uso visível pro dono e um agente que ficava calado à toa O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado. Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma.",
       "obrigatoria": false,
       "publicada_em": "2026-09-28"
-    },
-    {
-      "versao": "1.0.82",
-      "titulo": "Ajustes na narração e na voz ao vivo",
-      "itens": [
-        "A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot.",
-        "O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador."
-      ],
-      "novidades": "Ajustes na narração e na voz ao vivo A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot. O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-27"
     }
   ]
 }
