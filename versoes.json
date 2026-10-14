@@ -1,20 +1,33 @@
 {
   "atual": {
-    "versao": "1.5.2",
-    "titulo": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem",
+    "versao": "1.5.3",
+    "titulo": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente",
     "itens": [
-      "O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto.",
-      "A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\".",
-      "Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação.",
-      "A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados.",
-      "O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra.",
-      "Textos internos do código e da documentação atualizados para descrever a regra de hoje."
+      "A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste.",
+      "O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes.",
+      "O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez.",
+      "A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre."
     ],
-    "novidades": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto. A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\". Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação. A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados. O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra. Textos internos do código e da documentação atualizados para descrever a regra de hoje.",
+    "novidades": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste. O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes. O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez. A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre.",
     "obrigatoria": false,
     "publicada_em": "2026-10-14"
   },
   "anteriores": [
+    {
+      "versao": "1.5.2",
+      "titulo": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem",
+      "itens": [
+        "O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto.",
+        "A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\".",
+        "Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação.",
+        "A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados.",
+        "O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra.",
+        "Textos internos do código e da documentação atualizados para descrever a regra de hoje."
+      ],
+      "novidades": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto. A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\". Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação. A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados. O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra. Textos internos do código e da documentação atualizados para descrever a regra de hoje.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-14"
+    },
     {
       "versao": "1.5.1",
       "titulo": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio",
@@ -363,17 +376,6 @@
         "O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha."
       ],
       "novidades": "O agente para de ofertar o produto errado do anúncio Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar. O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha.",
-      "obrigatoria": false,
-      "publicada_em": "2026-09-28"
-    },
-    {
-      "versao": "1.0.83",
-      "titulo": "Duas correções: uso visível pro dono e um agente que ficava calado à toa",
-      "itens": [
-        "O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado.",
-        "Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma."
-      ],
-      "novidades": "Duas correções: uso visível pro dono e um agente que ficava calado à toa O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado. Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma.",
       "obrigatoria": false,
       "publicada_em": "2026-09-28"
     }
