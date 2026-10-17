@@ -1,28 +1,59 @@
 {
   "atual": {
-    "versao": "1.5.6",
-    "titulo": "Moldes de imagem, roteamento de leads e avisos mais confiáveis",
+    "versao": "1.5.7",
+    "titulo": "Voz ao vivo com o Als Copilot de verdade, conversa com qualquer agente na tela e artes guardadas como referência",
     "itens": [
-      "O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder.",
-      "A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas.",
-      "A tela de Agentes não estoura mais quando aberta pelo celular.",
-      "A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida.",
-      "O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado.",
-      "O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção.",
-      "Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um.",
-      "O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos.",
-      "Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado.",
-      "A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois.",
-      "O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso.",
-      "O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho.",
-      "A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima.",
-      "A primeira peça automática de um molde pede aprovação antes de publicar."
+      "Na tela de Referências, dá para calibrar o molde de uma arte e pedir ajustes ali mesmo.",
+      "Editar a Ronda não trava mais pedindo um canal que ela não usa.",
+      "O cartão de passagem de atendimento só mostra o telefone do cliente depois que alguém assume o atendimento.",
+      "O Als Copilot não cita mais nomes técnicos de ferramentas nas respostas.",
+      "Novos pacotes de habilidades para a produção de vídeos curtos (reels), prontos para importar.",
+      "Na tela de conversa, dá para falar com qualquer agente, com os mesmos recursos do Als Copilot.",
+      "Ao montar uma arte, o agente acha o item do catálogo também pelo código, não só pelo nome exato.",
+      "Uma falha momentânea de ferramenta não faz mais o agente passar o atendimento adiante como se não soubesse responder.",
+      "A orientação de direção de arte ensina o agente a buscar o item do catálogo pelo nome ou pelo código.",
+      "A ferramenta que prepara criativos busca sozinha o item do catálogo.",
+      "O agente de redes sociais consulta o catálogo antes de criar, em vez de só evitar inventar.",
+      "Um pedido pontual é atendido na hora, sem esperar a etapa de primeira conversa.",
+      "Os agentes prontos sempre enxergam as próprias ferramentas.",
+      "Na tela de conversa, cada agente pronto responde com as ferramentas dele, não com as do Als Copilot.",
+      "Ajuste interno no motor para guardar qual agente pronto está atendendo a conversa.",
+      "Uma arte aprovada na conversa pode virar referência, com o nome que a pessoa escolher.",
+      "Voz ao vivo: menos sensível a respiração, chiado e barulho de fundo, sem perder a chance de interromper o agente.",
+      "Registro do plano da nova voz ao vivo.",
+      "Quem administra a empresa dá ordens ao agente sem precisar confirmar num cartão.",
+      "O agente acha sozinho a imagem para guardar como referência: criada por ele, enviada pela pessoa ou já no sistema.",
+      "Voz ao vivo: quem responde é o Als Copilot completo, com todas as ferramentas, e o que foi falado aparece no chat como mensagens.",
+      "Dois testes automáticos atualizados para acompanhar as mudanças desta versão."
     ],
-    "novidades": "Moldes de imagem, roteamento de leads e avisos mais confiáveis O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder. A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas. A tela de Agentes não estoura mais quando aberta pelo celular. A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida. O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado. O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção. Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um. O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos. Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado. A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois. O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso. O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho. A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima. A primeira peça automática de um molde pede aprovação antes de publicar.",
+    "novidades": "Voz ao vivo com o Als Copilot de verdade, conversa com qualquer agente na tela e artes guardadas como referência Na tela de Referências, dá para calibrar o molde de uma arte e pedir ajustes ali mesmo. Editar a Ronda não trava mais pedindo um canal que ela não usa. O cartão de passagem de atendimento só mostra o telefone do cliente depois que alguém assume o atendimento. O Als Copilot não cita mais nomes técnicos de ferramentas nas respostas. Novos pacotes de habilidades para a produção de vídeos curtos (reels), prontos para importar. Na tela de conversa, dá para falar com qualquer agente, com os mesmos recursos do Als Copilot. Ao montar uma arte, o agente acha o item do catálogo também pelo código, não só pelo nome exato. Uma falha momentânea de ferramenta não faz mais o agente passar o atendimento adiante como se não soubesse responder. A orientação de direção de arte ensina o agente a buscar o item do catálogo pelo nome ou pelo código. A ferramenta que prepara criativos busca sozinha o item do catálogo. O agente de redes sociais consulta o catálogo antes de criar, em vez de só evitar inventar. Um pedido pontual é atendido na hora, sem esperar a etapa de primeira conversa. Os agentes prontos sempre enxergam as próprias ferramentas. Na tela de conversa, cada agente pronto responde com as ferramentas dele, não com as do Als Copilot. Ajuste interno no motor para guardar qual agente pronto está atendendo a conversa. Uma arte aprovada na conversa pode virar referência, com o nome que a pessoa escolher. Voz ao vivo: menos sensível a respiração, chiado e barulho de fundo, sem perder a chance de interromper o agente. Registro do plano da nova voz ao vivo. Quem administra a empresa dá ordens ao agente sem precisar confirmar num cartão. O agente acha sozinho a imagem para guardar como referência: criada por ele, enviada pela pessoa ou já no sistema. Voz ao vivo: quem responde é o Als Copilot completo, com todas as ferramentas, e o que foi falado aparece no chat como mensagens. Dois testes automáticos atualizados para acompanhar as mudanças desta versão.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-16"
+    "publicada_em": "2026-10-17"
   },
   "anteriores": [
+    {
+      "versao": "1.5.6",
+      "titulo": "Moldes de imagem, roteamento de leads e avisos mais confiáveis",
+      "itens": [
+        "O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder.",
+        "A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas.",
+        "A tela de Agentes não estoura mais quando aberta pelo celular.",
+        "A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida.",
+        "O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado.",
+        "O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção.",
+        "Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um.",
+        "O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos.",
+        "Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado.",
+        "A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois.",
+        "O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso.",
+        "O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho.",
+        "A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima.",
+        "A primeira peça automática de um molde pede aprovação antes de publicar."
+      ],
+      "novidades": "Moldes de imagem, roteamento de leads e avisos mais confiáveis O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder. A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas. A tela de Agentes não estoura mais quando aberta pelo celular. A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida. O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado. O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção. Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um. O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos. Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado. A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois. O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso. O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho. A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima. A primeira peça automática de um molde pede aprovação antes de publicar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-16"
+    },
     {
       "versao": "1.5.5",
       "titulo": "O agente de redes sociais publica no padrão certo, e qualquer agente pode ter skills próprias",
@@ -374,20 +405,6 @@
       "novidades": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático. A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado. Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar). Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento. O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda.",
       "obrigatoria": false,
       "publicada_em": "2026-10-05"
-    },
-    {
-      "versao": "1.1.0",
-      "titulo": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor",
-      "itens": [
-        "Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa.",
-        "O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento.",
-        "Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h.",
-        "O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio.",
-        "Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado."
-      ],
-      "novidades": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa. O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento. Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h. O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio. Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-03"
     }
   ]
 }
