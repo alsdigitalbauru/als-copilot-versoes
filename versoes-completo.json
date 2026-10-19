@@ -1,0 +1,1350 @@
+{
+  "atual": {
+    "versao": "1.5.8",
+    "titulo": "Agente mais econômico e sem travar em repetição, Automações no ar e postagem nas redes pelo agente",
+    "itens": [
+      "Registro dos planos de duas melhorias: o agente montar uma receita para tarefas repetidas e o pedido de rotina que se repete ir para a ALS.",
+      "O Als Copilot guarda como habilidade a receita que montou, para repetir o trabalho mais rápido da próxima vez.",
+      "O agente é autônomo: faz o que foi pedido, sem perguntar \"Pode fazer?\" antes — no cérebro, no motor e na tela.",
+      "Registro: o cérebro da receita entrou junto com a autonomia do agente.",
+      "O Als Copilot pode pensar pela Agents API da OpenAI, escolhida pelo administrador na tela de Uso.",
+      "Uma conversa nova na tela só é guardada na primeira mensagem — clicar no Als Copilot não cria mais conversa vazia.",
+      "Nesse cérebro da OpenAI, a continuação de uma conversa não recomeça com \"Bom dia\" a cada mensagem.",
+      "Registro da medição do custo fixo de cada ida do agente ao modelo de IA.",
+      "O dono da empresa passa a ver o uso da assinatura e o espaço ocupado na tela de Uso.",
+      "Registro: as informações da tela de Uso também abrem para o dono da empresa.",
+      "Nesse cérebro da OpenAI, o arquivo que o agente cria (planilha, Word, PDF) chega pelo link e anexado no canal.",
+      "Registro de instalação: o roteador de leads passa a puxar os leads depois de a ferramenta dele ser cadastrada.",
+      "O aviso de lead que chega como mensagem de empresa (modelo do WhatsApp) é lido e encaminhado ao atendimento.",
+      "Registro do plano das Automações (tarefas automáticas sem IA), que vão substituir o Workflow.",
+      "Registro: uma automação pode chamar um agente ou a IA num passo e usar as ferramentas ligadas a ela; manual de criação.",
+      "Registro: as Automações têm poder total, como um plugin, e usam IA só quando o passo pede.",
+      "Manual de como criar uma automação, para consulta.",
+      "Registro: a automação de catálogo mantém a escolha entre reescrever e incluir itens.",
+      "O que antes se chamava \"plugin\" do agente passa a se chamar MCP no sistema todo: tela, cadastro, regras do agente e documentação.",
+      "A troca de responsável de uma negociação deixa de travar quando várias acontecem ao mesmo tempo, e um teste deixa de depender de dados de demonstração.",
+      "Novo serviço de Automações: recebe, guarda e roda as automações por horário, por aviso de fora ou à mão, com registro de cada rodada.",
+      "A importação de catálogo vira a primeira automação: a IA só mapeia os campos quando ainda não há um mapa guardado.",
+      "Nova tela Automações: o dono liga e desliga, preenche os campos, escolhe o horário em português, roda à mão e vê as últimas rodadas.",
+      "Registro da ordem das próximas etapas das Automações.",
+      "A tela Automações segue o desenho aprovado (cartões, filtros e configuração em janela), e só o administrador vê a lixeira.",
+      "Registro do plano de postar nas redes por automação: o agente chama a automação, com modelos de arte fixados pelo dono.",
+      "Registro das decisões da postagem (capa e 4 fotos, Facebook com stories, prévia só na primeira vez de cada modelo, legenda pela descrição) e do plano de o agente não agendar rotinas.",
+      "Registro: a execução automática da postagem nas redes não usa IA; ela entra só na configuração.",
+      "Registro da ordem das decisões da postagem nas redes.",
+      "Registro: a regra de não usar IA na execução vale só para a postagem nas redes, não para todas as automações.",
+      "O modelo de arte montado por código, sem IA de imagem.",
+      "O agente pode chamar uma automação como se fosse uma ferramenta.",
+      "O modelo de arte pode ser feito e fixado pela própria conversa.",
+      "Ajustes no modelo de arte feito pela conversa, apontados na revisão de qualidade.",
+      "A automação \"Postar nas redes\" prepara e mostra a prévia, sem publicar.",
+      "A automação \"Postar nas redes\" publica, sem postar em dobro, e vem de fábrica em modo de ensaio.",
+      "A tela de Tarefas mostra a trilha de passos que o agente seguiu.",
+      "O agente ganha um computadorzinho isolado próprio por conversa e pode pensar pela Anthropic, como terceira opção na tela de Uso.",
+      "Dá para baixar e importar uma automação pela tela, e a lixeira apaga também as tabelas que ela criou.",
+      "Nova aba Automações no cadastro de cada agente: o dono marca quais automações aquele agente pode chamar.",
+      "A prévia do modelo de arte é só do agente: a peça só chega à pessoa quando for a versão final.",
+      "\"Postar nas redes\" cria o modelo de arte sozinha na primeira vez e pergunta \"posso postar?\" em todo pedido.",
+      "Registro: o fechamento da postagem nas redes espera a prova do dono.",
+      "O modelo de arte nasce da leitura da arte, conversada com o agente, e a moldura é recortada da arte por código.",
+      "Registro da prova da faixa de dados do modelo de arte.",
+      "A cópia de demonstração não traz a memória de rascunho do agente, distingue telefones repetidos e não coloca nome de pessoa nos e-mails da equipe.",
+      "Registro do que ainda falta ajustar no modelo de arte.",
+      "O agente para quando repete a mesma leitura ou o mesmo erro, imagem não fica mais guardada na memória dele, e conversa parada há 30 dias é apagada — o banco para de crescer à toa.",
+      "O agente reaproveita o que já leu da conversa a cada mensagem, gastando muito menos da assinatura.",
+      "O Als Copilot começa a conversa com poucas ferramentas à vista e procura as outras na hora em que precisa.",
+      "As ferramentas internas do agente vão com texto curto, em português, gastando menos a cada mensagem.",
+      "Registro da melhoria de economia do agente na lista de pendências.",
+      "Registro da prova final da melhoria de economia do agente.",
+      "Registro: reorganização da numeração das próximas melhorias.",
+      "Um teste automático atualizado para acompanhar as mudanças desta versão."
+    ],
+    "novidades": "Agente mais econômico e sem travar em repetição, Automações no ar e postagem nas redes pelo agente Registro dos planos de duas melhorias: o agente montar uma receita para tarefas repetidas e o pedido de rotina que se repete ir para a ALS. O Als Copilot guarda como habilidade a receita que montou, para repetir o trabalho mais rápido da próxima vez. O agente é autônomo: faz o que foi pedido, sem perguntar \"Pode fazer?\" antes — no cérebro, no motor e na tela. Registro: o cérebro da receita entrou junto com a autonomia do agente. O Als Copilot pode pensar pela Agents API da OpenAI, escolhida pelo administrador na tela de Uso. Uma conversa nova na tela só é guardada na primeira mensagem — clicar no Als Copilot não cria mais conversa vazia. Nesse cérebro da OpenAI, a continuação de uma conversa não recomeça com \"Bom dia\" a cada mensagem. Registro da medição do custo fixo de cada ida do agente ao modelo de IA. O dono da empresa passa a ver o uso da assinatura e o espaço ocupado na tela de Uso. Registro: as informações da tela de Uso também abrem para o dono da empresa. Nesse cérebro da OpenAI, o arquivo que o agente cria (planilha, Word, PDF) chega pelo link e anexado no canal. Registro de instalação: o roteador de leads passa a puxar os leads depois de a ferramenta dele ser cadastrada. O aviso de lead que chega como mensagem de empresa (modelo do WhatsApp) é lido e encaminhado ao atendimento. Registro do plano das Automações (tarefas automáticas sem IA), que vão substituir o Workflow. Registro: uma automação pode chamar um agente ou a IA num passo e usar as ferramentas ligadas a ela; manual de criação. Registro: as Automações têm poder total, como um plugin, e usam IA só quando o passo pede. Manual de como criar uma automação, para consulta. Registro: a automação de catálogo mantém a escolha entre reescrever e incluir itens. O que antes se chamava \"plugin\" do agente passa a se chamar MCP no sistema todo: tela, cadastro, regras do agente e documentação. A troca de responsável de uma negociação deixa de travar quando várias acontecem ao mesmo tempo, e um teste deixa de depender de dados de demonstração. Novo serviço de Automações: recebe, guarda e roda as automações por horário, por aviso de fora ou à mão, com registro de cada rodada. A importação de catálogo vira a primeira automação: a IA só mapeia os campos quando ainda não há um mapa guardado. Nova tela Automações: o dono liga e desliga, preenche os campos, escolhe o horário em português, roda à mão e vê as últimas rodadas. Registro da ordem das próximas etapas das Automações. A tela Automações segue o desenho aprovado (cartões, filtros e configuração em janela), e só o administrador vê a lixeira. Registro do plano de postar nas redes por automação: o agente chama a automação, com modelos de arte fixados pelo dono. Registro das decisões da postagem (capa e 4 fotos, Facebook com stories, prévia só na primeira vez de cada modelo, legenda pela descrição) e do plano de o agente não agendar rotinas. Registro: a execução automática da postagem nas redes não usa IA; ela entra só na configuração. Registro da ordem das decisões da postagem nas redes. Registro: a regra de não usar IA na execução vale só para a postagem nas redes, não para todas as automações. O modelo de arte montado por código, sem IA de imagem. O agente pode chamar uma automação como se fosse uma ferramenta. O modelo de arte pode ser feito e fixado pela própria conversa. Ajustes no modelo de arte feito pela conversa, apontados na revisão de qualidade. A automação \"Postar nas redes\" prepara e mostra a prévia, sem publicar. A automação \"Postar nas redes\" publica, sem postar em dobro, e vem de fábrica em modo de ensaio. A tela de Tarefas mostra a trilha de passos que o agente seguiu. O agente ganha um computadorzinho isolado próprio por conversa e pode pensar pela Anthropic, como terceira opção na tela de Uso. Dá para baixar e importar uma automação pela tela, e a lixeira apaga também as tabelas que ela criou. Nova aba Automações no cadastro de cada agente: o dono marca quais automações aquele agente pode chamar. A prévia do modelo de arte é só do agente: a peça só chega à pessoa quando for a versão final. \"Postar nas redes\" cria o modelo de arte sozinha na primeira vez e pergunta \"posso postar?\" em todo pedido. Registro: o fechamento da postagem nas redes espera a prova do dono. O modelo de arte nasce da leitura da arte, conversada com o agente, e a moldura é recortada da arte por código. Registro da prova da faixa de dados do modelo de arte. A cópia de demonstração não traz a memória de rascunho do agente, distingue telefones repetidos e não coloca nome de pessoa nos e-mails da equipe. Registro do que ainda falta ajustar no modelo de arte. O agente para quando repete a mesma leitura ou o mesmo erro, imagem não fica mais guardada na memória dele, e conversa parada há 30 dias é apagada — o banco para de crescer à toa. O agente reaproveita o que já leu da conversa a cada mensagem, gastando muito menos da assinatura. O Als Copilot começa a conversa com poucas ferramentas à vista e procura as outras na hora em que precisa. As ferramentas internas do agente vão com texto curto, em português, gastando menos a cada mensagem. Registro da melhoria de economia do agente na lista de pendências. Registro da prova final da melhoria de economia do agente. Registro: reorganização da numeração das próximas melhorias. Um teste automático atualizado para acompanhar as mudanças desta versão.",
+    "obrigatoria": false,
+    "publicada_em": "2026-10-19"
+  },
+  "anteriores": [
+    {
+      "versao": "1.5.7",
+      "titulo": "Voz ao vivo com o Als Copilot de verdade, conversa com qualquer agente na tela e artes guardadas como referência",
+      "itens": [
+        "Na tela de Referências, dá para calibrar o molde de uma arte e pedir ajustes ali mesmo.",
+        "Editar a Ronda não trava mais pedindo um canal que ela não usa.",
+        "O cartão de passagem de atendimento só mostra o telefone do cliente depois que alguém assume o atendimento.",
+        "O Als Copilot não cita mais nomes técnicos de ferramentas nas respostas.",
+        "Novos pacotes de habilidades para a produção de vídeos curtos (reels), prontos para importar.",
+        "Na tela de conversa, dá para falar com qualquer agente, com os mesmos recursos do Als Copilot.",
+        "Ao montar uma arte, o agente acha o item do catálogo também pelo código, não só pelo nome exato.",
+        "Uma falha momentânea de ferramenta não faz mais o agente passar o atendimento adiante como se não soubesse responder.",
+        "A orientação de direção de arte ensina o agente a buscar o item do catálogo pelo nome ou pelo código.",
+        "A ferramenta que prepara criativos busca sozinha o item do catálogo.",
+        "O agente de redes sociais consulta o catálogo antes de criar, em vez de só evitar inventar.",
+        "Um pedido pontual é atendido na hora, sem esperar a etapa de primeira conversa.",
+        "Os agentes prontos sempre enxergam as próprias ferramentas.",
+        "Na tela de conversa, cada agente pronto responde com as ferramentas dele, não com as do Als Copilot.",
+        "Ajuste interno no motor para guardar qual agente pronto está atendendo a conversa.",
+        "Uma arte aprovada na conversa pode virar referência, com o nome que a pessoa escolher.",
+        "Voz ao vivo: menos sensível a respiração, chiado e barulho de fundo, sem perder a chance de interromper o agente.",
+        "Registro do plano da nova voz ao vivo.",
+        "Quem administra a empresa dá ordens ao agente sem precisar confirmar num cartão.",
+        "O agente acha sozinho a imagem para guardar como referência: criada por ele, enviada pela pessoa ou já no sistema.",
+        "Voz ao vivo: quem responde é o Als Copilot completo, com todas as ferramentas, e o que foi falado aparece no chat como mensagens.",
+        "Dois testes automáticos atualizados para acompanhar as mudanças desta versão."
+      ],
+      "novidades": "Voz ao vivo com o Als Copilot de verdade, conversa com qualquer agente na tela e artes guardadas como referência Na tela de Referências, dá para calibrar o molde de uma arte e pedir ajustes ali mesmo. Editar a Ronda não trava mais pedindo um canal que ela não usa. O cartão de passagem de atendimento só mostra o telefone do cliente depois que alguém assume o atendimento. O Als Copilot não cita mais nomes técnicos de ferramentas nas respostas. Novos pacotes de habilidades para a produção de vídeos curtos (reels), prontos para importar. Na tela de conversa, dá para falar com qualquer agente, com os mesmos recursos do Als Copilot. Ao montar uma arte, o agente acha o item do catálogo também pelo código, não só pelo nome exato. Uma falha momentânea de ferramenta não faz mais o agente passar o atendimento adiante como se não soubesse responder. A orientação de direção de arte ensina o agente a buscar o item do catálogo pelo nome ou pelo código. A ferramenta que prepara criativos busca sozinha o item do catálogo. O agente de redes sociais consulta o catálogo antes de criar, em vez de só evitar inventar. Um pedido pontual é atendido na hora, sem esperar a etapa de primeira conversa. Os agentes prontos sempre enxergam as próprias ferramentas. Na tela de conversa, cada agente pronto responde com as ferramentas dele, não com as do Als Copilot. Ajuste interno no motor para guardar qual agente pronto está atendendo a conversa. Uma arte aprovada na conversa pode virar referência, com o nome que a pessoa escolher. Voz ao vivo: menos sensível a respiração, chiado e barulho de fundo, sem perder a chance de interromper o agente. Registro do plano da nova voz ao vivo. Quem administra a empresa dá ordens ao agente sem precisar confirmar num cartão. O agente acha sozinho a imagem para guardar como referência: criada por ele, enviada pela pessoa ou já no sistema. Voz ao vivo: quem responde é o Als Copilot completo, com todas as ferramentas, e o que foi falado aparece no chat como mensagens. Dois testes automáticos atualizados para acompanhar as mudanças desta versão.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-17"
+    },
+    {
+      "versao": "1.5.6",
+      "titulo": "Moldes de imagem, roteamento de leads e avisos mais confiáveis",
+      "itens": [
+        "O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder.",
+        "A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas.",
+        "A tela de Agentes não estoura mais quando aberta pelo celular.",
+        "A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida.",
+        "O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado.",
+        "O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção.",
+        "Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um.",
+        "O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos.",
+        "Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado.",
+        "A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois.",
+        "O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso.",
+        "O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho.",
+        "A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima.",
+        "A primeira peça automática de um molde pede aprovação antes de publicar."
+      ],
+      "novidades": "Moldes de imagem, roteamento de leads e avisos mais confiáveis O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder. A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas. A tela de Agentes não estoura mais quando aberta pelo celular. A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida. O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado. O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção. Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um. O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos. Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado. A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois. O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso. O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho. A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima. A primeira peça automática de um molde pede aprovação antes de publicar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-16"
+    },
+    {
+      "versao": "1.5.5",
+      "titulo": "O agente de redes sociais publica no padrão certo, e qualquer agente pode ter skills próprias",
+      "itens": [
+        "A ponte espera a resposta do agente mesmo quando ela demora, sem repetir o pedido.",
+        "O agente de redes sociais publica carrossel com várias fotos no Instagram e Facebook, não mais uma foto só.",
+        "A ponte do WhatsApp usa um jeito mais robusto de buscar a mídia.",
+        "A migração do banco de dados não quebra mais se for aplicada duas vezes.",
+        "A arte de divulgação sai com o mesmo visual (cores, textos, logo) do modelo que o dono já tinha aprovado — só a foto e os dados do item mudam.",
+        "A tela de teste de um agente passou a mostrar a imagem que ele gerou durante a conversa.",
+        "Qualquer agente, inclusive os prontos (como o de redes sociais e o de atendimento), pode ganhar skills próprias — procedimentos específicos daquela empresa.",
+        "Atualização da documentação interna sobre como o time trabalha com o código.",
+        "Ajuste interno no catálogo de rotas do sistema, sem efeito visível para quem usa.",
+        "Correção de um teste automático interno sobre o relógio de retomada de conversas, sem efeito visível para quem usa."
+      ],
+      "novidades": "O agente de redes sociais publica no padrão certo, e qualquer agente pode ter skills próprias A ponte espera a resposta do agente mesmo quando ela demora, sem repetir o pedido. O agente de redes sociais publica carrossel com várias fotos no Instagram e Facebook, não mais uma foto só. A ponte do WhatsApp usa um jeito mais robusto de buscar a mídia. A migração do banco de dados não quebra mais se for aplicada duas vezes. A arte de divulgação sai com o mesmo visual (cores, textos, logo) do modelo que o dono já tinha aprovado — só a foto e os dados do item mudam. A tela de teste de um agente passou a mostrar a imagem que ele gerou durante a conversa. Qualquer agente, inclusive os prontos (como o de redes sociais e o de atendimento), pode ganhar skills próprias — procedimentos específicos daquela empresa. Atualização da documentação interna sobre como o time trabalha com o código. Ajuste interno no catálogo de rotas do sistema, sem efeito visível para quem usa. Correção de um teste automático interno sobre o relógio de retomada de conversas, sem efeito visível para quem usa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-15"
+    },
+    {
+      "versao": "1.5.4",
+      "titulo": "O agente tenta outro modelo quando a IA está sobrecarregada, em todo agente",
+      "itens": [
+        "Quando a assinatura fica momentaneamente sem capacidade, os agentes prontos (corretor, ronda, social media, etc.) agora tentam responder com outro modelo antes de desistir — o agente padrão já fazia isso desde a versão anterior."
+      ],
+      "novidades": "O agente tenta outro modelo quando a IA está sobrecarregada, em todo agente Quando a assinatura fica momentaneamente sem capacidade, os agentes prontos (corretor, ronda, social media, etc.) agora tentam responder com outro modelo antes de desistir — o agente padrão já fazia isso desde a versão anterior.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-14"
+    },
+    {
+      "versao": "1.5.3",
+      "titulo": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente",
+      "itens": [
+        "A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste.",
+        "O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes.",
+        "O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez.",
+        "A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre."
+      ],
+      "novidades": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste. O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes. O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez. A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-14"
+    },
+    {
+      "versao": "1.5.2",
+      "titulo": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem",
+      "itens": [
+        "O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto.",
+        "A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\".",
+        "Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação.",
+        "A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados.",
+        "O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra.",
+        "Textos internos do código e da documentação atualizados para descrever a regra de hoje."
+      ],
+      "novidades": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto. A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\". Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação. A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados. O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra. Textos internos do código e da documentação atualizados para descrever a regra de hoje.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-14"
+    },
+    {
+      "versao": "1.5.1",
+      "titulo": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio",
+      "itens": [
+        "A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema.",
+        "O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas.",
+        "O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot.",
+        "Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais.",
+        "O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso.",
+        "Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova.",
+        "A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe.",
+        "A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo.",
+        "A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder.",
+        "A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão.",
+        "Só o dono da casa exclui categoria do catálogo.",
+        "Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe.",
+        "O Als Copilot passa a conhecer a própria empresa em que trabalha.",
+        "Quem nunca respondeu vai para o Lead Frio, e não para o corretor.",
+        "As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio.",
+        "Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu.",
+        "O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas.",
+        "A Ronda cobra uma pessoa só por negócio, nunca duas juntas.",
+        "A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado.",
+        "O ritmo das ideias vira uma configuração na tela do Piloto Automático.",
+        "O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável.",
+        "O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria.",
+        "O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres.",
+        "O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados.",
+        "O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda.",
+        "Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica.",
+        "A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\".",
+        "Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo.",
+        "Registros internos e a lista de pendências atualizados."
+      ],
+      "novidades": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema. O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas. O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot. Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais. O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso. Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova. A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe. A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo. A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder. A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão. Só o dono da casa exclui categoria do catálogo. Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe. O Als Copilot passa a conhecer a própria empresa em que trabalha. Quem nunca respondeu vai para o Lead Frio, e não para o corretor. As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio. Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu. O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas. A Ronda cobra uma pessoa só por negócio, nunca duas juntas. A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado. O ritmo das ideias vira uma configuração na tela do Piloto Automático. O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável. O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria. O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres. O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados. O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda. Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica. A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\". Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo. Registros internos e a lista de pendências atualizados.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-13"
+    },
+    {
+      "versao": "1.5.0",
+      "titulo": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável",
+      "itens": [
+        "Todos os agentes passam a pensar num cérebro só, o novo, e o cérebro antigo sai do sistema.",
+        "Sai da tela de Uso a escolha de cérebro, e sai o cérebro que usava chave de API da OpenAI.",
+        "A conexão com a assinatura do ChatGPT passa a ser do próprio sistema: conectar, renovar o login antes de vencer e consultar os modelos e o limite da conta.",
+        "O sistema fica mais leve: o motor perde o programa do cérebro antigo (de 1,6 GB para 0,4 GB) e a instalação deixa de precisar de uma proteção que só ele usava.",
+        "O motor deixa de ter o código do cérebro antigo; tarefas automáticas em conversas antigas continuam pedindo autorização antes de usar o navegador.",
+        "Cada agente criado do zero leva a própria personalidade, as regras e os processos dele para o novo cérebro.",
+        "Todos os agentes prontos (Ronda, roteador de leads e os do nicho Imobiliário) passam a pensar no novo cérebro.",
+        "Atendimento conduzido por processo, perguntas do sistema, tarefas e processos agendados passam a rodar no novo cérebro.",
+        "A voz ao vivo continua funcionando com o novo cérebro.",
+        "O Als Copilot passa a pensar no novo cérebro, com o mesmo jeito de falar e as mesmas ferramentas.",
+        "O que está acontecendo no momento (tarefas, ideias esperando, quem está falando) chega ao novo cérebro a cada mensagem, junto com a foto que a pessoa mandar.",
+        "Correções no novo cérebro: imagem gerada fora de canal, narração do que ele está fazendo e testes do motor.",
+        "Preparação do banco de dados para o novo cérebro.",
+        "A memória do Als Copilot passa a ser a do novo cérebro, uma por pessoa, e já nasce com o que ele tinha anotado antes.",
+        "A memória do Als Copilot guarda o que o dono e a equipe pedirem para lembrar, inclusive códigos de acesso, como o de uma porta.",
+        "O Als Copilot carrega só as ferramentas de que precisa em cada pedido, e responde mais rápido.",
+        "As skills passam a ser lidas do jeito do novo cérebro: o agente abre a skill quando o assunto pede, ou quando alguém a chama com /nome.",
+        "Saem as ferramentas antigas de skill e de memória, que o novo cérebro já faz sozinho.",
+        "O novo cérebro pede aprovação antes de agir fora do sistema, e trabalha sozinho nas tarefas agendadas.",
+        "O Als Copilot gera arquivos de verdade (PDF, planilha, Word e gráfico) num espaço isolado, e se recupera sozinho de tropeços.",
+        "O agente lê também as imagens de dentro de um PDF, não só o texto.",
+        "Quando a IA está sobrecarregada, o agente tenta de novo com um modelo um degrau abaixo, em vez de deixar a pessoa sem resposta.",
+        "A troca para um modelo um degrau abaixo vale também no novo cérebro.",
+        "A peça com enfeite gerado por IA volta a funcionar, e o enfeite não aparece solto na conversa.",
+        "O agente Social Media passa a publicar de verdade: quatro correções no caminho da publicação.",
+        "O serviço dos agentes prontos responde ao vivo e entrega peças e arquivos durante a conversa.",
+        "Na tela de conversa, o dono volta a poder escolher outro agente para testá-lo sem precisar do WhatsApp.",
+        "Lista de conversas e chat com rolagem contínua e separação por dia.",
+        "O \"Pensando…\" aparece ao lado do robô, o anexo que chega pelo canal aparece como etiqueta, e o envio de arquivo mostra o progresso real.",
+        "Os testes que conferem quem pode acessar cada parte do sistema passam a cobrir quatro rotas novas.",
+        "Ajuste interno: o ambiente de testes reinicia o serviço dos agentes junto com o resto.",
+        "Ajuste interno nos testes automáticos da tela e do catálogo."
+      ],
+      "novidades": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável Todos os agentes passam a pensar num cérebro só, o novo, e o cérebro antigo sai do sistema. Sai da tela de Uso a escolha de cérebro, e sai o cérebro que usava chave de API da OpenAI. A conexão com a assinatura do ChatGPT passa a ser do próprio sistema: conectar, renovar o login antes de vencer e consultar os modelos e o limite da conta. O sistema fica mais leve: o motor perde o programa do cérebro antigo (de 1,6 GB para 0,4 GB) e a instalação deixa de precisar de uma proteção que só ele usava. O motor deixa de ter o código do cérebro antigo; tarefas automáticas em conversas antigas continuam pedindo autorização antes de usar o navegador. Cada agente criado do zero leva a própria personalidade, as regras e os processos dele para o novo cérebro. Todos os agentes prontos (Ronda, roteador de leads e os do nicho Imobiliário) passam a pensar no novo cérebro. Atendimento conduzido por processo, perguntas do sistema, tarefas e processos agendados passam a rodar no novo cérebro. A voz ao vivo continua funcionando com o novo cérebro. O Als Copilot passa a pensar no novo cérebro, com o mesmo jeito de falar e as mesmas ferramentas. O que está acontecendo no momento (tarefas, ideias esperando, quem está falando) chega ao novo cérebro a cada mensagem, junto com a foto que a pessoa mandar. Correções no novo cérebro: imagem gerada fora de canal, narração do que ele está fazendo e testes do motor. Preparação do banco de dados para o novo cérebro. A memória do Als Copilot passa a ser a do novo cérebro, uma por pessoa, e já nasce com o que ele tinha anotado antes. A memória do Als Copilot guarda o que o dono e a equipe pedirem para lembrar, inclusive códigos de acesso, como o de uma porta. O Als Copilot carrega só as ferramentas de que precisa em cada pedido, e responde mais rápido. As skills passam a ser lidas do jeito do novo cérebro: o agente abre a skill quando o assunto pede, ou quando alguém a chama com /nome. Saem as ferramentas antigas de skill e de memória, que o novo cérebro já faz sozinho. O novo cérebro pede aprovação antes de agir fora do sistema, e trabalha sozinho nas tarefas agendadas. O Als Copilot gera arquivos de verdade (PDF, planilha, Word e gráfico) num espaço isolado, e se recupera sozinho de tropeços. O agente lê também as imagens de dentro de um PDF, não só o texto. Quando a IA está sobrecarregada, o agente tenta de novo com um modelo um degrau abaixo, em vez de deixar a pessoa sem resposta. A troca para um modelo um degrau abaixo vale também no novo cérebro. A peça com enfeite gerado por IA volta a funcionar, e o enfeite não aparece solto na conversa. O agente Social Media passa a publicar de verdade: quatro correções no caminho da publicação. O serviço dos agentes prontos responde ao vivo e entrega peças e arquivos durante a conversa. Na tela de conversa, o dono volta a poder escolher outro agente para testá-lo sem precisar do WhatsApp. Lista de conversas e chat com rolagem contínua e separação por dia. O \"Pensando…\" aparece ao lado do robô, o anexo que chega pelo canal aparece como etiqueta, e o envio de arquivo mostra o progresso real. Os testes que conferem quem pode acessar cada parte do sistema passam a cobrir quatro rotas novas. Ajuste interno: o ambiente de testes reinicia o serviço dos agentes junto com o resto. Ajuste interno nos testes automáticos da tela e do catálogo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-13"
+    },
+    {
+      "versao": "1.4.10",
+      "titulo": "A atualização para a versão nova passa a funcionar em todas as instalações",
+      "itens": [
+        "A atualização a partir da 1.4.8 liga o serviço novo dos agentes prontos, em vez de voltar para a versão anterior.",
+        "A publicação de cada versão passa a enviar todas as peças que monta, inclusive a do serviço novo dos agentes prontos."
+      ],
+      "novidades": "A atualização para a versão nova passa a funcionar em todas as instalações A atualização a partir da 1.4.8 liga o serviço novo dos agentes prontos, em vez de voltar para a versão anterior. A publicação de cada versão passa a enviar todas as peças que monta, inclusive a do serviço novo dos agentes prontos.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-10"
+    },
+    {
+      "versao": "1.4.9",
+      "titulo": "Agente Social Media, Ronda que não cobra de novo quem já respondeu e motor novo para agentes prontos",
+      "itens": [
+        "A Ronda não cobra de novo quem já respondeu: quem dá notícia sem dizer quando ganha 1 dia útil de prazo, e não mais 3 horas.",
+        "A Ronda entende prazo vago (\"uns 3 dias\", \"depois do feriado\") e o transforma em data, sem perguntar a hora exata.",
+        "Quando o responsável dá um prazo sem dizer de qual cliente, ele vale para todos os clientes cobrados naquela vez.",
+        "Quando o responsável conta que o cliente esfriou, a Ronda pergunta se pode mandar para o Lead Frio.",
+        "Lead sem sobrenome ganha o final do telefone na cobrança da Ronda, para não ser confundido com outro de mesmo nome.",
+        "Quem deixou a oferta do rodízio vencer não assume mais o mesmo atendimento: o cartão mostra quem já assumiu.",
+        "Novo agente pronto Social Media, na aba Marketing, com Instagram e Facebook em Contas conectadas.",
+        "As contas conectadas do Social Media já nascem ativadas no agente.",
+        "O Social Media escreve legendas e monta calendário editorial, com as habilidades lidas só quando precisa.",
+        "O Social Media ganha as habilidades de direção de arte e de análise de métricas.",
+        "O Social Media pesquisa na internet.",
+        "O Social Media cria a arte do post com a marca da empresa e entrega pelo canal.",
+        "O Social Media só publica depois do sim da pessoa, e conta o que a plataforma respondeu.",
+        "O Social Media sabe o trabalho dele e sugere o próximo passo.",
+        "O calendário editorial vira tarefa com etapas, com as bolinhas de andamento na tela de Tarefas.",
+        "Na véspera do post, o Social Media cria a arte e a legenda e manda para aprovação; na hora, publica só o que foi aprovado.",
+        "Toda semana o Social Media manda a análise e uma ideia, ligado pela caixinha \"Sugerir coisas toda semana\" na aba Regras.",
+        "A troca de agente reconhece o registro da rotina do Social Media.",
+        "Cada agente pronto recebe só as ferramentas do pacote dele.",
+        "Novo serviço para agentes prontos (Deep Agents), ao lado do motor de sempre, com memória própria.",
+        "O novo serviço entra na publicação e na atualização automática.",
+        "O motor passa os agentes prontos do novo tipo ao serviço novo, começando pelo WhatsApp.",
+        "Os agentes prontos do novo tipo não mandam mais a resposta repetida.",
+        "O motor e o serviço novo continuam funcionando quando o banco de dados reinicia.",
+        "Os agentes prontos do novo tipo reaproveitam a conversa anterior, respondendo mais rápido.",
+        "Preparação interna do serviço novo: os modelos da assinatura como opção.",
+        "Preparação interna do serviço novo: uma janela de teste para conversar com o agente.",
+        "Preparação interna do serviço novo: a janela de teste fala em linguagem simples e formata a resposta.",
+        "Preparação interna do serviço novo: modelo padrão escolhido.",
+        "Preparação interna do serviço novo: o agente consulta o catálogo pela mesma ferramenta do Als Copilot.",
+        "O menu de agentes por nicho ganha o destaque em bolha.",
+        "Na tela de conversa, o raciocínio do agente recolhe de verdade e a página rola sozinha até a última mensagem.",
+        "As fotos do catálogo voltam a chegar como foto, e não como lista de links.",
+        "Instalação nova confere sozinha o endereço do próprio sistema, para o problema das fotos não voltar."
+      ],
+      "novidades": "Agente Social Media, Ronda que não cobra de novo quem já respondeu e motor novo para agentes prontos A Ronda não cobra de novo quem já respondeu: quem dá notícia sem dizer quando ganha 1 dia útil de prazo, e não mais 3 horas. A Ronda entende prazo vago (\"uns 3 dias\", \"depois do feriado\") e o transforma em data, sem perguntar a hora exata. Quando o responsável dá um prazo sem dizer de qual cliente, ele vale para todos os clientes cobrados naquela vez. Quando o responsável conta que o cliente esfriou, a Ronda pergunta se pode mandar para o Lead Frio. Lead sem sobrenome ganha o final do telefone na cobrança da Ronda, para não ser confundido com outro de mesmo nome. Quem deixou a oferta do rodízio vencer não assume mais o mesmo atendimento: o cartão mostra quem já assumiu. Novo agente pronto Social Media, na aba Marketing, com Instagram e Facebook em Contas conectadas. As contas conectadas do Social Media já nascem ativadas no agente. O Social Media escreve legendas e monta calendário editorial, com as habilidades lidas só quando precisa. O Social Media ganha as habilidades de direção de arte e de análise de métricas. O Social Media pesquisa na internet. O Social Media cria a arte do post com a marca da empresa e entrega pelo canal. O Social Media só publica depois do sim da pessoa, e conta o que a plataforma respondeu. O Social Media sabe o trabalho dele e sugere o próximo passo. O calendário editorial vira tarefa com etapas, com as bolinhas de andamento na tela de Tarefas. Na véspera do post, o Social Media cria a arte e a legenda e manda para aprovação; na hora, publica só o que foi aprovado. Toda semana o Social Media manda a análise e uma ideia, ligado pela caixinha \"Sugerir coisas toda semana\" na aba Regras. A troca de agente reconhece o registro da rotina do Social Media. Cada agente pronto recebe só as ferramentas do pacote dele. Novo serviço para agentes prontos (Deep Agents), ao lado do motor de sempre, com memória própria. O novo serviço entra na publicação e na atualização automática. O motor passa os agentes prontos do novo tipo ao serviço novo, começando pelo WhatsApp. Os agentes prontos do novo tipo não mandam mais a resposta repetida. O motor e o serviço novo continuam funcionando quando o banco de dados reinicia. Os agentes prontos do novo tipo reaproveitam a conversa anterior, respondendo mais rápido. Preparação interna do serviço novo: os modelos da assinatura como opção. Preparação interna do serviço novo: uma janela de teste para conversar com o agente. Preparação interna do serviço novo: a janela de teste fala em linguagem simples e formata a resposta. Preparação interna do serviço novo: modelo padrão escolhido. Preparação interna do serviço novo: o agente consulta o catálogo pela mesma ferramenta do Als Copilot. O menu de agentes por nicho ganha o destaque em bolha. Na tela de conversa, o raciocínio do agente recolhe de verdade e a página rola sozinha até a última mensagem. As fotos do catálogo voltam a chegar como foto, e não como lista de links. Instalação nova confere sozinha o endereço do próprio sistema, para o problema das fotos não voltar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-10"
+    },
+    {
+      "versao": "1.4.8",
+      "titulo": "A Ronda obedece o dono e troca quem cuida do lead; o dono escolhe o que fazer com quem para de responder",
+      "itens": [
+        "Administrador e titular podem trocar o responsável de um lead pela tela do CRM.",
+        "O rodapé da janela do agente fica fixo, e a grade de conexões não corta mais nome nem botão.",
+        "A busca do catálogo também encontra o item pelo código, não só pelo nome.",
+        "A ficha de detalhes do item não perde informações quando o item tem muitas fotos.",
+        "A orientação da fonte de dados vale também para o mapeamento dos campos, e um campo pode ter mais de um candidato.",
+        "O agente abre o item certo quando o nome pedido está quase igual ao cadastrado, desde que não haja dúvida.",
+        "Esse reconhecimento de nome quase igual também vale quando a diferença está no meio do nome.",
+        "O atendimento imobiliário faz uma pergunta por vez, sem perguntas de 'isso ou aquilo' esperando sim ou não.",
+        "Com o perfil da pessoa completo e duas tentativas sem agradar, o atendimento imobiliário convida alguém da equipe a mostrar opções e combinar a visita.",
+        "Na conversa com a Ronda, o dono e o administrador agem em qualquer lead, sem restrição, e podem reabrir um negócio encerrado.",
+        "Quando há dois clientes com o mesmo nome, a Ronda fica com o que ela acabou de cobrar; se ainda houver dúvida, pergunta qual, mostrando o telefone de cada um.",
+        "A Ronda troca quem cuida do lead quando a pessoa diz que ele é de outra da equipe: a nova responsável recebe o aviso do atendimento e passa a ser a cobrada.",
+        "A Ronda só confirma o que de fato fez no sistema.",
+        "Na aba Regras do agente pronto de atendimento, o dono escolhe o que acontece quando a pessoa para de responder: passar para a equipe (padrão) ou continuar insistindo.",
+        "Com 'continuar insistindo', o agente volta a procurar a pessoa em 1 hora, 1 dia, 3 dias e 7 dias, sem passar o atendimento por causa do silêncio.",
+        "O Als Copilot também consegue mudar, pela conversa, a escolha do que fazer quando a pessoa para de responder."
+      ],
+      "novidades": "A Ronda obedece o dono e troca quem cuida do lead; o dono escolhe o que fazer com quem para de responder Administrador e titular podem trocar o responsável de um lead pela tela do CRM. O rodapé da janela do agente fica fixo, e a grade de conexões não corta mais nome nem botão. A busca do catálogo também encontra o item pelo código, não só pelo nome. A ficha de detalhes do item não perde informações quando o item tem muitas fotos. A orientação da fonte de dados vale também para o mapeamento dos campos, e um campo pode ter mais de um candidato. O agente abre o item certo quando o nome pedido está quase igual ao cadastrado, desde que não haja dúvida. Esse reconhecimento de nome quase igual também vale quando a diferença está no meio do nome. O atendimento imobiliário faz uma pergunta por vez, sem perguntas de 'isso ou aquilo' esperando sim ou não. Com o perfil da pessoa completo e duas tentativas sem agradar, o atendimento imobiliário convida alguém da equipe a mostrar opções e combinar a visita. Na conversa com a Ronda, o dono e o administrador agem em qualquer lead, sem restrição, e podem reabrir um negócio encerrado. Quando há dois clientes com o mesmo nome, a Ronda fica com o que ela acabou de cobrar; se ainda houver dúvida, pergunta qual, mostrando o telefone de cada um. A Ronda troca quem cuida do lead quando a pessoa diz que ele é de outra da equipe: a nova responsável recebe o aviso do atendimento e passa a ser a cobrada. A Ronda só confirma o que de fato fez no sistema. Na aba Regras do agente pronto de atendimento, o dono escolhe o que acontece quando a pessoa para de responder: passar para a equipe (padrão) ou continuar insistindo. Com 'continuar insistindo', o agente volta a procurar a pessoa em 1 hora, 1 dia, 3 dias e 7 dias, sem passar o atendimento por causa do silêncio. O Als Copilot também consegue mudar, pela conversa, a escolha do que fazer quando a pessoa para de responder.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-09"
+    },
+    {
+      "versao": "1.4.7",
+      "titulo": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado",
+      "itens": [
+        "Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais.",
+        "Cartão de contato enviado por iPhone não perde mais o telefone.",
+        "O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir.",
+        "O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar.",
+        "A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga.",
+        "A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também.",
+        "O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto."
+      ],
+      "novidades": "Anexos de verdade no WhatsApp, e a Ronda não esconde mais lead parado Arquivo ou documento que o cliente manda chega ao agente e à tela como anexo de verdade, não só como link — no WhatsApp e nos outros canais. Cartão de contato enviado por iPhone não perde mais o telefone. O agente passa a oferecer executar, na hora, o que ele mesmo propõe ao dono — não só sugerir. O aviso de 'pensando' do agente, na tela, acumula e rola junto com a resposta, em vez de trocar de lugar. A memória do agente cresce mais, evita duplicar uma regra parecida com outra palavra, e passa a perguntar antes de apagar a mais antiga. A Ronda deixa de ignorar lead que já estava parado antes de uma atualização chegar — agora ela cobra o responsável por ele também. O cartão que acompanha a passagem de atendimento passa a mostrar também o nome, o valor e o resumo do item, além da foto.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-09"
+    },
+    {
+      "versao": "1.4.6",
+      "titulo": "O Als Copilot fica mais seguro e conta o que está fazendo",
+      "itens": [
+        "O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas.",
+        "O Als Copilot responde somente aos números que o dono aprovou.",
+        "O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu.",
+        "O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem.",
+        "A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio."
+      ],
+      "novidades": "O Als Copilot fica mais seguro e conta o que está fazendo O Composio passa a ser o único caminho para conectar contas externas de anúncios; saem as conexões diretas antigas. O Als Copilot responde somente aos números que o dono aprovou. O card do funil de vendas mostra a foto de todas as pessoas que receberam a passagem do atendimento, não só de quem assumiu. O Als Copilot conta o que está fazendo enquanto trabalha, com uma animação de \"pensando\" assim que a pessoa manda a mensagem. A mensagem que avisa quem recebeu uma passagem fala do item que o lead gostou, para qualquer tipo de negócio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
+    {
+      "versao": "1.4.5",
+      "titulo": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu",
+      "itens": [
+        "Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa.",
+        "O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo.",
+        "Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção."
+      ],
+      "novidades": "O agente não manda mais 'tive um problema' por cima de uma resposta que o cliente já recebeu Quando o cliente manda várias mensagens seguidas, o agente que atende deixa de mandar a frase 'Desculpe, tive um problema aqui para responder agora' depois de já ter respondido. Antes, um turno antigo, que ficava sem ouvinte, esperava 3 minutos e então pedia desculpa por cima da resposta certa. O turno antigo de uma conversa deixa de apagar a fila do turno novo: antes, ao terminar, ele podia deixar o turno mais novo sem ouvinte, que então também estourava o tempo. Documentação interna: a correção urgente aplicada na Eliana (somente o motor, sem reiniciar o WhatsApp) fica registrada na história da correção.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
+    {
+      "versao": "1.4.4",
+      "titulo": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida",
+      "itens": [
+        "A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu.",
+        "A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída.",
+        "A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos.",
+        "O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados.",
+        "Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir.",
+        "Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado."
+      ],
+      "novidades": "A Ronda não larga o corretor e acorda na hora que ele combinou; corrige quem é cobrado depois de a conversa ser assumida A Ronda cobra o corretor que assumiu o atendimento, e não só quem recebeu a última passagem. Antes, quando o mesmo cliente era passado duas vezes à mesma equipe, ela cobrava quem recebeu a segunda passagem e esquecia quem de fato assumiu. A Ronda não larga o corretor: depois de três cobranças sem resposta e do aviso ao dono, o ciclo recomeça no dia seguinte, na abertura do expediente, e segue até o negócio ir para Lead Frio ou Venda Concluída. A Ronda acorda na hora que o corretor combinou ('hoje depois do almoço', 'daqui a dez minutos') e volta a cobrá-lo nesse momento, em vez de esperar o próximo horário da passada. Só acorda para o negócio que combinou a hora, e não se repete a cada cinco minutos. O Als Copilot ganha a escada de ferramentas: para consultar, tenta primeiro os plugins, depois as conexões, depois a pesquisa na internet e só por último o navegador, descendo apenas os degraus que a conversa tem ligados. Documentação interna: a lista de itens de cada versão passa a ser completa, sem resumir. Documentação interna: lista única do que está em aberto, com a regra de dar baixa ao terminar, e o épico do cérebro antigo encerrado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
+    {
+      "versao": "1.4.3",
+      "titulo": "O Als Copilot passa a ter memória permanente",
+      "itens": [
+        "O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp.",
+        "Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova.",
+        "Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar."
+      ],
+      "novidades": "O Als Copilot passa a ter memória permanente O Als Copilot guarda o que você conta e pede para ele lembrar, e lembra em toda conversa, na tela e no WhatsApp. Cada pessoa tem a sua memória, de até 12 anotações curtas; a mais antiga sai quando entra uma nova. Peça 'o que você sabe de mim?' para ver o que está guardado, ou 'esqueça isso' para apagar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-07"
+    },
+    {
+      "versao": "1.4.2",
+      "titulo": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat",
+      "itens": [
+        "Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora.",
+        "O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor.",
+        "Na chamada de voz, o Als Copilot não repete mais o que já explicou."
+      ],
+      "novidades": "Pedido grande: o Als Copilot responde na hora e conta o andamento no chat Quando você pede para conferir dezenas de itens (como uma lista de links), o Als Copilot responde na hora e vai contando o andamento na própria conversa, em vez de dar erro por demora. O agente de imóveis para de responder \"ok\" e \"obrigado\" depois de passar o atendimento ao corretor. Na chamada de voz, o Als Copilot não repete mais o que já explicou.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-06"
+    },
+    {
+      "versao": "1.4.1",
+      "titulo": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou",
+      "itens": [
+        "Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos.",
+        "Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir.",
+        "Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro.",
+        "Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado.",
+        "O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens."
+      ],
+      "novidades": "Os agentes entendem áudio, e o corretor recebe o imóvel que o cliente gostou Os agentes prontos agora entendem os áudios que os clientes mandam, como se tivessem sido escritos. Ao passar o atendimento, o corretor recebe primeiro o imóvel que o cliente gostou (foto, nome e resumo, com link) e, em outra mensagem, o repasse com o botão de assumir. Quando o cliente pede uma área pelo nome, como a administração, o atendimento vai para a equipe de mesmo nome, sem precisar de filtro. Em Passar atendimento, os campos da regra de cada equipe aparecem em escada: primeiro o grupo, depois o detalhe ao lado. O valor de cada condição sugere o que existe no catálogo enquanto você digita, com rolagem que carrega aos poucos, mesmo com milhares de itens.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-06"
+    },
+    {
+      "versao": "1.4.0",
+      "titulo": "O Als Copilot passa a ler documentos grandes",
+      "itens": [
+        "PDFs e textos guardados em Arquivos, mesmo os muito grandes, passam a ser lidos aos poucos em segundo plano.",
+        "Pergunte ao Als Copilot o que diz um documento, quantas vezes algo aparece nele e em que página está.",
+        "Os arquivos que já estavam guardados também entram na leitura.",
+        "Apagar um arquivo também apaga o que o sistema leu dele.",
+        "A janela de agentes prontos ganha abas por nicho e a escolha da conexão de WhatsApp de cada agente."
+      ],
+      "novidades": "O Als Copilot passa a ler documentos grandes PDFs e textos guardados em Arquivos, mesmo os muito grandes, passam a ser lidos aos poucos em segundo plano. Pergunte ao Als Copilot o que diz um documento, quantas vezes algo aparece nele e em que página está. Os arquivos que já estavam guardados também entram na leitura. Apagar um arquivo também apaga o que o sistema leu dele. A janela de agentes prontos ganha abas por nicho e a escolha da conexão de WhatsApp de cada agente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-06"
+    },
+    {
+      "versao": "1.3.0",
+      "titulo": "A Ronda vira a única e passar atendimento fica só por equipe",
+      "itens": [
+        "A Ronda passa a cobrar o corretor sozinha, sem chave de ligar; a ronda antiga saiu de vez.",
+        "A tela do Piloto Automático ficou mais simples: pausa, o que falta, últimas ações e dias e horários.",
+        "Passar atendimento agora é só por equipe: cada equipe diz o que atende (com \"ou\" e com reserva) e a categoria deixa de decidir.",
+        "Na tela de Passar atendimento dá para criar equipe e copiar a configuração de outra.",
+        "Ao atualizar, o que a versão anterior deixou pendente é apagado, e as categorias já configuradas viram regras de equipe."
+      ],
+      "novidades": "A Ronda vira a única e passar atendimento fica só por equipe A Ronda passa a cobrar o corretor sozinha, sem chave de ligar; a ronda antiga saiu de vez. A tela do Piloto Automático ficou mais simples: pausa, o que falta, últimas ações e dias e horários. Passar atendimento agora é só por equipe: cada equipe diz o que atende (com \"ou\" e com reserva) e a categoria deixa de decidir. Na tela de Passar atendimento dá para criar equipe e copiar a configuração de outra. Ao atualizar, o que a versão anterior deixou pendente é apagado, e as categorias já configuradas viram regras de equipe.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-05"
+    },
+    {
+      "versao": "1.2.0",
+      "titulo": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir",
+      "itens": [
+        "Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático.",
+        "A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado.",
+        "Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar).",
+        "Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento.",
+        "O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda."
+      ],
+      "novidades": "A Ronda: um agente que acompanha o dia a dia e cobra quem precisa agir Nova agente Ronda: passa pelos leads, lê a conversa, escreve o resumo e cobra o responsável pelo WhatsApp; se ele não responde depois de 3 voltas, leva o caso ao dono pelo Als Copilot. Vem desligada: o administrador liga no Piloto automático. A Ronda entende a resposta do responsável, inclusive por áudio, anota no card do lead e respeita o prazo que ele combinar para voltar a ser cobrado. Com o consentimento do responsável, a Ronda marca o lembrete na agenda dele; e ela pode colher ideias e entregá-las ao dono pelo Als Copilot (também desligado até o administrador ligar). Funcionário que está na lista de usuários não vira mais lead nem card, e não conversa com o agente de atendimento: ele recebe um aviso de que aquele número é só o canal de atendimento. O Als Copilot não desiste na primeira tentativa: pesquisa na internet, depois nas conexões e por fim no navegador, antes de pedir ajuda.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-05"
+    },
+    {
+      "versao": "1.1.0",
+      "titulo": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor",
+      "itens": [
+        "Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa.",
+        "O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento.",
+        "Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h.",
+        "O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio.",
+        "Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado."
+      ],
+      "novidades": "Agentes prontos: o atendimento nasce pronto e cuida do cliente do primeiro oi até a passagem ao corretor Novo botão para escolher um agente pronto de atendimento: ele já nasce com personalidade, regras e ferramentas, e o dono só acrescenta o que é da empresa. O agente pronto consulta o catálogo, atende quem chega por anúncio ou cola um link, e passa o atendimento ao responsável pelo item, seguindo as regras da tela Passar atendimento. Se o cliente para de responder, o agente volta a falar uma vez, depois de 15 minutos, e passa o atendimento se o silêncio continuar por mais 30 minutos. Só age das 8h às 20h. O cliente aparece no CRM desde a primeira mensagem. O agente registra no cartão o nome e o interesse e sobe a fase, mas nunca marca ganho ou perdido. Se uma pessoa assume a conversa, o agente fica em silêncio. Mudanças no banco só acrescentam tabelas e colunas: nada do que já existe é alterado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-03"
+    },
+    {
+      "versao": "1.0.86",
+      "titulo": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram",
+      "itens": [
+        "O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para.",
+        "Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais.",
+        "Histórico da personalidade do agente: veja as trocas e volte a um texto antigo.",
+        "O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto.",
+        "O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado).",
+        "O cabeçalho da conversa só mostra a pasta quando alguém a escolheu.",
+        "Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado.",
+        "O motor de IA foi atualizado para a versão mais nova."
+      ],
+      "novidades": "O modelo escolhido na tela passa a valer no WhatsApp e no Telegram O modelo que você escolhe para cada agente em Configurações → Modelos e perfis agora vale também no WhatsApp e no Telegram, e não só na conversa pela tela. Se o modelo escolhido deixar de existir, o agente usa o padrão e o atendimento não para. Quando o agente não consegue responder, a tela mostra o motivo de verdade: limite da assinatura, serviço sobrecarregado ou conversa longa demais. Histórico da personalidade do agente: veja as trocas e volte a um texto antigo. O link para assumir um atendimento ficou curto: chega por e-mail com link clicável e um código curto. O agente pode propor um compromisso e uma pessoa da equipe confirma (opcional, vem desligado). O cabeçalho da conversa só mostra a pasta quando alguém a escolheu. Trocar o tipo de um passo no editor de fluxo não apaga mais o título que já estava digitado. O motor de IA foi atualizado para a versão mais nova.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-02"
+    },
+    {
+      "versao": "1.0.85",
+      "titulo": "Passar atendimento fica mais direto, e o agente segue de recepção",
+      "itens": [
+        "Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção.",
+        "Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar).",
+        "O jeito antigo de passar atendimento pelos processos foi desativado.",
+        "O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda.",
+        "O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir."
+      ],
+      "novidades": "Passar atendimento fica mais direto, e o agente segue de recepção Passar o atendimento agora é assumir na hora: quem recebe já assume pelo cartão, sem esperar confirmação, e o agente segue atendendo pelo número da empresa como recepção. Uma tela só reúne tudo sobre passar atendimento, com as opções do processo e menus que abrem ao passar o mouse (com pino para fixar). O jeito antigo de passar atendimento pelos processos foi desativado. O aviso de 'atendimento sem resposta' que soava sozinho foi removido — quem cuida disso agora é a ronda. O navegador que o agente usa dentro da conversa ficou mais estável: não empilha card em cima de card, não fica na frente à toa e não é interrompido ao abrir.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-30"
+    },
+    {
+      "versao": "1.0.84",
+      "titulo": "O agente para de ofertar o produto errado do anúncio",
+      "itens": [
+        "Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar.",
+        "O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha."
+      ],
+      "novidades": "O agente para de ofertar o produto errado do anúncio Quando o agente confunde o tipo do anúncio (lote com casa, por exemplo), o sistema agora trava e obriga ele a buscar certo, em vez de só avisar e deixar passar. O agente passa a ler a frase de saudação que o WhatsApp mostra a quem clica no anúncio — mais precisa que o texto genérico da campanha.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-28"
+    },
+    {
+      "versao": "1.0.83",
+      "titulo": "Duas correções: uso visível pro dono e um agente que ficava calado à toa",
+      "itens": [
+        "O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado.",
+        "Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma."
+      ],
+      "novidades": "Duas correções: uso visível pro dono e um agente que ficava calado à toa O dono da empresa (titular) agora também vê a tela de Uso, com quanto da assinatura já foi usado. Corrigido: em alguns casos o agente da empresa (a conversa pessoal do dono com o Als Copilot) ficava sem responder por causa de um atendimento de cliente antigo, sem relação nenhuma.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-28"
+    },
+    {
+      "versao": "1.0.82",
+      "titulo": "Ajustes na narração e na voz ao vivo",
+      "itens": [
+        "A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot.",
+        "O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador."
+      ],
+      "novidades": "Ajustes na narração e na voz ao vivo A narração ('Vou conferir isso...') não aparece mais como mensagem separada no WhatsApp e Telegram — continua só na tela do Als Copilot. O botão de voz ao vivo agora também está disponível para o dono da empresa, não só para o administrador.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-27"
+    },
+    {
+      "versao": "1.0.81",
+      "titulo": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp",
+      "itens": [
+        "Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado.",
+        "Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link."
+      ],
+      "novidades": "O agente cadastra lead na hora, e a foto do catálogo chega certinha no WhatsApp Quando alguém pede para cadastrar um contato novo, o agente cadastra na hora — antes, em alguns casos, ele dizia que a tentativa foi recusada sem ter tentado. Foto de item cadastrado pela tela agora chega como imagem no WhatsApp, e não só como um link.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-27"
+    },
+    {
+      "versao": "1.0.80",
+      "titulo": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp",
+      "itens": [
+        "O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido.",
+        "Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador).",
+        "Não manda mensagem pra um lead que já foi passado pro corretor.",
+        "Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone)."
+      ],
+      "novidades": "Als Copilot sem trava de ferramenta, e lê o cartão de contato do WhatsApp O Als Copilot não fica mais bloqueado de nenhuma ferramenta inteira — cadastra lead e fala com o cliente quando pedido. Ele nunca cadastra como lead quem está falando com ele (o dono ou o administrador). Não manda mensagem pra um lead que já foi passado pro corretor. Contato compartilhado pelo WhatsApp agora é lido certinho (nome e telefone).",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-27"
+    },
+    {
+      "versao": "1.0.79",
+      "titulo": "O agente lê Word e Excel, e passar o atendimento cala o agente",
+      "itens": [
+        "O agente agora lê arquivos Word (.docx) e Excel (.xlsx) que chegam pelo WhatsApp e pelo Telegram.",
+        "Passou o atendimento para alguém, o agente não fala mais com o cliente: quem recebeu é cobrado, e existe como devolver a conversa ao agente.",
+        "O card do cliente mostra a foto de quem está atendendo, e lead perdido não recebe mais cobrança.",
+        "Novo cérebro opcional, com crédito medido em reais, desligado por padrão."
+      ],
+      "novidades": "O agente lê Word e Excel, e passar o atendimento cala o agente O agente agora lê arquivos Word (.docx) e Excel (.xlsx) que chegam pelo WhatsApp e pelo Telegram. Passou o atendimento para alguém, o agente não fala mais com o cliente: quem recebeu é cobrado, e existe como devolver a conversa ao agente. O card do cliente mostra a foto de quem está atendendo, e lead perdido não recebe mais cobrança. Novo cérebro opcional, com crédito medido em reais, desligado por padrão.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-26"
+    },
+    {
+      "versao": "1.0.78",
+      "novidades": "O agente lembra do aviso que ele mesmo mandou e fala como gente: o recado ao dono passa a ser gravado na conversa (era por isso que ele perguntava 'qual cliente?' quando o dono respondia), a saudação vira 'Bom dia, Fulano! Tudo bem?' pela hora de quem lê, e os textos da ronda perdem o tom de robô. Vai junto o menu lateral reagrupado e a saída do cérebro DeepSeek de todo lugar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-26"
+    },
+    {
+      "versao": "1.0.77",
+      "titulo": "Relatórios, painel mais claro e atendimento que não perde mensagem",
+      "itens": [
+        "Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios.",
+        "A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado.",
+        "Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar.",
+        "Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois.",
+        "Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil.",
+        "O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita.",
+        "Agora dá para apagar uma tarefa, com confirmação."
+      ],
+      "novidades": "Relatórios, painel mais claro e atendimento que não perde mensagem Nova tela de Relatórios, com gráficos e exportação em planilha, PDF e imagem. O Als Copilot também gera os relatórios. A Visão geral virou um painel de verdade, com gráficos, e mostra em reais só o que já foi fechado. Durante uma atualização, a mensagem que chega não se perde: o atendimento espera o sistema voltar. Se o Als Copilot ficar fora do ar, o cliente recebe uma frase de espera, e o atendimento é retomado depois. Ao responder uma cobrança, a equipe também qualifica o negócio, e o Als Copilot sempre pergunta antes de tirar um contato do funil. O resumo de cada item do catálogo é refeito sozinho quando você cadastra ou edita. Agora dá para apagar uma tarefa, com confirmação.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-26"
+    },
+    {
+      "versao": "1.0.76",
+      "titulo": "O agente resume cada item do catálogo",
+      "itens": [
+        "Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo.",
+        "Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item."
+      ],
+      "novidades": "O agente resume cada item do catálogo Depois de importar os itens, um agente lê cada um e escolhe o que importa para a lista: preço, medidas, diferenciais e um resumo. Na lista, o agente vê o cartão do item com foto de capa; para os detalhes ele abre o item.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
+    {
+      "versao": "1.0.75",
+      "titulo": "O agente não trava e lê o catálogo inteiro",
+      "itens": [
+        "Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos.",
+        "Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa.",
+        "O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo."
+      ],
+      "novidades": "O agente não trava e lê o catálogo inteiro Se o modelo travar no meio da resposta, o agente tenta de novo sozinho em outro modelo, em até 3 minutos. Na lista do catálogo, cada item vem com todos os dados curtos e a foto de capa; o agente abre o item para ver a ficha completa. O agente recebe a lista completa que um serviço externo devolve — códigos e links —, e não só o resumo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
+    {
+      "versao": "1.0.74",
+      "titulo": "A lista de modelos fica em dia com o cérebro novo",
+      "itens": [
+        "Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada."
+      ],
+      "novidades": "A lista de modelos fica em dia com o cérebro novo Modelos novos da assinatura aparecem na tela de agentes e passam a valer na conversa, sem precisar reiniciar nada.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
+    {
+      "versao": "1.0.73",
+      "titulo": "O Als Copilot da tela volta a responder com o cérebro novo",
+      "itens": [
+        "Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa."
+      ],
+      "novidades": "O Als Copilot da tela volta a responder com o cérebro novo Serviços externos que usam a versão mais nova do protocolo de ferramentas não impedem mais o agente de abrir a conversa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
+    {
+      "versao": "1.0.72",
+      "titulo": "O cérebro novo passa a vir em toda instalação (desligado)",
+      "itens": [
+        "O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento.",
+        "Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado."
+      ],
+      "novidades": "O cérebro novo passa a vir em toda instalação (desligado) O cérebro novo do agente agora vem em toda versão e sobe junto com o sistema; continua desligado por padrão, e nada muda no atendimento. Instalações novas já nascem com o cérebro novo incluído, pronto para ser ligado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
+    {
+      "versao": "1.0.71",
+      "titulo": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado)",
+      "itens": [
+        "O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado.",
+        "A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem.",
+        "Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre.",
+        "Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade.",
+        "A equipe da empresa volta a poder conversar com os agentes de atendimento.",
+        "Uma falha nas contas conectadas não tira mais os plugins do agente."
+      ],
+      "novidades": "Atendimento mais certeiro, fotos do catálogo e o cérebro novo (desligado) O cérebro novo do agente vem incluído, mas desligado por padrão: nada muda no atendimento até ele ser ligado. A busca do catálogo diz qual filtro zerou o resultado e quais categorias existem, para o agente não concluir que a empresa não tem o que tem. Ao mandar foto do catálogo, o agente consulta de novo em vez de repetir um link antigo que já não abre. Nova caixinha 'Gerar imagem' na tela de Agentes: cada agente pode ganhar essa capacidade. A equipe da empresa volta a poder conversar com os agentes de atendimento. Uma falha nas contas conectadas não tira mais os plugins do agente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-25"
+    },
+    {
+      "versao": "1.0.70",
+      "titulo": "A busca do catálogo acha lotes e imóveis sem preço",
+      "itens": [
+        "Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço.",
+        "A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio."
+      ],
+      "novidades": "A busca do catálogo acha lotes e imóveis sem preço Item sem preço (sob consulta) não some mais quando a busca é ordenada por preço. A resposta da busca diz em quais categorias estão os itens achados, para o agente refinar pelo tipo do anúncio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-24"
+    },
+    {
+      "versao": "1.0.69",
+      "titulo": "Anúncio de lote não recebe mais casa",
+      "itens": [
+        "Quem chega por um anúncio só recebe imóvel do mesmo tipo do anúncio (lote, apartamento, casa em condomínio, casa de bairro).",
+        "Sem imóvel do tipo do anúncio no catálogo, o atendimento passa direto ao responsável, sem o agente tentar atender."
+      ],
+      "novidades": "Anúncio de lote não recebe mais casa Quem chega por um anúncio só recebe imóvel do mesmo tipo do anúncio (lote, apartamento, casa em condomínio, casa de bairro). Sem imóvel do tipo do anúncio no catálogo, o atendimento passa direto ao responsável, sem o agente tentar atender.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-24"
+    },
+    {
+      "versao": "1.0.68",
+      "titulo": "O agente fica mais preciso: quem responde, fotos e a hora certa",
+      "itens": [
+        "O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe.",
+        "As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido.",
+        "A mensagem de retomada, quando o cliente some, agora sabe a hora certa."
+      ],
+      "novidades": "O agente fica mais preciso: quem responde, fotos e a hora certa O agente diz quem responde por cada item do catálogo, sem inventar nome quando não sabe. As fotos do catálogo chegam certas pelo WhatsApp — o link quebrado foi corrigido. A mensagem de retomada, quando o cliente some, agora sabe a hora certa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-23"
+    },
+    {
+      "versao": "1.0.67",
+      "titulo": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo",
+      "itens": [
+        "Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar.",
+        "Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio.",
+        "O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome.",
+        "Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado.",
+        "O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está.",
+        "A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha."
+      ],
+      "novidades": "O navegador do agente passa a ser seu também, e desligar as ideias desliga tudo Agora você pode ver o navegador do agente quando quiser, e assumir o controle dele — inclusive no meio do trabalho, sem precisar esperar ele terminar. Quando o agente não consegue responder, a conversa mostra o motivo no lugar da resposta, em vez de um espaço vazio. O arquivo que o agente entrega aparece com o ícone do tipo dele e o nome de verdade, no lugar de um cartão cinza sem nome. Desligar \"Pensar em ideias\" agora para tudo: as ideias novas, o resumo pelo WhatsApp e as cobranças das que ficaram esperando. E o botão de pedir ideias fica apagado, com o motivo do lado. O agente deixa de dizer que não tem navegador quando tem — e, quando de fato não dá, ele explica por quê em vez de mandar você para onde você já está. A espera ganhou companhia: o robozinho animado no lugar do ícone antigo, e o selo do agente sai de cena enquanto ele trabalha.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-21"
+    },
+    {
+      "versao": "1.0.66",
+      "titulo": "A janela ao vivo do navegador volta a abrir",
+      "itens": [
+        "O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum.",
+        "Toda atualização agora manda o porteiro reler a configuração."
+      ],
+      "novidades": "A janela ao vivo do navegador volta a abrir O porteiro da instalação passou a enxergar a configuração nova de verdade: até aqui ele lia um arquivo congelado no dia em que subiu, e a janela do navegador do agente ficava preta, sem erro nenhum. Toda atualização agora manda o porteiro reler a configuração.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-21"
+    },
+    {
+      "versao": "1.0.65",
+      "titulo": "O pedido de permissão do Meta Ads, enxuto",
+      "itens": [
+        "O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro.",
+        "A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele."
+      ],
+      "novidades": "O pedido de permissão do Meta Ads, enxuto O login das conexões diretas passa a pedir só as permissões que o conector de anúncios usa. Antes ele pedia duas a mais, e o serviço recusava o pedido inteiro. A tela de Configurações → Conexões diz qual caso de uso escolher ao criar o aplicativo, e o que acontece sem ele.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
+    {
+      "versao": "1.0.64",
+      "titulo": "O endereço de retorno das conexões diretas",
+      "itens": [
+        "Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada.",
+        "A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço."
+      ],
+      "novidades": "O endereço de retorno das conexões diretas Conserta o login das conexões diretas, que era recusado pelo serviço com a mensagem de que a URL não podia ser carregada. A tela de Configurações → Conexões agora mostra o endereço de retorno desta instalação, com botão de copiar, para cadastrar no aplicativo do serviço.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
+    {
+      "versao": "1.0.63",
+      "titulo": "Conexões diretas: o Meta Ads sem intermediário",
+      "itens": [
+        "Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads.",
+        "O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho.",
+        "Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão.",
+        "A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela.",
+        "Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo."
+      ],
+      "novidades": "Conexões diretas: o Meta Ads sem intermediário Uma faixa nova no topo da tela Conexões reúne os serviços que falam direto com a fonte. O primeiro morador é o Meta Ads. O Meta Ads passa a conectar pelo aplicativo da própria empresa: cada pessoa entra com a conta dela, e nada de intermediário no caminho. Conexões agora aparece fixo no menu para o dono da empresa. Para os demais da equipe, o dono libera na permissão. A lista de serviços carrega 16 por vez, e traz mais 16 conforme você rola a tela. Quando um serviço de fora recusa alguma coisa, o motivo fica guardado. Antes ele se perdia, e sobrava só o aviso de que não deu certo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
+    {
+      "versao": "1.0.62",
+      "titulo": "O agente sabe quando usar a conexão oficial e quando usar o navegador",
+      "itens": [
+        "Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta.",
+        "Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua.",
+        "Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial."
+      ],
+      "novidades": "O agente sabe quando usar a conexão oficial e quando usar o navegador Tendo conexão oficial para o serviço, o Als Copilot usa a conexão — o navegador é mais lento e fica para quando faz falta. Quando a conexão de um serviço falha, ele diz o que falhou, manda o link da tela de Contas conectadas e PERGUNTA se você quer que ele tente pelo navegador. A escolha é sua. Site ou sistema próprio da sua empresa (um portal, um painel interno): aí o navegador é o caminho normal, porque para esses não existe conexão oficial.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
+    {
+      "versao": "1.0.61",
+      "titulo": "O navegador do agente baixa PDF",
+      "itens": [
+        "Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum.",
+        "A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB."
+      ],
+      "novidades": "O navegador do agente baixa PDF Quando o Als Copilot baixa um PDF de um site, ele agora vai para a tela Arquivos. Antes o PDF só aparecia na tela do navegador e não chegava a lugar nenhum. A atualização ficou mais leve: a imagem do Als Copilot encolheu 56 MB.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
+    {
+      "versao": "1.0.60",
+      "titulo": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela",
+      "itens": [
+        "O Als Copilot pode usar um navegador de verdade: entrar num site, preencher, baixar um arquivo. Acontece na tela de conversa, você vê ao vivo e assume quando ele pedir login ou código. Nasce DESLIGADO — quem liga é o administrador, na tela de Uso.",
+        "O que ele baixa vai para a tela Arquivos. E um arquivo da empresa só sai para um site com o seu Sim, num cartão que aparece na conversa.",
+        "Contas conectadas virou uma tela só: cada pessoa conecta as contas dela, fica uma conta por serviço, e o agente manda o link dessa tela em vez de pedir autorização no meio da conversa.",
+        "Quem não é dono nem administrador também consegue conectar as contas dele e usar as instruções da empresa falando com o Als Copilot pelo WhatsApp.",
+        "PDF, planilha e documento de texto enviados pelo WhatsApp e pelo Telegram agora chegam ao agente."
+      ],
+      "novidades": "O Als Copilot usa um navegador, e cada pessoa conecta as contas dela O Als Copilot pode usar um navegador de verdade: entrar num site, preencher, baixar um arquivo. Acontece na tela de conversa, você vê ao vivo e assume quando ele pedir login ou código. Nasce DESLIGADO — quem liga é o administrador, na tela de Uso. O que ele baixa vai para a tela Arquivos. E um arquivo da empresa só sai para um site com o seu Sim, num cartão que aparece na conversa. Contas conectadas virou uma tela só: cada pessoa conecta as contas dela, fica uma conta por serviço, e o agente manda o link dessa tela em vez de pedir autorização no meio da conversa. Quem não é dono nem administrador também consegue conectar as contas dele e usar as instruções da empresa falando com o Als Copilot pelo WhatsApp. PDF, planilha e documento de texto enviados pelo WhatsApp e pelo Telegram agora chegam ao agente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-20"
+    },
+    {
+      "versao": "1.0.59",
+      "titulo": "Quem é da equipe não vira cliente no WhatsApp de atendimento",
+      "itens": [
+        "Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes.",
+        "Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado."
+      ],
+      "novidades": "Quem é da equipe não vira cliente no WhatsApp de atendimento Quando alguém da equipe escreve no WhatsApp de atendimento da empresa, o agente reconhece a pessoa pelo telefone do cadastro, não cria cadastro de cliente nem passa o atendimento a ninguém, e responde que aquele número é o de atendimento aos clientes. Leva também o conserto da 1.0.58: o agente não volta a procurar cliente de negócio encerrado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-19"
+    },
+    {
+      "versao": "1.0.58",
+      "titulo": "O agente não volta a procurar cliente de negócio encerrado",
+      "itens": [
+        "Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora.",
+        "Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora."
+      ],
+      "novidades": "O agente não volta a procurar cliente de negócio encerrado Quando um cliente para de responder, o agente só volta a falar com ele se o negócio continua em aberto: negócio perdido, ganho ou num card de perdido ou concluído fica de fora. Se uma retomada já estava em andamento e o negócio é encerrado, ela para na hora.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-19"
+    },
+    {
+      "versao": "1.0.57",
+      "titulo": "O agente volta ao cliente que parou de responder",
+      "itens": [
+        "Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias).",
+        "A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento.",
+        "Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina.",
+        "A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio."
+      ],
+      "novidades": "O agente volta ao cliente que parou de responder Quando o agente escreve por último e o cliente some, quem estava atendendo volta a falar com ele nos prazos que você escolhe no Piloto automático (de fábrica: 1 hora, 1 dia, 3 dias e 7 dias). A escada é conferida a cada 5 minutos, qualquer que seja a frequência da verificação, e respeita o horário de atendimento. Sem resposta depois da última tentativa, o lead fica frio; se o cliente responder, a escada termina. A pergunta à equipe sobre o atendimento passa a usar o nome do cliente, e não o título do negócio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
+    {
+      "versao": "1.0.56",
+      "titulo": "O agente pergunta à equipe como foi o atendimento e atualiza o funil",
+      "itens": [
+        "Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela.",
+        "Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa.",
+        "A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação.",
+        "A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes.",
+        "Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo.",
+        "As instruções das skills não têm mais o limite de 4.000 caracteres."
+      ],
+      "novidades": "O agente pergunta à equipe como foi o atendimento e atualiza o funil Depois de passar um atendimento, ninguém é mais cobrado para \"assumir\" na tela. Duas horas depois, o Als Copilot pergunta pelo WhatsApp a quem recebeu como foi — uma mensagem só, com todos os clientes da pessoa. A pessoa responde do jeito dela, e o card anda sozinho: muda de etapa, ganha a próxima ação e a anotação. A equipe pode responder ao Als Copilot, mas só enxerga e mexe nos próprios clientes. Sem resposta, a pergunta volta e, depois de três vezes, o dono fica sabendo. As instruções das skills não têm mais o limite de 4.000 caracteres.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
+    {
+      "versao": "1.0.55",
+      "titulo": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido",
+      "itens": [
+        "O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido.",
+        "Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele.",
+        "Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento.",
+        "O valor no topo do funil soma só os negócios em andamento.",
+        "Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez.",
+        "O agente abre planilhas anexadas e faz contas nelas.",
+        "Correção: o agente voltou a responder a quem trabalha com arquivos.",
+        "O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo."
+      ],
+      "novidades": "O funil ganha quatro cards fixos, e o agente para de procurar lead perdido O funil passa a ter quatro cards fixos: Novo Lead, Em Atendimento, Venda Concluída e Lead Perdido. Negócio em Lead Perdido não recebe mais mensagem do agente, e ninguém da equipe é cobrado por ele. Se o lead perdido escrever de novo, ele volta sozinho para Em Atendimento. O valor no topo do funil soma só os negócios em andamento. Fotos mandadas pelo WhatsApp podem ser repassadas pelo agente a outros serviços, todas de uma vez. O agente abre planilhas anexadas e faz contas nelas. Correção: o agente voltou a responder a quem trabalha com arquivos. O recado ao dono não mostra mais \"Funcionário\", e o dono não é cobrado por ele mesmo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
+    {
+      "versao": "1.0.54",
+      "titulo": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede",
+      "itens": [
+        "Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça.",
+        "Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou.",
+        "Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento.",
+        "Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher.",
+        "Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa."
+      ],
+      "novidades": "O agente abre links, o funil diz a verdade, e o serviço de fora recebe o que pede Cole um link na conversa: o agente abre a página, lê o que há nela, vê as imagens e usa a foto real ao montar a peça. Passar um atendimento passa a marcar quem responde pelo negócio no funil — e o card não nasce mais batizado com o nome de quem anunciou. Planilha grande anexada na conversa entra pelo servidor, sem travar o atendimento. Arquivo de até 500 MB na pasta de Arquivos, com barra de progresso e retomada — e o espaço do servidor à vista na tela de Uso, com aviso antes de encher. Serviço de fora: dá para cadastrar os cabeçalhos e os campos que ele exige, e mandar o telefone de quem está falando a cada conversa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-18"
+    },
+    {
+      "versao": "1.0.53",
+      "titulo": "As fotos, o lembrete do compromisso e o agente que sumiu",
+      "itens": [
+        "Quem manda um álbum de fotos recebe UMA resposta, sobre o conjunto — e não uma resposta por foto.",
+        "Compromisso nasce com lembrete ligado, e o aviso chega pelo WhatsApp e por e-mail, na antecedência que você escolher (de 5 minutos a 1 dia).",
+        "O lembrete parou de chegar duas vezes.",
+        "Conversa presa a um agente que não existe mais aparece no topo da tela de Agentes, e o Als Copilot avisa você para escolher quem assume.",
+        "Remover um agente passou a perguntar quem herda as conversas dele, em vez de deixá-las sem dono.",
+        "O agente classifica itens do catálogo em categorias, criando a categoria quando ela ainda não existe.",
+        "A tela de Conexões diz quando cada conexão começou e se o agente realmente alcança o serviço."
+      ],
+      "novidades": "As fotos, o lembrete do compromisso e o agente que sumiu Quem manda um álbum de fotos recebe UMA resposta, sobre o conjunto — e não uma resposta por foto. Compromisso nasce com lembrete ligado, e o aviso chega pelo WhatsApp e por e-mail, na antecedência que você escolher (de 5 minutos a 1 dia). O lembrete parou de chegar duas vezes. Conversa presa a um agente que não existe mais aparece no topo da tela de Agentes, e o Als Copilot avisa você para escolher quem assume. Remover um agente passou a perguntar quem herda as conversas dele, em vez de deixá-las sem dono. O agente classifica itens do catálogo em categorias, criando a categoria quando ela ainda não existe. A tela de Conexões diz quando cada conexão começou e se o agente realmente alcança o serviço.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-17"
+    },
+    {
+      "versao": "1.0.52",
+      "titulo": "O funil mostra todos os negócios, sem limite",
+      "itens": [
+        "O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem.",
+        "Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim.",
+        "O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela.",
+        "A visão em Lista ganhou páginas, com o total ao lado."
+      ],
+      "novidades": "O funil mostra todos os negócios, sem limite O CRM só carregava 200 negócios abertos e escondia o resto sem avisar. Agora não há limite: todos aparecem. Cada fase do funil rola por dentro e busca mais negócios conforme você desce, em vez de virar uma lista sem fim. O topo de cada fase mostra quantos negócios ela tem de verdade, e não só os que estão na tela. A visão em Lista ganhou páginas, com o total ao lado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-17"
+    },
+    {
+      "versao": "1.0.51",
+      "titulo": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar",
+      "itens": [
+        "Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou.",
+        "Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada.",
+        "O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar.",
+        "Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou.",
+        "A conversa não se perde mais quando o motor reinicia no meio de uma resposta.",
+        "Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
+        "Cada contato ganha um perfil montado sozinho a partir da conversa: de onde é, o que procura, o que o preocupa e por onde chegou — sem o agente precisar perguntar nada a mais.",
+        "Quando alguém da equipe escreve para o Als Copilot pelo WhatsApp, é a MESMA conversa que aparece na tela: o que você falou no celular continua no computador, e o que você pode ver é o mesmo nos dois.",
+        "O agente passou a saber que tem as ferramentas de conexão que já estavam ligadas para ele — antes ele as recebia e não sabia usar."
+      ],
+      "novidades": "O Als Copilot ganha iniciativa própria: ele confere o sistema sozinho e manda ideias para você aprovar Piloto automático: de tempos em tempos o Als Copilot confere o sistema inteiro — CRM, Atendimentos, Tarefas e Workflows — e destrava o que parou. Ele age sozinho no que é tarefa do sistema: anda com o funil, cobra quem está devendo e manda o agente retomar a conversa parada. O que precisa da sua aprovação vira ideia: ela chega pelo WhatsApp e você responde com o número para aprovar. Diário do piloto: o que ele viu, o que fez e o efeito real de cada coisa — quando o envio falha, a linha diz que falhou. A conversa não se perde mais quando o motor reinicia no meio de uma resposta. Processo que quebra ao voltar de uma espera agora termina como falha, e deixa de ficar parado para sempre.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-17"
+    },
+    {
+      "versao": "1.0.50",
+      "titulo": "O Als Copilot cria artes com a sua marca e sugere o próximo passo",
+      "itens": [
+        "Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa.",
+        "Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas.",
+        "O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências.",
+        "Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente.",
+        "Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta.",
+        "Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM.",
+        "A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais.",
+        "O reaquecimento automático de leads foi desligado."
+      ],
+      "novidades": "O Als Copilot cria artes com a sua marca e sugere o próximo passo Nova tela Empresa: dados, logo e metas, que o agente passa a conhecer em toda conversa. Arquivos ganha o Mídia Kit (versões do logo, mascote, cores e material), as Referências e as Peças Geradas. O agente cria posts e anúncios com o logo verdadeiro, no estilo das artes que você guardou em Referências. Posts de produtos do catálogo com a foto real, o preço conferido com o catálogo e o logo, montados pelo próprio agente. Na conversa, bolhas embaixo da resposta sugerem o próximo passo; no WhatsApp e no Telegram, perguntas no fim da resposta. Vincular alguém a um atendimento abre a passagem completa: cartão com resumo, e-mail, aviso e o lead no CRM. A imagem criada pelo agente continua na conversa ao reabrir, e os arquivos não expiram mais. O reaquecimento automático de leads foi desligado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-15"
+    },
+    {
+      "versao": "1.0.49",
+      "titulo": "O agente espera você terminar de falar",
+      "itens": [
+        "Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando.",
+        "Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto.",
+        "O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu.",
+        "Atualizar a instalação deixou de apagar a memória das conversas em andamento.",
+        "O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes."
+      ],
+      "novidades": "O agente espera você terminar de falar Quem escreve em pedaços recebe uma resposta só — antes o agente respondia cada mensagem como se fosse outra pessoa falando. Se a pessoa volta a digitar enquanto o agente pensa, ele para e refaz a resposta com tudo junto. O agente não se apresenta de novo a cada mensagem, e não repete pergunta que a pessoa já respondeu. Atualizar a instalação deixou de apagar a memória das conversas em andamento. O cérebro do agente foi atualizado, e o modelo mais novo passa a aparecer na lista da tela de Agentes.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-13"
+    },
+    {
+      "versao": "1.0.48",
+      "titulo": "Consertos no agente e a nova tela de Uso",
+      "itens": [
+        "O agente não marca mais compromisso para uma data que já passou — antes ele marcava e dizia que tinha dado certo.",
+        "Com duas negociações de mesmo nome, o agente pergunta qual é, em vez de escolher uma em silêncio.",
+        "O lembrete anotado na conversa não se perde mais quando o agente falha na hora de gravar.",
+        "Renomear uma equipe deixava o processo sem encontrar ninguém; agora ele continua achando.",
+        "O Als Copilot não trava mais em silêncio quando muita gente usa ao mesmo tempo.",
+        "A tela de Custos, que mostrava sempre zero, virou a tela Uso: uma barra com quanto da assinatura já foi consumido.",
+        "O banco passa a garantir uma empresa por instalação."
+      ],
+      "novidades": "Consertos no agente e a nova tela de Uso O agente não marca mais compromisso para uma data que já passou — antes ele marcava e dizia que tinha dado certo. Com duas negociações de mesmo nome, o agente pergunta qual é, em vez de escolher uma em silêncio. O lembrete anotado na conversa não se perde mais quando o agente falha na hora de gravar. Renomear uma equipe deixava o processo sem encontrar ninguém; agora ele continua achando. O Als Copilot não trava mais em silêncio quando muita gente usa ao mesmo tempo. A tela de Custos, que mostrava sempre zero, virou a tela Uso: uma barra com quanto da assinatura já foi consumido. O banco passa a garantir uma empresa por instalação.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-13"
+    },
+    {
+      "versao": "1.0.47",
+      "titulo": "Equipes por área, arquivos na conversa e cobrança mais justa",
+      "itens": [
+        "Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo.",
+        "Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito.",
+        "Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto.",
+        "A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade.",
+        "Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários.",
+        "Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa.",
+        "A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber.",
+        "Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença.",
+        "O dono da empresa grava sozinho o 'quando usar este processo'.",
+        "Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp."
+      ],
+      "novidades": "Equipes por área, arquivos na conversa e cobrança mais justa Nova tela de Equipes: crie um grupo por área que a sua empresa atende, veja quem está em cada um e coloque ou tire pessoas por ali mesmo. Quem administra a empresa passa a criar e organizar as equipes sozinho — antes isso não tinha onde ser feito. Ao apagar uma equipe que tem conversas, o sistema pergunta para qual equipe elas vão e move tudo junto. A imagem enviada aparece na própria conversa, e a tela de Arquivos envia, lista, abre, baixa e apaga de verdade. Quem administra troca a foto de qualquer pessoa da equipe, clicando no retrato dela na lista de Usuários. Tocar em 'Falar com o lead agora' no cartão já conta como atendimento assumido: a cobrança para na hora e ninguém é avisado à toa. A conversa passa a dizer quando o cartão não chegou no celular de quem deveria receber. Os processos do agente voltam a funcionar sem frase de convite: ele passa o atendimento e avisa, em vez de pedir licença. O dono da empresa grava sozinho o 'quando usar este processo'. Arquivo anexado pelo dono da empresa volta a ficar guardado, e o aviso por e-mail não sai quando o recado já chegou pelo WhatsApp.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-12"
+    },
+    {
+      "versao": "1.0.46",
+      "titulo": "O processo agora se liga ao agente sem sair da tela",
+      "itens": [
+        "Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar.",
+        "O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima.",
+        "Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora."
+      ],
+      "novidades": "O processo agora se liga ao agente sem sair da tela Ao marcar um processo na aba Workflows do agente, aparece o campo \"Quando o agente deve usar este processo\" — é por ele que o agente reconhece a hora de acionar. O campo da frase do convite ganhou rótulo próprio, para não ser confundido com o de cima. Salvar sem preencher é avisado na hora, na própria tela, em vez de o agente ser salvo com o processo de fora.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
+    {
+      "versao": "1.0.45",
+      "titulo": "A permissão de internet do agente passa a valer de verdade",
+      "itens": [
+        "Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito.",
+        "O Als Copilot continua pesquisando normalmente."
+      ],
+      "novidades": "A permissão de internet do agente passa a valer de verdade Agente sem a caixinha de internet marcada não pesquisa mais na web — antes a caixinha aparecia na tela e o agente pesquisava do mesmo jeito. O Als Copilot continua pesquisando normalmente.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
+    {
+      "versao": "1.0.44",
+      "titulo": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso",
+      "itens": [
+        "A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado.",
+        "O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho."
+      ],
+      "novidades": "A atualização deixa o WhatsApp conectado, e o pedido da chave não fica mais preso A ponte do WhatsApp, o motor e o transcritor não são mais reiniciados quando a versão nova não os mudou: só o que mudou é trocado. O pedido de gerar a chave de segurança passa a registrar o resultado no servidor, e um pedido interrompido é encerrado sozinho.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
+    {
+      "versao": "1.0.43",
+      "titulo": "O agente lê seus arquivos, e o cartão passa a saber se chegou",
+      "itens": [
+        "Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo.",
+        "Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois.",
+        "Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item.",
+        "O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado.",
+        "Em instalação nova, a última fase do funil nasce como Lead Perdido."
+      ],
+      "novidades": "O agente lê seus arquivos, e o cartão passa a saber se chegou Arquivos .yaml e .yml agora podem ser anexados na conversa — antes a tela recusava dizendo que o agente não conseguia abrir, mesmo ele conseguindo. Um processo com passo mal preenchido não pode mais ser ligado num agente: o sistema recusa e diz o que arrumar, em vez de deixar o agente falhar depois. Quando o agente recusa passar um atendimento, a explicação passa a apontar o lugar certo — o desenho do processo, e não a ficha do item. O cartão de passagem guarda a confirmação de entrega do WhatsApp: dá para saber se chegou no celular de quem vai atender, e não só se foi enviado. Em instalação nova, a última fase do funil nasce como Lead Perdido.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
+    {
+      "versao": "1.0.42",
+      "titulo": "A atualização para de mentir quando algo dá errado",
+      "itens": [
+        "Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo.",
+        "Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado.",
+        "Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial."
+      ],
+      "novidades": "A atualização para de mentir quando algo dá errado Se o download da versão nova falhar, a atualização para e avisa — antes ela montava o sistema no próprio servidor e dizia que tinha dado certo. Voltar para a versão anterior volta a funcionar mesmo dias depois, buscando de novo o que o servidor tiver apagado. Depois de atualizar, o sistema confere se TUDO voltou — WhatsApp, áudio e endereço do site incluídos, e não só o essencial.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-10"
+    },
+    {
+      "versao": "1.0.41",
+      "titulo": "Correção urgente: gerar a chave de segurança não derruba mais a instalação",
+      "itens": [
+        "Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava.",
+        "Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro."
+      ],
+      "novidades": "Correção urgente: gerar a chave de segurança não derruba mais a instalação Corrigido o problema que derrubava o sistema ao gerar a chave de segurança pela tela — o servidor recriava os serviços com caminhos errados e a aplicação não voltava. Se você estava esperando para gerar a chave, agora pode: atualize para esta versão primeiro.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.40",
+      "titulo": "Gerar a chave de segurança pela tela, agora funcionando de verdade",
+      "itens": [
+        "O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio.",
+        "Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava."
+      ],
+      "novidades": "Gerar a chave de segurança pela tela, agora funcionando de verdade O botão de gerar a chave de segurança funciona: nas versões anteriores o servidor tentava reconstruir o sistema em vez de usar o que já estava instalado, e a operação parava no meio. Quando algo dá errado nesse ajuste, a tela passa a mostrar o motivo de verdade — antes aparecia uma mensagem genérica que não ajudava.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.39",
+      "titulo": "O botão de gerar a chave de segurança agora funciona",
+      "itens": [
+        "Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar.",
+        "Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa."
+      ],
+      "novidades": "O botão de gerar a chave de segurança agora funciona Gerar a chave de segurança pela tela funciona — na versão anterior o servidor não tinha a ferramenta que cria a chave, e a tela ficava girando sem terminar. Quando algo dá errado ao ajustar o servidor, a tela agora avisa e deixa tentar de novo, em vez de ficar presa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.38",
+      "titulo": "O agente volta a criar imagens, e a tela resolve a segurança sozinha",
+      "itens": [
+        "O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso.",
+        "Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança.",
+        "Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora.",
+        "Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível.",
+        "O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora."
+      ],
+      "novidades": "O agente volta a criar imagens, e a tela resolve a segurança sozinha O agente voltou a criar imagens quando você pede — ele estava sendo impedido de ler as próprias instruções de desenho, e respondia que não tinha acesso. Configurações → Segurança deixou de ser uma aba vazia: agora mostra se a instalação consegue guardar senhas e chaves com segurança. Quando falta a chave de segurança do servidor, dá para gerar pela própria tela — antes era preciso mexer no servidor por fora. Ligar as conexões passou a dizer o motivo quando não dá certo, em vez de só avisar que não foi possível. O sistema deixou de perguntar ao servidor a cada 30 segundos se era hora de se atualizar; agora pergunta de hora em hora.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.37",
+      "titulo": "A tela de Atualizações conta o que mudou",
+      "itens": [
+        "A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida.",
+        "Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido.",
+        "O texto do que mudou não é mais cortado no meio de uma palavra.",
+        "Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo.",
+        "Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais."
+      ],
+      "novidades": "A tela de Atualizações conta o que mudou A lista de versões mostra as últimas 10, e cada uma aparece só uma vez — antes a mesma versão saía repetida. Cada versão traz uma frase que resume e o que mudou em tópicos, em vez de um parágrafo corrido. O texto do que mudou não é mais cortado no meio de uma palavra. Nas Atualizações há um interruptor para o sistema se atualizar sozinho de madrugada, quando ninguém está atendendo. Atualizar ficou mais leve: o que não mudou de uma versão para outra não reinicia mais.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.36",
+      "novidades": "O cartão de atendimento volta a chegar no WhatsApp de quem vai atender — ele estava saindo para um endereço que o WhatsApp aceita e ninguém recebe, e o sistema dava como entregue. O Als Copilot passa a cadastrar, atualizar e desativar itens do catálogo a partir de uma planilha mandada na conversa. Mandando várias mensagens seguidas, o agente responde uma vez só, entendendo o conjunto. Sair da tela não perde mais a resposta em andamento, e o menu mostra quando ele está trabalhando. As respostas no WhatsApp ficaram mais limpas e sem tabelas quebradas, e quando o item não está no catálogo ele oferece procurar na internet. O processo do agente pode começar sozinho assim que o cliente escreve.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.35",
+      "novidades": "A foto de cada item aparece com os dados dele, e não com os do item seguinte. Pedindo várias fotos, elas chegam juntas num álbum. Na caixa de Atendimentos as fotos entram pequenas, e clicar abre em tamanho grande.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-09"
+    },
+    {
+      "versao": "1.0.34",
+      "novidades": "O agente conversa antes de perguntar, em vez de emendar perguntas comerciais logo no começo. E quando fala de um item do catálogo, mostra a foto na conversa em vez de mandar só o link.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-08"
+    },
+    {
+      "versao": "1.0.33",
+      "novidades": "O agente agora cumpre a espera do processo: quando ele diz que volta em uma hora, ele volta na hora certa e faz o que estava combinado — inclusive falar com alguém da equipe pelo WhatsApp. Antes a hora passava em silêncio.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-08"
+    },
+    {
+      "versao": "1.0.32",
+      "novidades": "Quem escreve pelo WhatsApp agora entra no funil na hora: a ficha e o card do CRM nascem juntos, mesmo quando a pessoa não diz o nome. E na tela de Atendimentos a resposta que chegou ao cliente não aparece mais como não enviada, com a foto de quem escreveu em cada mensagem.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-06"
+    },
+    {
+      "versao": "1.0.31",
+      "novidades": "O lead é encaminhado mesmo sem dizer o nome, e a resposta digitada na tela chega ao cliente",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-06"
+    },
+    {
+      "versao": "1.0.30",
+      "novidades": "O agente volta a encaminhar o lead assim que o cadastro existe, sem esperar a próxima mensagem",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-06"
+    },
+    {
+      "versao": "1.0.29",
+      "novidades": "Correção na leitura do anúncio: a conversa e o cartão passam a dizer 'veio de anúncio' também quando o WhatsApp manda o clique sem os detalhes, e em conversas com mensagem temporária.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
+    {
+      "versao": "1.0.28",
+      "novidades": "O cartão de passagem ficou curto: nome, celular, uma linha de resumo e o link para falar com o lead num toque. O anúncio de onde o lead veio aparece como prévia em cima do cartão, com título, texto, foto e link.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
+    {
+      "versao": "1.0.27",
+      "novidades": "Correção: o cliente que volta a escrever mais de 30 minutos depois da última passagem gera uma passagem nova, e o corretor recebe o cartão de novo, avisando que ele voltou. Antes, o segundo contato do mesmo cliente no mesmo dia ficava sem cartão.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
+    {
+      "versao": "1.0.26",
+      "novidades": "O cartão de passagem agora traz o anúncio de onde o cliente veio, com o link, e o resumo fala do que ele quer agora. Em Atendimentos, a mensagem mostra 'Veio do anúncio'. E a tela de Tarefas ganhou o assessor: você pede um objetivo ao agente, ele descobre, propõe as peças, você aprova, e o relógio executa e volta com o resultado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
+    {
+      "versao": "1.0.25",
+      "novidades": "Um agente da empresa nunca mais responde a outro agente da mesma empresa: mensagem vinda do número de um agente próprio é ignorada. Antes, dois agentes podiam ficar se cumprimentando sem parar — foi o que aconteceu num teste feito do celular que hospeda um dos agentes, com dezenas de respostas em poucos minutos.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-05"
+    },
+    {
+      "versao": "1.0.24",
+      "novidades": "Quem escreve pela primeira vez passou a ser encaminhado: a mensagem do cliente agora entra em Atendimentos no momento em que chega, e não só depois da resposta do agente. Antes, um processo de passar o atendimento acionado logo na primeira mensagem não encontrava a conversa e desistia — o cliente ouvia que o encaminhamento não tinha sido concluído.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
+    {
+      "versao": "1.0.23",
+      "novidades": "Quem chega por um anúncio do Instagram ou do Facebook agora é reconhecido: o agente passa a ver o título e o texto do anúncio junto com a mensagem, procura o item no catálogo e encaminha para quem responde por ele. Antes só chegava a frase automática do anúncio, e o encaminhamento dependia de ela por acaso citar o que a pessoa queria.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
+    {
+      "versao": "1.0.22",
+      "novidades": "O aviso que chega ao celular de quem recebe um atendimento ficou mais fácil de usar: os dados vêm em linhas separadas e destacadas, e há um link que abre a conversa com o cliente em um toque — sem precisar copiar o telefone e procurar o contato.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
+    {
+      "versao": "1.0.21",
+      "novidades": "O agente voltou a entender prazo escrito por extenso: um passo que dizia \"espere uma hora\" fazia o processo ser recusado antes de começar, e o cliente ouvia que faltava prazo. Agora vale \"uma hora\", \"duas horas\", \"quinze minutos\", \"meia hora\" — do mesmo jeito que \"1 hora\" sempre valeu. E conversa com o agente da empresa deixou de virar lead no CRM e card em Atendimentos: quem responde pela empresa não é cliente dela.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
+    {
+      "versao": "1.0.20",
+      "novidades": "O agente voltou a responder no WhatsApp de canal recém-conectado: uma mensagem entregue duas vezes pelo WhatsApp era descartada como repetida, e o canal ficava mudo. No CRM, o valor da negociação passou a ser o do item que a pessoa quer — antes era a soma de tudo o que o agente tinha mostrado, e um cliente que viu três imóveis aparecia com a soma dos três. Clique no item para marcar qual vale. No editor de workflow dá para mudar o nome e a descrição, duplicar um passo e arrastar para mudar a ordem; e na lista, duplicar um workflow inteiro.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
+    {
+      "versao": "1.0.19",
+      "novidades": "Agora dá para parar o agente no meio de uma resposta, e o que ele já tinha escrito não se perde mais ao fechar a aba. A tela do Als Copilot voltou a ser só sua conversa com o agente — o WhatsApp fica em Atendimentos. E em Configurações → Conexões você liga sua conta para o agente alcançar e-mail, agenda e planilhas: quando alguém pedir algo do e-mail dele, o agente oferece o login na própria conversa, e pede sua confirmação antes de mandar qualquer coisa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-04"
+    },
+    {
+      "versao": "1.0.18",
+      "novidades": "O catálogo passa a guardar TUDO o que a sua fonte manda sobre cada item, e não só alguns campos escolhidos — inclusive o que vem agrupado, que agora continua agrupado. Na prática: o agente responde perguntas que antes ele dizia não saber. E quem responde por um item ganhou nome e telefone, que a sincronização nunca mais altera nem apaga: uma vez que você escreveu, é o que vale.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-02"
+    },
+    {
+      "versao": "1.0.17",
+      "novidades": "Fotos do cliente no CRM e do agente nos Atendimentos; a ficha dos itens do catálogo passa a guardar tudo que a fonte traz e o agente busca dentro dela; a lista de modelos aparece logo após o login, sem esperar a primeira conversa; a tela só diz Conectado quando o login é de verdade; e o atalho Agentes em Configurações funciona.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-02"
+    },
+    {
+      "versao": "1.0.16",
+      "novidades": "O Als Copilot agora nasce pronto com a instalação e é o agente da empresa: só o dono e o administrador falam com ele, ele enxerga tudo e cria, ajusta, liga e desliga os outros agentes a pedido. Na lista de Agentes ele fica no topo. O canal dele só responde a quem for aprovado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-02"
+    },
+    {
+      "versao": "1.0.15",
+      "novidades": "Esqueceu a senha? Agora dá para recuperar sozinho pela tela de entrada: o código chega no seu WhatsApp. Cada pessoa cadastra o próprio canal no perfil. E o passo que passa o atendimento para a equipe, nos processos, voltou a funcionar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
+    {
+      "versao": "1.0.14",
+      "novidades": "O catálogo passa a guardar quem responde por cada item — é assim que o agente sabe para quem passar o atendimento. Quem vem da sua fonte é reconhecido pelo telefone ou pelo e-mail.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
+    {
+      "versao": "1.0.13",
+      "novidades": "O catálogo passa a trazer o endereço da página de cada item — o agente manda o link em vez de dezenas de fotos. E a permissão marcada na tela de Workflows agora é gravada de verdade.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
+    {
+      "versao": "1.0.12",
+      "novidades": "Conserta de verdade o agendamento do catálogo: a versão anterior tinha a correção, mas ela não chegava a rodar. E a tela de Canais volta a falar com o WhatsApp.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
+    {
+      "versao": "1.0.11",
+      "novidades": "Conserta o agendamento que atualiza o catálogo: em instalações novas ele falhava dizendo 'credencial inválida'. O catálogo agora guarda o endereço da página de cada item, e o WhatsApp não perde mais mensagem quando a conexão cai.",
+      "obrigatoria": false,
+      "publicada_em": "2026-09-01"
+    },
+    {
+      "versao": "1.0.10",
+      "novidades": "Conecte a assinatura do agente pela tela: Configurações → Provedores → Conectar, com um código de uso único.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.9",
+      "novidades": "A atualização ficou mais robusta, com barra de progresso e volta automática comprovada.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.8",
+      "novidades": "Versão de ensaio do caminho de volta — quebrada de propósito. Não é para uso.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.7",
+      "novidades": "A tela de atualização agora diz o tempo real de indisponibilidade: por volta de um minuto.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.6",
+      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.5",
+      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.4",
+      "novidades": "A atualização ficou mais robusta e agora mostra uma barra de progresso com cada etapa.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.3",
+      "novidades": "Conserta a troca de versão: o passo que guarda o caminho de volta falhava e a atualização parava por segurança.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.2",
+      "novidades": "O botão de atualizar agora se identifica antes de baixar — a 1.0.1 não conseguia baixar a versão nova.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.1",
+      "novidades": "Corrige a instalação em máquina nova: o banco nascia com o esquema pela metade.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    },
+    {
+      "versao": "1.0.0",
+      "novidades": "A primeira versão publicada do Als Copilot. A partir daqui, atualizar é apertar um botão: quando sair uma versão nova, quem administra a instalação recebe um aviso e atualiza pela tela, sem perder nenhum dado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-08-31"
+    }
+  ]
+}
