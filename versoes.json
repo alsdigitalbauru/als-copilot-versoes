@@ -1,23 +1,47 @@
 {
   "atual": {
-    "versao": "1.6.0",
-    "titulo": "Nenhuma conversa fica parada sem decisão, e a imobiliária escolhe para quem vão a captação e a permuta",
+    "versao": "1.6.1",
+    "titulo": "Importação de imóveis do site sem gasto de IA, avisos à equipe da ALS e conexões pedidas na conversa",
     "itens": [
-      "O agente de atendimento só manda um contato direto para o Lead Frio quando a nota de interesse é bem baixa (até 10); contato com interesse maior não é mais descartado por engano.",
-      "Uma revisão diária faz o agente reler as conversas que ficaram paradas em atendimento e decidir: passa para a equipe ou manda para o Lead Frio. Nenhum cartão fica esquecido.",
-      "Duas perguntas novas na aba Regras do atendente imobiliário: para quem vai quem quer anunciar o imóvel (captação) e para quem vai quem quer trocar (permuta).",
-      "Uma opção que cria sozinha a equipe de Captação, para receber quem quer anunciar o imóvel.",
-      "Quem só quer vender ou alugar o próprio imóvel passa direto para a equipe escolhida, sem a triagem de quem compra.",
-      "A permuta fica com o corretor que já atende aquele cliente.",
-      "O cartão da automação mostra o horário que o dono configurou, e não mais o relógio interno de hora em hora.",
-      "A postagem automática de imóveis para locação começa no mesmo dia em que é ligada.",
-      "Documentação interna da ligação oficial do WhatsApp atualizada."
+      "Nova automação de importação de imóveis: busca todos os imóveis do site da imobiliária (venda e aluguel), mesmo quando o site os entrega em partes, e atualiza o Catálogo todo dia.",
+      "Na importação nova, as fotos entram na ordem do site — a mesma capa, até 20 por imóvel — e a ficha e o resumo do cartão já vêm prontos, sem usar IA.",
+      "Na importação nova, só o imóvel que mudou no site é lido de novo; o que saiu do site sai do Catálogo, e os itens de outras fontes nunca são tocados.",
+      "As automações avisam a equipe da ALS quando algo para de funcionar (site fora do ar, site que mudou, quantidade que despencou) — um aviso por problema e outro quando volta ao normal.",
+      "Os contatos de aviso da equipe da ALS já vêm prontos em toda instalação, sem configurar nada.",
+      "Quando pedem ao agente algo que se repete, ele não agenda sozinho: pergunta o que falta, pede para conectar o serviço que a automação vai usar e manda o pedido à equipe da ALS. O lembrete simples continua agendado na hora.",
+      "A tela de Conexões liga também os serviços que entram com chave ou token, pela página da própria plataforma, e esconde os que só entram com aplicativo próprio.",
+      "Na aba MCP de qualquer agente, o dono pede ao Als Copilot e ele conecta o MCP ou a API sozinho; a chave entra só por um campo seguro, vai guardada cifrada e o agente nunca a vê. O formulário manual saiu.",
+      "O padrão da arte dos posts pergunta se a pessoa quer o logo do Mídia Kit: com sim, ele entra inteiro e centrado; sem logo, a arte sai sem ele e avisa.",
+      "A conversa com os agentes que trabalham para o dono (redes sociais, Ronda, Als Copilot) não entra mais em Atendimentos nem no CRM, e as que já tinham entrado saem.",
+      "A Ronda sabe do cartão que a pessoa da equipe acabou de receber e não pergunta mais \"de qual cliente?\"; a passagem abre com a apresentação do cliente na primeira mensagem.",
+      "O cartão final da passagem mantém o nome do cliente junto do link.",
+      "Remover um agente desconecta antes tudo o que está ligado a ele (WhatsApp, WhatsApp Oficial, Telegram e redes sociais), e desconectar o WhatsApp comum não apaga mais os outros canais do mesmo agente.",
+      "O WhatsApp Oficial conecta em qualquer agente, não só no Als Copilot; cada número fica em um agente só.",
+      "A cópia de segurança feita antes de cada atualização ficou menor: guarda só as duas últimas e deixa de fora o rascunho interno do agente."
     ],
-    "novidades": "Nenhuma conversa fica parada sem decisão, e a imobiliária escolhe para quem vão a captação e a permuta O agente de atendimento só manda um contato direto para o Lead Frio quando a nota de interesse é bem baixa (até 10); contato com interesse maior não é mais descartado por engano. Uma revisão diária faz o agente reler as conversas que ficaram paradas em atendimento e decidir: passa para a equipe ou manda para o Lead Frio. Nenhum cartão fica esquecido. Duas perguntas novas na aba Regras do atendente imobiliário: para quem vai quem quer anunciar o imóvel (captação) e para quem vai quem quer trocar (permuta). Uma opção que cria sozinha a equipe de Captação, para receber quem quer anunciar o imóvel. Quem só quer vender ou alugar o próprio imóvel passa direto para a equipe escolhida, sem a triagem de quem compra. A permuta fica com o corretor que já atende aquele cliente. O cartão da automação mostra o horário que o dono configurou, e não mais o relógio interno de hora em hora. A postagem automática de imóveis para locação começa no mesmo dia em que é ligada. Documentação interna da ligação oficial do WhatsApp atualizada.",
+    "novidades": "Importação de imóveis do site sem gasto de IA, avisos à equipe da ALS e conexões pedidas na conversa Nova automação de importação de imóveis: busca todos os imóveis do site da imobiliária (venda e aluguel), mesmo quando o site os entrega em partes, e atualiza o Catálogo todo dia. Na importação nova, as fotos entram na ordem do site — a mesma capa, até 20 por imóvel — e a ficha e o resumo do cartão já vêm prontos, sem usar IA. Na importação nova, só o imóvel que mudou no site é lido de novo; o que saiu do site sai do Catálogo, e os itens de outras fontes nunca são tocados. As automações avisam a equipe da ALS quando algo para de funcionar (site fora do ar, site que mudou, quantidade que despencou) — um aviso por problema e outro quando volta ao normal. Os contatos de aviso da equipe da ALS já vêm prontos em toda instalação, sem configurar nada. Quando pedem ao agente algo que se repete, ele não agenda sozinho: pergunta o que falta, pede para conectar o serviço que a automação vai usar e manda o pedido à equipe da ALS. O lembrete simples continua agendado na hora. A tela de Conexões liga também os serviços que entram com chave ou token, pela página da própria plataforma, e esconde os que só entram com aplicativo próprio. Na aba MCP de qualquer agente, o dono pede ao Als Copilot e ele conecta o MCP ou a API sozinho; a chave entra só por um campo seguro, vai guardada cifrada e o agente nunca a vê. O formulário manual saiu. O padrão da arte dos posts pergunta se a pessoa quer o logo do Mídia Kit: com sim, ele entra inteiro e centrado; sem logo, a arte sai sem ele e avisa. A conversa com os agentes que trabalham para o dono (redes sociais, Ronda, Als Copilot) não entra mais em Atendimentos nem no CRM, e as que já tinham entrado saem. A Ronda sabe do cartão que a pessoa da equipe acabou de receber e não pergunta mais \"de qual cliente?\"; a passagem abre com a apresentação do cliente na primeira mensagem. O cartão final da passagem mantém o nome do cliente junto do link. Remover um agente desconecta antes tudo o que está ligado a ele (WhatsApp, WhatsApp Oficial, Telegram e redes sociais), e desconectar o WhatsApp comum não apaga mais os outros canais do mesmo agente. O WhatsApp Oficial conecta em qualquer agente, não só no Als Copilot; cada número fica em um agente só. A cópia de segurança feita antes de cada atualização ficou menor: guarda só as duas últimas e deixa de fora o rascunho interno do agente.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-21"
+    "publicada_em": "2026-10-22"
   },
   "anteriores": [
+    {
+      "versao": "1.6.0",
+      "titulo": "Nenhuma conversa fica parada sem decisão, e a imobiliária escolhe para quem vão a captação e a permuta",
+      "itens": [
+        "O agente de atendimento só manda um contato direto para o Lead Frio quando a nota de interesse é bem baixa (até 10); contato com interesse maior não é mais descartado por engano.",
+        "Uma revisão diária faz o agente reler as conversas que ficaram paradas em atendimento e decidir: passa para a equipe ou manda para o Lead Frio. Nenhum cartão fica esquecido.",
+        "Duas perguntas novas na aba Regras do atendente imobiliário: para quem vai quem quer anunciar o imóvel (captação) e para quem vai quem quer trocar (permuta).",
+        "Uma opção que cria sozinha a equipe de Captação, para receber quem quer anunciar o imóvel.",
+        "Quem só quer vender ou alugar o próprio imóvel passa direto para a equipe escolhida, sem a triagem de quem compra.",
+        "A permuta fica com o corretor que já atende aquele cliente.",
+        "O cartão da automação mostra o horário que o dono configurou, e não mais o relógio interno de hora em hora.",
+        "A postagem automática de imóveis para locação começa no mesmo dia em que é ligada.",
+        "Documentação interna da ligação oficial do WhatsApp atualizada."
+      ],
+      "novidades": "Nenhuma conversa fica parada sem decisão, e a imobiliária escolhe para quem vão a captação e a permuta O agente de atendimento só manda um contato direto para o Lead Frio quando a nota de interesse é bem baixa (até 10); contato com interesse maior não é mais descartado por engano. Uma revisão diária faz o agente reler as conversas que ficaram paradas em atendimento e decidir: passa para a equipe ou manda para o Lead Frio. Nenhum cartão fica esquecido. Duas perguntas novas na aba Regras do atendente imobiliário: para quem vai quem quer anunciar o imóvel (captação) e para quem vai quem quer trocar (permuta). Uma opção que cria sozinha a equipe de Captação, para receber quem quer anunciar o imóvel. Quem só quer vender ou alugar o próprio imóvel passa direto para a equipe escolhida, sem a triagem de quem compra. A permuta fica com o corretor que já atende aquele cliente. O cartão da automação mostra o horário que o dono configurou, e não mais o relógio interno de hora em hora. A postagem automática de imóveis para locação começa no mesmo dia em que é ligada. Documentação interna da ligação oficial do WhatsApp atualizada.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-21"
+    },
     {
       "versao": "1.5.10",
       "titulo": "O Als Copilot trabalha sozinho e mais rápido, e os moldes ficam mais simples",
@@ -312,47 +336,6 @@
         "Registros internos e a lista de pendências atualizados."
       ],
       "novidades": "O agente cria artes bonitas no estilo das suas referências, com a foto real no meio A peça de um item do catálogo com foto passa a sair com a arte desenhada pela IA — moldura, fundo, caixas e etiquetas —, com a foto verdadeira no meio, sem redesenhar, e preço e telefone escritos certinhos pelo sistema. O agente olha as artes da aba Referências, escolhe a mais parecida com o pedido (venda, locação, data comemorativa) e segue só ela, em vez de misturar todas. O agente de redes sociais (Social Media) também monta a peça com a foto real do catálogo no meio, com a mesma arte e a mesma entrega do Als Copilot. Cada pessoa passa a ter WhatsApp e Telegram separados no cadastro, e o dono é reconhecido nos dois canais. O histórico de cada agente guarda as conversas de teste e mostra os fios reais do WhatsApp e do Telegram; ao abrir um fio, vêm as 200 mensagens mais recentes, com aviso. Clicar em Als Copilot no menu, ou escolher um agente, abre sempre uma conversa nova. A lista de conversas não mistura mais com o agente de teste, e o seletor de agente some de verdade quando o menu de conversas recolhe. A divisória do dia na conversa ganha a data e o dia da semana, pequenos, embaixo. A resposta do WhatsApp sai sempre pela conexão de agora e espera a volta se a conexão cair no meio, em vez de se perder. A ponte do WhatsApp registra o motivo e a duração de cada queda de conexão. Só o dono da casa exclui categoria do catálogo. Quem tem o catálogo \"só os meus\" vê só a categoria da própria equipe. O Als Copilot passa a conhecer a própria empresa em que trabalha. Quem nunca respondeu vai para o Lead Frio, e não para o corretor. As caixinhas da tela Passar atendimento passam a mandar de verdade; sem ninguém para receber, o lead vai para o Lead Frio. Quem recebeu o cartão do atendimento e não assumiu é avisado de que outra pessoa já assumiu. O corretor chamado para atender junto recebe o cartão do imóvel, e não vai mais às cegas. A Ronda cobra uma pessoa só por negócio, nunca duas juntas. A Ronda só cita cliente numa ideia quando há um fato real por trás, nunca inventado. O ritmo das ideias vira uma configuração na tela do Piloto Automático. O Als Copilot aguenta pedidos grandes: o limite de passos por conversa sobe, e o laço sem fim para com uma frase amigável. O Als Copilot não refaz um pedido antigo ao retomar a conversa, e o limite de passos ganha uma frase própria. O histórico reenviado ao Als Copilot corta cada fala em 1.500 caracteres. O trabalho em lotes deixa de travar por falta de autorização, e o plano e o ajudante do agente passam a ser gravados. O lote interrompido por um reinício volta na hora, e não 10 minutos depois; o motor deixa de recolar o histórico numa conversa que o agente já guarda. Quando o trabalho em lotes termina, a resposta seguinte entrega o resultado final, e não uma explicação técnica. A skill passa a ser uma pasta: importa arquivos .skill e .md, o agente a chama sem barra, e a IA encurta o \"quando usar\". Mais testes automáticos cobrindo a queda e a volta do WhatsApp e as permissões do catálogo. Registros internos e a lista de pendências atualizados.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-13"
-    },
-    {
-      "versao": "1.5.0",
-      "titulo": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável",
-      "itens": [
-        "Todos os agentes passam a pensar num cérebro só, o novo, e o cérebro antigo sai do sistema.",
-        "Sai da tela de Uso a escolha de cérebro, e sai o cérebro que usava uma chave de API à parte.",
-        "A conexão com a assinatura de IA passa a ser do próprio sistema: conectar, renovar o login antes de vencer e consultar os modelos e o limite da conta.",
-        "O sistema fica mais leve: o motor perde o programa do cérebro antigo (de 1,6 GB para 0,4 GB) e a instalação deixa de precisar de uma proteção que só ele usava.",
-        "O motor deixa de ter o código do cérebro antigo; tarefas automáticas em conversas antigas continuam pedindo autorização antes de usar o navegador.",
-        "Cada agente criado do zero leva a própria personalidade, as regras e os processos dele para o novo cérebro.",
-        "Todos os agentes prontos (Ronda, roteador de leads e os do nicho Imobiliário) passam a pensar no novo cérebro.",
-        "Atendimento conduzido por processo, perguntas do sistema, tarefas e processos agendados passam a rodar no novo cérebro.",
-        "A voz ao vivo continua funcionando com o novo cérebro.",
-        "O Als Copilot passa a pensar no novo cérebro, com o mesmo jeito de falar e as mesmas ferramentas.",
-        "O que está acontecendo no momento (tarefas, ideias esperando, quem está falando) chega ao novo cérebro a cada mensagem, junto com a foto que a pessoa mandar.",
-        "Correções no novo cérebro: imagem gerada fora de canal, narração do que ele está fazendo e testes do motor.",
-        "Preparação do banco de dados para o novo cérebro.",
-        "A memória do Als Copilot passa a ser a do novo cérebro, uma por pessoa, e já nasce com o que ele tinha anotado antes.",
-        "A memória do Als Copilot guarda o que o dono e a equipe pedirem para lembrar, inclusive códigos de acesso, como o de uma porta.",
-        "O Als Copilot carrega só as ferramentas de que precisa em cada pedido, e responde mais rápido.",
-        "As skills passam a ser lidas do jeito do novo cérebro: o agente abre a skill quando o assunto pede, ou quando alguém a chama com /nome.",
-        "Saem as ferramentas antigas de skill e de memória, que o novo cérebro já faz sozinho.",
-        "O novo cérebro pede aprovação antes de agir fora do sistema, e trabalha sozinho nas tarefas agendadas.",
-        "O Als Copilot gera arquivos de verdade (PDF, planilha, Word e gráfico) num espaço isolado, e se recupera sozinho de tropeços.",
-        "O agente lê também as imagens de dentro de um PDF, não só o texto.",
-        "Quando a IA está sobrecarregada, o agente tenta de novo com um modelo um degrau abaixo, em vez de deixar a pessoa sem resposta.",
-        "A troca para um modelo um degrau abaixo vale também no novo cérebro.",
-        "A peça com enfeite gerado por IA volta a funcionar, e o enfeite não aparece solto na conversa.",
-        "O agente Social Media passa a publicar de verdade: quatro correções no caminho da publicação.",
-        "O serviço dos agentes prontos responde ao vivo e entrega peças e arquivos durante a conversa.",
-        "Na tela de conversa, o dono volta a poder escolher outro agente para testá-lo sem precisar do WhatsApp.",
-        "Lista de conversas e chat com rolagem contínua e separação por dia.",
-        "O \"Pensando…\" aparece ao lado do robô, o anexo que chega pelo canal aparece como etiqueta, e o envio de arquivo mostra o progresso real.",
-        "Os testes que conferem quem pode acessar cada parte do sistema passam a cobrir quatro rotas novas.",
-        "Ajuste interno: o ambiente de testes reinicia o serviço dos agentes junto com o resto.",
-        "Ajuste interno nos testes automáticos da tela e do catálogo."
-      ],
-      "novidades": "Um cérebro só: todos os agentes passam a pensar no mesmo motor, mais leve e mais estável Todos os agentes passam a pensar num cérebro só, o novo, e o cérebro antigo sai do sistema. Sai da tela de Uso a escolha de cérebro, e sai o cérebro que usava uma chave de API à parte. A conexão com a assinatura de IA passa a ser do próprio sistema: conectar, renovar o login antes de vencer e consultar os modelos e o limite da conta. O sistema fica mais leve: o motor perde o programa do cérebro antigo (de 1,6 GB para 0,4 GB) e a instalação deixa de precisar de uma proteção que só ele usava. O motor deixa de ter o código do cérebro antigo; tarefas automáticas em conversas antigas continuam pedindo autorização antes de usar o navegador. Cada agente criado do zero leva a própria personalidade, as regras e os processos dele para o novo cérebro. Todos os agentes prontos (Ronda, roteador de leads e os do nicho Imobiliário) passam a pensar no novo cérebro. Atendimento conduzido por processo, perguntas do sistema, tarefas e processos agendados passam a rodar no novo cérebro. A voz ao vivo continua funcionando com o novo cérebro. O Als Copilot passa a pensar no novo cérebro, com o mesmo jeito de falar e as mesmas ferramentas. O que está acontecendo no momento (tarefas, ideias esperando, quem está falando) chega ao novo cérebro a cada mensagem, junto com a foto que a pessoa mandar. Correções no novo cérebro: imagem gerada fora de canal, narração do que ele está fazendo e testes do motor. Preparação do banco de dados para o novo cérebro. A memória do Als Copilot passa a ser a do novo cérebro, uma por pessoa, e já nasce com o que ele tinha anotado antes. A memória do Als Copilot guarda o que o dono e a equipe pedirem para lembrar, inclusive códigos de acesso, como o de uma porta. O Als Copilot carrega só as ferramentas de que precisa em cada pedido, e responde mais rápido. As skills passam a ser lidas do jeito do novo cérebro: o agente abre a skill quando o assunto pede, ou quando alguém a chama com /nome. Saem as ferramentas antigas de skill e de memória, que o novo cérebro já faz sozinho. O novo cérebro pede aprovação antes de agir fora do sistema, e trabalha sozinho nas tarefas agendadas. O Als Copilot gera arquivos de verdade (PDF, planilha, Word e gráfico) num espaço isolado, e se recupera sozinho de tropeços. O agente lê também as imagens de dentro de um PDF, não só o texto. Quando a IA está sobrecarregada, o agente tenta de novo com um modelo um degrau abaixo, em vez de deixar a pessoa sem resposta. A troca para um modelo um degrau abaixo vale também no novo cérebro. A peça com enfeite gerado por IA volta a funcionar, e o enfeite não aparece solto na conversa. O agente Social Media passa a publicar de verdade: quatro correções no caminho da publicação. O serviço dos agentes prontos responde ao vivo e entrega peças e arquivos durante a conversa. Na tela de conversa, o dono volta a poder escolher outro agente para testá-lo sem precisar do WhatsApp. Lista de conversas e chat com rolagem contínua e separação por dia. O \"Pensando…\" aparece ao lado do robô, o anexo que chega pelo canal aparece como etiqueta, e o envio de arquivo mostra o progresso real. Os testes que conferem quem pode acessar cada parte do sistema passam a cobrir quatro rotas novas. Ajuste interno: o ambiente de testes reinicia o serviço dos agentes junto com o resto. Ajuste interno nos testes automáticos da tela e do catálogo.",
       "obrigatoria": false,
       "publicada_em": "2026-10-13"
     }
