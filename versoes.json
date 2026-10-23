@@ -1,25 +1,52 @@
 {
   "atual": {
-    "versao": "1.6.3",
-    "titulo": "O agente entende o assunto e passa à equipe certa",
+    "versao": "1.6.4",
+    "titulo": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só",
     "itens": [
-      "O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa.",
-      "Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil.",
-      "Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos.",
-      "«Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele.",
-      "Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte.",
-      "Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões.",
-      "A marca de citação da busca na internet não aparece mais na resposta do agente.",
-      "O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado.",
-      "Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra.",
-      "As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada.",
-      "Cópia de segurança da automação nova de importação de produtos."
+      "Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\".",
+      "O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome.",
+      "Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\".",
+      "Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela.",
+      "Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu.",
+      "A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora.",
+      "O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso.",
+      "Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente.",
+      "Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes.",
+      "Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova.",
+      "O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa.",
+      "O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade.",
+      "Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada).",
+      "O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos.",
+      "Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados.",
+      "A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta.",
+      "No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso.",
+      "O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança."
     ],
-    "novidades": "O agente entende o assunto e passa à equipe certa O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa. Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil. Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos. «Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele. Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte. Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões. A marca de citação da busca na internet não aparece mais na resposta do agente. O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado. Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra. As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada. Cópia de segurança da automação nova de importação de produtos.",
+    "novidades": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\". O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome. Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\". Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela. Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu. A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora. O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso. Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente. Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes. Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova. O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa. O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade. Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada). O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos. Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados. A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta. No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso. O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança.",
     "obrigatoria": false,
     "publicada_em": "2026-10-23"
   },
   "anteriores": [
+    {
+      "versao": "1.6.3",
+      "titulo": "O agente entende o assunto e passa à equipe certa",
+      "itens": [
+        "O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa.",
+        "Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil.",
+        "Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos.",
+        "«Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele.",
+        "Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte.",
+        "Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões.",
+        "A marca de citação da busca na internet não aparece mais na resposta do agente.",
+        "O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado.",
+        "Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra.",
+        "As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada.",
+        "Cópia de segurança da automação nova de importação de produtos."
+      ],
+      "novidades": "O agente entende o assunto e passa à equipe certa O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa. Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil. Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos. «Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele. Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte. Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões. A marca de citação da busca na internet não aparece mais na resposta do agente. O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado. Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra. As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada. Cópia de segurança da automação nova de importação de produtos.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-23"
+    },
     {
       "versao": "1.6.2",
       "titulo": "A arte dos posts com ícones e bolhas que acompanham o texto",
@@ -322,21 +349,6 @@
         "A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre."
       ],
       "novidades": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste. O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes. O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez. A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-14"
-    },
-    {
-      "versao": "1.5.2",
-      "titulo": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem",
-      "itens": [
-        "O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto.",
-        "A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\".",
-        "Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação.",
-        "A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados.",
-        "O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra.",
-        "Textos internos do código e da documentação atualizados para descrever a regra de hoje."
-      ],
-      "novidades": "O agente de redes sociais passa a usar tudo que o Instagram e o Facebook oferecem O agente de redes sociais usa tudo o que o Instagram e o Facebook conectados oferecem — Stories, carrossel, comentários, agendamento e o que mais as redes permitirem —, e não só a publicação de uma foto. A aba Ferramentas do agente de redes sociais mostra \"Tudo do Instagram e do Facebook\". Os agentes passam a usar os conectores e plugins por inteiro, sem pedir aprovação a cada ação. A sessão da plataforma de conexões passa a vir completa para o agente, sem recursos desligados. O agente de redes sociais não fica mais preso a uma resposta antiga depois de uma atualização: quando ele ganha uma ferramenta nova, ele passa a usá-la na mesma conversa, sem precisar abrir outra. Textos internos do código e da documentação atualizados para descrever a regra de hoje.",
       "obrigatoria": false,
       "publicada_em": "2026-10-14"
     }
