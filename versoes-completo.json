@@ -1,24 +1,44 @@
 {
   "atual": {
-    "versao": "1.6.2",
-    "titulo": "A arte dos posts com ícones e bolhas que acompanham o texto",
+    "versao": "1.6.3",
+    "titulo": "O agente entende o assunto e passa à equipe certa",
     "itens": [
-      "Os detalhes do item na arte dos posts entram com ícone quando o item tem o dado: sete ícones no mesmo traço; o detalhe que falta, ou que é zero, sai inteiro, e os outros se juntam sem deixar buraco.",
-      "A bolha em volta de um texto da arte acompanha o texto: cresce e encolhe com o dado, sempre com o mesmo respiro, e o texto nunca sai dela.",
-      "A foto pequena em pé ocupa a altura inteira da arte, com o desfocado só nas laterais.",
-      "O lead que chegou pelo anúncio de uma pessoa da equipe é passado a ela, antes da regra de equipe do item e do titular.",
-      "Um PDF grande enviado na conversa não interrompe mais a resposta do agente: o arquivo passa a contar pelas páginas.",
-      "O resumo interno que o agente faz de uma conversa longa não aparece mais para a pessoa.",
-      "Postagem automática nas redes (1.0.3): ganha o campo «Página do Facebook», para a conta que cuida de mais de uma página; quando falta, a parada lista as páginas da conta.",
-      "Automação nova: a importação de itens do feed de um site, sem IA, atualizando os itens que já existem em vez de duplicar.",
-      "A importação de imóveis de um sistema de gestão imobiliária passa a ler pela API oficial dele: traz todos os publicados, sem rua, número nem CEP.",
-      "Cópia de segurança de cada automação instalada, para reinstalar quando precisar."
+      "O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa.",
+      "Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil.",
+      "Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos.",
+      "«Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele.",
+      "Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte.",
+      "Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões.",
+      "A marca de citação da busca na internet não aparece mais na resposta do agente.",
+      "O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado.",
+      "Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra.",
+      "As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada.",
+      "Cópia de segurança da automação nova de importação de produtos."
     ],
-    "novidades": "A arte dos posts com ícones e bolhas que acompanham o texto Os detalhes do item na arte dos posts entram com ícone quando o item tem o dado: sete ícones no mesmo traço; o detalhe que falta, ou que é zero, sai inteiro, e os outros se juntam sem deixar buraco. A bolha em volta de um texto da arte acompanha o texto: cresce e encolhe com o dado, sempre com o mesmo respiro, e o texto nunca sai dela. A foto pequena em pé ocupa a altura inteira da arte, com o desfocado só nas laterais. O lead que chegou pelo anúncio de uma pessoa da equipe é passado a ela, antes da regra de equipe do item e do titular. Um PDF grande enviado na conversa não interrompe mais a resposta do agente: o arquivo passa a contar pelas páginas. O resumo interno que o agente faz de uma conversa longa não aparece mais para a pessoa. Postagem automática nas redes (1.0.3): ganha o campo «Página do Facebook», para a conta que cuida de mais de uma página; quando falta, a parada lista as páginas da conta. Automação nova: a importação de itens do feed de um site, sem IA, atualizando os itens que já existem em vez de duplicar. A importação de imóveis de um sistema de gestão imobiliária passa a ler pela API oficial dele: traz todos os publicados, sem rua, número nem CEP. Cópia de segurança de cada automação instalada, para reinstalar quando precisar.",
+    "novidades": "O agente entende o assunto e passa à equipe certa O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa. Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil. Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos. «Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele. Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte. Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões. A marca de citação da busca na internet não aparece mais na resposta do agente. O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado. Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra. As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada. Cópia de segurança da automação nova de importação de produtos.",
     "obrigatoria": false,
     "publicada_em": "2026-10-23"
   },
   "anteriores": [
+    {
+      "versao": "1.6.2",
+      "titulo": "A arte dos posts com ícones e bolhas que acompanham o texto",
+      "itens": [
+        "Os detalhes do item na arte dos posts entram com ícone quando o item tem o dado: sete ícones no mesmo traço; o detalhe que falta, ou que é zero, sai inteiro, e os outros se juntam sem deixar buraco.",
+        "A bolha em volta de um texto da arte acompanha o texto: cresce e encolhe com o dado, sempre com o mesmo respiro, e o texto nunca sai dela.",
+        "A foto pequena em pé ocupa a altura inteira da arte, com o desfocado só nas laterais.",
+        "O lead que chegou pelo anúncio de uma pessoa da equipe é passado a ela, antes da regra de equipe do item e do titular.",
+        "Um PDF grande enviado na conversa não interrompe mais a resposta do agente: o arquivo passa a contar pelas páginas.",
+        "O resumo interno que o agente faz de uma conversa longa não aparece mais para a pessoa.",
+        "Postagem automática nas redes (1.0.3): ganha o campo «Página do Facebook», para a conta que cuida de mais de uma página; quando falta, a parada lista as páginas da conta.",
+        "Automação nova: a importação de itens do feed de um site, sem IA, atualizando os itens que já existem em vez de duplicar.",
+        "A importação de imóveis de um sistema de gestão imobiliária passa a ler pela API oficial dele: traz todos os publicados, sem rua, número nem CEP.",
+        "Cópia de segurança de cada automação instalada, para reinstalar quando precisar."
+      ],
+      "novidades": "A arte dos posts com ícones e bolhas que acompanham o texto Os detalhes do item na arte dos posts entram com ícone quando o item tem o dado: sete ícones no mesmo traço; o detalhe que falta, ou que é zero, sai inteiro, e os outros se juntam sem deixar buraco. A bolha em volta de um texto da arte acompanha o texto: cresce e encolhe com o dado, sempre com o mesmo respiro, e o texto nunca sai dela. A foto pequena em pé ocupa a altura inteira da arte, com o desfocado só nas laterais. O lead que chegou pelo anúncio de uma pessoa da equipe é passado a ela, antes da regra de equipe do item e do titular. Um PDF grande enviado na conversa não interrompe mais a resposta do agente: o arquivo passa a contar pelas páginas. O resumo interno que o agente faz de uma conversa longa não aparece mais para a pessoa. Postagem automática nas redes (1.0.3): ganha o campo «Página do Facebook», para a conta que cuida de mais de uma página; quando falta, a parada lista as páginas da conta. Automação nova: a importação de itens do feed de um site, sem IA, atualizando os itens que já existem em vez de duplicar. A importação de imóveis de um sistema de gestão imobiliária passa a ler pela API oficial dele: traz todos os publicados, sem rua, número nem CEP. Cópia de segurança de cada automação instalada, para reinstalar quando precisar.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-23"
+    },
     {
       "versao": "1.6.1",
       "titulo": "Importação de imóveis do site sem gasto de IA, avisos à equipe da ALS e conexões pedidas na conversa",
