@@ -1,32 +1,56 @@
 {
   "atual": {
-    "versao": "1.6.4",
-    "titulo": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só",
+    "versao": "1.6.5",
+    "titulo": "Cartão de passagem numa mensagem só, navegador só com o sim da pessoa e mais cuidado com o que chega de fora",
     "itens": [
-      "Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\".",
-      "O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome.",
-      "Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\".",
-      "Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela.",
-      "Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu.",
-      "A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora.",
-      "O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso.",
-      "Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente.",
-      "Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes.",
-      "Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova.",
-      "O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa.",
-      "O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade.",
-      "Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada).",
-      "O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos.",
-      "Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados.",
-      "A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta.",
-      "No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso.",
-      "O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança."
+      "O navegador só abre com o \"sim\" da pessoa na conversa: antes o agente tenta as conexões e, se nenhuma resolve, pergunta; o \"sim\" vale por uma hora naquela conversa.",
+      "Quando o uso do navegador é recusado, o passo conta como não feito, e o agente não segue como se tivesse feito.",
+      "Um cartão só para toda passagem de atendimento: o vínculo mostrado na tela usa o mesmo resumo do cartão, e a primeira frase diz quem chamou.",
+      "O cartão da passagem chega numa mensagem só: a foto do item em cima e, na legenda, a apresentação, o resumo curto, o item e o link para assumir, sem repetir nada.",
+      "O cartão da passagem mostra o item como o cliente vê: foto de verdade com nome, preço e descrição.",
+      "Quando a passagem não traz um item, o cartão mostra o último item que o cliente viu.",
+      "Passagem urgente leva 🚨 URGENTE no topo do cartão.",
+      "O sistema se chama Als Copilot em todo lugar: nos textos que o agente lê, nas mensagens de erro, nas telas e nos documentos; \"CRM\" ficou só para o funil de atendimento.",
+      "Agente aberto a qualquer pessoa não recebe ferramenta que mexe em dados de outros clientes: a tela e a conversa recusam, ao abrir o canal e ao marcar a ferramenta. Os agentes prontos não mudam.",
+      "Criar e ajustar as ferramentas de um agente pela conversa ficou mais firme: a conferência das ferramentas sempre encontra a lista completa.",
+      "O texto que vem de site, de arquivo ou de serviço conectado chega ao agente separado como conteúdo de fora, sem se misturar às instruções dele; o nome do arquivo entra limpo.",
+      "O sistema recusa o acesso a endereços internos em qualquer forma de escrita do endereço; endereço público continua funcionando.",
+      "Aviso de portal só vira lead quando chega como mensagem da empresa; o mesmo texto digitado por uma pessoa segue como mensagem comum.",
+      "As bibliotecas do sistema foram atualizadas para as versões mais novas.",
+      "O pedido de automação chega legível: a ficha, o que a pessoa quer em português simples e os detalhes para montar, um por linha, em blocos."
     ],
-    "novidades": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\". O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome. Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\". Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela. Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu. A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora. O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso. Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente. Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes. Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova. O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa. O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade. Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada). O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos. Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados. A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta. No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso. O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança.",
+    "novidades": "Cartão de passagem numa mensagem só, navegador só com o sim da pessoa e mais cuidado com o que chega de fora O navegador só abre com o \"sim\" da pessoa na conversa: antes o agente tenta as conexões e, se nenhuma resolve, pergunta; o \"sim\" vale por uma hora naquela conversa. Quando o uso do navegador é recusado, o passo conta como não feito, e o agente não segue como se tivesse feito. Um cartão só para toda passagem de atendimento: o vínculo mostrado na tela usa o mesmo resumo do cartão, e a primeira frase diz quem chamou. O cartão da passagem chega numa mensagem só: a foto do item em cima e, na legenda, a apresentação, o resumo curto, o item e o link para assumir, sem repetir nada. O cartão da passagem mostra o item como o cliente vê: foto de verdade com nome, preço e descrição. Quando a passagem não traz um item, o cartão mostra o último item que o cliente viu. Passagem urgente leva 🚨 URGENTE no topo do cartão. O sistema se chama Als Copilot em todo lugar: nos textos que o agente lê, nas mensagens de erro, nas telas e nos documentos; \"CRM\" ficou só para o funil de atendimento. Agente aberto a qualquer pessoa não recebe ferramenta que mexe em dados de outros clientes: a tela e a conversa recusam, ao abrir o canal e ao marcar a ferramenta. Os agentes prontos não mudam. Criar e ajustar as ferramentas de um agente pela conversa ficou mais firme: a conferência das ferramentas sempre encontra a lista completa. O texto que vem de site, de arquivo ou de serviço conectado chega ao agente separado como conteúdo de fora, sem se misturar às instruções dele; o nome do arquivo entra limpo. O sistema recusa o acesso a endereços internos em qualquer forma de escrita do endereço; endereço público continua funcionando. Aviso de portal só vira lead quando chega como mensagem da empresa; o mesmo texto digitado por uma pessoa segue como mensagem comum. As bibliotecas do sistema foram atualizadas para as versões mais novas. O pedido de automação chega legível: a ficha, o que a pessoa quer em português simples e os detalhes para montar, um por linha, em blocos.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-23"
+    "publicada_em": "2026-10-24"
   },
   "anteriores": [
+    {
+      "versao": "1.6.4",
+      "titulo": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só",
+      "itens": [
+        "Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\".",
+        "O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome.",
+        "Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\".",
+        "Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela.",
+        "Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu.",
+        "A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora.",
+        "O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso.",
+        "Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente.",
+        "Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes.",
+        "Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova.",
+        "O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa.",
+        "O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade.",
+        "Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada).",
+        "O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos.",
+        "Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados.",
+        "A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta.",
+        "No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso.",
+        "O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança."
+      ],
+      "novidades": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\". O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome. Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\". Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela. Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu. A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora. O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso. Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente. Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes. Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova. O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa. O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade. Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada). O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos. Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados. A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta. No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso. O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-23"
+    },
     {
       "versao": "1.6.3",
       "titulo": "O agente entende o assunto e passa à equipe certa",
@@ -309,48 +333,6 @@
       "novidades": "Moldes de imagem, roteamento de leads e avisos mais confiáveis O agente reconhece a notificação de lead que chega pelo próprio WhatsApp dele e encaminha para quem atende, sem tentar responder. A fila de quem quer falar com o agente se limpa sozinha depois de 24 horas. A tela de Agentes não estoura mais quando aberta pelo celular. A conversa que termina sem ser passada para ninguém vai para o Lead Frio, em vez de ficar perdida. O lembrete criado pelo agente nasce com a autonomia \"agir sozinho\", nunca mais com o padrão errado. O agente de redes sociais pode publicar sozinho, sem esperar aprovação, quando o dono ligar essa opção. Cada molde de criativo ganha um nome, e o agente pergunta qual usar quando há mais de um. O Roteador de leads só traz lead a partir de uma data escolhida pelo dono, para não reimportar leads antigos. Quando pedem o contato de um lead, o agente manda um link clicável, em vez do número truncado. A Ronda só diz \"anotei\" depois de realmente ter feito a mudança, no mesmo instante — nunca promete e deixa pra depois. O serviço de fora de um plugin pode exigir a chave sem o prefixo padrão, quando for esse o caso. O aviso ao dono tenta WhatsApp, depois Telegram, depois e-mail, antes de cair só no sininho. A peça criada a partir de um molde passa a editar a imagem da referência de verdade, em vez de só montar por cima. A primeira peça automática de um molde pede aprovação antes de publicar.",
       "obrigatoria": false,
       "publicada_em": "2026-10-16"
-    },
-    {
-      "versao": "1.5.5",
-      "titulo": "O agente de redes sociais publica no padrão certo, e qualquer agente pode ter skills próprias",
-      "itens": [
-        "A ponte espera a resposta do agente mesmo quando ela demora, sem repetir o pedido.",
-        "O agente de redes sociais publica carrossel com várias fotos no Instagram e Facebook, não mais uma foto só.",
-        "A ponte do WhatsApp usa um jeito mais robusto de buscar a mídia.",
-        "A migração do banco de dados não quebra mais se for aplicada duas vezes.",
-        "A arte de divulgação sai com o mesmo visual (cores, textos, logo) do modelo que o dono já tinha aprovado — só a foto e os dados do item mudam.",
-        "A tela de teste de um agente passou a mostrar a imagem que ele gerou durante a conversa.",
-        "Qualquer agente, inclusive os prontos (como o de redes sociais e o de atendimento), pode ganhar skills próprias — procedimentos específicos daquela empresa.",
-        "Atualização da documentação interna sobre como o time trabalha com o código.",
-        "Ajuste interno no catálogo de rotas do sistema, sem efeito visível para quem usa.",
-        "Correção de um teste automático interno sobre o relógio de retomada de conversas, sem efeito visível para quem usa."
-      ],
-      "novidades": "O agente de redes sociais publica no padrão certo, e qualquer agente pode ter skills próprias A ponte espera a resposta do agente mesmo quando ela demora, sem repetir o pedido. O agente de redes sociais publica carrossel com várias fotos no Instagram e Facebook, não mais uma foto só. A ponte do WhatsApp usa um jeito mais robusto de buscar a mídia. A migração do banco de dados não quebra mais se for aplicada duas vezes. A arte de divulgação sai com o mesmo visual (cores, textos, logo) do modelo que o dono já tinha aprovado — só a foto e os dados do item mudam. A tela de teste de um agente passou a mostrar a imagem que ele gerou durante a conversa. Qualquer agente, inclusive os prontos (como o de redes sociais e o de atendimento), pode ganhar skills próprias — procedimentos específicos daquela empresa. Atualização da documentação interna sobre como o time trabalha com o código. Ajuste interno no catálogo de rotas do sistema, sem efeito visível para quem usa. Correção de um teste automático interno sobre o relógio de retomada de conversas, sem efeito visível para quem usa.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-15"
-    },
-    {
-      "versao": "1.5.4",
-      "titulo": "O agente tenta outro modelo quando a IA está sobrecarregada, em todo agente",
-      "itens": [
-        "Quando a assinatura fica momentaneamente sem capacidade, os agentes prontos (corretor, ronda, social media, etc.) agora tentam responder com outro modelo antes de desistir — o agente padrão já fazia isso desde a versão anterior."
-      ],
-      "novidades": "O agente tenta outro modelo quando a IA está sobrecarregada, em todo agente Quando a assinatura fica momentaneamente sem capacidade, os agentes prontos (corretor, ronda, social media, etc.) agora tentam responder com outro modelo antes de desistir — o agente padrão já fazia isso desde a versão anterior.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-14"
-    },
-    {
-      "versao": "1.5.3",
-      "titulo": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente",
-      "itens": [
-        "A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste.",
-        "O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes.",
-        "O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez.",
-        "A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre."
-      ],
-      "novidades": "O WhatsApp Oficial da Meta já pode ser conectado por qualquer cliente A credencial do app oficial da Meta chega sozinha em toda instalação, nova ou já existente — o botão \"Conectar com um clique\" do WhatsApp Oficial passa a funcionar de verdade, não só em teste. O agente pronto que atende sozinho (como o de redes sociais) abre uma conversa nova quando fica mais de uma hora sem responder no WhatsApp ou no Telegram, em vez de repetir o erro de antes. O agendamento de instruções do agente roda sozinho sem reler o catálogo inteiro, e sabe dizer o que entrou de novo desde a última vez. A tela de teste de agente avisa quando dá erro, em vez de ficar travada em \"pensando\" para sempre.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-14"
     }
   ]
 }
