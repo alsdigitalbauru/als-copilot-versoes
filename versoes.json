@@ -1,15 +1,30 @@
 {
   "atual": {
-    "versao": "1.6.7",
-    "titulo": "A passagem do WhatsApp ao agente novo funciona em qualquer instalação",
+    "versao": "1.6.8",
+    "titulo": "Os avisos automáticos voltam a chegar no WhatsApp do dono",
     "itens": [
-      "A passagem do WhatsApp para o agente novo aceita a conexão de empresas com muitos contatos."
+      "Com o WhatsApp do Als Copilot atendendo pelo agente novo, o resumo das automações, os avisos ao dono e à ALS e as mensagens enviadas pela tela voltam a chegar, com texto e arquivo.",
+      "A tela de Canais mostra o WhatsApp e o Telegram do Als Copilot como Conectado, sem a marca de teste.",
+      "Na tela de Uso, o agente novo deixa de aparecer como em teste.",
+      "Uma postagem pode ter de 1 a 5 fotos: produto com uma foto só já pode ser postado.",
+      "Um campo de molde pode ter vários cartões marcados, e a automação sorteia entre eles a cada postagem.",
+      "O texto do molde quebra em até 4 linhas antes de diminuir a letra."
     ],
-    "novidades": "A passagem do WhatsApp ao agente novo funciona em qualquer instalação A passagem do WhatsApp para o agente novo aceita a conexão de empresas com muitos contatos.",
+    "novidades": "Os avisos automáticos voltam a chegar no WhatsApp do dono Com o WhatsApp do Als Copilot atendendo pelo agente novo, o resumo das automações, os avisos ao dono e à ALS e as mensagens enviadas pela tela voltam a chegar, com texto e arquivo. A tela de Canais mostra o WhatsApp e o Telegram do Als Copilot como Conectado, sem a marca de teste. Na tela de Uso, o agente novo deixa de aparecer como em teste. Uma postagem pode ter de 1 a 5 fotos: produto com uma foto só já pode ser postado. Um campo de molde pode ter vários cartões marcados, e a automação sorteia entre eles a cada postagem. O texto do molde quebra em até 4 linhas antes de diminuir a letra.",
     "obrigatoria": false,
     "publicada_em": "2026-10-25"
   },
   "anteriores": [
+    {
+      "versao": "1.6.7",
+      "titulo": "A passagem do WhatsApp ao agente novo funciona em qualquer instalação",
+      "itens": [
+        "A passagem do WhatsApp para o agente novo aceita a conexão de empresas com muitos contatos."
+      ],
+      "novidades": "A passagem do WhatsApp ao agente novo funciona em qualquer instalação A passagem do WhatsApp para o agente novo aceita a conexão de empresas com muitos contatos.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-25"
+    },
     {
       "versao": "1.6.6",
       "titulo": "O agente do dono ganha um cérebro novo, que usa a mesma assinatura e os mesmos canais, e o raciocínio de cada agente passa a ser escolhido na tela",
