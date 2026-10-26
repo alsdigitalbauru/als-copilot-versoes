@@ -1,20 +1,47 @@
 {
   "atual": {
-    "versao": "1.6.8",
-    "titulo": "Os avisos automáticos voltam a chegar no WhatsApp do dono",
+    "versao": "1.6.9",
+    "titulo": "Arte e post num caminho só, e o agente do dono mais firme",
     "itens": [
-      "Com o WhatsApp do Als Copilot atendendo pelo agente novo, o resumo das automações, os avisos ao dono e à ALS e as mensagens enviadas pela tela voltam a chegar, com texto e arquivo.",
-      "A tela de Canais mostra o WhatsApp e o Telegram do Als Copilot como Conectado, sem a marca de teste.",
-      "Na tela de Uso, o agente novo deixa de aparecer como em teste.",
-      "Uma postagem pode ter de 1 a 5 fotos: produto com uma foto só já pode ser postado.",
-      "Um campo de molde pode ter vários cartões marcados, e a automação sorteia entre eles a cada postagem.",
-      "O texto do molde quebra em até 4 linhas antes de diminuir a letra."
+      "O agente cria arte e post por um caminho só: arte sem produto sai com a identidade da empresa; arte de produto pergunta se é arte nova ou modelo.",
+      "Com mais de um modelo, o agente mostra todos numerados, com a imagem de cada um, para a pessoa escolher.",
+      "Sem modelo pronto, o agente mostra as referências enviadas e monta o modelo a partir da escolhida; sem referência, pede uma.",
+      "A arte nova aprovada na conversa pode ser postada direto, sem criar modelo.",
+      "O logo da empresa é colocado pela ferramenta de arte, não pelo agente.",
+      "Onde se lia molde, agora se lê modelo.",
+      "O modelo guarda o fundo limpo da arte sem estragar os recortes de foto.",
+      "O arquivo que o agente do dono produz no trabalho dele entra no sistema e vira link para a pessoa.",
+      "O modelo escreve a categoria do item na arte.",
+      "A arte do modelo se acha pelo nome dado nas Referências.",
+      "O post leva as fotos que o produto tem, até 5: uma foto vira post simples; de duas a cinco, carrossel.",
+      "O pedido de automação diz se muda uma automação já instalada ou se é uma nova, e o agente enxerga as automações instaladas.",
+      "O dono é avisado quando uma automação fica pronta, na primeira vez que ela é ligada.",
+      "O cartão da passagem de atendimento mostra o código do item para quem atende achar o produto.",
+      "O Falar com o Dono volta a funcionar com o novo cérebro do agente do dono, e a fala entra na conversa dele com o dono.",
+      "Instalação nova já nasce com o novo cérebro do agente do dono, e os canais dele se conectam pela tela de Canais.",
+      "A conversa que travava num reinício do cérebro do agente do dono se destrava sozinha, e a pessoa é avisada.",
+      "Ajustes no ambiente de desenvolvimento: o sistema local sobe em terminal sem acentos e liga o cérebro do agente do dono."
     ],
-    "novidades": "Os avisos automáticos voltam a chegar no WhatsApp do dono Com o WhatsApp do Als Copilot atendendo pelo agente novo, o resumo das automações, os avisos ao dono e à ALS e as mensagens enviadas pela tela voltam a chegar, com texto e arquivo. A tela de Canais mostra o WhatsApp e o Telegram do Als Copilot como Conectado, sem a marca de teste. Na tela de Uso, o agente novo deixa de aparecer como em teste. Uma postagem pode ter de 1 a 5 fotos: produto com uma foto só já pode ser postado. Um campo de molde pode ter vários cartões marcados, e a automação sorteia entre eles a cada postagem. O texto do molde quebra em até 4 linhas antes de diminuir a letra.",
+    "novidades": "Arte e post num caminho só, e o agente do dono mais firme O agente cria arte e post por um caminho só: arte sem produto sai com a identidade da empresa; arte de produto pergunta se é arte nova ou modelo. Com mais de um modelo, o agente mostra todos numerados, com a imagem de cada um, para a pessoa escolher. Sem modelo pronto, o agente mostra as referências enviadas e monta o modelo a partir da escolhida; sem referência, pede uma. A arte nova aprovada na conversa pode ser postada direto, sem criar modelo. O logo da empresa é colocado pela ferramenta de arte, não pelo agente. Onde se lia molde, agora se lê modelo. O modelo guarda o fundo limpo da arte sem estragar os recortes de foto. O arquivo que o agente do dono produz no trabalho dele entra no sistema e vira link para a pessoa. O modelo escreve a categoria do item na arte. A arte do modelo se acha pelo nome dado nas Referências. O post leva as fotos que o produto tem, até 5: uma foto vira post simples; de duas a cinco, carrossel. O pedido de automação diz se muda uma automação já instalada ou se é uma nova, e o agente enxerga as automações instaladas. O dono é avisado quando uma automação fica pronta, na primeira vez que ela é ligada. O cartão da passagem de atendimento mostra o código do item para quem atende achar o produto. O Falar com o Dono volta a funcionar com o novo cérebro do agente do dono, e a fala entra na conversa dele com o dono. Instalação nova já nasce com o novo cérebro do agente do dono, e os canais dele se conectam pela tela de Canais. A conversa que travava num reinício do cérebro do agente do dono se destrava sozinha, e a pessoa é avisada. Ajustes no ambiente de desenvolvimento: o sistema local sobe em terminal sem acentos e liga o cérebro do agente do dono.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-25"
+    "publicada_em": "2026-10-26"
   },
   "anteriores": [
+    {
+      "versao": "1.6.8",
+      "titulo": "Os avisos automáticos voltam a chegar no WhatsApp do dono",
+      "itens": [
+        "Com o WhatsApp do Als Copilot atendendo pelo agente novo, o resumo das automações, os avisos ao dono e à ALS e as mensagens enviadas pela tela voltam a chegar, com texto e arquivo.",
+        "A tela de Canais mostra o WhatsApp e o Telegram do Als Copilot como Conectado, sem a marca de teste.",
+        "Na tela de Uso, o agente novo deixa de aparecer como em teste.",
+        "Uma postagem pode ter de 1 a 5 fotos: produto com uma foto só já pode ser postado.",
+        "Um campo de molde pode ter vários cartões marcados, e a automação sorteia entre eles a cada postagem.",
+        "O texto do molde quebra em até 4 linhas antes de diminuir a letra."
+      ],
+      "novidades": "Os avisos automáticos voltam a chegar no WhatsApp do dono Com o WhatsApp do Als Copilot atendendo pelo agente novo, o resumo das automações, os avisos ao dono e à ALS e as mensagens enviadas pela tela voltam a chegar, com texto e arquivo. A tela de Canais mostra o WhatsApp e o Telegram do Als Copilot como Conectado, sem a marca de teste. Na tela de Uso, o agente novo deixa de aparecer como em teste. Uma postagem pode ter de 1 a 5 fotos: produto com uma foto só já pode ser postado. Um campo de molde pode ter vários cartões marcados, e a automação sorteia entre eles a cada postagem. O texto do molde quebra em até 4 linhas antes de diminuir a letra.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-25"
+    },
     {
       "versao": "1.6.7",
       "titulo": "A passagem do WhatsApp ao agente novo funciona em qualquer instalação",
