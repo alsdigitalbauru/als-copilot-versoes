@@ -1,29 +1,47 @@
 {
   "atual": {
-    "versao": "1.6.10",
-    "titulo": "O WhatsApp oficial entrega fotos, lê o que o cliente manda e envia os avisos",
+    "versao": "1.6.11",
+    "titulo": "A cobrança automática da equipe ganha um número só dela",
     "itens": [
-      "Pelo WhatsApp oficial, as fotos do catálogo chegam como foto, e não mais como link (a foto é convertida para o formato que o WhatsApp oficial aceita).",
-      "Pelo WhatsApp oficial, o negrito e os links da resposta saem no formato do WhatsApp, sem asteriscos sobrando.",
-      "Pelo WhatsApp oficial, a figura criada pelo agente e o documento guardado chegam a quem conversa.",
-      "Pelo WhatsApp oficial, foto, áudio e documento que o cliente manda chegam ao agente; vídeo recebe o aviso de que não é aceito.",
-      "Pelo WhatsApp oficial, o agente sabe de qual anúncio o cliente veio.",
-      "Pelo WhatsApp oficial, a retomada, a cobrança da Ronda e o cartão de passagem saem quando a pessoa escreveu nas últimas 24 horas; fora disso, o motivo fica dito.",
-      "O cadastro do WhatsApp oficial abre numa página fixa da ALS: instalação nova não precisa mais de cadastro do próprio endereço.",
-      "Documentação: como cada instalação entra na lista de endereços do cadastro do WhatsApp oficial.",
-      "A conversa da aba de conexões do Als Copilot volta a responder.",
-      "Nova automação de postagem diária nas redes: um post no feed e stories por dia, no ciclo dos produtos, com o modelo sorteado e as datas comemorativas, sem IA.",
-      "Cópia de segurança da automação de postagem diária guardada.",
-      "Registro da versão 1.0.4 da automação de postagem diária, com o agente que posta.",
-      "Ao montar um modelo de arte, o fundo limpo que o agente editou na conversa é encontrado.",
-      "O fundo editado é usado na própria resposta: o modelo de arte sai pronto sem a pessoa pedir de novo.",
-      "Registro das duas correções urgentes da montagem de modelo de arte."
+      "A cobrança automática da equipe pode ter um número de WhatsApp próprio, ligado pelo QR Code na própria tela dela",
+      "O número próprio da cobrança funciona como um segundo aparelho: não aparece online, não mostra digitando e não marca como lidas as mensagens dos outros atendimentos",
+      "Quem a cobrança procurou nas últimas 24 horas é respondido por ela; as demais mensagens desse número seguem com o Als Copilot",
+      "O dono da empresa sempre fala com o Als Copilot, mesmo quando também foi procurado pela cobrança",
+      "Quem responde à cobrança não vira pedido de acesso ao Als Copilot",
+      "Continua dando para a cobrança usar o WhatsApp de outro agente, escolhido na lista, para quem não tem um segundo número",
+      "Ligar o número próprio desliga o empréstimo do WhatsApp de outro agente, e o contrário também, para não haver dois ao mesmo tempo",
+      "A cobrança da equipe nunca sai pelo WhatsApp oficial: o oficial fica só para o atendimento a clientes",
+      "Novo botão para desconectar o número próprio da cobrança"
     ],
-    "novidades": "O WhatsApp oficial entrega fotos, lê o que o cliente manda e envia os avisos Pelo WhatsApp oficial, as fotos do catálogo chegam como foto, e não mais como link (a foto é convertida para o formato que o WhatsApp oficial aceita). Pelo WhatsApp oficial, o negrito e os links da resposta saem no formato do WhatsApp, sem asteriscos sobrando. Pelo WhatsApp oficial, a figura criada pelo agente e o documento guardado chegam a quem conversa. Pelo WhatsApp oficial, foto, áudio e documento que o cliente manda chegam ao agente; vídeo recebe o aviso de que não é aceito. Pelo WhatsApp oficial, o agente sabe de qual anúncio o cliente veio. Pelo WhatsApp oficial, a retomada, a cobrança da Ronda e o cartão de passagem saem quando a pessoa escreveu nas últimas 24 horas; fora disso, o motivo fica dito. O cadastro do WhatsApp oficial abre numa página fixa da ALS: instalação nova não precisa mais de cadastro do próprio endereço. Documentação: como cada instalação entra na lista de endereços do cadastro do WhatsApp oficial. A conversa da aba de conexões do Als Copilot volta a responder. Nova automação de postagem diária nas redes: um post no feed e stories por dia, no ciclo dos produtos, com o modelo sorteado e as datas comemorativas, sem IA. Cópia de segurança da automação de postagem diária guardada. Registro da versão 1.0.4 da automação de postagem diária, com o agente que posta. Ao montar um modelo de arte, o fundo limpo que o agente editou na conversa é encontrado. O fundo editado é usado na própria resposta: o modelo de arte sai pronto sem a pessoa pedir de novo. Registro das duas correções urgentes da montagem de modelo de arte.",
+    "novidades": "A cobrança automática da equipe ganha um número só dela A cobrança automática da equipe pode ter um número de WhatsApp próprio, ligado pelo QR Code na própria tela dela O número próprio da cobrança funciona como um segundo aparelho: não aparece online, não mostra digitando e não marca como lidas as mensagens dos outros atendimentos Quem a cobrança procurou nas últimas 24 horas é respondido por ela; as demais mensagens desse número seguem com o Als Copilot O dono da empresa sempre fala com o Als Copilot, mesmo quando também foi procurado pela cobrança Quem responde à cobrança não vira pedido de acesso ao Als Copilot Continua dando para a cobrança usar o WhatsApp de outro agente, escolhido na lista, para quem não tem um segundo número Ligar o número próprio desliga o empréstimo do WhatsApp de outro agente, e o contrário também, para não haver dois ao mesmo tempo A cobrança da equipe nunca sai pelo WhatsApp oficial: o oficial fica só para o atendimento a clientes Novo botão para desconectar o número próprio da cobrança",
     "obrigatoria": false,
     "publicada_em": "2026-10-27"
   },
   "anteriores": [
+    {
+      "versao": "1.6.10",
+      "titulo": "O WhatsApp oficial entrega fotos, lê o que o cliente manda e envia os avisos",
+      "itens": [
+        "Pelo WhatsApp oficial, as fotos do catálogo chegam como foto, e não mais como link (a foto é convertida para o formato que o WhatsApp oficial aceita).",
+        "Pelo WhatsApp oficial, o negrito e os links da resposta saem no formato do WhatsApp, sem asteriscos sobrando.",
+        "Pelo WhatsApp oficial, a figura criada pelo agente e o documento guardado chegam a quem conversa.",
+        "Pelo WhatsApp oficial, foto, áudio e documento que o cliente manda chegam ao agente; vídeo recebe o aviso de que não é aceito.",
+        "Pelo WhatsApp oficial, o agente sabe de qual anúncio o cliente veio.",
+        "Pelo WhatsApp oficial, a retomada, a cobrança da Ronda e o cartão de passagem saem quando a pessoa escreveu nas últimas 24 horas; fora disso, o motivo fica dito.",
+        "O cadastro do WhatsApp oficial abre numa página fixa da ALS: instalação nova não precisa mais de cadastro do próprio endereço.",
+        "Documentação: como cada instalação entra na lista de endereços do cadastro do WhatsApp oficial.",
+        "A conversa da aba de conexões do Als Copilot volta a responder.",
+        "Nova automação de postagem diária nas redes: um post no feed e stories por dia, no ciclo dos produtos, com o modelo sorteado e as datas comemorativas, sem IA.",
+        "Cópia de segurança da automação de postagem diária guardada.",
+        "Registro da versão 1.0.4 da automação de postagem diária, com o agente que posta.",
+        "Ao montar um modelo de arte, o fundo limpo que o agente editou na conversa é encontrado.",
+        "O fundo editado é usado na própria resposta: o modelo de arte sai pronto sem a pessoa pedir de novo.",
+        "Registro das duas correções urgentes da montagem de modelo de arte."
+      ],
+      "novidades": "O WhatsApp oficial entrega fotos, lê o que o cliente manda e envia os avisos Pelo WhatsApp oficial, as fotos do catálogo chegam como foto, e não mais como link (a foto é convertida para o formato que o WhatsApp oficial aceita). Pelo WhatsApp oficial, o negrito e os links da resposta saem no formato do WhatsApp, sem asteriscos sobrando. Pelo WhatsApp oficial, a figura criada pelo agente e o documento guardado chegam a quem conversa. Pelo WhatsApp oficial, foto, áudio e documento que o cliente manda chegam ao agente; vídeo recebe o aviso de que não é aceito. Pelo WhatsApp oficial, o agente sabe de qual anúncio o cliente veio. Pelo WhatsApp oficial, a retomada, a cobrança da Ronda e o cartão de passagem saem quando a pessoa escreveu nas últimas 24 horas; fora disso, o motivo fica dito. O cadastro do WhatsApp oficial abre numa página fixa da ALS: instalação nova não precisa mais de cadastro do próprio endereço. Documentação: como cada instalação entra na lista de endereços do cadastro do WhatsApp oficial. A conversa da aba de conexões do Als Copilot volta a responder. Nova automação de postagem diária nas redes: um post no feed e stories por dia, no ciclo dos produtos, com o modelo sorteado e as datas comemorativas, sem IA. Cópia de segurança da automação de postagem diária guardada. Registro da versão 1.0.4 da automação de postagem diária, com o agente que posta. Ao montar um modelo de arte, o fundo limpo que o agente editou na conversa é encontrado. O fundo editado é usado na própria resposta: o modelo de arte sai pronto sem a pessoa pedir de novo. Registro das duas correções urgentes da montagem de modelo de arte.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-27"
+    },
     {
       "versao": "1.6.9",
       "titulo": "Arte e post num caminho só, e o agente do dono mais firme",
