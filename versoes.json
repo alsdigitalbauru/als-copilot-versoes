@@ -1,23 +1,39 @@
 {
   "atual": {
-    "versao": "1.6.11",
-    "titulo": "A cobrança automática da equipe ganha um número só dela",
+    "versao": "1.7.0",
+    "titulo": "O Als Copilot passa a usar os serviços cadastrados nele, como o site da empresa",
     "itens": [
-      "A cobrança automática da equipe pode ter um número de WhatsApp próprio, ligado pelo QR Code na própria tela dela",
-      "O número próprio da cobrança funciona como um segundo aparelho: não aparece online, não mostra digitando e não marca como lidas as mensagens dos outros atendimentos",
-      "Quem a cobrança procurou nas últimas 24 horas é respondido por ela; as demais mensagens desse número seguem com o Als Copilot",
-      "O dono da empresa sempre fala com o Als Copilot, mesmo quando também foi procurado pela cobrança",
-      "Quem responde à cobrança não vira pedido de acesso ao Als Copilot",
-      "Continua dando para a cobrança usar o WhatsApp de outro agente, escolhido na lista, para quem não tem um segundo número",
-      "Ligar o número próprio desliga o empréstimo do WhatsApp de outro agente, e o contrário também, para não haver dois ao mesmo tempo",
-      "A cobrança da equipe nunca sai pelo WhatsApp oficial: o oficial fica só para o atendimento a clientes",
-      "Novo botão para desconectar o número próprio da cobrança"
+      "Os serviços cadastrados na aba MCP do Als Copilot (o site da empresa, um sistema de vendas) passam a ser ferramentas dele no WhatsApp, no Telegram e na tela",
+      "A senha de cada serviço cadastrado continua guardada só no sistema: o Als Copilot usa o serviço sem nunca ver a chave",
+      "Serviço fora do ar ou com a chave recusada não atrapalha: o Als Copilot segue com as outras ferramentas",
+      "Os avisos internos do cérebro não aparecem mais como mensagem na conversa do Als Copilot",
+      "O número de cada versão nova passa a ser conferido antes de publicar",
+      "Planejamento: a lista de empresas de um ramo e de uma cidade, montada a partir da base pública de CNPJ",
+      "Planejamento: a lista de construtoras pequenas e empreiteiros, com contato e roteiro de abordagem"
     ],
-    "novidades": "A cobrança automática da equipe ganha um número só dela A cobrança automática da equipe pode ter um número de WhatsApp próprio, ligado pelo QR Code na própria tela dela O número próprio da cobrança funciona como um segundo aparelho: não aparece online, não mostra digitando e não marca como lidas as mensagens dos outros atendimentos Quem a cobrança procurou nas últimas 24 horas é respondido por ela; as demais mensagens desse número seguem com o Als Copilot O dono da empresa sempre fala com o Als Copilot, mesmo quando também foi procurado pela cobrança Quem responde à cobrança não vira pedido de acesso ao Als Copilot Continua dando para a cobrança usar o WhatsApp de outro agente, escolhido na lista, para quem não tem um segundo número Ligar o número próprio desliga o empréstimo do WhatsApp de outro agente, e o contrário também, para não haver dois ao mesmo tempo A cobrança da equipe nunca sai pelo WhatsApp oficial: o oficial fica só para o atendimento a clientes Novo botão para desconectar o número próprio da cobrança",
+    "novidades": "O Als Copilot passa a usar os serviços cadastrados nele, como o site da empresa Os serviços cadastrados na aba MCP do Als Copilot (o site da empresa, um sistema de vendas) passam a ser ferramentas dele no WhatsApp, no Telegram e na tela A senha de cada serviço cadastrado continua guardada só no sistema: o Als Copilot usa o serviço sem nunca ver a chave Serviço fora do ar ou com a chave recusada não atrapalha: o Als Copilot segue com as outras ferramentas Os avisos internos do cérebro não aparecem mais como mensagem na conversa do Als Copilot O número de cada versão nova passa a ser conferido antes de publicar Planejamento: a lista de empresas de um ramo e de uma cidade, montada a partir da base pública de CNPJ Planejamento: a lista de construtoras pequenas e empreiteiros, com contato e roteiro de abordagem",
     "obrigatoria": false,
     "publicada_em": "2026-10-27"
   },
   "anteriores": [
+    {
+      "versao": "1.6.11",
+      "titulo": "A cobrança automática da equipe ganha um número só dela",
+      "itens": [
+        "A cobrança automática da equipe pode ter um número de WhatsApp próprio, ligado pelo QR Code na própria tela dela",
+        "O número próprio da cobrança funciona como um segundo aparelho: não aparece online, não mostra digitando e não marca como lidas as mensagens dos outros atendimentos",
+        "Quem a cobrança procurou nas últimas 24 horas é respondido por ela; as demais mensagens desse número seguem com o Als Copilot",
+        "O dono da empresa sempre fala com o Als Copilot, mesmo quando também foi procurado pela cobrança",
+        "Quem responde à cobrança não vira pedido de acesso ao Als Copilot",
+        "Continua dando para a cobrança usar o WhatsApp de outro agente, escolhido na lista, para quem não tem um segundo número",
+        "Ligar o número próprio desliga o empréstimo do WhatsApp de outro agente, e o contrário também, para não haver dois ao mesmo tempo",
+        "A cobrança da equipe nunca sai pelo WhatsApp oficial: o oficial fica só para o atendimento a clientes",
+        "Novo botão para desconectar o número próprio da cobrança"
+      ],
+      "novidades": "A cobrança automática da equipe ganha um número só dela A cobrança automática da equipe pode ter um número de WhatsApp próprio, ligado pelo QR Code na própria tela dela O número próprio da cobrança funciona como um segundo aparelho: não aparece online, não mostra digitando e não marca como lidas as mensagens dos outros atendimentos Quem a cobrança procurou nas últimas 24 horas é respondido por ela; as demais mensagens desse número seguem com o Als Copilot O dono da empresa sempre fala com o Als Copilot, mesmo quando também foi procurado pela cobrança Quem responde à cobrança não vira pedido de acesso ao Als Copilot Continua dando para a cobrança usar o WhatsApp de outro agente, escolhido na lista, para quem não tem um segundo número Ligar o número próprio desliga o empréstimo do WhatsApp de outro agente, e o contrário também, para não haver dois ao mesmo tempo A cobrança da equipe nunca sai pelo WhatsApp oficial: o oficial fica só para o atendimento a clientes Novo botão para desconectar o número próprio da cobrança",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-27"
+    },
     {
       "versao": "1.6.10",
       "titulo": "O WhatsApp oficial entrega fotos, lê o que o cliente manda e envia os avisos",
