@@ -1,21 +1,45 @@
 {
   "atual": {
-    "versao": "1.7.4",
-    "titulo": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação",
+    "versao": "1.7.5",
+    "titulo": "Nenhuma mensagem de cliente do WhatsApp oficial se perde, e a base para trocar o cérebro do agente",
     "itens": [
-      "A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha.",
-      "Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso.",
-      "A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização.",
-      "O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada.",
-      "As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram.",
-      "Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram.",
-      "Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações."
+      "WhatsApp oficial: o aviso de mensagem nova que chega grande demais passa a ser aceito (antes era recusado e a mensagem não chegava).",
+      "WhatsApp oficial: quando várias mensagens chegam juntas, todas são atendidas, não só a primeira.",
+      "WhatsApp oficial: mensagem de um tipo que o sistema não sabe ler vira cadastro e recebe resposta, em vez de ser descartada.",
+      "WhatsApp oficial: o que não é fala do cliente (reação, figurinha, aviso do sistema) fica anotado no registro, com o tipo e o telefone.",
+      "A direção do produto ficou registrada: o Als Copilot é a casa, e o cérebro do agente é uma peça que se troca.",
+      "Planejamento de uma régua fixa para medir o agente e do agente montando automações com as peças da ALS.",
+      "A régua do agente: 18 tarefas de teste, sem dado real, para medir o agente sempre do mesmo jeito.",
+      "Planejamento de um novo cérebro opcional para o agente, com a conferência da versão mais recente dele.",
+      "Uma porta única para ligar o cérebro do agente; um cérebro antigo, por chave de serviço de IA, saiu do sistema.",
+      "O novo cérebro opcional roda num serviço próprio e trancado, desligado por padrão, com a mesma assinatura do sistema.",
+      "O novo cérebro usa as ferramentas do sistema pelo motor.",
+      "Caminho rápido: a conversa com o novo cérebro já começa com as consultas e ferramentas mais usadas da instalação.",
+      "Painel de Uso: dá para escolher o novo cérebro onde ele está instalado; a conversa continua na troca e a tela sempre diz quem está respondendo.",
+      "O novo cérebro usa as conexões de fora e as skills do agente.",
+      "Teste do cérebro dos agentes atualizado para o gasto de cada resposta."
     ],
-    "novidades": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha. Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso. A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização. O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada. As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram. Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram. Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações.",
+    "novidades": "Nenhuma mensagem de cliente do WhatsApp oficial se perde, e a base para trocar o cérebro do agente WhatsApp oficial: o aviso de mensagem nova que chega grande demais passa a ser aceito (antes era recusado e a mensagem não chegava). WhatsApp oficial: quando várias mensagens chegam juntas, todas são atendidas, não só a primeira. WhatsApp oficial: mensagem de um tipo que o sistema não sabe ler vira cadastro e recebe resposta, em vez de ser descartada. WhatsApp oficial: o que não é fala do cliente (reação, figurinha, aviso do sistema) fica anotado no registro, com o tipo e o telefone. A direção do produto ficou registrada: o Als Copilot é a casa, e o cérebro do agente é uma peça que se troca. Planejamento de uma régua fixa para medir o agente e do agente montando automações com as peças da ALS. A régua do agente: 18 tarefas de teste, sem dado real, para medir o agente sempre do mesmo jeito. Planejamento de um novo cérebro opcional para o agente, com a conferência da versão mais recente dele. Uma porta única para ligar o cérebro do agente; um cérebro antigo, por chave de serviço de IA, saiu do sistema. O novo cérebro opcional roda num serviço próprio e trancado, desligado por padrão, com a mesma assinatura do sistema. O novo cérebro usa as ferramentas do sistema pelo motor. Caminho rápido: a conversa com o novo cérebro já começa com as consultas e ferramentas mais usadas da instalação. Painel de Uso: dá para escolher o novo cérebro onde ele está instalado; a conversa continua na troca e a tela sempre diz quem está respondendo. O novo cérebro usa as conexões de fora e as skills do agente. Teste do cérebro dos agentes atualizado para o gasto de cada resposta.",
     "obrigatoria": false,
     "publicada_em": "2026-10-29"
   },
   "anteriores": [
+    {
+      "versao": "1.7.4",
+      "titulo": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação",
+      "itens": [
+        "A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha.",
+        "Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso.",
+        "A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização.",
+        "O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada.",
+        "As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram.",
+        "Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram.",
+        "Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações."
+      ],
+      "novidades": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha. Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso. A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização. O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada. As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram. Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram. Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-29"
+    },
     {
       "versao": "1.7.3",
       "titulo": "O agente mostra só a resposta final e volta a gravar no site da empresa",
@@ -326,45 +350,6 @@
         "O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança."
       ],
       "novidades": "Passar o atendimento passa de verdade, e os avisos ao dono chegam por um caminho só Novo botão \"Passar atendimento\" em Atendimentos: quem estava sai da conversa, só a pessoa escolhida fica, o agente para e o card passa para ela; só ela recebe o cartão, o resumo, o e-mail e o aviso, com o texto \"passou para você\". O \"atender junto\" continua no ícone do alto da conversa, do mesmo jeito, com esse nome. Ao transferir um lead pela conversa, o Als Copilot avisa a pessoa com o texto \"passou para você\". Funcionário que passa o atendimento adiante e perde o acesso tem a conversa fechada na tela. Quando ninguém da equipe assume no prazo e o lead vai ao dono, à próxima pessoa do rodízio ou volta à equipe, o cartão conta quem recebeu antes, quando, e que ninguém assumiu. A rodada seguinte do repasse leva o quadro do imóvel e o interesse do cliente, que antes ficavam de fora. O histórico do atendimento passa a dizer \"Ninguém assumiu no prazo.\" quando é o caso. Avisos ao dono num caminho só: WhatsApp do Als Copilot, depois o Telegram dele, depois o e-mail, e sempre o sininho, sem usar o número de outro agente. Os avisos de automação, de pedidos à ALS, de cobrança, de item parado, de ideias e o \"Falar com o Dono\" usam esse mesmo caminho; mensagem longa vai em partes. Robô do Telegram com a chave recusada para de tentar e o aviso ao dono explica como gerar uma chave nova. O mesmo robô do Telegram não pode mais ser ligado em dois agentes: a tela recusa antes de gravar e diz qual agente já o usa. O botão \"Testar\" do Telegram só marca conectado quando o robô está lendo as mensagens de verdade. Conexão de conta de fora que não termina em 3 minutos se desfaz sozinha, e o cartão volta para \"+ Conectar\" (antes ficava pendurada). O cérebro dos agentes foi atualizado, com consertos no resumo de conversas longas e no trabalho com arquivos. Automação de acompanhamento da conta de anúncios: avisa o dono das mudanças da conta e manda um resumo por corretor com gasto, conversas, custo por conversa e leads passados. A automação de acompanhamento de anúncios usa a conta de anúncios que o dono já ligou, e o erro diz quem na instalação tem a conta ligada quando falta. No acompanhamento de anúncios, mudanças em lote viram uma linha só, e o público que a plataforma atualiza sozinha não vira aviso. O acompanhamento de anúncios roda uma vez por dia (9h, o dono troca a hora na tela) e manda uma mensagem só, com o antes e o depois de cada mudança.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-23"
-    },
-    {
-      "versao": "1.6.3",
-      "titulo": "O agente entende o assunto e passa à equipe certa",
-      "itens": [
-        "O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa.",
-        "Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil.",
-        "Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos.",
-        "«Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele.",
-        "Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte.",
-        "Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões.",
-        "A marca de citação da busca na internet não aparece mais na resposta do agente.",
-        "O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado.",
-        "Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra.",
-        "As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada.",
-        "Cópia de segurança da automação nova de importação de produtos."
-      ],
-      "novidades": "O agente entende o assunto e passa à equipe certa O agente de atendimento passa a pessoa à equipe do assunto que ela procura, escolhida pelo que ele entendeu da conversa e do anúncio, mesmo quando o item não está no catálogo; quem da equipe recebe continua sendo a regra da empresa. Quem pede algo com que a empresa não trabalha não é passado a ninguém: o agente explica com gentileza e o contato vai para o Lead Frio, sem voltar sozinho ao funil. Data e hora no rodapé de cada mensagem, como no WhatsApp, na conversa com os agentes e em Atendimentos; e o aviso de que o agente está pensando conta os segundos. «Falar com o Dono»: o administrador escreve na tela do Als Copilot e ele manda ao dono pelo WhatsApp (ou pelo Telegram) como mensagem dele. Todo aviso que o Als Copilot manda por fora da conversa (lembretes, cobranças, recados) entra na memória dele na mensagem seguinte. Na aba MCP, o agente conecta o serviço ele mesmo, em vez de mandar a pessoa à tela de Conexões. A marca de citação da busca na internet não aparece mais na resposta do agente. O dono escolhe o jeito de responder de cada agente: Curto e direto, Equilibrado ou Detalhado. Automação nova: a importação de produtos de uma loja virtual, sem IA, com o preço só quando a loja mostra. As automações passam a ser instaladas e atualizadas nas instalações por um comando só, sem reiniciar nada. Cópia de segurança da automação nova de importação de produtos.",
-      "obrigatoria": false,
-      "publicada_em": "2026-10-23"
-    },
-    {
-      "versao": "1.6.2",
-      "titulo": "A arte dos posts com ícones e bolhas que acompanham o texto",
-      "itens": [
-        "Os detalhes do item na arte dos posts entram com ícone quando o item tem o dado: sete ícones no mesmo traço; o detalhe que falta, ou que é zero, sai inteiro, e os outros se juntam sem deixar buraco.",
-        "A bolha em volta de um texto da arte acompanha o texto: cresce e encolhe com o dado, sempre com o mesmo respiro, e o texto nunca sai dela.",
-        "A foto pequena em pé ocupa a altura inteira da arte, com o desfocado só nas laterais.",
-        "O lead que chegou pelo anúncio de uma pessoa da equipe é passado a ela, antes da regra de equipe do item e do titular.",
-        "Um PDF grande enviado na conversa não interrompe mais a resposta do agente: o arquivo passa a contar pelas páginas.",
-        "O resumo interno que o agente faz de uma conversa longa não aparece mais para a pessoa.",
-        "Postagem automática nas redes (1.0.3): ganha o campo «Página do Facebook», para a conta que cuida de mais de uma página; quando falta, a parada lista as páginas da conta.",
-        "Automação nova: a importação de itens do feed de um site, sem IA, atualizando os itens que já existem em vez de duplicar.",
-        "A importação de imóveis de um sistema de gestão imobiliária passa a ler pela API oficial dele: traz todos os publicados, sem rua, número nem CEP.",
-        "Cópia de segurança de cada automação instalada, para reinstalar quando precisar."
-      ],
-      "novidades": "A arte dos posts com ícones e bolhas que acompanham o texto Os detalhes do item na arte dos posts entram com ícone quando o item tem o dado: sete ícones no mesmo traço; o detalhe que falta, ou que é zero, sai inteiro, e os outros se juntam sem deixar buraco. A bolha em volta de um texto da arte acompanha o texto: cresce e encolhe com o dado, sempre com o mesmo respiro, e o texto nunca sai dela. A foto pequena em pé ocupa a altura inteira da arte, com o desfocado só nas laterais. O lead que chegou pelo anúncio de uma pessoa da equipe é passado a ela, antes da regra de equipe do item e do titular. Um PDF grande enviado na conversa não interrompe mais a resposta do agente: o arquivo passa a contar pelas páginas. O resumo interno que o agente faz de uma conversa longa não aparece mais para a pessoa. Postagem automática nas redes (1.0.3): ganha o campo «Página do Facebook», para a conta que cuida de mais de uma página; quando falta, a parada lista as páginas da conta. Automação nova: a importação de itens do feed de um site, sem IA, atualizando os itens que já existem em vez de duplicar. A importação de imóveis de um sistema de gestão imobiliária passa a ler pela API oficial dele: traz todos os publicados, sem rua, número nem CEP. Cópia de segurança de cada automação instalada, para reinstalar quando precisar.",
       "obrigatoria": false,
       "publicada_em": "2026-10-23"
     }

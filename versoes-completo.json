@@ -1,21 +1,45 @@
 {
   "atual": {
-    "versao": "1.7.4",
-    "titulo": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação",
+    "versao": "1.7.5",
+    "titulo": "Nenhuma mensagem de cliente do WhatsApp oficial se perde, e a base para trocar o cérebro do agente",
     "itens": [
-      "A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha.",
-      "Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso.",
-      "A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização.",
-      "O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada.",
-      "As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram.",
-      "Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram.",
-      "Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações."
+      "WhatsApp oficial: o aviso de mensagem nova que chega grande demais passa a ser aceito (antes era recusado e a mensagem não chegava).",
+      "WhatsApp oficial: quando várias mensagens chegam juntas, todas são atendidas, não só a primeira.",
+      "WhatsApp oficial: mensagem de um tipo que o sistema não sabe ler vira cadastro e recebe resposta, em vez de ser descartada.",
+      "WhatsApp oficial: o que não é fala do cliente (reação, figurinha, aviso do sistema) fica anotado no registro, com o tipo e o telefone.",
+      "A direção do produto ficou registrada: o Als Copilot é a casa, e o cérebro do agente é uma peça que se troca.",
+      "Planejamento de uma régua fixa para medir o agente e do agente montando automações com as peças da ALS.",
+      "A régua do agente: 18 tarefas de teste, sem dado real, para medir o agente sempre do mesmo jeito.",
+      "Planejamento de um novo cérebro opcional para o agente, com a conferência da versão mais recente dele.",
+      "Uma porta única para ligar o cérebro do agente; um cérebro antigo, por chave de serviço de IA, saiu do sistema.",
+      "O novo cérebro opcional roda num serviço próprio e trancado, desligado por padrão, com a mesma assinatura do sistema.",
+      "O novo cérebro usa as ferramentas do sistema pelo motor.",
+      "Caminho rápido: a conversa com o novo cérebro já começa com as consultas e ferramentas mais usadas da instalação.",
+      "Painel de Uso: dá para escolher o novo cérebro onde ele está instalado; a conversa continua na troca e a tela sempre diz quem está respondendo.",
+      "O novo cérebro usa as conexões de fora e as skills do agente.",
+      "Teste do cérebro dos agentes atualizado para o gasto de cada resposta."
     ],
-    "novidades": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha. Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso. A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização. O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada. As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram. Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram. Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações.",
+    "novidades": "Nenhuma mensagem de cliente do WhatsApp oficial se perde, e a base para trocar o cérebro do agente WhatsApp oficial: o aviso de mensagem nova que chega grande demais passa a ser aceito (antes era recusado e a mensagem não chegava). WhatsApp oficial: quando várias mensagens chegam juntas, todas são atendidas, não só a primeira. WhatsApp oficial: mensagem de um tipo que o sistema não sabe ler vira cadastro e recebe resposta, em vez de ser descartada. WhatsApp oficial: o que não é fala do cliente (reação, figurinha, aviso do sistema) fica anotado no registro, com o tipo e o telefone. A direção do produto ficou registrada: o Als Copilot é a casa, e o cérebro do agente é uma peça que se troca. Planejamento de uma régua fixa para medir o agente e do agente montando automações com as peças da ALS. A régua do agente: 18 tarefas de teste, sem dado real, para medir o agente sempre do mesmo jeito. Planejamento de um novo cérebro opcional para o agente, com a conferência da versão mais recente dele. Uma porta única para ligar o cérebro do agente; um cérebro antigo, por chave de serviço de IA, saiu do sistema. O novo cérebro opcional roda num serviço próprio e trancado, desligado por padrão, com a mesma assinatura do sistema. O novo cérebro usa as ferramentas do sistema pelo motor. Caminho rápido: a conversa com o novo cérebro já começa com as consultas e ferramentas mais usadas da instalação. Painel de Uso: dá para escolher o novo cérebro onde ele está instalado; a conversa continua na troca e a tela sempre diz quem está respondendo. O novo cérebro usa as conexões de fora e as skills do agente. Teste do cérebro dos agentes atualizado para o gasto de cada resposta.",
     "obrigatoria": false,
     "publicada_em": "2026-10-29"
   },
   "anteriores": [
+    {
+      "versao": "1.7.4",
+      "titulo": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação",
+      "itens": [
+        "A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha.",
+        "Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso.",
+        "A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização.",
+        "O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada.",
+        "As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram.",
+        "Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram.",
+        "Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações."
+      ],
+      "novidades": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha. Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso. A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização. O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada. As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram. Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram. Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-29"
+    },
     {
       "versao": "1.7.3",
       "titulo": "O agente mostra só a resposta final e volta a gravar no site da empresa",
