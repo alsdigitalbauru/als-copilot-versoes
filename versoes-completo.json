@@ -1,25 +1,41 @@
 {
   "atual": {
-    "versao": "1.7.3",
-    "titulo": "O agente mostra só a resposta final e volta a gravar no site da empresa",
+    "versao": "1.7.4",
+    "titulo": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação",
     "itens": [
-      "O agente Als Copilot não mostra mais o andamento do trabalho (\"Trabalhando nisso…\" e o aviso de demora) no WhatsApp nem no Telegram: a pessoa recebe só a resposta final.",
-      "Na tela de conversa, o agente Als Copilot também deixa de mostrar o texto do meio do trabalho: aparece só a resposta final.",
-      "Pelo agente Als Copilot, o site da empresa cadastrado na aba MCP volta a aceitar cadastrar, alterar e excluir itens: o telefone do dono segue junto com o pedido.",
-      "O agente Als Copilot não diz mais \"não consigo\": passa o pedido a outro agente da casa ou analisa o que falta e encaminha à equipe da ALS.",
-      "Medido o tempo de resposta quando o agente Als Copilot dá uma ordem simples a outro agente (volta em 2,5 a 5 segundos).",
-      "Medido que mostrar todas as ferramentas ao agente de uma vez deixa o pedido simples mais lento; a mudança ficou proposta para não seguir.",
-      "Registro das medições de velocidade do agente Als Copilot, separando ordem simples de trabalho pesado.",
-      "Registro da aplicação da versão anterior nas instalações e da retirada dos ajustes feitos à mão, que agora vêm da própria versão.",
-      "Automação de calendário de posts: modelos de arte por semana e por papel do post.",
-      "Automação de calendário de posts: a postagem automática na hora do plano aprovado, sem IA, com o resumo do dia ao dono.",
-      "Automação de calendário de posts: o relatório do mês com os números de cada post e o aviso de calendário acabando."
+      "A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha.",
+      "Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso.",
+      "A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização.",
+      "O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada.",
+      "As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram.",
+      "Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram.",
+      "Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações."
     ],
-    "novidades": "O agente mostra só a resposta final e volta a gravar no site da empresa O agente Als Copilot não mostra mais o andamento do trabalho (\"Trabalhando nisso…\" e o aviso de demora) no WhatsApp nem no Telegram: a pessoa recebe só a resposta final. Na tela de conversa, o agente Als Copilot também deixa de mostrar o texto do meio do trabalho: aparece só a resposta final. Pelo agente Als Copilot, o site da empresa cadastrado na aba MCP volta a aceitar cadastrar, alterar e excluir itens: o telefone do dono segue junto com o pedido. O agente Als Copilot não diz mais \"não consigo\": passa o pedido a outro agente da casa ou analisa o que falta e encaminha à equipe da ALS. Medido o tempo de resposta quando o agente Als Copilot dá uma ordem simples a outro agente (volta em 2,5 a 5 segundos). Medido que mostrar todas as ferramentas ao agente de uma vez deixa o pedido simples mais lento; a mudança ficou proposta para não seguir. Registro das medições de velocidade do agente Als Copilot, separando ordem simples de trabalho pesado. Registro da aplicação da versão anterior nas instalações e da retirada dos ajustes feitos à mão, que agora vêm da própria versão. Automação de calendário de posts: modelos de arte por semana e por papel do post. Automação de calendário de posts: a postagem automática na hora do plano aprovado, sem IA, com o resumo do dia ao dono. Automação de calendário de posts: o relatório do mês com os números de cada post e o aviso de calendário acabando.",
+    "novidades": "As conversas que chegam por anúncio guardam a campanha, e os avisos por e-mail funcionam em toda instalação A conversa que chega por um anúncio guarda o código do anúncio, também pelo WhatsApp oficial. O agente não vê esse código; ele serve para os relatórios separarem cada campanha. Os avisos por e-mail saem mesmo sem uma conta de e-mail configurada na tela: até a empresa salvar a dela, eles usam a conta padrão da ALS Digital. A tela de e-mail mostra qual conta está em uso. A instalação nova já nasce com a conta de e-mail padrão, e as instalações atuais a recebem nesta atualização. O relatório de anúncios mostra o funil de cada campanha: quantos leads chegaram, quantos foram passados à equipe e quantos a equipe atendeu. O que chega sem o código do anúncio aparece separado, como campanha não identificada. As automações que pedem aprovação antes de agir (propostas, postagens nas redes) reconhecem o sim da pessoa também quando ela conversa com o Als Copilot pelo WhatsApp ou pelo Telegram. Nova automação sob medida de contratos com assinatura eletrônica: o contrato sai do modelo da empresa, a assinatura de cada pessoa fica na linha do nome dela, e no fim o PDF assinado vai por e-mail a todos que assinaram. Os testes automáticos acompanham o que entrou nesta versão: o código do anúncio, a conta de e-mail padrão e a atualização que a leva às instalações.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-28"
+    "publicada_em": "2026-10-29"
   },
   "anteriores": [
+    {
+      "versao": "1.7.3",
+      "titulo": "O agente mostra só a resposta final e volta a gravar no site da empresa",
+      "itens": [
+        "O agente Als Copilot não mostra mais o andamento do trabalho (\"Trabalhando nisso…\" e o aviso de demora) no WhatsApp nem no Telegram: a pessoa recebe só a resposta final.",
+        "Na tela de conversa, o agente Als Copilot também deixa de mostrar o texto do meio do trabalho: aparece só a resposta final.",
+        "Pelo agente Als Copilot, o site da empresa cadastrado na aba MCP volta a aceitar cadastrar, alterar e excluir itens: o telefone do dono segue junto com o pedido.",
+        "O agente Als Copilot não diz mais \"não consigo\": passa o pedido a outro agente da casa ou analisa o que falta e encaminha à equipe da ALS.",
+        "Medido o tempo de resposta quando o agente Als Copilot dá uma ordem simples a outro agente (volta em 2,5 a 5 segundos).",
+        "Medido que mostrar todas as ferramentas ao agente de uma vez deixa o pedido simples mais lento; a mudança ficou proposta para não seguir.",
+        "Registro das medições de velocidade do agente Als Copilot, separando ordem simples de trabalho pesado.",
+        "Registro da aplicação da versão anterior nas instalações e da retirada dos ajustes feitos à mão, que agora vêm da própria versão.",
+        "Automação de calendário de posts: modelos de arte por semana e por papel do post.",
+        "Automação de calendário de posts: a postagem automática na hora do plano aprovado, sem IA, com o resumo do dia ao dono.",
+        "Automação de calendário de posts: o relatório do mês com os números de cada post e o aviso de calendário acabando."
+      ],
+      "novidades": "O agente mostra só a resposta final e volta a gravar no site da empresa O agente Als Copilot não mostra mais o andamento do trabalho (\"Trabalhando nisso…\" e o aviso de demora) no WhatsApp nem no Telegram: a pessoa recebe só a resposta final. Na tela de conversa, o agente Als Copilot também deixa de mostrar o texto do meio do trabalho: aparece só a resposta final. Pelo agente Als Copilot, o site da empresa cadastrado na aba MCP volta a aceitar cadastrar, alterar e excluir itens: o telefone do dono segue junto com o pedido. O agente Als Copilot não diz mais \"não consigo\": passa o pedido a outro agente da casa ou analisa o que falta e encaminha à equipe da ALS. Medido o tempo de resposta quando o agente Als Copilot dá uma ordem simples a outro agente (volta em 2,5 a 5 segundos). Medido que mostrar todas as ferramentas ao agente de uma vez deixa o pedido simples mais lento; a mudança ficou proposta para não seguir. Registro das medições de velocidade do agente Als Copilot, separando ordem simples de trabalho pesado. Registro da aplicação da versão anterior nas instalações e da retirada dos ajustes feitos à mão, que agora vêm da própria versão. Automação de calendário de posts: modelos de arte por semana e por papel do post. Automação de calendário de posts: a postagem automática na hora do plano aprovado, sem IA, com o resumo do dia ao dono. Automação de calendário de posts: o relatório do mês com os números de cada post e o aviso de calendário acabando.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-28"
+    },
     {
       "versao": "1.7.2",
       "titulo": "O lead passado adiante não volta para quem deixou o prazo vencer, a Ronda cobra uma vez por dia e o Als Copilot fica rápido em conversa longa",
