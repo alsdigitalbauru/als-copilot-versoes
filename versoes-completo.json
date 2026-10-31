@@ -1,18 +1,45 @@
 {
   "atual": {
-    "versao": "1.7.7",
-    "titulo": "O agente acha o item certo do anúncio",
+    "versao": "1.7.8",
+    "titulo": "Todos os agentes pensam no mesmo cérebro, o agente de atendimento cobra a equipe e o Workflow sai do sistema",
     "itens": [
-      "Quando vários itens do catálogo têm o mesmo nome, o agente de atendimento reconhece qual é o do anúncio comparando, em escada, o código, a categoria, os números (como metragem e preço) e os detalhes da descrição.",
-      "A lista de itens que combinam com o anúncio chega ao agente com os detalhes de cada um (código, resumo e ficha) e com o motivo de cada um combinar.",
-      "Quando dois itens empatam em todos os detalhes do anúncio, o agente confirma com a pessoa qual é, com uma pergunta curta, em vez de apresentar um deles como certo.",
-      "Documentação: o caminho da entrada dos avisos do Instagram por automação e o registro da correção desta versão."
+      "A referência escrita no anúncio acha o item no catálogo inteiro, e o texto do anúncio chega inteiro ao agente (até 3.000 caracteres).",
+      "Chegam ao sistema os avisos do Instagram (comentários e mensagens diretas), por uma entrada própria da ALS e pela automação que recebe as redes.",
+      "O agente de atendimento pode pensar no cérebro principal do sistema, numa tomada própria e sem caixa de trabalho.",
+      "O agente de atendimento reconhece a equipe: quem recebeu o atendimento fala com ele, ele ganha as ferramentas de cobrança, e a retomada automática não procura a equipe.",
+      "A passada pelos leads roda no próprio agente de atendimento: ele cobra o responsável pelo número dele (nunca pelo WhatsApp oficial) ou pelo número da equipe, e a resposta volta para ele.",
+      "A Ronda deixa de ser um agente à parte: a passada só roda no agente que cuida da equipe, o empréstimo de número sai e o cartão passa a se chamar \"Número da equipe\".",
+      "O Instagram fica na tela de Canais como conta da empresa: salvar apaga as contas desmarcadas, e reconectar nunca apaga a conta marcada.",
+      "Todo agente pronto pensa no cérebro principal, sem escolha e sem volta ao anterior.",
+      "Os agentes feitos à mão também pensam no cérebro principal, com as instruções de cada agente como identidade dele.",
+      "O seletor de cérebro do Als Copilot fica com duas opções, e quem estava na opção que saiu passa ao cérebro principal.",
+      "A importação do catálogo deixa de depender de Workflow e passa a ser uma automação.",
+      "O motor deixa de executar Workflows: saem o processo, os gatilhos, o atendimento e o disparo por Workflow.",
+      "Saem as telas, as rotas e o editor de Workflows, as ferramentas de acionar e preparar Workflow, o tipo \"processo\" nos agendamentos e a aba de Workflows do agente.",
+      "O banco deixa de ter as tabelas de Workflow e os agendamentos de processo; conversas, leads e catálogo ficam intactos.",
+      "As perguntas rápidas do sistema passam a usar o cérebro principal.",
+      "O serviço do cérebro anterior sai do sistema: os rascunhos dele saem do banco, e a memória de cada pessoa fica guardada.",
+      "A atualização só troca de versão quando a instalação já está preparada para o cérebro principal; senão, o sistema fica na versão de antes, sem nada alterado.",
+      "Documentação: a prova de ponta a ponta da referência do anúncio, o plano dos agentes no cérebro principal e da saída do Workflow, e os próximos passos da entrada das redes."
     ],
-    "novidades": "O agente acha o item certo do anúncio Quando vários itens do catálogo têm o mesmo nome, o agente de atendimento reconhece qual é o do anúncio comparando, em escada, o código, a categoria, os números (como metragem e preço) e os detalhes da descrição. A lista de itens que combinam com o anúncio chega ao agente com os detalhes de cada um (código, resumo e ficha) e com o motivo de cada um combinar. Quando dois itens empatam em todos os detalhes do anúncio, o agente confirma com a pessoa qual é, com uma pergunta curta, em vez de apresentar um deles como certo. Documentação: o caminho da entrada dos avisos do Instagram por automação e o registro da correção desta versão.",
+    "novidades": "Todos os agentes pensam no mesmo cérebro, o agente de atendimento cobra a equipe e o Workflow sai do sistema A referência escrita no anúncio acha o item no catálogo inteiro, e o texto do anúncio chega inteiro ao agente (até 3.000 caracteres). Chegam ao sistema os avisos do Instagram (comentários e mensagens diretas), por uma entrada própria da ALS e pela automação que recebe as redes. O agente de atendimento pode pensar no cérebro principal do sistema, numa tomada própria e sem caixa de trabalho. O agente de atendimento reconhece a equipe: quem recebeu o atendimento fala com ele, ele ganha as ferramentas de cobrança, e a retomada automática não procura a equipe. A passada pelos leads roda no próprio agente de atendimento: ele cobra o responsável pelo número dele (nunca pelo WhatsApp oficial) ou pelo número da equipe, e a resposta volta para ele. A Ronda deixa de ser um agente à parte: a passada só roda no agente que cuida da equipe, o empréstimo de número sai e o cartão passa a se chamar \"Número da equipe\". O Instagram fica na tela de Canais como conta da empresa: salvar apaga as contas desmarcadas, e reconectar nunca apaga a conta marcada. Todo agente pronto pensa no cérebro principal, sem escolha e sem volta ao anterior. Os agentes feitos à mão também pensam no cérebro principal, com as instruções de cada agente como identidade dele. O seletor de cérebro do Als Copilot fica com duas opções, e quem estava na opção que saiu passa ao cérebro principal. A importação do catálogo deixa de depender de Workflow e passa a ser uma automação. O motor deixa de executar Workflows: saem o processo, os gatilhos, o atendimento e o disparo por Workflow. Saem as telas, as rotas e o editor de Workflows, as ferramentas de acionar e preparar Workflow, o tipo \"processo\" nos agendamentos e a aba de Workflows do agente. O banco deixa de ter as tabelas de Workflow e os agendamentos de processo; conversas, leads e catálogo ficam intactos. As perguntas rápidas do sistema passam a usar o cérebro principal. O serviço do cérebro anterior sai do sistema: os rascunhos dele saem do banco, e a memória de cada pessoa fica guardada. A atualização só troca de versão quando a instalação já está preparada para o cérebro principal; senão, o sistema fica na versão de antes, sem nada alterado. Documentação: a prova de ponta a ponta da referência do anúncio, o plano dos agentes no cérebro principal e da saída do Workflow, e os próximos passos da entrada das redes.",
     "obrigatoria": false,
-    "publicada_em": "2026-10-30"
+    "publicada_em": "2026-10-31"
   },
   "anteriores": [
+    {
+      "versao": "1.7.7",
+      "titulo": "O agente acha o item certo do anúncio",
+      "itens": [
+        "Quando vários itens do catálogo têm o mesmo nome, o agente de atendimento reconhece qual é o do anúncio comparando, em escada, o código, a categoria, os números (como metragem e preço) e os detalhes da descrição.",
+        "A lista de itens que combinam com o anúncio chega ao agente com os detalhes de cada um (código, resumo e ficha) e com o motivo de cada um combinar.",
+        "Quando dois itens empatam em todos os detalhes do anúncio, o agente confirma com a pessoa qual é, com uma pergunta curta, em vez de apresentar um deles como certo.",
+        "Documentação: o caminho da entrada dos avisos do Instagram por automação e o registro da correção desta versão."
+      ],
+      "novidades": "O agente acha o item certo do anúncio Quando vários itens do catálogo têm o mesmo nome, o agente de atendimento reconhece qual é o do anúncio comparando, em escada, o código, a categoria, os números (como metragem e preço) e os detalhes da descrição. A lista de itens que combinam com o anúncio chega ao agente com os detalhes de cada um (código, resumo e ficha) e com o motivo de cada um combinar. Quando dois itens empatam em todos os detalhes do anúncio, o agente confirma com a pessoa qual é, com uma pergunta curta, em vez de apresentar um deles como certo. Documentação: o caminho da entrada dos avisos do Instagram por automação e o registro da correção desta versão.",
+      "obrigatoria": false,
+      "publicada_em": "2026-10-30"
+    },
     {
       "versao": "1.7.6",
       "titulo": "O Als Copilot monta e cuida de automações sozinho, e a conversa mostra o trabalho na hora",
