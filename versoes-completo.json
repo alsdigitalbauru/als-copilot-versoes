@@ -1,18 +1,41 @@
 {
   "atual": {
-    "versao": "1.8.0",
-    "titulo": "Lead no Lead Frio deixa de ser repassado, e o atendimento pelo WhatsApp oficial mostra o «digitando…»",
+    "versao": "1.8.1",
+    "titulo": "O Instagram do Porteiro passa a ser conectado dentro do próprio Porteiro, e a conversa mostra a foto certa em cada bolha",
     "itens": [
-      "O atendimento pelo WhatsApp oficial passa a mostrar o «digitando…» enquanto o agente pensa e trabalha, renovado até a resposta sair.",
-      "Os serviços de fora conectados ao agente passam a ser usados direto, sem ficarem esperando uma aprovação que ninguém dá: ações como enviar as fotos de um imóvel para o site voltam a funcionar.",
-      "O lead que está no Lead Frio passa a ser tratado como perdido: o rodízio de repasse para e o relógio do agente deixa de procurá-lo (retomada, passagem ao corretor e retorno combinado). Só o cliente escrevendo reabre o negócio.",
-      "O histórico do negócio passa a dizer quem o reabriu: «o cliente escreveu de novo» só quando foi o cliente; quando foi uma passagem, diz que o atendimento foi passado de novo."
+      "O Instagram do Porteiro das redes agora é conectado dentro do cartão do próprio Porteiro, na tela de Automações, e sai da tela de Canais.",
+      "No cartão do Porteiro, Instagram e Facebook aparecem lado a lado, com os ícones de cada um; o Facebook ainda não está disponível.",
+      "Salvar as contas do Instagram e conectar de novo não apagam mais nenhuma conta; cada conta ganha um botão Remover, com confirmação.",
+      "A conversa com o Als Copilot mostra a foto certa em cada bolha e junta fotos seguidas numa galeria.",
+      "A resposta do agente flui por palavras em vez de dar trancos, e quem não mexeu na tela é levado ao começo da resposta no fim do turno.",
+      "Conversas muito longas não ficam mais mudas quando as ferramentas do agente mudam.",
+      "O lead que volta dias depois como nova rodada do mesmo passo aparece para quem o recebe.",
+      "O dono conversa pela tela com o agente pronto de cada nicho, usando as ferramentas do próprio pacote.",
+      "O agente suspende um contrato já enviado para assinatura, sem apagar nada (automação de contratos).",
+      "O resumo de anúncios deixa de trazer o bloco de quem o dono tirar do resumo (automação de acompanhamento de anúncios).",
+      "As ferramentas do agente passam a saber em qual conversa estão pelo cabeçalho da chamada, e não pelo que o agente copia.",
+      "A coluna de conversas retraída mostra três quadradinhos iguais, só com o ícone.",
+      "Testes novos contra o esquecimento de ferramentas e automações pelo agente, e a medição de conversa longa com troca de ferramentas (só testes; nada do produto mudou).",
+      "A ferramenta interna de conserto por peças começa os telefones de teste depois do maior já usado."
     ],
-    "novidades": "Lead no Lead Frio deixa de ser repassado, e o atendimento pelo WhatsApp oficial mostra o «digitando…» O atendimento pelo WhatsApp oficial passa a mostrar o «digitando…» enquanto o agente pensa e trabalha, renovado até a resposta sair. Os serviços de fora conectados ao agente passam a ser usados direto, sem ficarem esperando uma aprovação que ninguém dá: ações como enviar as fotos de um imóvel para o site voltam a funcionar. O lead que está no Lead Frio passa a ser tratado como perdido: o rodízio de repasse para e o relógio do agente deixa de procurá-lo (retomada, passagem ao corretor e retorno combinado). Só o cliente escrevendo reabre o negócio. O histórico do negócio passa a dizer quem o reabriu: «o cliente escreveu de novo» só quando foi o cliente; quando foi uma passagem, diz que o atendimento foi passado de novo.",
+    "novidades": "O Instagram do Porteiro passa a ser conectado dentro do próprio Porteiro, e a conversa mostra a foto certa em cada bolha O Instagram do Porteiro das redes agora é conectado dentro do cartão do próprio Porteiro, na tela de Automações, e sai da tela de Canais. No cartão do Porteiro, Instagram e Facebook aparecem lado a lado, com os ícones de cada um; o Facebook ainda não está disponível. Salvar as contas do Instagram e conectar de novo não apagam mais nenhuma conta; cada conta ganha um botão Remover, com confirmação. A conversa com o Als Copilot mostra a foto certa em cada bolha e junta fotos seguidas numa galeria. A resposta do agente flui por palavras em vez de dar trancos, e quem não mexeu na tela é levado ao começo da resposta no fim do turno. Conversas muito longas não ficam mais mudas quando as ferramentas do agente mudam. O lead que volta dias depois como nova rodada do mesmo passo aparece para quem o recebe. O dono conversa pela tela com o agente pronto de cada nicho, usando as ferramentas do próprio pacote. O agente suspende um contrato já enviado para assinatura, sem apagar nada (automação de contratos). O resumo de anúncios deixa de trazer o bloco de quem o dono tirar do resumo (automação de acompanhamento de anúncios). As ferramentas do agente passam a saber em qual conversa estão pelo cabeçalho da chamada, e não pelo que o agente copia. A coluna de conversas retraída mostra três quadradinhos iguais, só com o ícone. Testes novos contra o esquecimento de ferramentas e automações pelo agente, e a medição de conversa longa com troca de ferramentas (só testes; nada do produto mudou). A ferramenta interna de conserto por peças começa os telefones de teste depois do maior já usado.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-03"
+    "publicada_em": "2026-11-04"
   },
   "anteriores": [
+    {
+      "versao": "1.8.0",
+      "titulo": "Lead no Lead Frio deixa de ser repassado, e o atendimento pelo WhatsApp oficial mostra o «digitando…»",
+      "itens": [
+        "O atendimento pelo WhatsApp oficial passa a mostrar o «digitando…» enquanto o agente pensa e trabalha, renovado até a resposta sair.",
+        "Os serviços de fora conectados ao agente passam a ser usados direto, sem ficarem esperando uma aprovação que ninguém dá: ações como enviar as fotos de um imóvel para o site voltam a funcionar.",
+        "O lead que está no Lead Frio passa a ser tratado como perdido: o rodízio de repasse para e o relógio do agente deixa de procurá-lo (retomada, passagem ao corretor e retorno combinado). Só o cliente escrevendo reabre o negócio.",
+        "O histórico do negócio passa a dizer quem o reabriu: «o cliente escreveu de novo» só quando foi o cliente; quando foi uma passagem, diz que o atendimento foi passado de novo."
+      ],
+      "novidades": "Lead no Lead Frio deixa de ser repassado, e o atendimento pelo WhatsApp oficial mostra o «digitando…» O atendimento pelo WhatsApp oficial passa a mostrar o «digitando…» enquanto o agente pensa e trabalha, renovado até a resposta sair. Os serviços de fora conectados ao agente passam a ser usados direto, sem ficarem esperando uma aprovação que ninguém dá: ações como enviar as fotos de um imóvel para o site voltam a funcionar. O lead que está no Lead Frio passa a ser tratado como perdido: o rodízio de repasse para e o relógio do agente deixa de procurá-lo (retomada, passagem ao corretor e retorno combinado). Só o cliente escrevendo reabre o negócio. O histórico do negócio passa a dizer quem o reabriu: «o cliente escreveu de novo» só quando foi o cliente; quando foi uma passagem, diz que o atendimento foi passado de novo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-03"
+    },
     {
       "versao": "1.7.10",
       "titulo": "Pegar atendimento no app, uma conversa só no app e no WhatsApp, e o agente que enxerga as automações",
