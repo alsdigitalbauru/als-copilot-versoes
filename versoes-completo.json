@@ -1,28 +1,50 @@
 {
   "atual": {
-    "versao": "1.8.1",
-    "titulo": "O Instagram do Porteiro passa a ser conectado dentro do próprio Porteiro, e a conversa mostra a foto certa em cada bolha",
+    "versao": "1.8.2",
+    "titulo": "A Secretária cobra os corretores pelo aplicativo e conta o dia ao dono",
     "itens": [
-      "O Instagram do Porteiro das redes agora é conectado dentro do cartão do próprio Porteiro, na tela de Automações, e sai da tela de Canais.",
-      "No cartão do Porteiro, Instagram e Facebook aparecem lado a lado, com os ícones de cada um; o Facebook ainda não está disponível.",
-      "Salvar as contas do Instagram e conectar de novo não apagam mais nenhuma conta; cada conta ganha um botão Remover, com confirmação.",
-      "A conversa com o Als Copilot mostra a foto certa em cada bolha e junta fotos seguidas numa galeria.",
-      "A resposta do agente flui por palavras em vez de dar trancos, e quem não mexeu na tela é levado ao começo da resposta no fim do turno.",
-      "Conversas muito longas não ficam mais mudas quando as ferramentas do agente mudam.",
-      "O lead que volta dias depois como nova rodada do mesmo passo aparece para quem o recebe.",
-      "O dono conversa pela tela com o agente pronto de cada nicho, usando as ferramentas do próprio pacote.",
-      "O agente suspende um contrato já enviado para assinatura, sem apagar nada (automação de contratos).",
-      "O resumo de anúncios deixa de trazer o bloco de quem o dono tirar do resumo (automação de acompanhamento de anúncios).",
-      "As ferramentas do agente passam a saber em qual conversa estão pelo cabeçalho da chamada, e não pelo que o agente copia.",
-      "A coluna de conversas retraída mostra três quadradinhos iguais, só com o ícone.",
-      "Testes novos contra o esquecimento de ferramentas e automações pelo agente, e a medição de conversa longa com troca de ferramentas (só testes; nada do produto mudou).",
-      "A ferramenta interna de conserto por peças começa os telefones de teste depois do maior já usado."
+      "O agente de atendimento passa a só atender: o card do lead já nasce em Em Atendimento, e o limite de 20 horas por lead fica com a Secretária.",
+      "Nova tela Cobrança no aplicativo: o corretor recebe um aviso curto com um link que já entra logado, vê o cliente e o imóvel e responde com um toque (marquei uma visita, aguardando o cliente, venda fechada, sem interesse ou devolver ao agente), com seletor de data e erro claro para data que já passou.",
+      "A cobrança segue uma escada: o primeiro aviso 3 horas depois da passagem, o segundo 3 horas depois, e depois a cada 24 horas, sempre dentro do horário, dos dias e dos feriados da tela Passar atendimento.",
+      "Uma mensagem só por corretor: com um lead, o link abre o cliente; com vários, abre a lista, com a conta de quantos esperam e há quanto tempo.",
+      "A cobrança acompanha o lead quando ele muda de mãos (passar, assumir, devolver ou reatribuir), e o link de cobrança de quem deixou de ser o responsável deixa de valer.",
+      "O rodízio passa a ser um sorteio: sorteia entre quem ainda não teve a vez na volta, sem repetir ninguém até todos passarem.",
+      "Nova caixinha na tela Passar atendimento: \"Avisar o dono da empresa\" quando ninguém da equipe pega o lead (marcada por padrão).",
+      "Termômetro do lead escrito pela Secretária ao ler a conversa: ícone, faixa (lead frio, morno ou quente), porcentagem e uma frase, no card, na lista e na tela Pegar atendimento.",
+      "A Secretária entrega ao corretor sorteado os leads que já estavam parados em equipe sem ninguém pegar, avisando cada corretor com uma mensagem só (peça temporária desta atualização).",
+      "Resumo do dono: todo dia de trabalho às 18h30, e no último dia de trabalho da semana o da semana, o titular recebe um link que abre o resumo no aplicativo, com atendimentos, passados a corretores, tempo para um corretor pegar, visitas, quanto cada corretor recebeu e o que pede atenção.",
+      "No resumo, cada lead que a Secretária moveu abre uma janelinha com o porquê, o termômetro e o botão Desfazer.",
+      "A Ronda deixa de trabalhar sozinha: saem a passada pelos leads, a colheita de ideias, as duas rotas que o motor chamava e o cartão Passada pelos leads do Piloto Automático.",
+      "A lista de Atendimentos no celular fica na lista ao filtrar, em vez de abrir sempre dentro da primeira conversa."
     ],
-    "novidades": "O Instagram do Porteiro passa a ser conectado dentro do próprio Porteiro, e a conversa mostra a foto certa em cada bolha O Instagram do Porteiro das redes agora é conectado dentro do cartão do próprio Porteiro, na tela de Automações, e sai da tela de Canais. No cartão do Porteiro, Instagram e Facebook aparecem lado a lado, com os ícones de cada um; o Facebook ainda não está disponível. Salvar as contas do Instagram e conectar de novo não apagam mais nenhuma conta; cada conta ganha um botão Remover, com confirmação. A conversa com o Als Copilot mostra a foto certa em cada bolha e junta fotos seguidas numa galeria. A resposta do agente flui por palavras em vez de dar trancos, e quem não mexeu na tela é levado ao começo da resposta no fim do turno. Conversas muito longas não ficam mais mudas quando as ferramentas do agente mudam. O lead que volta dias depois como nova rodada do mesmo passo aparece para quem o recebe. O dono conversa pela tela com o agente pronto de cada nicho, usando as ferramentas do próprio pacote. O agente suspende um contrato já enviado para assinatura, sem apagar nada (automação de contratos). O resumo de anúncios deixa de trazer o bloco de quem o dono tirar do resumo (automação de acompanhamento de anúncios). As ferramentas do agente passam a saber em qual conversa estão pelo cabeçalho da chamada, e não pelo que o agente copia. A coluna de conversas retraída mostra três quadradinhos iguais, só com o ícone. Testes novos contra o esquecimento de ferramentas e automações pelo agente, e a medição de conversa longa com troca de ferramentas (só testes; nada do produto mudou). A ferramenta interna de conserto por peças começa os telefones de teste depois do maior já usado.",
+    "novidades": "A Secretária cobra os corretores pelo aplicativo e conta o dia ao dono O agente de atendimento passa a só atender: o card do lead já nasce em Em Atendimento, e o limite de 20 horas por lead fica com a Secretária. Nova tela Cobrança no aplicativo: o corretor recebe um aviso curto com um link que já entra logado, vê o cliente e o imóvel e responde com um toque (marquei uma visita, aguardando o cliente, venda fechada, sem interesse ou devolver ao agente), com seletor de data e erro claro para data que já passou. A cobrança segue uma escada: o primeiro aviso 3 horas depois da passagem, o segundo 3 horas depois, e depois a cada 24 horas, sempre dentro do horário, dos dias e dos feriados da tela Passar atendimento. Uma mensagem só por corretor: com um lead, o link abre o cliente; com vários, abre a lista, com a conta de quantos esperam e há quanto tempo. A cobrança acompanha o lead quando ele muda de mãos (passar, assumir, devolver ou reatribuir), e o link de cobrança de quem deixou de ser o responsável deixa de valer. O rodízio passa a ser um sorteio: sorteia entre quem ainda não teve a vez na volta, sem repetir ninguém até todos passarem. Nova caixinha na tela Passar atendimento: \"Avisar o dono da empresa\" quando ninguém da equipe pega o lead (marcada por padrão). Termômetro do lead escrito pela Secretária ao ler a conversa: ícone, faixa (lead frio, morno ou quente), porcentagem e uma frase, no card, na lista e na tela Pegar atendimento. A Secretária entrega ao corretor sorteado os leads que já estavam parados em equipe sem ninguém pegar, avisando cada corretor com uma mensagem só (peça temporária desta atualização). Resumo do dono: todo dia de trabalho às 18h30, e no último dia de trabalho da semana o da semana, o titular recebe um link que abre o resumo no aplicativo, com atendimentos, passados a corretores, tempo para um corretor pegar, visitas, quanto cada corretor recebeu e o que pede atenção. No resumo, cada lead que a Secretária moveu abre uma janelinha com o porquê, o termômetro e o botão Desfazer. A Ronda deixa de trabalhar sozinha: saem a passada pelos leads, a colheita de ideias, as duas rotas que o motor chamava e o cartão Passada pelos leads do Piloto Automático. A lista de Atendimentos no celular fica na lista ao filtrar, em vez de abrir sempre dentro da primeira conversa.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-04"
+    "publicada_em": "2026-11-05"
   },
   "anteriores": [
+    {
+      "versao": "1.8.1",
+      "titulo": "O Instagram do Porteiro passa a ser conectado dentro do próprio Porteiro, e a conversa mostra a foto certa em cada bolha",
+      "itens": [
+        "O Instagram do Porteiro das redes agora é conectado dentro do cartão do próprio Porteiro, na tela de Automações, e sai da tela de Canais.",
+        "No cartão do Porteiro, Instagram e Facebook aparecem lado a lado, com os ícones de cada um; o Facebook ainda não está disponível.",
+        "Salvar as contas do Instagram e conectar de novo não apagam mais nenhuma conta; cada conta ganha um botão Remover, com confirmação.",
+        "A conversa com o Als Copilot mostra a foto certa em cada bolha e junta fotos seguidas numa galeria.",
+        "A resposta do agente flui por palavras em vez de dar trancos, e quem não mexeu na tela é levado ao começo da resposta no fim do turno.",
+        "Conversas muito longas não ficam mais mudas quando as ferramentas do agente mudam.",
+        "O lead que volta dias depois como nova rodada do mesmo passo aparece para quem o recebe.",
+        "O dono conversa pela tela com o agente pronto de cada nicho, usando as ferramentas do próprio pacote.",
+        "O agente suspende um contrato já enviado para assinatura, sem apagar nada (automação de contratos).",
+        "O resumo de anúncios deixa de trazer o bloco de quem o dono tirar do resumo (automação de acompanhamento de anúncios).",
+        "As ferramentas do agente passam a saber em qual conversa estão pelo cabeçalho da chamada, e não pelo que o agente copia.",
+        "A coluna de conversas retraída mostra três quadradinhos iguais, só com o ícone.",
+        "Testes novos contra o esquecimento de ferramentas e automações pelo agente, e a medição de conversa longa com troca de ferramentas (só testes; nada do produto mudou).",
+        "A ferramenta interna de conserto por peças começa os telefones de teste depois do maior já usado."
+      ],
+      "novidades": "O Instagram do Porteiro passa a ser conectado dentro do próprio Porteiro, e a conversa mostra a foto certa em cada bolha O Instagram do Porteiro das redes agora é conectado dentro do cartão do próprio Porteiro, na tela de Automações, e sai da tela de Canais. No cartão do Porteiro, Instagram e Facebook aparecem lado a lado, com os ícones de cada um; o Facebook ainda não está disponível. Salvar as contas do Instagram e conectar de novo não apagam mais nenhuma conta; cada conta ganha um botão Remover, com confirmação. A conversa com o Als Copilot mostra a foto certa em cada bolha e junta fotos seguidas numa galeria. A resposta do agente flui por palavras em vez de dar trancos, e quem não mexeu na tela é levado ao começo da resposta no fim do turno. Conversas muito longas não ficam mais mudas quando as ferramentas do agente mudam. O lead que volta dias depois como nova rodada do mesmo passo aparece para quem o recebe. O dono conversa pela tela com o agente pronto de cada nicho, usando as ferramentas do próprio pacote. O agente suspende um contrato já enviado para assinatura, sem apagar nada (automação de contratos). O resumo de anúncios deixa de trazer o bloco de quem o dono tirar do resumo (automação de acompanhamento de anúncios). As ferramentas do agente passam a saber em qual conversa estão pelo cabeçalho da chamada, e não pelo que o agente copia. A coluna de conversas retraída mostra três quadradinhos iguais, só com o ícone. Testes novos contra o esquecimento de ferramentas e automações pelo agente, e a medição de conversa longa com troca de ferramentas (só testes; nada do produto mudou). A ferramenta interna de conserto por peças começa os telefones de teste depois do maior já usado.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-04"
+    },
     {
       "versao": "1.8.0",
       "titulo": "Lead no Lead Frio deixa de ser repassado, e o atendimento pelo WhatsApp oficial mostra o «digitando…»",
