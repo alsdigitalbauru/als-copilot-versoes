@@ -1,28 +1,47 @@
 {
   "atual": {
-    "versao": "1.8.3",
-    "titulo": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem",
+    "versao": "1.8.4",
+    "titulo": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela",
     "itens": [
-      "Quando a pessoa oferece um imóvel dela como parte do pagamento junto com o imóvel que quer, o atendimento passa a ser passado na hora e a oferta vai no resumo de quem recebe, em vez de travar a passagem.",
-      "A tela Piloto Automático vira a Secretária (sem o Diário e sem o ritmo das ideias), com os textos da pausa e do menu corrigidos.",
-      "Passar o lead a outra pessoa na cobrança, e o atendimento ao vivo empurrado pelo banco, com quem pegar primeiro ficando com o lead.",
-      "O sininho, a Visão geral, as Atualizações e o espelho da conversa passam a ouvir o banco em vez de perguntar à API, sem polling.",
-      "As telas se atualizam sozinhas quando a pessoa abre ou volta para a aba, e o aviso do banco só manda reler o dado.",
-      "O funil da Visão geral é fixo, só com as etapas do sistema e Venda Concluída no fim; as fases da empresa viram uma linha à parte.",
-      "O funil da Visão geral vira barras arredondadas e separadas, cada uma mais estreita, com a cor da fase.",
-      "O agente cria skill no padrão aberto de skills, a importação escreve o 'quando usar' que faltava e o motor respeita esse padrão.",
-      "O agente só cria skill a pedido de uma pessoa reconhecida numa conversa, nunca em turno de sistema; sai a cadeia morta da passada pelos leads.",
-      "O código de cobrança, resumo e reabertura deixa de usar 'corretor' como estrutura: arquivo renomeado, campo do resumo e textos neutros.",
-      "Mapa do projeto (telas, rotas e ferramentas, para que serve e quem usa) e o lembrete de conferir antes de apagar ou editar, valendo em todos os projetos.",
-      "O teste da fiação do navegador acompanha a tela sem o relógio de leitura.",
-      "Os testes de integração da oferta acompanham a permuta junto com a passagem e ganham a prova do caso pelo banco de verdade.",
-      "Documentação interna atualizada: o que saiu do sistema, a lista de abertos, as histórias da Secretária, do atendimento ao vivo e das skills, e as anotações do revisor."
+      "Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR.",
+      "A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar.",
+      "O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser.",
+      "A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes.",
+      "O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento.",
+      "Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver.",
+      "Desconectar o número da Secretária agora pede confirmação.",
+      "O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só.",
+      "A barra de rolagem fica fina e sem o trilho em todas as telas.",
+      "O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail."
     ],
-    "novidades": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem Quando a pessoa oferece um imóvel dela como parte do pagamento junto com o imóvel que quer, o atendimento passa a ser passado na hora e a oferta vai no resumo de quem recebe, em vez de travar a passagem. A tela Piloto Automático vira a Secretária (sem o Diário e sem o ritmo das ideias), com os textos da pausa e do menu corrigidos. Passar o lead a outra pessoa na cobrança, e o atendimento ao vivo empurrado pelo banco, com quem pegar primeiro ficando com o lead. O sininho, a Visão geral, as Atualizações e o espelho da conversa passam a ouvir o banco em vez de perguntar à API, sem polling. As telas se atualizam sozinhas quando a pessoa abre ou volta para a aba, e o aviso do banco só manda reler o dado. O funil da Visão geral é fixo, só com as etapas do sistema e Venda Concluída no fim; as fases da empresa viram uma linha à parte. O funil da Visão geral vira barras arredondadas e separadas, cada uma mais estreita, com a cor da fase. O agente cria skill no padrão aberto de skills, a importação escreve o 'quando usar' que faltava e o motor respeita esse padrão. O agente só cria skill a pedido de uma pessoa reconhecida numa conversa, nunca em turno de sistema; sai a cadeia morta da passada pelos leads. O código de cobrança, resumo e reabertura deixa de usar 'corretor' como estrutura: arquivo renomeado, campo do resumo e textos neutros. Mapa do projeto (telas, rotas e ferramentas, para que serve e quem usa) e o lembrete de conferir antes de apagar ou editar, valendo em todos os projetos. O teste da fiação do navegador acompanha a tela sem o relógio de leitura. Os testes de integração da oferta acompanham a permuta junto com a passagem e ganham a prova do caso pelo banco de verdade. Documentação interna atualizada: o que saiu do sistema, a lista de abertos, as histórias da Secretária, do atendimento ao vivo e das skills, e as anotações do revisor.",
+    "novidades": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR. A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar. O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser. A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes. O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento. Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver. Desconectar o número da Secretária agora pede confirmação. O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só. A barra de rolagem fica fina e sem o trilho em todas as telas. O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail.",
     "obrigatoria": false,
     "publicada_em": "2026-11-05"
   },
   "anteriores": [
+    {
+      "versao": "1.8.3",
+      "titulo": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem",
+      "itens": [
+        "Quando a pessoa oferece um imóvel dela como parte do pagamento junto com o imóvel que quer, o atendimento passa a ser passado na hora e a oferta vai no resumo de quem recebe, em vez de travar a passagem.",
+        "A tela Piloto Automático vira a Secretária (sem o Diário e sem o ritmo das ideias), com os textos da pausa e do menu corrigidos.",
+        "Passar o lead a outra pessoa na cobrança, e o atendimento ao vivo empurrado pelo banco, com quem pegar primeiro ficando com o lead.",
+        "O sininho, a Visão geral, as Atualizações e o espelho da conversa passam a ouvir o banco em vez de perguntar à API, sem polling.",
+        "As telas se atualizam sozinhas quando a pessoa abre ou volta para a aba, e o aviso do banco só manda reler o dado.",
+        "O funil da Visão geral é fixo, só com as etapas do sistema e Venda Concluída no fim; as fases da empresa viram uma linha à parte.",
+        "O funil da Visão geral vira barras arredondadas e separadas, cada uma mais estreita, com a cor da fase.",
+        "O agente cria skill no padrão aberto de skills, a importação escreve o 'quando usar' que faltava e o motor respeita esse padrão.",
+        "O agente só cria skill a pedido de uma pessoa reconhecida numa conversa, nunca em turno de sistema; sai a cadeia morta da passada pelos leads.",
+        "O código de cobrança, resumo e reabertura deixa de usar 'corretor' como estrutura: arquivo renomeado, campo do resumo e textos neutros.",
+        "Mapa do projeto (telas, rotas e ferramentas, para que serve e quem usa) e o lembrete de conferir antes de apagar ou editar, valendo em todos os projetos.",
+        "O teste da fiação do navegador acompanha a tela sem o relógio de leitura.",
+        "Os testes de integração da oferta acompanham a permuta junto com a passagem e ganham a prova do caso pelo banco de verdade.",
+        "Documentação interna atualizada: o que saiu do sistema, a lista de abertos, as histórias da Secretária, do atendimento ao vivo e das skills, e as anotações do revisor."
+      ],
+      "novidades": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem Quando a pessoa oferece um imóvel dela como parte do pagamento junto com o imóvel que quer, o atendimento passa a ser passado na hora e a oferta vai no resumo de quem recebe, em vez de travar a passagem. A tela Piloto Automático vira a Secretária (sem o Diário e sem o ritmo das ideias), com os textos da pausa e do menu corrigidos. Passar o lead a outra pessoa na cobrança, e o atendimento ao vivo empurrado pelo banco, com quem pegar primeiro ficando com o lead. O sininho, a Visão geral, as Atualizações e o espelho da conversa passam a ouvir o banco em vez de perguntar à API, sem polling. As telas se atualizam sozinhas quando a pessoa abre ou volta para a aba, e o aviso do banco só manda reler o dado. O funil da Visão geral é fixo, só com as etapas do sistema e Venda Concluída no fim; as fases da empresa viram uma linha à parte. O funil da Visão geral vira barras arredondadas e separadas, cada uma mais estreita, com a cor da fase. O agente cria skill no padrão aberto de skills, a importação escreve o 'quando usar' que faltava e o motor respeita esse padrão. O agente só cria skill a pedido de uma pessoa reconhecida numa conversa, nunca em turno de sistema; sai a cadeia morta da passada pelos leads. O código de cobrança, resumo e reabertura deixa de usar 'corretor' como estrutura: arquivo renomeado, campo do resumo e textos neutros. Mapa do projeto (telas, rotas e ferramentas, para que serve e quem usa) e o lembrete de conferir antes de apagar ou editar, valendo em todos os projetos. O teste da fiação do navegador acompanha a tela sem o relógio de leitura. Os testes de integração da oferta acompanham a permuta junto com a passagem e ganham a prova do caso pelo banco de verdade. Documentação interna atualizada: o que saiu do sistema, a lista de abertos, as histórias da Secretária, do atendimento ao vivo e das skills, e as anotações do revisor.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-05"
+    },
     {
       "versao": "1.8.2",
       "titulo": "A Secretária cobra os corretores pelo aplicativo e conta o dia ao dono",
