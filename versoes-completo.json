@@ -1,24 +1,48 @@
 {
   "atual": {
-    "versao": "1.8.4",
-    "titulo": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela",
+    "versao": "1.8.5",
+    "titulo": "A Secretária cobra a agenda atrasada, avisa o compromisso e um leitor confere o lead antes de passá-lo",
     "itens": [
-      "Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR.",
-      "A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar.",
-      "O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser.",
-      "A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes.",
-      "O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento.",
-      "Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver.",
-      "Desconectar o número da Secretária agora pede confirmação.",
-      "O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só.",
-      "A barra de rolagem fica fina e sem o trilho em todas as telas.",
-      "O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail."
+      "Antes de passar um lead ao corretor, um leitor separado lê a conversa inteira e as fotos e manda ao Lead Frio quem não mostrou interesse, no lugar da conta de contar mensagens.",
+      "Na conversa ao vivo, quando o leitor manda o lead ao Lead Frio, o agente nunca responde um \"ok\" solto ao cliente.",
+      "As fotos que um lead manda ao agente de atendimento somem em 24 horas, do banco e do armazenamento, por uma faxina de hora em hora; só apaga foto de agente de atendimento, de quem não é da equipe, sem ligação com o Mídia Kit, tarefa ou negócio.",
+      "A agenda atrasada entra na cobrança que já existe (mesma linha, mesmo aviso, mesma lista), e a ficha do lead aparece na tela de cobrança.",
+      "O corretor recebe no máximo uma mensagem a cada 3 horas sobre cobrança, com teto de 3 avisos por lead.",
+      "Os leads que bateram o teto de 3 avisos entram no resumo do dia da administração (só com a caixinha marcada), com a frase \"<lead> está com <pessoa>, que já recebeu 3 avisos e não atualizou.\"",
+      "O card em Aguardando retorno mostra a data em que o agente volta a falar com o cliente, e o card volta sozinho na data combinada.",
+      "O botão \"Concluir a próxima ação\" some da etiqueta da volta combinada, e a etiqueta nunca mistura texto de um com a data do outro.",
+      "O lembrete do compromisso de um lead chega a quem responde por ele, 1 hora antes, com uma linha de resumo e o link da ficha, na mesma mensagem da cobrança; o compromisso que o agente marca em lead sem responsável não avisa ninguém.",
+      "Descartar um lead (Lead Frio ou bloquear) pede a decisão da administração: o funcionário escreve o porquê e vê \"Enviado para a administração\"; o aviso sai por e-mail e WhatsApp.",
+      "A foto de quem pediu sai pequena na tela de decisão do descarte.",
+      "O pedido de automação fica registrado, com histórico na tela e aviso quando é feito; também dá para descartar um pedido, com o motivo.",
+      "O lead que termina (Negócio Concluído, Lead Frio, perdido) não deixa nada em aberto: agenda, retorno, cobrança, prazo e pendência saem; uma migração limpa os que já terminaram.",
+      "O negócio que entra em Negócio Concluído tem a agenda em aberto cancelada e a próxima ação limpa, na mesma transação.",
+      "O card fixo \"Venda Concluída\" passa a se chamar \"Negócio Concluído\", renomeado nas instalações que já rodam."
     ],
-    "novidades": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR. A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar. O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser. A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes. O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento. Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver. Desconectar o número da Secretária agora pede confirmação. O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só. A barra de rolagem fica fina e sem o trilho em todas as telas. O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail.",
+    "novidades": "A Secretária cobra a agenda atrasada, avisa o compromisso e um leitor confere o lead antes de passá-lo Antes de passar um lead ao corretor, um leitor separado lê a conversa inteira e as fotos e manda ao Lead Frio quem não mostrou interesse, no lugar da conta de contar mensagens. Na conversa ao vivo, quando o leitor manda o lead ao Lead Frio, o agente nunca responde um \"ok\" solto ao cliente. As fotos que um lead manda ao agente de atendimento somem em 24 horas, do banco e do armazenamento, por uma faxina de hora em hora; só apaga foto de agente de atendimento, de quem não é da equipe, sem ligação com o Mídia Kit, tarefa ou negócio. A agenda atrasada entra na cobrança que já existe (mesma linha, mesmo aviso, mesma lista), e a ficha do lead aparece na tela de cobrança. O corretor recebe no máximo uma mensagem a cada 3 horas sobre cobrança, com teto de 3 avisos por lead. Os leads que bateram o teto de 3 avisos entram no resumo do dia da administração (só com a caixinha marcada), com a frase \"<lead> está com <pessoa>, que já recebeu 3 avisos e não atualizou.\" O card em Aguardando retorno mostra a data em que o agente volta a falar com o cliente, e o card volta sozinho na data combinada. O botão \"Concluir a próxima ação\" some da etiqueta da volta combinada, e a etiqueta nunca mistura texto de um com a data do outro. O lembrete do compromisso de um lead chega a quem responde por ele, 1 hora antes, com uma linha de resumo e o link da ficha, na mesma mensagem da cobrança; o compromisso que o agente marca em lead sem responsável não avisa ninguém. Descartar um lead (Lead Frio ou bloquear) pede a decisão da administração: o funcionário escreve o porquê e vê \"Enviado para a administração\"; o aviso sai por e-mail e WhatsApp. A foto de quem pediu sai pequena na tela de decisão do descarte. O pedido de automação fica registrado, com histórico na tela e aviso quando é feito; também dá para descartar um pedido, com o motivo. O lead que termina (Negócio Concluído, Lead Frio, perdido) não deixa nada em aberto: agenda, retorno, cobrança, prazo e pendência saem; uma migração limpa os que já terminaram. O negócio que entra em Negócio Concluído tem a agenda em aberto cancelada e a próxima ação limpa, na mesma transação. O card fixo \"Venda Concluída\" passa a se chamar \"Negócio Concluído\", renomeado nas instalações que já rodam.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-05"
+    "publicada_em": "2026-11-06"
   },
   "anteriores": [
+    {
+      "versao": "1.8.4",
+      "titulo": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela",
+      "itens": [
+        "Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR.",
+        "A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar.",
+        "O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser.",
+        "A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes.",
+        "O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento.",
+        "Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver.",
+        "Desconectar o número da Secretária agora pede confirmação.",
+        "O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só.",
+        "A barra de rolagem fica fina e sem o trilho em todas as telas.",
+        "O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail."
+      ],
+      "novidades": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR. A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar. O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser. A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes. O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento. Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver. Desconectar o número da Secretária agora pede confirmação. O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só. A barra de rolagem fica fina e sem o trilho em todas as telas. O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-05"
+    },
     {
       "versao": "1.8.3",
       "titulo": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem",
