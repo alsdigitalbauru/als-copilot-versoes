@@ -1,27 +1,45 @@
 {
   "atual": {
-    "versao": "1.8.6",
-    "titulo": "O lead com interesse chega ao corretor em cerca de uma hora",
+    "versao": "1.8.7",
+    "titulo": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês",
     "itens": [
-      "Uma hora depois da primeira retomada sem resposta, o agente de atendimento relê a conversa inteira e decide na hora: quem mostrou interesse vai para o corretor, e quem não mostrou vai para o Lead Frio, sem esperar até o fim do dia.",
-      "A segunda mensagem de retomada saiu: depois da primeira tentativa, o lead já ganha um destino.",
-      "Quem está conversando com o agente há uma hora e já mostrou interesse também é passado ao corretor, sem precisar pedir visita.",
-      "A mensagem pronta do botão do anúncio não conta mais como conversa do lead na hora de decidir.",
-      "Se a pessoa pediu para ser procurada numa data futura, o agente marca o retorno em vez de passar ou arquivar o lead.",
-      "Quando o sistema decide sozinho, a resposta ao vivo da pessoa volta a seguir as regras da tela Passar atendimento.",
-      "O Lead Frio de uma conversa antiga não é mais confundido com a decisão de um atendimento novo do mesmo lead.",
-      "A primeira retomada de 10 minutos repete a pergunta que ficou sem resposta, em vez de abrir outra.",
-      "Na conversa de WhatsApp, o corretor responde o cliente pelo próprio WhatsApp: a caixa de mensagem do aplicativo deixa de aparecer para ele, e o botão do WhatsApp aparece depois de assumir.",
-      "Telefone de fora do Brasil deixa de ganhar o 55, e o botão Atender agora abre o número certo.",
-      "A lista de fotinhas em Atendimentos e no cartão do CRM mostra só quem atende; quem só recebeu o aviso aparece apenas enquanto ninguém assumiu e uma única pessoa ainda espera.",
-      "Ajuste interno na gravação das regras da tela Passar atendimento.",
-      "Registro interno: rotina de cópia de segurança do código."
+      "O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir",
+      "A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele",
+      "O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe)",
+      "O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo",
+      "O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto",
+      "O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto",
+      "O resumo de anúncios deixa claro que os atendidos são do mês",
+      "Cópia de segurança da automação de acompanhamento de anúncios atualizada",
+      "Registro da correção do motor aplicada antes desta versão"
     ],
-    "novidades": "O lead com interesse chega ao corretor em cerca de uma hora Uma hora depois da primeira retomada sem resposta, o agente de atendimento relê a conversa inteira e decide na hora: quem mostrou interesse vai para o corretor, e quem não mostrou vai para o Lead Frio, sem esperar até o fim do dia. A segunda mensagem de retomada saiu: depois da primeira tentativa, o lead já ganha um destino. Quem está conversando com o agente há uma hora e já mostrou interesse também é passado ao corretor, sem precisar pedir visita. A mensagem pronta do botão do anúncio não conta mais como conversa do lead na hora de decidir. Se a pessoa pediu para ser procurada numa data futura, o agente marca o retorno em vez de passar ou arquivar o lead. Quando o sistema decide sozinho, a resposta ao vivo da pessoa volta a seguir as regras da tela Passar atendimento. O Lead Frio de uma conversa antiga não é mais confundido com a decisão de um atendimento novo do mesmo lead. A primeira retomada de 10 minutos repete a pergunta que ficou sem resposta, em vez de abrir outra. Na conversa de WhatsApp, o corretor responde o cliente pelo próprio WhatsApp: a caixa de mensagem do aplicativo deixa de aparecer para ele, e o botão do WhatsApp aparece depois de assumir. Telefone de fora do Brasil deixa de ganhar o 55, e o botão Atender agora abre o número certo. A lista de fotinhas em Atendimentos e no cartão do CRM mostra só quem atende; quem só recebeu o aviso aparece apenas enquanto ninguém assumiu e uma única pessoa ainda espera. Ajuste interno na gravação das regras da tela Passar atendimento. Registro interno: rotina de cópia de segurança do código.",
+    "novidades": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe) O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto O resumo de anúncios deixa claro que os atendidos são do mês Cópia de segurança da automação de acompanhamento de anúncios atualizada Registro da correção do motor aplicada antes desta versão",
     "obrigatoria": false,
-    "publicada_em": "2026-11-06"
+    "publicada_em": "2026-11-07"
   },
   "anteriores": [
+    {
+      "versao": "1.8.6",
+      "titulo": "O lead com interesse chega ao corretor em cerca de uma hora",
+      "itens": [
+        "Uma hora depois da primeira retomada sem resposta, o agente de atendimento relê a conversa inteira e decide na hora: quem mostrou interesse vai para o corretor, e quem não mostrou vai para o Lead Frio, sem esperar até o fim do dia.",
+        "A segunda mensagem de retomada saiu: depois da primeira tentativa, o lead já ganha um destino.",
+        "Quem está conversando com o agente há uma hora e já mostrou interesse também é passado ao corretor, sem precisar pedir visita.",
+        "A mensagem pronta do botão do anúncio não conta mais como conversa do lead na hora de decidir.",
+        "Se a pessoa pediu para ser procurada numa data futura, o agente marca o retorno em vez de passar ou arquivar o lead.",
+        "Quando o sistema decide sozinho, a resposta ao vivo da pessoa volta a seguir as regras da tela Passar atendimento.",
+        "O Lead Frio de uma conversa antiga não é mais confundido com a decisão de um atendimento novo do mesmo lead.",
+        "A primeira retomada de 10 minutos repete a pergunta que ficou sem resposta, em vez de abrir outra.",
+        "Na conversa de WhatsApp, o corretor responde o cliente pelo próprio WhatsApp: a caixa de mensagem do aplicativo deixa de aparecer para ele, e o botão do WhatsApp aparece depois de assumir.",
+        "Telefone de fora do Brasil deixa de ganhar o 55, e o botão Atender agora abre o número certo.",
+        "A lista de fotinhas em Atendimentos e no cartão do CRM mostra só quem atende; quem só recebeu o aviso aparece apenas enquanto ninguém assumiu e uma única pessoa ainda espera.",
+        "Ajuste interno na gravação das regras da tela Passar atendimento.",
+        "Registro interno: rotina de cópia de segurança do código."
+      ],
+      "novidades": "O lead com interesse chega ao corretor em cerca de uma hora Uma hora depois da primeira retomada sem resposta, o agente de atendimento relê a conversa inteira e decide na hora: quem mostrou interesse vai para o corretor, e quem não mostrou vai para o Lead Frio, sem esperar até o fim do dia. A segunda mensagem de retomada saiu: depois da primeira tentativa, o lead já ganha um destino. Quem está conversando com o agente há uma hora e já mostrou interesse também é passado ao corretor, sem precisar pedir visita. A mensagem pronta do botão do anúncio não conta mais como conversa do lead na hora de decidir. Se a pessoa pediu para ser procurada numa data futura, o agente marca o retorno em vez de passar ou arquivar o lead. Quando o sistema decide sozinho, a resposta ao vivo da pessoa volta a seguir as regras da tela Passar atendimento. O Lead Frio de uma conversa antiga não é mais confundido com a decisão de um atendimento novo do mesmo lead. A primeira retomada de 10 minutos repete a pergunta que ficou sem resposta, em vez de abrir outra. Na conversa de WhatsApp, o corretor responde o cliente pelo próprio WhatsApp: a caixa de mensagem do aplicativo deixa de aparecer para ele, e o botão do WhatsApp aparece depois de assumir. Telefone de fora do Brasil deixa de ganhar o 55, e o botão Atender agora abre o número certo. A lista de fotinhas em Atendimentos e no cartão do CRM mostra só quem atende; quem só recebeu o aviso aparece apenas enquanto ninguém assumiu e uma única pessoa ainda espera. Ajuste interno na gravação das regras da tela Passar atendimento. Registro interno: rotina de cópia de segurança do código.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-06"
+    },
     {
       "versao": "1.8.5",
       "titulo": "A Secretária cobra a agenda atrasada, avisa o compromisso e um leitor confere o lead antes de passá-lo",
