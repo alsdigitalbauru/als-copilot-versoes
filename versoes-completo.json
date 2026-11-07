@@ -1,23 +1,46 @@
 {
   "atual": {
-    "versao": "1.8.7",
-    "titulo": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês",
+    "versao": "1.8.8",
+    "titulo": "O Resumo mostra de onde vieram os leads, sai em PDF e em planilha, e as fotos dos leads voltam",
     "itens": [
-      "O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir",
-      "A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele",
-      "O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe)",
-      "O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo",
-      "O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto",
-      "O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto",
-      "O resumo de anúncios deixa claro que os atendidos são do mês",
-      "Cópia de segurança da automação de acompanhamento de anúncios atualizada",
-      "Registro da correção do motor aplicada antes desta versão"
+      "O Resumo ganhou o cartão \"De onde vieram\": os leads do período por origem (Instagram, Facebook, WhatsApp direto e outras) e, dentro de cada rede de anúncio, agrupados por campanha, com a quantidade que chegou, a que foi passada para a equipe e a porcentagem.",
+      "A rede do anúncio é reconhecida pelo endereço do link que o lead clicou; anúncio sem link conhecido aparece como \"Anúncio (origem não informada)\".",
+      "Empresa que não faz anúncio vê só as origens; se todos os leads vieram de uma origem única sem anúncio, o cartão não aparece.",
+      "Novo botão \"Salvar em PDF\" no Resumo (dia, semana e mês): a folha impressa sai sempre em cores claras e legíveis, mesmo com o tema escuro, e sem o cabeçalho do aplicativo.",
+      "A folha impressa em cores claras também vale para os Relatórios.",
+      "Novo botão \"Baixar planilha\" no Resumo: um arquivo que abre direto no Excel, só com números somados (nenhum nome de lead), com o título das campanhas protegido contra fórmulas.",
+      "O resumo do mês passou a chegar sozinho de manhã, no primeiro dia de trabalho do mês, com um link próprio que abre o mês que acabou de fechar.",
+      "O registro de envio dos resumos passou a ser por empresa, dia e tipo (dia, semana ou mês), para o do mês não bloquear o do dia.",
+      "A foto de perfil do lead voltou a ser buscada quando a conexão do agente de atendimento está desligada: o sistema tenta outra conexão do WhatsApp que esteja ligada, sem nunca apagar uma foto que já estava guardada.",
+      "O Resumo passou a pedir a foto dos leads que mostra e ainda estão sem foto.",
+      "Em \"Conversaram e não foram passados\", tocar no rosto abre direto a conversa daquele lead, com a seta \"Resumo\" para voltar ao mesmo período; o nome aparece em até duas linhas.",
+      "O botão \"Devolver\" aparece só para o lead que o agente mandou ao Lead Frio.",
+      "Em \"Pede a sua atenção\", cada linha mostra o rosto e o nome do lead, e a linha toda leva direto à conversa dele, com a seta de voltar.",
+      "O \"Ver conversa\" da janelinha do Resumo também abre a conversa direto, sem passar pela lista de todas."
     ],
-    "novidades": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe) O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto O resumo de anúncios deixa claro que os atendidos são do mês Cópia de segurança da automação de acompanhamento de anúncios atualizada Registro da correção do motor aplicada antes desta versão",
+    "novidades": "O Resumo mostra de onde vieram os leads, sai em PDF e em planilha, e as fotos dos leads voltam O Resumo ganhou o cartão \"De onde vieram\": os leads do período por origem (Instagram, Facebook, WhatsApp direto e outras) e, dentro de cada rede de anúncio, agrupados por campanha, com a quantidade que chegou, a que foi passada para a equipe e a porcentagem. A rede do anúncio é reconhecida pelo endereço do link que o lead clicou; anúncio sem link conhecido aparece como \"Anúncio (origem não informada)\". Empresa que não faz anúncio vê só as origens; se todos os leads vieram de uma origem única sem anúncio, o cartão não aparece. Novo botão \"Salvar em PDF\" no Resumo (dia, semana e mês): a folha impressa sai sempre em cores claras e legíveis, mesmo com o tema escuro, e sem o cabeçalho do aplicativo. A folha impressa em cores claras também vale para os Relatórios. Novo botão \"Baixar planilha\" no Resumo: um arquivo que abre direto no Excel, só com números somados (nenhum nome de lead), com o título das campanhas protegido contra fórmulas. O resumo do mês passou a chegar sozinho de manhã, no primeiro dia de trabalho do mês, com um link próprio que abre o mês que acabou de fechar. O registro de envio dos resumos passou a ser por empresa, dia e tipo (dia, semana ou mês), para o do mês não bloquear o do dia. A foto de perfil do lead voltou a ser buscada quando a conexão do agente de atendimento está desligada: o sistema tenta outra conexão do WhatsApp que esteja ligada, sem nunca apagar uma foto que já estava guardada. O Resumo passou a pedir a foto dos leads que mostra e ainda estão sem foto. Em \"Conversaram e não foram passados\", tocar no rosto abre direto a conversa daquele lead, com a seta \"Resumo\" para voltar ao mesmo período; o nome aparece em até duas linhas. O botão \"Devolver\" aparece só para o lead que o agente mandou ao Lead Frio. Em \"Pede a sua atenção\", cada linha mostra o rosto e o nome do lead, e a linha toda leva direto à conversa dele, com a seta de voltar. O \"Ver conversa\" da janelinha do Resumo também abre a conversa direto, sem passar pela lista de todas.",
     "obrigatoria": false,
     "publicada_em": "2026-11-07"
   },
   "anteriores": [
+    {
+      "versao": "1.8.7",
+      "titulo": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês",
+      "itens": [
+        "O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir",
+        "A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele",
+        "O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe)",
+        "O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo",
+        "O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto",
+        "O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto",
+        "O resumo de anúncios deixa claro que os atendidos são do mês",
+        "Cópia de segurança da automação de acompanhamento de anúncios atualizada",
+        "Registro da correção do motor aplicada antes desta versão"
+      ],
+      "novidades": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe) O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto O resumo de anúncios deixa claro que os atendidos são do mês Cópia de segurança da automação de acompanhamento de anúncios atualizada Registro da correção do motor aplicada antes desta versão",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-07"
+    },
     {
       "versao": "1.8.6",
       "titulo": "O lead com interesse chega ao corretor em cerca de uma hora",
