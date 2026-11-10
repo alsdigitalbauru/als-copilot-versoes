@@ -1,18 +1,33 @@
 {
   "atual": {
-    "versao": "1.8.10",
-    "titulo": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp",
+    "versao": "1.9.0",
+    "titulo": "O atendimento vai sempre para a equipe do produto",
     "itens": [
-      "Reatribuir um negócio no CRM agora manda à pessoa que recebe o cartão no WhatsApp, com o link para assumir o atendimento.",
-      "Passar para outra pessoa na decisão do Lead Frio também manda o cartão no WhatsApp para quem recebe o lead.",
-      "Quem pediu o Lead Frio é avisado de como a administração decidiu: concordou, assumiu o atendimento ou passou o lead para outra pessoa.",
-      "A próxima ação combinada que vence sem novidade traz a cobrança de volta para quem ainda cuida do lead."
+      "A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura",
+      "A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa",
+      "O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto",
+      "O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item",
+      "Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio",
+      "Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe"
     ],
-    "novidades": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp Reatribuir um negócio no CRM agora manda à pessoa que recebe o cartão no WhatsApp, com o link para assumir o atendimento. Passar para outra pessoa na decisão do Lead Frio também manda o cartão no WhatsApp para quem recebe o lead. Quem pediu o Lead Frio é avisado de como a administração decidiu: concordou, assumiu o atendimento ou passou o lead para outra pessoa. A próxima ação combinada que vence sem novidade traz a cobrança de volta para quem ainda cuida do lead.",
+    "novidades": "O atendimento vai sempre para a equipe do produto A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe",
     "obrigatoria": false,
     "publicada_em": "2026-11-10"
   },
   "anteriores": [
+    {
+      "versao": "1.8.10",
+      "titulo": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp",
+      "itens": [
+        "Reatribuir um negócio no CRM agora manda à pessoa que recebe o cartão no WhatsApp, com o link para assumir o atendimento.",
+        "Passar para outra pessoa na decisão do Lead Frio também manda o cartão no WhatsApp para quem recebe o lead.",
+        "Quem pediu o Lead Frio é avisado de como a administração decidiu: concordou, assumiu o atendimento ou passou o lead para outra pessoa.",
+        "A próxima ação combinada que vence sem novidade traz a cobrança de volta para quem ainda cuida do lead."
+      ],
+      "novidades": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp Reatribuir um negócio no CRM agora manda à pessoa que recebe o cartão no WhatsApp, com o link para assumir o atendimento. Passar para outra pessoa na decisão do Lead Frio também manda o cartão no WhatsApp para quem recebe o lead. Quem pediu o Lead Frio é avisado de como a administração decidiu: concordou, assumiu o atendimento ou passou o lead para outra pessoa. A próxima ação combinada que vence sem novidade traz a cobrança de volta para quem ainda cuida do lead.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-10"
+    },
     {
       "versao": "1.8.9",
       "titulo": "A conversa longa nunca fica pesada, as contas conectadas ganham tela própria e o negócio se ajusta sozinho",
