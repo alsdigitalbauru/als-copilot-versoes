@@ -1,20 +1,41 @@
 {
   "atual": {
-    "versao": "1.9.0",
-    "titulo": "O atendimento vai sempre para a equipe do produto",
+    "versao": "1.9.1",
+    "titulo": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome",
     "itens": [
-      "A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura",
-      "A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa",
-      "O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto",
-      "O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item",
-      "Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio",
-      "Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe"
+      "Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead.",
+      "Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele.",
+      "O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos.",
+      "No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado.",
+      "A conversa do lead mostra com quem ele está enquanto o agente segue respondendo.",
+      "Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa.",
+      "Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento.",
+      "A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead.",
+      "Quem devolve o lead ao agente deixa de aparecer como quem o atende.",
+      "Os relatórios contam como atendendo só quem está com o lead.",
+      "O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante.",
+      "A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre."
     ],
-    "novidades": "O atendimento vai sempre para a equipe do produto A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe",
+    "novidades": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead. Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele. O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos. No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado. A conversa do lead mostra com quem ele está enquanto o agente segue respondendo. Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa. Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento. A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead. Quem devolve o lead ao agente deixa de aparecer como quem o atende. Os relatórios contam como atendendo só quem está com o lead. O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante. A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-10"
+    "publicada_em": "2026-11-11"
   },
   "anteriores": [
+    {
+      "versao": "1.9.0",
+      "titulo": "O atendimento vai sempre para a equipe do produto",
+      "itens": [
+        "A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura",
+        "A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa",
+        "O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto",
+        "O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item",
+        "Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio",
+        "Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe"
+      ],
+      "novidades": "O atendimento vai sempre para a equipe do produto A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-10"
+    },
     {
       "versao": "1.8.10",
       "titulo": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp",
@@ -279,59 +300,6 @@
         "Três testes automáticos antigos foram atualizados ao que o produto já faz (foto que não baixou, voz na conversa do dono e a jornada do cliente)."
       ],
       "novidades": "Pegar atendimento no app, uma conversa só no app e no WhatsApp, e o agente que enxerga as automações Nova tela Pegar atendimento: a lista do que está esperando, o detalhe do lead, a conversa em folha, o botão de atender e o aviso de tempo esgotado. A folha de baixo da tela se arrasta e sobe suave, a mesma nos convites. Atender abre o WhatsApp do próprio corretor com o cliente, em vez de levar para a tela de Atendimentos. Passar o atendimento para outra pessoa e Não posso agora, com o aviso simples no WhatsApp com o link da tela. O cartão antigo de passagem saiu por inteiro: a página antiga, o toque por código e o texto grande do cartão foram substituídos pela tela Pegar atendimento. Histórico do lead e Bloquear lead na tela Pegar atendimento. Bloquear e reativar o lead direto na conversa; o bloqueio vale também para negócio já perdido e para vários negócios do mesmo lead. O link do aviso abre o app já logado, e o link comprido quebra dentro da bolha da conversa. A conversa dentro de Pegar atendimento também quebra o link comprido dentro da tela. O aviso do lead desce pela escada de avisos até o e-mail quando o canal do cadastro está fora, e o sininho leva à tela Pegar atendimento. O detalhe do Pegar atendimento mostra o card do item: foto de capa, preço e atributos. Os botões do detalhe ganham cor e ícone (verde, azul, laranja e vermelho), com texto legível sobre o verde nos dois temas. Não posso agora e Bloquear lead viram botões (branco e vermelho), o histórico do lead vai para o fim e a letra sobre o vermelho ganha contraste no tema escuro. A lista Pegar atendimento mostra um card só por lead e pessoa (o mais novo do mesmo item); o link antigo continua abrindo pelo id. Endereço de foto nunca vai escrito ao cliente: link de arquivo do sistema e foto marcada com 📷 viram foto, o excedente some e documento vai como link. As automações que o dono liberou para o agente vêm abertas de entrada: o agente passa a usá-las sozinho, em vez de pedir o modelo à pessoa. O app e o WhatsApp do Als Copilot são uma conversa só, com a mesma memória: a mensagem do WhatsApp cai na conversa do dono, a tela a continua e o arquivo gerado sai pelo link. Lixeira de usuário: quem é excluído fica escondido por 90 dias e pode voltar. Backup diário do banco de dados, com roteiro para devolver só um pedaço. A automação de propostas de compra aceita proposta sem o e-mail do comprador (só o celular é obrigatório). O teste da rede trancada do ambiente do agente usa a imagem e o perfil de segurança do próprio serviço, sem alarme falso. O comando de rodar o sistema na máquina de desenvolvimento passa a subir e parar também o serviço do cérebro. O botão de rodar da tela passa a ser um só e sobe o sistema completo. O túnel de desenvolvimento deixa de guardar o JavaScript no navegador. O teste de passar o atendimento pelo app deixa de depender das chaves do app. Três testes automáticos antigos foram atualizados ao que o produto já faz (foto que não baixou, voz na conversa do dono e a jornada do cliente).",
-      "obrigatoria": false,
-      "publicada_em": "2026-11-03"
-    },
-    {
-      "versao": "1.7.9",
-      "titulo": "O app do Als Copilot, um cérebro só e a conversa com acabamento novo",
-      "itens": [
-        "O balão de Fontes abre inteiro no computador, sem barra de rolagem quando cabe na tela, e com a barra fina quando a lista é longa.",
-        "A conversa abre sem aviso de erro no navegador do celular que acrescenta marcas nos campos de texto.",
-        "O dono escolhe se a casa atende aos sábados, domingos e feriados, cada um com o seu horário de encerramento.",
-        "Nova opção de atendimento: todos os dias, no mesmo horário.",
-        "Uma lista de datas grandes (Natal, Ano Novo, Carnaval, Dia das Mães e outras) que o dono desmarca para fechar todo ano.",
-        "Só uma linha de Pensando aparece na conversa por vez.",
-        "O aviso que vem de fora aceita o endereço colado do e-mail com espaço ou quebra de linha no fim.",
-        "O agente monta sozinho a lista de passos nos pedidos compridos e vai marcando o que terminou; em pergunta curta, nenhuma lista.",
-        "A conversa começa mais rápida: o sistema prepara o trabalho enquanto a pessoa digita.",
-        "A conversa pedida pelo link abre direto, mesmo vazia ou fora da lista.",
-        "A limpeza de conversas vazias poupa toda conversa que alguma parte do sistema está usando.",
-        "O recorte do funil e dos negócios parados também vale na conversa da tela.",
-        "Cartões na conversa para a pessoa da equipe, o contato e o item do catálogo, com a lista de achados e o botão Abrir.",
-        "Passos repetidos do agente aparecem numa linha só.",
-        "O serviço do cérebro foi atualizado para a versão mais recente.",
-        "O funil e os negócios parados vêm como cartão pronto na conversa, com a pessoa da equipe e o botão Cobrar.",
-        "As barras dos gráficos da conversa ficaram arredondadas.",
-        "Blocos prontos dentro da resposta: números, resumo, lista, tabela, arquivo e gráfico.",
-        "A pessoa da equipe aparece sempre com a fotinha na frente do nome.",
-        "As fontes da resposta viram um botãozinho ao lado de Copiar, que lista uma linha por página.",
-        "A resposta do agente ganhou acabamento novo: títulos, listas, tabela com números à direita, código com Copiar, alertas e links bem desenhados.",
-        "O agente responde mais rápido nas perguntas curtas: não repete a pergunta ao cérebro nem relê as ferramentas à toa.",
-        "O agente passa a usar o fuso de São Paulo.",
-        "Habilidades de fábrica que não servem ao dono ficam desligadas.",
-        "O ícone do app passa a ser o robozinho acenando.",
-        "O cartão do plano fica parado no lugar na conversa, e o plano também aparece nas Tarefas.",
-        "Os avisos chegam também como notificação no celular, em teste, com chave própria em Canais, somados ao WhatsApp.",
-        "A arte entregue no meio do trabalho não fecha mais a lista de passos.",
-        "A caixa de mensagem nova: o microfone que vira a seta de enviar, o + à esquerda e o botão de parar redondo.",
-        "O app no celular: a casca própria para celular e tablet, a barra de vidro, o menu com a foto grande, o Histórico e a letra grande na conversa.",
-        "Cada aviso do Als Copilot termina com o link para o lugar certo, e o login volta para esse lugar.",
-        "O app no celular abre a conversa em tela cheia, com um menu lateral só (conversas, telas permitidas e usuário) e o selo de que a mensagem veio do WhatsApp.",
-        "Instalar o Als Copilot como app: o botão no navegador, o guia de dois toques no iPhone, e o app instalado já nasce logado e fica logado por um ano, renovado com o uso.",
-        "A frase do link no WhatsApp vem em linhas separadas, com ícone e negrito.",
-        "O WhatsApp e o Telegram do Als Copilot podem responder com o link do app, em teste, com chave em Canais; a mensagem chega ao app e já começa a ser trabalhada.",
-        "O link que entra logado: quem o cadastro reconhece toca no link e abre o Als Copilot logado por um ano.",
-        "O lembrete sai na hora, sem gastar IA, e a frase fica gravada no chat para a resposta.",
-        "O trabalho longo que o agente abre sozinho chega inteiro à pessoa, com limite de gasto, e parar encerra tudo.",
-        "Um cérebro só: o cérebro antigo do dono sai do sistema, da tela, do motor, da ponte do WhatsApp e da instalação.",
-        "O agente diz com clareza de quem é a conta conectada e qual o caminho para pôr alguém na página.",
-        "O gráfico que o agente entrega aparece dentro da conversa, e não como link, sem repetir ao reabrir.",
-        "O raciocínio escolhido na tela do agente passa a valer de verdade, com o médio como padrão.",
-        "Quem está marcado para receber os avisos do dono pode decidir uma ideia, mesmo sem ser o titular.",
-        "O agente descarta quem só quer conversar e para de responder a esse contato."
-      ],
-      "novidades": "O app do Als Copilot, um cérebro só e a conversa com acabamento novo O balão de Fontes abre inteiro no computador, sem barra de rolagem quando cabe na tela, e com a barra fina quando a lista é longa. A conversa abre sem aviso de erro no navegador do celular que acrescenta marcas nos campos de texto. O dono escolhe se a casa atende aos sábados, domingos e feriados, cada um com o seu horário de encerramento. Nova opção de atendimento: todos os dias, no mesmo horário. Uma lista de datas grandes (Natal, Ano Novo, Carnaval, Dia das Mães e outras) que o dono desmarca para fechar todo ano. Só uma linha de Pensando aparece na conversa por vez. O aviso que vem de fora aceita o endereço colado do e-mail com espaço ou quebra de linha no fim. O agente monta sozinho a lista de passos nos pedidos compridos e vai marcando o que terminou; em pergunta curta, nenhuma lista. A conversa começa mais rápida: o sistema prepara o trabalho enquanto a pessoa digita. A conversa pedida pelo link abre direto, mesmo vazia ou fora da lista. A limpeza de conversas vazias poupa toda conversa que alguma parte do sistema está usando. O recorte do funil e dos negócios parados também vale na conversa da tela. Cartões na conversa para a pessoa da equipe, o contato e o item do catálogo, com a lista de achados e o botão Abrir. Passos repetidos do agente aparecem numa linha só. O serviço do cérebro foi atualizado para a versão mais recente. O funil e os negócios parados vêm como cartão pronto na conversa, com a pessoa da equipe e o botão Cobrar. As barras dos gráficos da conversa ficaram arredondadas. Blocos prontos dentro da resposta: números, resumo, lista, tabela, arquivo e gráfico. A pessoa da equipe aparece sempre com a fotinha na frente do nome. As fontes da resposta viram um botãozinho ao lado de Copiar, que lista uma linha por página. A resposta do agente ganhou acabamento novo: títulos, listas, tabela com números à direita, código com Copiar, alertas e links bem desenhados. O agente responde mais rápido nas perguntas curtas: não repete a pergunta ao cérebro nem relê as ferramentas à toa. O agente passa a usar o fuso de São Paulo. Habilidades de fábrica que não servem ao dono ficam desligadas. O ícone do app passa a ser o robozinho acenando. O cartão do plano fica parado no lugar na conversa, e o plano também aparece nas Tarefas. Os avisos chegam também como notificação no celular, em teste, com chave própria em Canais, somados ao WhatsApp. A arte entregue no meio do trabalho não fecha mais a lista de passos. A caixa de mensagem nova: o microfone que vira a seta de enviar, o + à esquerda e o botão de parar redondo. O app no celular: a casca própria para celular e tablet, a barra de vidro, o menu com a foto grande, o Histórico e a letra grande na conversa. Cada aviso do Als Copilot termina com o link para o lugar certo, e o login volta para esse lugar. O app no celular abre a conversa em tela cheia, com um menu lateral só (conversas, telas permitidas e usuário) e o selo de que a mensagem veio do WhatsApp. Instalar o Als Copilot como app: o botão no navegador, o guia de dois toques no iPhone, e o app instalado já nasce logado e fica logado por um ano, renovado com o uso. A frase do link no WhatsApp vem em linhas separadas, com ícone e negrito. O WhatsApp e o Telegram do Als Copilot podem responder com o link do app, em teste, com chave em Canais; a mensagem chega ao app e já começa a ser trabalhada. O link que entra logado: quem o cadastro reconhece toca no link e abre o Als Copilot logado por um ano. O lembrete sai na hora, sem gastar IA, e a frase fica gravada no chat para a resposta. O trabalho longo que o agente abre sozinho chega inteiro à pessoa, com limite de gasto, e parar encerra tudo. Um cérebro só: o cérebro antigo do dono sai do sistema, da tela, do motor, da ponte do WhatsApp e da instalação. O agente diz com clareza de quem é a conta conectada e qual o caminho para pôr alguém na página. O gráfico que o agente entrega aparece dentro da conversa, e não como link, sem repetir ao reabrir. O raciocínio escolhido na tela do agente passa a valer de verdade, com o médio como padrão. Quem está marcado para receber os avisos do dono pode decidir uma ideia, mesmo sem ser o titular. O agente descarta quem só quer conversar e para de responder a esse contato.",
       "obrigatoria": false,
       "publicada_em": "2026-11-03"
     }

@@ -1,20 +1,41 @@
 {
   "atual": {
-    "versao": "1.9.0",
-    "titulo": "O atendimento vai sempre para a equipe do produto",
+    "versao": "1.9.1",
+    "titulo": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome",
     "itens": [
-      "A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura",
-      "A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa",
-      "O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto",
-      "O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item",
-      "Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio",
-      "Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe"
+      "Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead.",
+      "Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele.",
+      "O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos.",
+      "No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado.",
+      "A conversa do lead mostra com quem ele está enquanto o agente segue respondendo.",
+      "Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa.",
+      "Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento.",
+      "A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead.",
+      "Quem devolve o lead ao agente deixa de aparecer como quem o atende.",
+      "Os relatórios contam como atendendo só quem está com o lead.",
+      "O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante.",
+      "A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre."
     ],
-    "novidades": "O atendimento vai sempre para a equipe do produto A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe",
+    "novidades": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead. Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele. O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos. No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado. A conversa do lead mostra com quem ele está enquanto o agente segue respondendo. Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa. Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento. A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead. Quem devolve o lead ao agente deixa de aparecer como quem o atende. Os relatórios contam como atendendo só quem está com o lead. O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante. A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-10"
+    "publicada_em": "2026-11-11"
   },
   "anteriores": [
+    {
+      "versao": "1.9.0",
+      "titulo": "O atendimento vai sempre para a equipe do produto",
+      "itens": [
+        "A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura",
+        "A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa",
+        "O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto",
+        "O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item",
+        "Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio",
+        "Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe"
+      ],
+      "novidades": "O atendimento vai sempre para a equipe do produto A passagem do atendimento pelo agente exige o produto: sem ele, não passa e o agente pergunta à pessoa o que ela procura A equipe que recebe é decidida pelas regras da tela Passar atendimento, pelo produto; o título do anúncio não escolhe mais a pessoa O produto escrito em palavras não é trocado por um item parecido do catálogo; o que não está no catálogo vai pelo assunto O código escrito no anúncio ou no link que trouxe a pessoa vira o produto quando a conversa ainda não mostrou nenhum item Endereço de ponto de referência e preço não são mais lidos como código do item no anúncio Reatribuir um negócio pela conta de administrador também manda o aviso no WhatsApp a quem recebe",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-10"
+    },
     {
       "versao": "1.8.10",
       "titulo": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp",
