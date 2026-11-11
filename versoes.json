@@ -1,26 +1,37 @@
 {
   "atual": {
-    "versao": "1.9.1",
-    "titulo": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome",
+    "versao": "1.9.2",
+    "titulo": "O Resumo só aponta como parado o lead que ninguém tocou",
     "itens": [
-      "Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead.",
-      "Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele.",
-      "O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos.",
-      "No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado.",
-      "A conversa do lead mostra com quem ele está enquanto o agente segue respondendo.",
-      "Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa.",
-      "Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento.",
-      "A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead.",
-      "Quem devolve o lead ao agente deixa de aparecer como quem o atende.",
-      "Os relatórios contam como atendendo só quem está com o lead.",
-      "O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante.",
-      "A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre."
+      "No Resumo, o lead de quem já tocou no cartão do atendimento deixa de aparecer como parado.",
+      "O lead com pedido de Lead Frio esperando decisão deixa de aparecer como parado no nome de quem pediu."
     ],
-    "novidades": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead. Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele. O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos. No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado. A conversa do lead mostra com quem ele está enquanto o agente segue respondendo. Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa. Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento. A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead. Quem devolve o lead ao agente deixa de aparecer como quem o atende. Os relatórios contam como atendendo só quem está com o lead. O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante. A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre.",
+    "novidades": "O Resumo só aponta como parado o lead que ninguém tocou No Resumo, o lead de quem já tocou no cartão do atendimento deixa de aparecer como parado. O lead com pedido de Lead Frio esperando decisão deixa de aparecer como parado no nome de quem pediu.",
     "obrigatoria": false,
     "publicada_em": "2026-11-11"
   },
   "anteriores": [
+    {
+      "versao": "1.9.1",
+      "titulo": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome",
+      "itens": [
+        "Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead.",
+        "Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele.",
+        "O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos.",
+        "No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado.",
+        "A conversa do lead mostra com quem ele está enquanto o agente segue respondendo.",
+        "Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa.",
+        "Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento.",
+        "A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead.",
+        "Quem devolve o lead ao agente deixa de aparecer como quem o atende.",
+        "Os relatórios contam como atendendo só quem está com o lead.",
+        "O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante.",
+        "A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre."
+      ],
+      "novidades": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome Com quem está cada lead passou a ter uma definição única: o card do funil, quem enxerga o lead, a cobrança, o Resumo, a conversa e os relatórios mostram sempre a mesma pessoa, a última que recebeu o lead. Quando o lead é passado adiante, o card do funil troca de nome sozinho e quem passou deixa de vê-lo na lista dele. O Resumo mostra uma linha por lead, com o nome de quem está com ele, e troca na tela na hora em que o lead muda de mãos. No Resumo, o 'sem atender' conta só para quem está com o lead, e o lead que alguém atende não aparece como parado. A conversa do lead mostra com quem ele está enquanto o agente segue respondendo. Em Pegar atendimento, 'Com você agora' mostra só o que ainda está com a pessoa. Quem assume pela tela Atendimentos passa a ser a pessoa do card, e o toque de um colega no cartão antigo não muda o atendimento. A cobrança, o lembrete de compromisso e o recado de que o cliente voltou a falar vão só a quem está com o lead. Quem devolve o lead ao agente deixa de aparecer como quem o atende. Os relatórios contam como atendendo só quem está com o lead. O agente deixa de citar ao cliente o nome de quem já passou o atendimento adiante. A tela Conexões e a regra das contas liberadas a cada agente passam a valer sempre.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-11"
+    },
     {
       "versao": "1.9.0",
       "titulo": "O atendimento vai sempre para a equipe do produto",
