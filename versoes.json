@@ -1,16 +1,37 @@
 {
   "atual": {
-    "versao": "1.9.2",
-    "titulo": "O Resumo só aponta como parado o lead que ninguém tocou",
+    "versao": "1.9.3",
+    "titulo": "Todo atendimento passa por uma ferramenta só, e o lead sem equipe vai ao Lead Frio",
     "itens": [
-      "No Resumo, o lead de quem já tocou no cartão do atendimento deixa de aparecer como parado.",
-      "O lead com pedido de Lead Frio esperando decisão deixa de aparecer como parado no nome de quem pediu."
+      "Passar atendimento agora é uma ferramenta só para o sistema inteiro: o agente, a revisão das 20 horas, os leads de portais, o rodízio, as telas e a cobrança decidem para quem pela mesma regra.",
+      "Quem oferece produto ou serviço à empresa segue a opção \"E quem não é cliente?\" da tela Passar atendimento em todos os caminhos.",
+      "Se nenhuma equipe atende o que a pessoa procura e a tela não escolheu quem recebe, o lead vai para o Lead Frio; o titular só recebe quando a tela o escolhe.",
+      "A revisão das 20 horas lê a conversa antes de passar e, se o agente estiver ocupado, espera e tenta de novo em vez de passar sem ler.",
+      "O lead de portal cujo imóvel não está no catálogo é atendido pelo agente, que pergunta o que a pessoa procura sem inventar o imóvel.",
+      "A lista de leads dos portais não mexe mais em quem já está sendo atendido.",
+      "O agente de atendimento nunca fica mudo: conversa até alguém assumir e, depois, avisa que a pessoa já assumiu e manda a quem está com o lead o que ele disse.",
+      "Um corretor por lead: outro imóvel ou permuta de quem já está com alguém vira recado a quem o atende, sem passar a outra pessoa.",
+      "O resumo do atendimento segue a conversa, e ninguém fala com o lead pelo aplicativo: a conversa é pelo WhatsApp de quem assumiu.",
+      "O aviso da Secretária na conversa do Als Copilot diz \"Mensagem da Secretária\".",
+      "O agente de atendimento não desenvolve site: entrevista a pessoa e manda a ficha à equipe da ALS, com logo e imagens só por link.",
+      "O pedido de site entra na lista de ferramentas do agente e aceita o arquivo que a pessoa já mandou na conversa como link."
     ],
-    "novidades": "O Resumo só aponta como parado o lead que ninguém tocou No Resumo, o lead de quem já tocou no cartão do atendimento deixa de aparecer como parado. O lead com pedido de Lead Frio esperando decisão deixa de aparecer como parado no nome de quem pediu.",
+    "novidades": "Todo atendimento passa por uma ferramenta só, e o lead sem equipe vai ao Lead Frio Passar atendimento agora é uma ferramenta só para o sistema inteiro: o agente, a revisão das 20 horas, os leads de portais, o rodízio, as telas e a cobrança decidem para quem pela mesma regra. Quem oferece produto ou serviço à empresa segue a opção \"E quem não é cliente?\" da tela Passar atendimento em todos os caminhos. Se nenhuma equipe atende o que a pessoa procura e a tela não escolheu quem recebe, o lead vai para o Lead Frio; o titular só recebe quando a tela o escolhe. A revisão das 20 horas lê a conversa antes de passar e, se o agente estiver ocupado, espera e tenta de novo em vez de passar sem ler. O lead de portal cujo imóvel não está no catálogo é atendido pelo agente, que pergunta o que a pessoa procura sem inventar o imóvel. A lista de leads dos portais não mexe mais em quem já está sendo atendido. O agente de atendimento nunca fica mudo: conversa até alguém assumir e, depois, avisa que a pessoa já assumiu e manda a quem está com o lead o que ele disse. Um corretor por lead: outro imóvel ou permuta de quem já está com alguém vira recado a quem o atende, sem passar a outra pessoa. O resumo do atendimento segue a conversa, e ninguém fala com o lead pelo aplicativo: a conversa é pelo WhatsApp de quem assumiu. O aviso da Secretária na conversa do Als Copilot diz \"Mensagem da Secretária\". O agente de atendimento não desenvolve site: entrevista a pessoa e manda a ficha à equipe da ALS, com logo e imagens só por link. O pedido de site entra na lista de ferramentas do agente e aceita o arquivo que a pessoa já mandou na conversa como link.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-11"
+    "publicada_em": "2026-11-12"
   },
   "anteriores": [
+    {
+      "versao": "1.9.2",
+      "titulo": "O Resumo só aponta como parado o lead que ninguém tocou",
+      "itens": [
+        "No Resumo, o lead de quem já tocou no cartão do atendimento deixa de aparecer como parado.",
+        "O lead com pedido de Lead Frio esperando decisão deixa de aparecer como parado no nome de quem pediu."
+      ],
+      "novidades": "O Resumo só aponta como parado o lead que ninguém tocou No Resumo, o lead de quem já tocou no cartão do atendimento deixa de aparecer como parado. O lead com pedido de Lead Frio esperando decisão deixa de aparecer como parado no nome de quem pediu.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-11"
+    },
     {
       "versao": "1.9.1",
       "titulo": "O lead fica com uma pessoa só, e todas as telas mostram o mesmo nome",
