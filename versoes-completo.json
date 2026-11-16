@@ -1,26 +1,56 @@
 {
   "atual": {
-    "versao": "1.9.3",
-    "titulo": "Todo atendimento passa por uma ferramenta só, e o lead sem equipe vai ao Lead Frio",
+    "versao": "1.9.4",
+    "titulo": "O agente comercial prospecta até o fim e o Resumo conta o trabalho dele",
     "itens": [
-      "Passar atendimento agora é uma ferramenta só para o sistema inteiro: o agente, a revisão das 20 horas, os leads de portais, o rodízio, as telas e a cobrança decidem para quem pela mesma regra.",
-      "Quem oferece produto ou serviço à empresa segue a opção \"E quem não é cliente?\" da tela Passar atendimento em todos os caminhos.",
-      "Se nenhuma equipe atende o que a pessoa procura e a tela não escolheu quem recebe, o lead vai para o Lead Frio; o titular só recebe quando a tela o escolhe.",
-      "A revisão das 20 horas lê a conversa antes de passar e, se o agente estiver ocupado, espera e tenta de novo em vez de passar sem ler.",
-      "O lead de portal cujo imóvel não está no catálogo é atendido pelo agente, que pergunta o que a pessoa procura sem inventar o imóvel.",
-      "A lista de leads dos portais não mexe mais em quem já está sendo atendido.",
-      "O agente de atendimento nunca fica mudo: conversa até alguém assumir e, depois, avisa que a pessoa já assumiu e manda a quem está com o lead o que ele disse.",
-      "Um corretor por lead: outro imóvel ou permuta de quem já está com alguém vira recado a quem o atende, sem passar a outra pessoa.",
-      "O resumo do atendimento segue a conversa, e ninguém fala com o lead pelo aplicativo: a conversa é pelo WhatsApp de quem assumiu.",
-      "O aviso da Secretária na conversa do Als Copilot diz \"Mensagem da Secretária\".",
-      "O agente de atendimento não desenvolve site: entrevista a pessoa e manda a ficha à equipe da ALS, com logo e imagens só por link.",
-      "O pedido de site entra na lista de ferramentas do agente e aceita o arquivo que a pessoa já mandou na conversa como link."
+      "O agente de atendimento comercial procura as empresas de uma lista pela conexão de WhatsApp do Als Copilot, e a resposta de quem ele procurou volta para ele.",
+      "A conversa de prospecção abre em mensagens curtas e naturais, sem produto nem arquivo na primeira mensagem.",
+      "O agente combina retorno quando a pessoa pede («volte à tarde», «só em fevereiro») e volta a falar no dia combinado, com o card em Aguardando retorno.",
+      "Quando a pessoa indica outro contato, o cartão troca o número, o antigo fica no histórico e o sistema abre a conversa com o indicado, citando quem indicou pelo nome do WhatsApp.",
+      "A apresentação da empresa em PDF sai como documento, só se a pessoa aceitar.",
+      "O agente do pacote comercial chama a pessoa pelo primeiro nome que ela tem no WhatsApp, sem perguntar o nome.",
+      "Quem diz que não tem interesse recebe um agradecimento, e o lead vai para o Lead Frio com o motivo.",
+      "Quem não responde recebe dois lembretes e, completado o prazo em dias úteis (um campo da tela da automação), o lead vai para o Lead Frio.",
+      "A resposta automática do WhatsApp (horário de atendimento, menu de opções) não conta como resposta: o agente não conversa com ela e ela aparece em Atendimentos, marcada.",
+      "O card da Captação passa para Em Atendimento quando uma pessoa responde pela primeira vez.",
+      "O Resumo do dia, da semana e do mês ganha o cartão Prospecção: empresas procuradas, respostas, retornos, indicações, passagens à equipe e Lead Frio por recusa e por silêncio.",
+      "O Resumo conta o atendimento do agente e dá o porquê de cada número.",
+      "A prospecção pela base pública de empresas guarda o estoque em arquivo na pasta da automação, e não no banco, e não incomoda quando a fonte está fora do ar.",
+      "O produto manda na passagem: o anúncio não escolhe pessoa, as condições da equipe valem no assunto, o lead de portal fora do catálogo decide na hora e a leitura das 20 horas troca de modelo e repete por 24 horas.",
+      "Vários donos/sócios por empresa, todos com os poderes do dono; só a administração mexe em outro sócio.",
+      "A caixa de avisos vira «Dono/sócio da empresa» e a lista de Usuários mostra o selo Dono/sócio.",
+      "Ninguém fala com o lead pelo aplicativo, de nenhum canal: a conversa segue pelo WhatsApp de quem clica.",
+      "O Als Copilot deixa a arte e o post ao agente especialista e cria a imagem pelo criador de imagens do sistema; a conversa entre agentes leva imagens e a lista diz quem faz o quê.",
+      "O cartão do arquivo enviado como link solto deixa de sair com ícones gigantes na conversa.",
+      "A colheita de ideias sai do sistema.",
+      "A cópia de demonstração de um cliente troca telefone e e-mail por falsos e mantém o catálogo em dia, sem gastar IA."
     ],
-    "novidades": "Todo atendimento passa por uma ferramenta só, e o lead sem equipe vai ao Lead Frio Passar atendimento agora é uma ferramenta só para o sistema inteiro: o agente, a revisão das 20 horas, os leads de portais, o rodízio, as telas e a cobrança decidem para quem pela mesma regra. Quem oferece produto ou serviço à empresa segue a opção \"E quem não é cliente?\" da tela Passar atendimento em todos os caminhos. Se nenhuma equipe atende o que a pessoa procura e a tela não escolheu quem recebe, o lead vai para o Lead Frio; o titular só recebe quando a tela o escolhe. A revisão das 20 horas lê a conversa antes de passar e, se o agente estiver ocupado, espera e tenta de novo em vez de passar sem ler. O lead de portal cujo imóvel não está no catálogo é atendido pelo agente, que pergunta o que a pessoa procura sem inventar o imóvel. A lista de leads dos portais não mexe mais em quem já está sendo atendido. O agente de atendimento nunca fica mudo: conversa até alguém assumir e, depois, avisa que a pessoa já assumiu e manda a quem está com o lead o que ele disse. Um corretor por lead: outro imóvel ou permuta de quem já está com alguém vira recado a quem o atende, sem passar a outra pessoa. O resumo do atendimento segue a conversa, e ninguém fala com o lead pelo aplicativo: a conversa é pelo WhatsApp de quem assumiu. O aviso da Secretária na conversa do Als Copilot diz \"Mensagem da Secretária\". O agente de atendimento não desenvolve site: entrevista a pessoa e manda a ficha à equipe da ALS, com logo e imagens só por link. O pedido de site entra na lista de ferramentas do agente e aceita o arquivo que a pessoa já mandou na conversa como link.",
+    "novidades": "O agente comercial prospecta até o fim e o Resumo conta o trabalho dele O agente de atendimento comercial procura as empresas de uma lista pela conexão de WhatsApp do Als Copilot, e a resposta de quem ele procurou volta para ele. A conversa de prospecção abre em mensagens curtas e naturais, sem produto nem arquivo na primeira mensagem. O agente combina retorno quando a pessoa pede («volte à tarde», «só em fevereiro») e volta a falar no dia combinado, com o card em Aguardando retorno. Quando a pessoa indica outro contato, o cartão troca o número, o antigo fica no histórico e o sistema abre a conversa com o indicado, citando quem indicou pelo nome do WhatsApp. A apresentação da empresa em PDF sai como documento, só se a pessoa aceitar. O agente do pacote comercial chama a pessoa pelo primeiro nome que ela tem no WhatsApp, sem perguntar o nome. Quem diz que não tem interesse recebe um agradecimento, e o lead vai para o Lead Frio com o motivo. Quem não responde recebe dois lembretes e, completado o prazo em dias úteis (um campo da tela da automação), o lead vai para o Lead Frio. A resposta automática do WhatsApp (horário de atendimento, menu de opções) não conta como resposta: o agente não conversa com ela e ela aparece em Atendimentos, marcada. O card da Captação passa para Em Atendimento quando uma pessoa responde pela primeira vez. O Resumo do dia, da semana e do mês ganha o cartão Prospecção: empresas procuradas, respostas, retornos, indicações, passagens à equipe e Lead Frio por recusa e por silêncio. O Resumo conta o atendimento do agente e dá o porquê de cada número. A prospecção pela base pública de empresas guarda o estoque em arquivo na pasta da automação, e não no banco, e não incomoda quando a fonte está fora do ar. O produto manda na passagem: o anúncio não escolhe pessoa, as condições da equipe valem no assunto, o lead de portal fora do catálogo decide na hora e a leitura das 20 horas troca de modelo e repete por 24 horas. Vários donos/sócios por empresa, todos com os poderes do dono; só a administração mexe em outro sócio. A caixa de avisos vira «Dono/sócio da empresa» e a lista de Usuários mostra o selo Dono/sócio. Ninguém fala com o lead pelo aplicativo, de nenhum canal: a conversa segue pelo WhatsApp de quem clica. O Als Copilot deixa a arte e o post ao agente especialista e cria a imagem pelo criador de imagens do sistema; a conversa entre agentes leva imagens e a lista diz quem faz o quê. O cartão do arquivo enviado como link solto deixa de sair com ícones gigantes na conversa. A colheita de ideias sai do sistema. A cópia de demonstração de um cliente troca telefone e e-mail por falsos e mantém o catálogo em dia, sem gastar IA.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-12"
+    "publicada_em": "2026-11-16"
   },
   "anteriores": [
+    {
+      "versao": "1.9.3",
+      "titulo": "Todo atendimento passa por uma ferramenta só, e o lead sem equipe vai ao Lead Frio",
+      "itens": [
+        "Passar atendimento agora é uma ferramenta só para o sistema inteiro: o agente, a revisão das 20 horas, os leads de portais, o rodízio, as telas e a cobrança decidem para quem pela mesma regra.",
+        "Quem oferece produto ou serviço à empresa segue a opção \"E quem não é cliente?\" da tela Passar atendimento em todos os caminhos.",
+        "Se nenhuma equipe atende o que a pessoa procura e a tela não escolheu quem recebe, o lead vai para o Lead Frio; o titular só recebe quando a tela o escolhe.",
+        "A revisão das 20 horas lê a conversa antes de passar e, se o agente estiver ocupado, espera e tenta de novo em vez de passar sem ler.",
+        "O lead de portal cujo imóvel não está no catálogo é atendido pelo agente, que pergunta o que a pessoa procura sem inventar o imóvel.",
+        "A lista de leads dos portais não mexe mais em quem já está sendo atendido.",
+        "O agente de atendimento nunca fica mudo: conversa até alguém assumir e, depois, avisa que a pessoa já assumiu e manda a quem está com o lead o que ele disse.",
+        "Um corretor por lead: outro imóvel ou permuta de quem já está com alguém vira recado a quem o atende, sem passar a outra pessoa.",
+        "O resumo do atendimento segue a conversa, e ninguém fala com o lead pelo aplicativo: a conversa é pelo WhatsApp de quem assumiu.",
+        "O aviso da Secretária na conversa do Als Copilot diz \"Mensagem da Secretária\".",
+        "O agente de atendimento não desenvolve site: entrevista a pessoa e manda a ficha à equipe da ALS, com logo e imagens só por link.",
+        "O pedido de site entra na lista de ferramentas do agente e aceita o arquivo que a pessoa já mandou na conversa como link."
+      ],
+      "novidades": "Todo atendimento passa por uma ferramenta só, e o lead sem equipe vai ao Lead Frio Passar atendimento agora é uma ferramenta só para o sistema inteiro: o agente, a revisão das 20 horas, os leads de portais, o rodízio, as telas e a cobrança decidem para quem pela mesma regra. Quem oferece produto ou serviço à empresa segue a opção \"E quem não é cliente?\" da tela Passar atendimento em todos os caminhos. Se nenhuma equipe atende o que a pessoa procura e a tela não escolheu quem recebe, o lead vai para o Lead Frio; o titular só recebe quando a tela o escolhe. A revisão das 20 horas lê a conversa antes de passar e, se o agente estiver ocupado, espera e tenta de novo em vez de passar sem ler. O lead de portal cujo imóvel não está no catálogo é atendido pelo agente, que pergunta o que a pessoa procura sem inventar o imóvel. A lista de leads dos portais não mexe mais em quem já está sendo atendido. O agente de atendimento nunca fica mudo: conversa até alguém assumir e, depois, avisa que a pessoa já assumiu e manda a quem está com o lead o que ele disse. Um corretor por lead: outro imóvel ou permuta de quem já está com alguém vira recado a quem o atende, sem passar a outra pessoa. O resumo do atendimento segue a conversa, e ninguém fala com o lead pelo aplicativo: a conversa é pelo WhatsApp de quem assumiu. O aviso da Secretária na conversa do Als Copilot diz \"Mensagem da Secretária\". O agente de atendimento não desenvolve site: entrevista a pessoa e manda a ficha à equipe da ALS, com logo e imagens só por link. O pedido de site entra na lista de ferramentas do agente e aceita o arquivo que a pessoa já mandou na conversa como link.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-12"
+    },
     {
       "versao": "1.9.2",
       "titulo": "O Resumo só aponta como parado o lead que ninguém tocou",
