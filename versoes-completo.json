@@ -1,19 +1,29 @@
 {
   "atual": {
-    "versao": "1.9.7",
-    "titulo": "A conta conectada entra sozinha na lista e o agente manda o link do login na própria conversa",
+    "versao": "1.9.8",
+    "titulo": "As conversas antigas do Als Copilot voltam à lista, para ler",
     "itens": [
-      "A conta que a pessoa conecta passa a ser gravada na lista de Conexões pelo próprio sistema, assim que o login termina: ela aparece mesmo com o login feito em outro aparelho, com a tela fechada ou por um link recebido na conversa, e o agente passa a enxergá-la.",
-      "Ao pedir para conectar um serviço (e-mail, agenda, anúncios), o agente devolve o link do login na própria conversa, em vez de mandar a pessoa para a tela de Conexões.",
-      "Começar uma conexão não apaga mais o login que outra pessoa está fazendo no mesmo serviço.",
-      "As conversas que a pessoa tem com o Als Copilot pelo WhatsApp e pelo Telegram voltam à lista da conversa, com a marca do canal, para ler.",
-      "A chavinha dos apps da assinatura de IA liga tudo o que ela oferece de uma vez: apps e plugins do catálogo e as skills de fábrica, só na conversa direta com o Als Copilot e desligada de fábrica."
+      "As conversas que a pessoa tinha com o Als Copilot antes da troca para a conversa direta voltam à lista de conversas, num grupo \"Conversas de antes\", só para ler; para continuar, a pessoa começa uma conversa nova."
     ],
-    "novidades": "A conta conectada entra sozinha na lista e o agente manda o link do login na própria conversa A conta que a pessoa conecta passa a ser gravada na lista de Conexões pelo próprio sistema, assim que o login termina: ela aparece mesmo com o login feito em outro aparelho, com a tela fechada ou por um link recebido na conversa, e o agente passa a enxergá-la. Ao pedir para conectar um serviço (e-mail, agenda, anúncios), o agente devolve o link do login na própria conversa, em vez de mandar a pessoa para a tela de Conexões. Começar uma conexão não apaga mais o login que outra pessoa está fazendo no mesmo serviço. As conversas que a pessoa tem com o Als Copilot pelo WhatsApp e pelo Telegram voltam à lista da conversa, com a marca do canal, para ler. A chavinha dos apps da assinatura de IA liga tudo o que ela oferece de uma vez: apps e plugins do catálogo e as skills de fábrica, só na conversa direta com o Als Copilot e desligada de fábrica.",
+    "novidades": "As conversas antigas do Als Copilot voltam à lista, para ler As conversas que a pessoa tinha com o Als Copilot antes da troca para a conversa direta voltam à lista de conversas, num grupo \"Conversas de antes\", só para ler; para continuar, a pessoa começa uma conversa nova.",
     "obrigatoria": false,
     "publicada_em": "2026-11-21"
   },
   "anteriores": [
+    {
+      "versao": "1.9.7",
+      "titulo": "A conta conectada entra sozinha na lista e o agente manda o link do login na própria conversa",
+      "itens": [
+        "A conta que a pessoa conecta passa a ser gravada na lista de Conexões pelo próprio sistema, assim que o login termina: ela aparece mesmo com o login feito em outro aparelho, com a tela fechada ou por um link recebido na conversa, e o agente passa a enxergá-la.",
+        "Ao pedir para conectar um serviço (e-mail, agenda, anúncios), o agente devolve o link do login na própria conversa, em vez de mandar a pessoa para a tela de Conexões.",
+        "Começar uma conexão não apaga mais o login que outra pessoa está fazendo no mesmo serviço.",
+        "As conversas que a pessoa tem com o Als Copilot pelo WhatsApp e pelo Telegram voltam à lista da conversa, com a marca do canal, para ler.",
+        "A chavinha dos apps da assinatura de IA liga tudo o que ela oferece de uma vez: apps e plugins do catálogo e as skills de fábrica, só na conversa direta com o Als Copilot e desligada de fábrica."
+      ],
+      "novidades": "A conta conectada entra sozinha na lista e o agente manda o link do login na própria conversa A conta que a pessoa conecta passa a ser gravada na lista de Conexões pelo próprio sistema, assim que o login termina: ela aparece mesmo com o login feito em outro aparelho, com a tela fechada ou por um link recebido na conversa, e o agente passa a enxergá-la. Ao pedir para conectar um serviço (e-mail, agenda, anúncios), o agente devolve o link do login na própria conversa, em vez de mandar a pessoa para a tela de Conexões. Começar uma conexão não apaga mais o login que outra pessoa está fazendo no mesmo serviço. As conversas que a pessoa tem com o Als Copilot pelo WhatsApp e pelo Telegram voltam à lista da conversa, com a marca do canal, para ler. A chavinha dos apps da assinatura de IA liga tudo o que ela oferece de uma vez: apps e plugins do catálogo e as skills de fábrica, só na conversa direta com o Als Copilot e desligada de fábrica.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-21"
+    },
     {
       "versao": "1.9.6",
       "titulo": "A conversa com o agente fala direto com o serviço de IA, ele ganha um computador próprio e as Configurações ficam em ordem",
