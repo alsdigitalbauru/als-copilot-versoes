@@ -1,15 +1,26 @@
 {
   "atual": {
-    "versao": "1.9.8",
-    "titulo": "As conversas antigas do Als Copilot voltam à lista, para ler",
+    "versao": "1.9.9",
+    "titulo": "O agente conecta a conta pelo link na conversa e o botão Atualizações volta à barra",
     "itens": [
-      "As conversas que a pessoa tinha com o Als Copilot antes da troca para a conversa direta voltam à lista de conversas, num grupo \"Conversas de antes\", só para ler; para continuar, a pessoa começa uma conversa nova."
+      "Ao pedir para conectar um serviço (Gmail, Google Ads, Meta e outros), o agente passa a escolher a ferramenta certa e devolve o link do login na própria conversa, em vez de mandar a pessoa para a aba MCP de um agente.",
+      "O botão Atualizações volta à barra lateral, para quem abre a tela, em vez de ficar escondido dentro de Configurações."
     ],
-    "novidades": "As conversas antigas do Als Copilot voltam à lista, para ler As conversas que a pessoa tinha com o Als Copilot antes da troca para a conversa direta voltam à lista de conversas, num grupo \"Conversas de antes\", só para ler; para continuar, a pessoa começa uma conversa nova.",
+    "novidades": "O agente conecta a conta pelo link na conversa e o botão Atualizações volta à barra Ao pedir para conectar um serviço (Gmail, Google Ads, Meta e outros), o agente passa a escolher a ferramenta certa e devolve o link do login na própria conversa, em vez de mandar a pessoa para a aba MCP de um agente. O botão Atualizações volta à barra lateral, para quem abre a tela, em vez de ficar escondido dentro de Configurações.",
     "obrigatoria": false,
     "publicada_em": "2026-11-21"
   },
   "anteriores": [
+    {
+      "versao": "1.9.8",
+      "titulo": "As conversas antigas do Als Copilot voltam à lista, para ler",
+      "itens": [
+        "As conversas que a pessoa tinha com o Als Copilot antes da troca para a conversa direta voltam à lista de conversas, num grupo \"Conversas de antes\", só para ler; para continuar, a pessoa começa uma conversa nova."
+      ],
+      "novidades": "As conversas antigas do Als Copilot voltam à lista, para ler As conversas que a pessoa tinha com o Als Copilot antes da troca para a conversa direta voltam à lista de conversas, num grupo \"Conversas de antes\", só para ler; para continuar, a pessoa começa uma conversa nova.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-21"
+    },
     {
       "versao": "1.9.7",
       "titulo": "A conta conectada entra sozinha na lista e o agente manda o link do login na própria conversa",
