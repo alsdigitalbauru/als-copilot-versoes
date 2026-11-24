@@ -1,16 +1,47 @@
 {
   "atual": {
-    "versao": "1.9.9",
-    "titulo": "O agente conecta a conta pelo link na conversa e o botão Atualizações volta à barra",
+    "versao": "1.9.10",
+    "titulo": "O Als Copilot descobre os canais e os concorrentes da empresa, o lembrete se repete e ele sabe com quem está falando",
     "itens": [
-      "Ao pedir para conectar um serviço (Gmail, Google Ads, Meta e outros), o agente passa a escolher a ferramenta certa e devolve o link do login na própria conversa, em vez de mandar a pessoa para a aba MCP de um agente.",
-      "O botão Atualizações volta à barra lateral, para quem abre a tela, em vez de ficar escondido dentro de Configurações."
+      "O Als Copilot descobre sozinho os canais digitais da empresa lendo os sites dela, acha pelo nome os que o site não mostra e confere de quem é cada um, sem IA.",
+      "Ele guarda os canais achados, confere o que já está conectado e avisa a pessoa com um link para conectar o que falta; o aviso chega só a quem deve, ignora canal que não pede nada e vai ao titular quando ninguém marcado abre a tela.",
+      "Ele descobre o nível dos concorrentes da empresa (local, estadual, país ou mundo) pelo que a empresa já mostra, sem IA.",
+      "Ele acha os maiores concorrentes do foco da empresa pesquisando na internet e conferindo em código o que volta, e guarda os que achou.",
+      "A pessoa confere a lista de concorrentes numa tela, com Pesquisar mais e foco; a lista vem em ordem alfabética, sem número ao lado do nome, para não parecer ranking de força; quem é marcado como Não é sai da lista e fica numa seção recolhida com o Desfazer.",
+      "Os seguidores e as publicações dos concorrentes confirmados são conferidos pelo Instagram oficial, e a medição usa o número conferido no lugar do visto, apontando os três mais fortes com a prova, sem IA.",
+      "Ele estuda o que funciona no mercado da empresa pelo Instagram oficial, sem citar nome de concorrente e sem ranking na tela.",
+      "O Als Copilot manda na conversa o link das contas De antes que escondem uma conta nova, e a reconexão pelo link termina sozinha.",
+      "Os canais de cada agente aparecem na própria linha do agente: tarjas com logo e número, botão Canais e uma janela para conectar e aprovar; a tela Canais de Configurações sai.",
+      "O Als Copilot acha um arquivo da tela Arquivos e pega o link dele, para postar a arte que ele mesmo criou.",
+      "O Als Copilot passa a ter o serviço de IA só dele, com a assinatura dele, e os apps nativos ficam por assinatura, só para administração e titular.",
+      "O modelo padrão do Als Copilot vale também na conversa direta, na versão mais nova da linha que a assinatura oferece.",
+      "Na conversa direta com os apps nativos, as ações de app que pedem aprovação (como desconectar uma conta) agora rodam, em vez de mandar a pessoa às configurações de fora.",
+      "O lembrete pode se repetir (toda terça, todo dia, todo mês), sem IA, e não para quando o sistema esteve fora.",
+      "O Als Copilot sabe com quem está falando: ele recebe o nome, o e-mail, o telefone, o papel e as equipes da pessoa logada, se apresenta como Als Copilot, da ALS Digital, e chama a pessoa pelo primeiro nome.",
+      "A ferramenta de entrega da conversa direta deixa claro que arte e capa nascem do criador de imagens do serviço de IA, nunca de código nem de modelo pronto.",
+      "Quando o serviço pedido para conectar não existe, o Als Copilot diz o que existe, não manda a pessoa à tela de Conexões e avisa que o Impulsionar do TikTok e o perfil do TikTok não se conectam.",
+      "A administração volta a ver as conversas de todas as pessoas com o Als Copilot, só para ler e com o nome de quem é, e a janela de conversa direta volta.",
+      "O menu lateral segue o uso: a Secretária volta à barra, Arquivos sobe, e Resumo, Relatórios, Catálogo e Agendamentos descem juntos.",
+      "A tela Integrações sai do sistema, o grupo Agentes sobe para antes de Produtividade, e as tabelas antigas das Integrações são apagadas (estavam vazias em todas as instalações).",
+      "A tela Segurança passa a contar, ao avisar que há segredo guardado, só as conexões.",
+      "A biblioteca de automações ganha a Importação de catálogo: a pessoa coloca o link de um arquivo de catálogo (XML ou JSON), escolhe o horário e a importação roda sozinha."
     ],
-    "novidades": "O agente conecta a conta pelo link na conversa e o botão Atualizações volta à barra Ao pedir para conectar um serviço (Gmail, Google Ads, Meta e outros), o agente passa a escolher a ferramenta certa e devolve o link do login na própria conversa, em vez de mandar a pessoa para a aba MCP de um agente. O botão Atualizações volta à barra lateral, para quem abre a tela, em vez de ficar escondido dentro de Configurações.",
+    "novidades": "O Als Copilot descobre os canais e os concorrentes da empresa, o lembrete se repete e ele sabe com quem está falando O Als Copilot descobre sozinho os canais digitais da empresa lendo os sites dela, acha pelo nome os que o site não mostra e confere de quem é cada um, sem IA. Ele guarda os canais achados, confere o que já está conectado e avisa a pessoa com um link para conectar o que falta; o aviso chega só a quem deve, ignora canal que não pede nada e vai ao titular quando ninguém marcado abre a tela. Ele descobre o nível dos concorrentes da empresa (local, estadual, país ou mundo) pelo que a empresa já mostra, sem IA. Ele acha os maiores concorrentes do foco da empresa pesquisando na internet e conferindo em código o que volta, e guarda os que achou. A pessoa confere a lista de concorrentes numa tela, com Pesquisar mais e foco; a lista vem em ordem alfabética, sem número ao lado do nome, para não parecer ranking de força; quem é marcado como Não é sai da lista e fica numa seção recolhida com o Desfazer. Os seguidores e as publicações dos concorrentes confirmados são conferidos pelo Instagram oficial, e a medição usa o número conferido no lugar do visto, apontando os três mais fortes com a prova, sem IA. Ele estuda o que funciona no mercado da empresa pelo Instagram oficial, sem citar nome de concorrente e sem ranking na tela. O Als Copilot manda na conversa o link das contas De antes que escondem uma conta nova, e a reconexão pelo link termina sozinha. Os canais de cada agente aparecem na própria linha do agente: tarjas com logo e número, botão Canais e uma janela para conectar e aprovar; a tela Canais de Configurações sai. O Als Copilot acha um arquivo da tela Arquivos e pega o link dele, para postar a arte que ele mesmo criou. O Als Copilot passa a ter o serviço de IA só dele, com a assinatura dele, e os apps nativos ficam por assinatura, só para administração e titular. O modelo padrão do Als Copilot vale também na conversa direta, na versão mais nova da linha que a assinatura oferece. Na conversa direta com os apps nativos, as ações de app que pedem aprovação (como desconectar uma conta) agora rodam, em vez de mandar a pessoa às configurações de fora. O lembrete pode se repetir (toda terça, todo dia, todo mês), sem IA, e não para quando o sistema esteve fora. O Als Copilot sabe com quem está falando: ele recebe o nome, o e-mail, o telefone, o papel e as equipes da pessoa logada, se apresenta como Als Copilot, da ALS Digital, e chama a pessoa pelo primeiro nome. A ferramenta de entrega da conversa direta deixa claro que arte e capa nascem do criador de imagens do serviço de IA, nunca de código nem de modelo pronto. Quando o serviço pedido para conectar não existe, o Als Copilot diz o que existe, não manda a pessoa à tela de Conexões e avisa que o Impulsionar do TikTok e o perfil do TikTok não se conectam. A administração volta a ver as conversas de todas as pessoas com o Als Copilot, só para ler e com o nome de quem é, e a janela de conversa direta volta. O menu lateral segue o uso: a Secretária volta à barra, Arquivos sobe, e Resumo, Relatórios, Catálogo e Agendamentos descem juntos. A tela Integrações sai do sistema, o grupo Agentes sobe para antes de Produtividade, e as tabelas antigas das Integrações são apagadas (estavam vazias em todas as instalações). A tela Segurança passa a contar, ao avisar que há segredo guardado, só as conexões. A biblioteca de automações ganha a Importação de catálogo: a pessoa coloca o link de um arquivo de catálogo (XML ou JSON), escolhe o horário e a importação roda sozinha.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-21"
+    "publicada_em": "2026-11-24"
   },
   "anteriores": [
+    {
+      "versao": "1.9.9",
+      "titulo": "O agente conecta a conta pelo link na conversa e o botão Atualizações volta à barra",
+      "itens": [
+        "Ao pedir para conectar um serviço (Gmail, Google Ads, Meta e outros), o agente passa a escolher a ferramenta certa e devolve o link do login na própria conversa, em vez de mandar a pessoa para a aba MCP de um agente.",
+        "O botão Atualizações volta à barra lateral, para quem abre a tela, em vez de ficar escondido dentro de Configurações."
+      ],
+      "novidades": "O agente conecta a conta pelo link na conversa e o botão Atualizações volta à barra Ao pedir para conectar um serviço (Gmail, Google Ads, Meta e outros), o agente passa a escolher a ferramenta certa e devolve o link do login na própria conversa, em vez de mandar a pessoa para a aba MCP de um agente. O botão Atualizações volta à barra lateral, para quem abre a tela, em vez de ficar escondido dentro de Configurações.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-21"
+    },
     {
       "versao": "1.9.8",
       "titulo": "As conversas antigas do Als Copilot voltam à lista, para ler",
@@ -315,48 +346,6 @@
       "novidades": "A Secretária cobra a agenda atrasada, avisa o compromisso e um leitor confere o lead antes de passá-lo Antes de passar um lead ao corretor, um leitor separado lê a conversa inteira e as fotos e manda ao Lead Frio quem não mostrou interesse, no lugar da conta de contar mensagens. Na conversa ao vivo, quando o leitor manda o lead ao Lead Frio, o agente nunca responde um \"ok\" solto ao cliente. As fotos que um lead manda ao agente de atendimento somem em 24 horas, do banco e do armazenamento, por uma faxina de hora em hora; só apaga foto de agente de atendimento, de quem não é da equipe, sem ligação com o Mídia Kit, tarefa ou negócio. A agenda atrasada entra na cobrança que já existe (mesma linha, mesmo aviso, mesma lista), e a ficha do lead aparece na tela de cobrança. O corretor recebe no máximo uma mensagem a cada 3 horas sobre cobrança, com teto de 3 avisos por lead. Os leads que bateram o teto de 3 avisos entram no resumo do dia da administração (só com a caixinha marcada), com a frase \"<lead> está com <pessoa>, que já recebeu 3 avisos e não atualizou.\" O card em Aguardando retorno mostra a data em que o agente volta a falar com o cliente, e o card volta sozinho na data combinada. O botão \"Concluir a próxima ação\" some da etiqueta da volta combinada, e a etiqueta nunca mistura texto de um com a data do outro. O lembrete do compromisso de um lead chega a quem responde por ele, 1 hora antes, com uma linha de resumo e o link da ficha, na mesma mensagem da cobrança; o compromisso que o agente marca em lead sem responsável não avisa ninguém. Descartar um lead (Lead Frio ou bloquear) pede a decisão da administração: o funcionário escreve o porquê e vê \"Enviado para a administração\"; o aviso sai por e-mail e WhatsApp. A foto de quem pediu sai pequena na tela de decisão do descarte. O pedido de automação fica registrado, com histórico na tela e aviso quando é feito; também dá para descartar um pedido, com o motivo. O lead que termina (Negócio Concluído, Lead Frio, perdido) não deixa nada em aberto: agenda, retorno, cobrança, prazo e pendência saem; uma migração limpa os que já terminaram. O negócio que entra em Negócio Concluído tem a agenda em aberto cancelada e a próxima ação limpa, na mesma transação. O card fixo \"Venda Concluída\" passa a se chamar \"Negócio Concluído\", renomeado nas instalações que já rodam.",
       "obrigatoria": false,
       "publicada_em": "2026-11-06"
-    },
-    {
-      "versao": "1.8.4",
-      "titulo": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela",
-      "itens": [
-        "Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR.",
-        "A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar.",
-        "O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser.",
-        "A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes.",
-        "O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento.",
-        "Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver.",
-        "Desconectar o número da Secretária agora pede confirmação.",
-        "O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só.",
-        "A barra de rolagem fica fina e sem o trilho em todas as telas.",
-        "O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail."
-      ],
-      "novidades": "A Secretária ganha o próprio WhatsApp, escolhido na tela dela Na tela Secretária, o novo cartão WhatsApp da Secretária: ela avisa os corretores pelo WhatsApp de um agente conectado ou por um número só dela, ligado por QR. A Secretária já começa usando o WhatsApp do agente de atendimento, sem ninguém precisar configurar. O dono da empresa também vê o cartão e pode trocar o WhatsApp da Secretária quando quiser. A cobrança do corretor passa a sair pelo WhatsApp da Secretária, o mesmo do aviso de lead novo; Telegram e e-mail continuam como antes. O WhatsApp oficial aparece apagado na lista: ele fica só para o atendimento. Sem WhatsApp para a Secretária, a tela avisa e o dono recebe um aviso por dia até resolver. Desconectar o número da Secretária agora pede confirmação. O seletor de Configurações, Canais, deixa de mostrar o perfil interno da Secretária: o WhatsApp dela se escolhe num lugar só. A barra de rolagem fica fina e sem o trilho em todas as telas. O aviso de que o WhatsApp parou só sai depois de três minutos seguidos fora do ar; uma piscada de segundos não manda mais e-mail.",
-      "obrigatoria": false,
-      "publicada_em": "2026-11-05"
-    },
-    {
-      "versao": "1.8.3",
-      "titulo": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem",
-      "itens": [
-        "Quando a pessoa oferece um imóvel dela como parte do pagamento junto com o imóvel que quer, o atendimento passa a ser passado na hora e a oferta vai no resumo de quem recebe, em vez de travar a passagem.",
-        "A tela Piloto Automático vira a Secretária (sem o Diário e sem o ritmo das ideias), com os textos da pausa e do menu corrigidos.",
-        "Passar o lead a outra pessoa na cobrança, e o atendimento ao vivo empurrado pelo banco, com quem pegar primeiro ficando com o lead.",
-        "O sininho, a Visão geral, as Atualizações e o espelho da conversa passam a ouvir o banco em vez de perguntar à API, sem polling.",
-        "As telas se atualizam sozinhas quando a pessoa abre ou volta para a aba, e o aviso do banco só manda reler o dado.",
-        "O funil da Visão geral é fixo, só com as etapas do sistema e Venda Concluída no fim; as fases da empresa viram uma linha à parte.",
-        "O funil da Visão geral vira barras arredondadas e separadas, cada uma mais estreita, com a cor da fase.",
-        "O agente cria skill no padrão aberto de skills, a importação escreve o 'quando usar' que faltava e o motor respeita esse padrão.",
-        "O agente só cria skill a pedido de uma pessoa reconhecida numa conversa, nunca em turno de sistema; sai a cadeia morta da passada pelos leads.",
-        "O código de cobrança, resumo e reabertura deixa de usar 'corretor' como estrutura: arquivo renomeado, campo do resumo e textos neutros.",
-        "Mapa do projeto (telas, rotas e ferramentas, para que serve e quem usa) e o lembrete de conferir antes de apagar ou editar, valendo em todos os projetos.",
-        "O teste da fiação do navegador acompanha a tela sem o relógio de leitura.",
-        "Os testes de integração da oferta acompanham a permuta junto com a passagem e ganham a prova do caso pelo banco de verdade.",
-        "Documentação interna atualizada: o que saiu do sistema, a lista de abertos, as histórias da Secretária, do atendimento ao vivo e das skills, e as anotações do revisor."
-      ],
-      "novidades": "A Secretária, o atendimento ao vivo e a permuta que não trava a passagem Quando a pessoa oferece um imóvel dela como parte do pagamento junto com o imóvel que quer, o atendimento passa a ser passado na hora e a oferta vai no resumo de quem recebe, em vez de travar a passagem. A tela Piloto Automático vira a Secretária (sem o Diário e sem o ritmo das ideias), com os textos da pausa e do menu corrigidos. Passar o lead a outra pessoa na cobrança, e o atendimento ao vivo empurrado pelo banco, com quem pegar primeiro ficando com o lead. O sininho, a Visão geral, as Atualizações e o espelho da conversa passam a ouvir o banco em vez de perguntar à API, sem polling. As telas se atualizam sozinhas quando a pessoa abre ou volta para a aba, e o aviso do banco só manda reler o dado. O funil da Visão geral é fixo, só com as etapas do sistema e Venda Concluída no fim; as fases da empresa viram uma linha à parte. O funil da Visão geral vira barras arredondadas e separadas, cada uma mais estreita, com a cor da fase. O agente cria skill no padrão aberto de skills, a importação escreve o 'quando usar' que faltava e o motor respeita esse padrão. O agente só cria skill a pedido de uma pessoa reconhecida numa conversa, nunca em turno de sistema; sai a cadeia morta da passada pelos leads. O código de cobrança, resumo e reabertura deixa de usar 'corretor' como estrutura: arquivo renomeado, campo do resumo e textos neutros. Mapa do projeto (telas, rotas e ferramentas, para que serve e quem usa) e o lembrete de conferir antes de apagar ou editar, valendo em todos os projetos. O teste da fiação do navegador acompanha a tela sem o relógio de leitura. Os testes de integração da oferta acompanham a permuta junto com a passagem e ganham a prova do caso pelo banco de verdade. Documentação interna atualizada: o que saiu do sistema, a lista de abertos, as histórias da Secretária, do atendimento ao vivo e das skills, e as anotações do revisor.",
-      "obrigatoria": false,
-      "publicada_em": "2026-11-05"
     }
   ]
 }
