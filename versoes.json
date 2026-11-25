@@ -1,26 +1,45 @@
 {
   "atual": {
-    "versao": "1.10.0",
-    "titulo": "Todo aviso à equipe passa por uma porta só, a ALS já vem aprovada nos canais e a cobrança antiga foi limpa",
+    "versao": "1.10.1",
+    "titulo": "O Als Copilot confere o que já está conectado antes de pedir ajuda, e o pedido de site fica mais simples",
     "itens": [
-      "Todo aviso à equipe (cobrança, compromisso, lembrete, resumos, recado do agente, aviso aos administradores) passa pela mesma porta e desce a escada inteira: WhatsApp, Telegram, e-mail e, por último, o sininho.",
-      "O cartão de passagem que não sai pelo WhatsApp do agente chega pelo Telegram do cadastro da pessoa, com o mesmo link.",
-      "O alerta \"a Secretária está sem WhatsApp\" só aparece quando um aviso da cobrança ficou mesmo só no sininho; quem recebe pelo Telegram não dispara mais o alerta.",
-      "A ALS já vem aprovada para falar com o Als Copilot por WhatsApp e Telegram em toda instalação, nova ou existente.",
-      "O pedido de site volta, para criar ou alterar um site: ele vai para a ALS, e o agente diz \"entendi, vou criar a tarefa e aviso aqui\".",
-      "O Als Copilot ajusta os campos e muda o horário de uma automação instalada da ALS na hora, sem pedir à equipe.",
-      "O titular conecta a própria assinatura e usa os apps nativos; Empresa, Equipes, Usuários e Uso voltam à barra lateral.",
-      "No WhatsApp Oficial, a escolha \"Quem pode falar\" aparece já na hora de conectar e também nos sub-agentes.",
-      "A conversa da aba de conexões enxerga as cinco ferramentas de conexão, e o campo da chave passa a abrir.",
-      "O roteador de leads lê o imóvel que o portal manda em lista; antes, todo lead desse tipo caía no Lead Frio.",
-      "O motor de proatividade registra as dores e os pedidos da administração lendo as conversas dos últimos 2 dias, e acha as maiores do ramo fora da região, com a tela \"As maiores do Brasil no seu ramo\".",
-      "Sai do código e do banco o que a cobrança antiga deixou morto: três tabelas e cinco colunas, com o conteúdo guardado em arquivo antes de apagar, sem perder linha."
+      "O Als Copilot passa a consultar, num lugar só, o que já está conectado e por onde (contas conectadas, apps da assinatura e conexões do próprio agente) antes de dizer que não consegue ou de encaminhar um pedido à equipe da ALS.",
+      "O encaminhamento de pedidos à equipe da ALS recusa o que o Als Copilot já consegue fazer com uma conexão ativa na conversa; conta vencida manda entrar de novo pelo link do login.",
+      "Pedido de site: o Als Copilot anota tudo o que a pessoa disse, sem exigir endereço nem outros campos, e responde que começou o desenvolvimento e avisa quando ficar pronto.",
+      "Na tela de Conversa, o pedido de site é registrado pela ferramenta própria, e o Als Copilot nunca edita o site pelo painel; o cadastro de imóveis, fotos e condomínios segue pelo painel.",
+      "A foto que a pessoa manda na tela de Conversa aparece na bolha dela.",
+      "A mensagem que chega fora da vez do agente (recado à administração, avisos e lembretes) abre uma bolha própria na conversa, em vez de grudar na resposta.",
+      "O cartão da automação mostra só quando rodou e se deu certo ou falhou; o relatório longo fica nas últimas execuções, dentro de Configurar.",
+      "O clone de um cliente, usado para testar, troca e-mails e telefones corretamente mesmo quando uma quebra de linha os corta.",
+      "Arrumação interna do número da Secretária: o nome guardado dele muda e a conexão do WhatsApp segue como está (a pasta da sessão é movida sozinha ao subir).",
+      "Textos de duas ferramentas do Als Copilot deixam de falar de um ramo só e passam a falar de pessoa da equipe."
     ],
-    "novidades": "Todo aviso à equipe passa por uma porta só, a ALS já vem aprovada nos canais e a cobrança antiga foi limpa Todo aviso à equipe (cobrança, compromisso, lembrete, resumos, recado do agente, aviso aos administradores) passa pela mesma porta e desce a escada inteira: WhatsApp, Telegram, e-mail e, por último, o sininho. O cartão de passagem que não sai pelo WhatsApp do agente chega pelo Telegram do cadastro da pessoa, com o mesmo link. O alerta \"a Secretária está sem WhatsApp\" só aparece quando um aviso da cobrança ficou mesmo só no sininho; quem recebe pelo Telegram não dispara mais o alerta. A ALS já vem aprovada para falar com o Als Copilot por WhatsApp e Telegram em toda instalação, nova ou existente. O pedido de site volta, para criar ou alterar um site: ele vai para a ALS, e o agente diz \"entendi, vou criar a tarefa e aviso aqui\". O Als Copilot ajusta os campos e muda o horário de uma automação instalada da ALS na hora, sem pedir à equipe. O titular conecta a própria assinatura e usa os apps nativos; Empresa, Equipes, Usuários e Uso voltam à barra lateral. No WhatsApp Oficial, a escolha \"Quem pode falar\" aparece já na hora de conectar e também nos sub-agentes. A conversa da aba de conexões enxerga as cinco ferramentas de conexão, e o campo da chave passa a abrir. O roteador de leads lê o imóvel que o portal manda em lista; antes, todo lead desse tipo caía no Lead Frio. O motor de proatividade registra as dores e os pedidos da administração lendo as conversas dos últimos 2 dias, e acha as maiores do ramo fora da região, com a tela \"As maiores do Brasil no seu ramo\". Sai do código e do banco o que a cobrança antiga deixou morto: três tabelas e cinco colunas, com o conteúdo guardado em arquivo antes de apagar, sem perder linha.",
+    "novidades": "O Als Copilot confere o que já está conectado antes de pedir ajuda, e o pedido de site fica mais simples O Als Copilot passa a consultar, num lugar só, o que já está conectado e por onde (contas conectadas, apps da assinatura e conexões do próprio agente) antes de dizer que não consegue ou de encaminhar um pedido à equipe da ALS. O encaminhamento de pedidos à equipe da ALS recusa o que o Als Copilot já consegue fazer com uma conexão ativa na conversa; conta vencida manda entrar de novo pelo link do login. Pedido de site: o Als Copilot anota tudo o que a pessoa disse, sem exigir endereço nem outros campos, e responde que começou o desenvolvimento e avisa quando ficar pronto. Na tela de Conversa, o pedido de site é registrado pela ferramenta própria, e o Als Copilot nunca edita o site pelo painel; o cadastro de imóveis, fotos e condomínios segue pelo painel. A foto que a pessoa manda na tela de Conversa aparece na bolha dela. A mensagem que chega fora da vez do agente (recado à administração, avisos e lembretes) abre uma bolha própria na conversa, em vez de grudar na resposta. O cartão da automação mostra só quando rodou e se deu certo ou falhou; o relatório longo fica nas últimas execuções, dentro de Configurar. O clone de um cliente, usado para testar, troca e-mails e telefones corretamente mesmo quando uma quebra de linha os corta. Arrumação interna do número da Secretária: o nome guardado dele muda e a conexão do WhatsApp segue como está (a pasta da sessão é movida sozinha ao subir). Textos de duas ferramentas do Als Copilot deixam de falar de um ramo só e passam a falar de pessoa da equipe.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-24"
+    "publicada_em": "2026-11-25"
   },
   "anteriores": [
+    {
+      "versao": "1.10.0",
+      "titulo": "Todo aviso à equipe passa por uma porta só, a ALS já vem aprovada nos canais e a cobrança antiga foi limpa",
+      "itens": [
+        "Todo aviso à equipe (cobrança, compromisso, lembrete, resumos, recado do agente, aviso aos administradores) passa pela mesma porta e desce a escada inteira: WhatsApp, Telegram, e-mail e, por último, o sininho.",
+        "O cartão de passagem que não sai pelo WhatsApp do agente chega pelo Telegram do cadastro da pessoa, com o mesmo link.",
+        "O alerta \"a Secretária está sem WhatsApp\" só aparece quando um aviso da cobrança ficou mesmo só no sininho; quem recebe pelo Telegram não dispara mais o alerta.",
+        "A ALS já vem aprovada para falar com o Als Copilot por WhatsApp e Telegram em toda instalação, nova ou existente.",
+        "O pedido de site volta, para criar ou alterar um site: ele vai para a ALS, e o agente diz \"entendi, vou criar a tarefa e aviso aqui\".",
+        "O Als Copilot ajusta os campos e muda o horário de uma automação instalada da ALS na hora, sem pedir à equipe.",
+        "O titular conecta a própria assinatura e usa os apps nativos; Empresa, Equipes, Usuários e Uso voltam à barra lateral.",
+        "No WhatsApp Oficial, a escolha \"Quem pode falar\" aparece já na hora de conectar e também nos sub-agentes.",
+        "A conversa da aba de conexões enxerga as cinco ferramentas de conexão, e o campo da chave passa a abrir.",
+        "O roteador de leads lê o imóvel que o portal manda em lista; antes, todo lead desse tipo caía no Lead Frio.",
+        "O motor de proatividade registra as dores e os pedidos da administração lendo as conversas dos últimos 2 dias, e acha as maiores do ramo fora da região, com a tela \"As maiores do Brasil no seu ramo\".",
+        "Sai do código e do banco o que a cobrança antiga deixou morto: três tabelas e cinco colunas, com o conteúdo guardado em arquivo antes de apagar, sem perder linha."
+      ],
+      "novidades": "Todo aviso à equipe passa por uma porta só, a ALS já vem aprovada nos canais e a cobrança antiga foi limpa Todo aviso à equipe (cobrança, compromisso, lembrete, resumos, recado do agente, aviso aos administradores) passa pela mesma porta e desce a escada inteira: WhatsApp, Telegram, e-mail e, por último, o sininho. O cartão de passagem que não sai pelo WhatsApp do agente chega pelo Telegram do cadastro da pessoa, com o mesmo link. O alerta \"a Secretária está sem WhatsApp\" só aparece quando um aviso da cobrança ficou mesmo só no sininho; quem recebe pelo Telegram não dispara mais o alerta. A ALS já vem aprovada para falar com o Als Copilot por WhatsApp e Telegram em toda instalação, nova ou existente. O pedido de site volta, para criar ou alterar um site: ele vai para a ALS, e o agente diz \"entendi, vou criar a tarefa e aviso aqui\". O Als Copilot ajusta os campos e muda o horário de uma automação instalada da ALS na hora, sem pedir à equipe. O titular conecta a própria assinatura e usa os apps nativos; Empresa, Equipes, Usuários e Uso voltam à barra lateral. No WhatsApp Oficial, a escolha \"Quem pode falar\" aparece já na hora de conectar e também nos sub-agentes. A conversa da aba de conexões enxerga as cinco ferramentas de conexão, e o campo da chave passa a abrir. O roteador de leads lê o imóvel que o portal manda em lista; antes, todo lead desse tipo caía no Lead Frio. O motor de proatividade registra as dores e os pedidos da administração lendo as conversas dos últimos 2 dias, e acha as maiores do ramo fora da região, com a tela \"As maiores do Brasil no seu ramo\". Sai do código e do banco o que a cobrança antiga deixou morto: três tabelas e cinco colunas, com o conteúdo guardado em arquivo antes de apagar, sem perder linha.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-24"
+    },
     {
       "versao": "1.9.10",
       "titulo": "O Als Copilot descobre os canais e os concorrentes da empresa, o lembrete se repete e ele sabe com quem está falando",
@@ -321,28 +340,6 @@
       "novidades": "O lead passado fora do horário chega uma vez só à equipe, e o resumo de atendimentos ganha dia, semana e mês O lead que o agente passa fora do horário de atendimento fica guardado para a abertura e chega à equipe uma vez só, sem repetição e sem o aviso de que o agente não conseguiu decidir A passagem guardada para a abertura que ficar presa por mais de um dia deixa de segurar o lead: o agente volta a cuidar dele O resumo de atendimentos mostra o dia, a semana e o mês: leads que chegaram, conversaram, foram passados para a equipe, foram atendidos de verdade e foram para o Lead Frio (pelo agente e pela equipe) O resumo de atendimentos ganhou gráfico, onde cada lead está agora, pódio da equipe, cada pessoa com foto, e a lista de quem conversou e não foi passado, com o caminho de volta ao resumo O aviso do fim do dia no WhatsApp virou uma imagem com o link do resumo, sem números soltos no texto O item Resumo entrou no menu da esquerda e no menu do celular, que ficou mais compacto O resumo de anúncios deixa claro que os atendidos são do mês Cópia de segurança da automação de acompanhamento de anúncios atualizada Registro da correção do motor aplicada antes desta versão",
       "obrigatoria": false,
       "publicada_em": "2026-11-07"
-    },
-    {
-      "versao": "1.8.6",
-      "titulo": "O lead com interesse chega ao corretor em cerca de uma hora",
-      "itens": [
-        "Uma hora depois da primeira retomada sem resposta, o agente de atendimento relê a conversa inteira e decide na hora: quem mostrou interesse vai para o corretor, e quem não mostrou vai para o Lead Frio, sem esperar até o fim do dia.",
-        "A segunda mensagem de retomada saiu: depois da primeira tentativa, o lead já ganha um destino.",
-        "Quem está conversando com o agente há uma hora e já mostrou interesse também é passado ao corretor, sem precisar pedir visita.",
-        "A mensagem pronta do botão do anúncio não conta mais como conversa do lead na hora de decidir.",
-        "Se a pessoa pediu para ser procurada numa data futura, o agente marca o retorno em vez de passar ou arquivar o lead.",
-        "Quando o sistema decide sozinho, a resposta ao vivo da pessoa volta a seguir as regras da tela Passar atendimento.",
-        "O Lead Frio de uma conversa antiga não é mais confundido com a decisão de um atendimento novo do mesmo lead.",
-        "A primeira retomada de 10 minutos repete a pergunta que ficou sem resposta, em vez de abrir outra.",
-        "Na conversa de WhatsApp, o corretor responde o cliente pelo próprio WhatsApp: a caixa de mensagem do aplicativo deixa de aparecer para ele, e o botão do WhatsApp aparece depois de assumir.",
-        "Telefone de fora do Brasil deixa de ganhar o 55, e o botão Atender agora abre o número certo.",
-        "A lista de fotinhas em Atendimentos e no cartão do CRM mostra só quem atende; quem só recebeu o aviso aparece apenas enquanto ninguém assumiu e uma única pessoa ainda espera.",
-        "Ajuste interno na gravação das regras da tela Passar atendimento.",
-        "Registro interno: rotina de cópia de segurança do código."
-      ],
-      "novidades": "O lead com interesse chega ao corretor em cerca de uma hora Uma hora depois da primeira retomada sem resposta, o agente de atendimento relê a conversa inteira e decide na hora: quem mostrou interesse vai para o corretor, e quem não mostrou vai para o Lead Frio, sem esperar até o fim do dia. A segunda mensagem de retomada saiu: depois da primeira tentativa, o lead já ganha um destino. Quem está conversando com o agente há uma hora e já mostrou interesse também é passado ao corretor, sem precisar pedir visita. A mensagem pronta do botão do anúncio não conta mais como conversa do lead na hora de decidir. Se a pessoa pediu para ser procurada numa data futura, o agente marca o retorno em vez de passar ou arquivar o lead. Quando o sistema decide sozinho, a resposta ao vivo da pessoa volta a seguir as regras da tela Passar atendimento. O Lead Frio de uma conversa antiga não é mais confundido com a decisão de um atendimento novo do mesmo lead. A primeira retomada de 10 minutos repete a pergunta que ficou sem resposta, em vez de abrir outra. Na conversa de WhatsApp, o corretor responde o cliente pelo próprio WhatsApp: a caixa de mensagem do aplicativo deixa de aparecer para ele, e o botão do WhatsApp aparece depois de assumir. Telefone de fora do Brasil deixa de ganhar o 55, e o botão Atender agora abre o número certo. A lista de fotinhas em Atendimentos e no cartão do CRM mostra só quem atende; quem só recebeu o aviso aparece apenas enquanto ninguém assumiu e uma única pessoa ainda espera. Ajuste interno na gravação das regras da tela Passar atendimento. Registro interno: rotina de cópia de segurança do código.",
-      "obrigatoria": false,
-      "publicada_em": "2026-11-06"
     }
   ]
 }
