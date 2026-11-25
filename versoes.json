@@ -1,19 +1,31 @@
 {
   "atual": {
-    "versao": "1.10.2",
-    "titulo": "O Als Copilot conecta serviços direto pela conversa, em qualquer canal",
+    "versao": "1.10.3",
+    "titulo": "O Als Copilot usa os apps e as contas conectadas juntos",
     "itens": [
-      "Nova ferramenta para conectar um serviço pela conversa, na tela, no WhatsApp e no Telegram: só a administração e o titular pedem.",
-      "Ela escolhe o caminho sozinha: se o serviço já está conectado, manda usar; se entra por login, devolve o link do login; se é um MCP ou uma API, conecta o serviço no Als Copilot.",
-      "A chave que a pessoa cola na conversa vai para o cofre cifrada, só vale se ela mesma a escreveu nos últimos 15 minutos e nunca aparece em resposta nem em registro.",
-      "Uma conexão que já tem chave guardada nunca leva essa chave para outro endereço, e com chave o endereço precisa ser https.",
-      "Serviço que entra por login (Google Ads, Meta e outros) nunca vira conexão direta: é sempre o link do login."
+      "Com os apps nativos ligados, o Als Copilot passa a usar os apps e as contas conectadas juntos, em vez de trocar um pelo outro.",
+      "A consulta do que está conectado e a conexão de serviços pela conversa seguem essa mesma regra: a conta aparece como conectada em qualquer um dos dois caminhos.",
+      "Uma automação instalada passa a resolver o código de segurança do serviço dentro da conversa, sem pedir a senha de novo."
     ],
-    "novidades": "O Als Copilot conecta serviços direto pela conversa, em qualquer canal Nova ferramenta para conectar um serviço pela conversa, na tela, no WhatsApp e no Telegram: só a administração e o titular pedem. Ela escolhe o caminho sozinha: se o serviço já está conectado, manda usar; se entra por login, devolve o link do login; se é um MCP ou uma API, conecta o serviço no Als Copilot. A chave que a pessoa cola na conversa vai para o cofre cifrada, só vale se ela mesma a escreveu nos últimos 15 minutos e nunca aparece em resposta nem em registro. Uma conexão que já tem chave guardada nunca leva essa chave para outro endereço, e com chave o endereço precisa ser https. Serviço que entra por login (Google Ads, Meta e outros) nunca vira conexão direta: é sempre o link do login.",
+    "novidades": "O Als Copilot usa os apps e as contas conectadas juntos Com os apps nativos ligados, o Als Copilot passa a usar os apps e as contas conectadas juntos, em vez de trocar um pelo outro. A consulta do que está conectado e a conexão de serviços pela conversa seguem essa mesma regra: a conta aparece como conectada em qualquer um dos dois caminhos. Uma automação instalada passa a resolver o código de segurança do serviço dentro da conversa, sem pedir a senha de novo.",
     "obrigatoria": false,
     "publicada_em": "2026-11-25"
   },
   "anteriores": [
+    {
+      "versao": "1.10.2",
+      "titulo": "O Als Copilot conecta serviços direto pela conversa, em qualquer canal",
+      "itens": [
+        "Nova ferramenta para conectar um serviço pela conversa, na tela, no WhatsApp e no Telegram: só a administração e o titular pedem.",
+        "Ela escolhe o caminho sozinha: se o serviço já está conectado, manda usar; se entra por login, devolve o link do login; se é um MCP ou uma API, conecta o serviço no Als Copilot.",
+        "A chave que a pessoa cola na conversa vai para o cofre cifrada, só vale se ela mesma a escreveu nos últimos 15 minutos e nunca aparece em resposta nem em registro.",
+        "Uma conexão que já tem chave guardada nunca leva essa chave para outro endereço, e com chave o endereço precisa ser https.",
+        "Serviço que entra por login (Google Ads, Meta e outros) nunca vira conexão direta: é sempre o link do login."
+      ],
+      "novidades": "O Als Copilot conecta serviços direto pela conversa, em qualquer canal Nova ferramenta para conectar um serviço pela conversa, na tela, no WhatsApp e no Telegram: só a administração e o titular pedem. Ela escolhe o caminho sozinha: se o serviço já está conectado, manda usar; se entra por login, devolve o link do login; se é um MCP ou uma API, conecta o serviço no Als Copilot. A chave que a pessoa cola na conversa vai para o cofre cifrada, só vale se ela mesma a escreveu nos últimos 15 minutos e nunca aparece em resposta nem em registro. Uma conexão que já tem chave guardada nunca leva essa chave para outro endereço, e com chave o endereço precisa ser https. Serviço que entra por login (Google Ads, Meta e outros) nunca vira conexão direta: é sempre o link do login.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-25"
+    },
     {
       "versao": "1.10.1",
       "titulo": "O Als Copilot confere o que já está conectado antes de pedir ajuda, e o pedido de site fica mais simples",
