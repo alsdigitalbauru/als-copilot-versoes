@@ -1,17 +1,32 @@
 {
   "atual": {
-    "versao": "1.10.3",
-    "titulo": "O Als Copilot usa os apps e as contas conectadas juntos",
+    "versao": "1.10.4",
+    "titulo": "Falar com qualquer agente pela tela de conversa, conversa mais rápida e chaves de serviço só pelo campo seguro",
     "itens": [
-      "Com os apps nativos ligados, o Als Copilot passa a usar os apps e as contas conectadas juntos, em vez de trocar um pelo outro.",
-      "A consulta do que está conectado e a conexão de serviços pela conversa seguem essa mesma regra: a conta aparece como conectada em qualquer um dos dois caminhos.",
-      "Uma automação instalada passa a resolver o código de segurança do serviço dentro da conversa, sem pedir a senha de novo."
+      "A conversa abre só nas últimas 5 mensagens e carrega as antigas ao rolar para cima: numa conversa de 3.000 mensagens, a abertura caiu de 2,2 s para 0,35 s.",
+      "A chave de um serviço conectado só entra pelo campo seguro da tela, nunca pela conversa; no WhatsApp e no Telegram, o sistema manda abrir a tela. Inclui uma atualização do banco.",
+      "A limpeza automática de conversas vazias antigas passa a respeitar a conversa que tem um pedido de chave aberto.",
+      "O lead que volta ou pede outro imóvel passa de novo pela equipe do imóvel, e quem recebe o cartão novo consegue assumir.",
+      "O seletor \"Falar com\" volta à tela de conversa: dá para falar de verdade com qualquer agente, com a conversa salva na lista dele, andamento ao vivo, foto e arquivo.",
+      "Trocar de agente fecha o aviso da chamada de voz que estava aberto, e a voz só começa no Als Copilot."
     ],
-    "novidades": "O Als Copilot usa os apps e as contas conectadas juntos Com os apps nativos ligados, o Als Copilot passa a usar os apps e as contas conectadas juntos, em vez de trocar um pelo outro. A consulta do que está conectado e a conexão de serviços pela conversa seguem essa mesma regra: a conta aparece como conectada em qualquer um dos dois caminhos. Uma automação instalada passa a resolver o código de segurança do serviço dentro da conversa, sem pedir a senha de novo.",
+    "novidades": "Falar com qualquer agente pela tela de conversa, conversa mais rápida e chaves de serviço só pelo campo seguro A conversa abre só nas últimas 5 mensagens e carrega as antigas ao rolar para cima: numa conversa de 3.000 mensagens, a abertura caiu de 2,2 s para 0,35 s. A chave de um serviço conectado só entra pelo campo seguro da tela, nunca pela conversa; no WhatsApp e no Telegram, o sistema manda abrir a tela. Inclui uma atualização do banco. A limpeza automática de conversas vazias antigas passa a respeitar a conversa que tem um pedido de chave aberto. O lead que volta ou pede outro imóvel passa de novo pela equipe do imóvel, e quem recebe o cartão novo consegue assumir. O seletor \"Falar com\" volta à tela de conversa: dá para falar de verdade com qualquer agente, com a conversa salva na lista dele, andamento ao vivo, foto e arquivo. Trocar de agente fecha o aviso da chamada de voz que estava aberto, e a voz só começa no Als Copilot.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-25"
+    "publicada_em": "2026-11-26"
   },
   "anteriores": [
+    {
+      "versao": "1.10.3",
+      "titulo": "O Als Copilot usa os apps e as contas conectadas juntos",
+      "itens": [
+        "Com os apps nativos ligados, o Als Copilot passa a usar os apps e as contas conectadas juntos, em vez de trocar um pelo outro.",
+        "A consulta do que está conectado e a conexão de serviços pela conversa seguem essa mesma regra: a conta aparece como conectada em qualquer um dos dois caminhos.",
+        "Uma automação instalada passa a resolver o código de segurança do serviço dentro da conversa, sem pedir a senha de novo."
+      ],
+      "novidades": "O Als Copilot usa os apps e as contas conectadas juntos Com os apps nativos ligados, o Als Copilot passa a usar os apps e as contas conectadas juntos, em vez de trocar um pelo outro. A consulta do que está conectado e a conexão de serviços pela conversa seguem essa mesma regra: a conta aparece como conectada em qualquer um dos dois caminhos. Uma automação instalada passa a resolver o código de segurança do serviço dentro da conversa, sem pedir a senha de novo.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-25"
+    },
     {
       "versao": "1.10.2",
       "titulo": "O Als Copilot conecta serviços direto pela conversa, em qualquer canal",
