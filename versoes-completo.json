@@ -1,29 +1,48 @@
 {
   "atual": {
-    "versao": "1.10.6",
-    "titulo": "Biblioteca de skills da ALS, skills compartilhadas com a empresa e conexões numa lista só",
+    "versao": "1.10.7",
+    "titulo": "Contas conectadas da empresa, lead sem código atendido e filtro do catálogo nas automações",
     "itens": [
-      "A tela Skills ganha a aba Biblioteca: as skills gerais da ALS, que cada um instala se quiser e que se atualizam sozinhas de madrugada.",
-      "Peça na conversa para compartilhar uma skill sua com a empresa: ela passa a valer para o agente de todas as pessoas (administração e titular).",
-      "A skill chega inteira ao agente, com o texto como foi escrito, os arquivos de apoio e as imagens.",
-      "A tela Skills mostra as skills em cartões, com Ver, Editar e Remover.",
-      "Nomes que começam com als- ficam reservados às bibliotecas da ALS.",
-      "Agente pronto de marketing para imobiliária: arte e postagem, avaliação de imóvel, material, campanha, raio-X e próxima mensagem.",
-      "O agente pronto que pesquisa na internet passa a pesquisar.",
-      "A tela Conexões vira uma lista só, com os agentes e o Só eu em cada conta, e a conta ligada pela conversa já fica liberada ao Als Copilot.",
-      "O agente usado na tela de conversa recebe as contas conectadas liberadas a ele.",
-      "O link de conexão usa primeiro o login pronto do serviço.",
-      "O que você diz na tela de conversa vale nas confirmações: publicar, apagar, decidir, proposta e contrato.",
-      "Na postagem, o seu sim na conversa da tela é reconhecido, e só conta o que você mesmo disse.",
-      "Pela tela de conversa, o serviço conectado recebe o seu telefone, e o pedido de site é respondido com naturalidade, uma vez por assunto.",
-      "Automações podem fazer perguntas à IA com pesquisa na internet.",
-      "A conversa abre na última mensagem e a barra de rolagem fica visível."
+      "As contas conectadas passam a ser da empresa: a administração vê e configura todas, e a única escolha em cada conta é quais agentes a usam. A opção «Só eu» saiu, e a conta nova nasce liberada ao Als Copilot.",
+      "A conta que está sem acesso aparece na tela Conexões, e o Als Copilot consulta na conversa o que está conectado.",
+      "O lead que chega sem código é chamado pelo agente de atendimento, que lê a publicação de onde ele veio, e só depois é passado.",
+      "Quando o Als Copilot recomeça uma conversa longa, leva só as últimas 30 mensagens, e não a conversa inteira.",
+      "O modelo de arte pode ser renomeado pela tela, com lápis e lixeira no cartão.",
+      "O aviso antes de remover um modelo de arte passa a contar as automações que o usam junto com outros modelos.",
+      "O cartão de configuração das automações permite marcar várias opções, como os dias da semana.",
+      "O cartão de configuração das automações ganha o filtro do catálogo, o mesmo da tela Passar atendimento: campo, comparação e valor, com sugestões do próprio catálogo.",
+      "As automações de postagem podem sortear entre vários modelos de arte, usando só os que servem para o item.",
+      "As marcas do WhatsApp e do Telegram aparecem sempre coloridas, conectado ou não."
     ],
-    "novidades": "Biblioteca de skills da ALS, skills compartilhadas com a empresa e conexões numa lista só A tela Skills ganha a aba Biblioteca: as skills gerais da ALS, que cada um instala se quiser e que se atualizam sozinhas de madrugada. Peça na conversa para compartilhar uma skill sua com a empresa: ela passa a valer para o agente de todas as pessoas (administração e titular). A skill chega inteira ao agente, com o texto como foi escrito, os arquivos de apoio e as imagens. A tela Skills mostra as skills em cartões, com Ver, Editar e Remover. Nomes que começam com als- ficam reservados às bibliotecas da ALS. Agente pronto de marketing para imobiliária: arte e postagem, avaliação de imóvel, material, campanha, raio-X e próxima mensagem. O agente pronto que pesquisa na internet passa a pesquisar. A tela Conexões vira uma lista só, com os agentes e o Só eu em cada conta, e a conta ligada pela conversa já fica liberada ao Als Copilot. O agente usado na tela de conversa recebe as contas conectadas liberadas a ele. O link de conexão usa primeiro o login pronto do serviço. O que você diz na tela de conversa vale nas confirmações: publicar, apagar, decidir, proposta e contrato. Na postagem, o seu sim na conversa da tela é reconhecido, e só conta o que você mesmo disse. Pela tela de conversa, o serviço conectado recebe o seu telefone, e o pedido de site é respondido com naturalidade, uma vez por assunto. Automações podem fazer perguntas à IA com pesquisa na internet. A conversa abre na última mensagem e a barra de rolagem fica visível.",
+    "novidades": "Contas conectadas da empresa, lead sem código atendido e filtro do catálogo nas automações As contas conectadas passam a ser da empresa: a administração vê e configura todas, e a única escolha em cada conta é quais agentes a usam. A opção «Só eu» saiu, e a conta nova nasce liberada ao Als Copilot. A conta que está sem acesso aparece na tela Conexões, e o Als Copilot consulta na conversa o que está conectado. O lead que chega sem código é chamado pelo agente de atendimento, que lê a publicação de onde ele veio, e só depois é passado. Quando o Als Copilot recomeça uma conversa longa, leva só as últimas 30 mensagens, e não a conversa inteira. O modelo de arte pode ser renomeado pela tela, com lápis e lixeira no cartão. O aviso antes de remover um modelo de arte passa a contar as automações que o usam junto com outros modelos. O cartão de configuração das automações permite marcar várias opções, como os dias da semana. O cartão de configuração das automações ganha o filtro do catálogo, o mesmo da tela Passar atendimento: campo, comparação e valor, com sugestões do próprio catálogo. As automações de postagem podem sortear entre vários modelos de arte, usando só os que servem para o item. As marcas do WhatsApp e do Telegram aparecem sempre coloridas, conectado ou não.",
     "obrigatoria": false,
     "publicada_em": "2026-11-27"
   },
   "anteriores": [
+    {
+      "versao": "1.10.6",
+      "titulo": "Biblioteca de skills da ALS, skills compartilhadas com a empresa e conexões numa lista só",
+      "itens": [
+        "A tela Skills ganha a aba Biblioteca: as skills gerais da ALS, que cada um instala se quiser e que se atualizam sozinhas de madrugada.",
+        "Peça na conversa para compartilhar uma skill sua com a empresa: ela passa a valer para o agente de todas as pessoas (administração e titular).",
+        "A skill chega inteira ao agente, com o texto como foi escrito, os arquivos de apoio e as imagens.",
+        "A tela Skills mostra as skills em cartões, com Ver, Editar e Remover.",
+        "Nomes que começam com als- ficam reservados às bibliotecas da ALS.",
+        "Agente pronto de marketing para imobiliária: arte e postagem, avaliação de imóvel, material, campanha, raio-X e próxima mensagem.",
+        "O agente pronto que pesquisa na internet passa a pesquisar.",
+        "A tela Conexões vira uma lista só, com os agentes e o Só eu em cada conta, e a conta ligada pela conversa já fica liberada ao Als Copilot.",
+        "O agente usado na tela de conversa recebe as contas conectadas liberadas a ele.",
+        "O link de conexão usa primeiro o login pronto do serviço.",
+        "O que você diz na tela de conversa vale nas confirmações: publicar, apagar, decidir, proposta e contrato.",
+        "Na postagem, o seu sim na conversa da tela é reconhecido, e só conta o que você mesmo disse.",
+        "Pela tela de conversa, o serviço conectado recebe o seu telefone, e o pedido de site é respondido com naturalidade, uma vez por assunto.",
+        "Automações podem fazer perguntas à IA com pesquisa na internet.",
+        "A conversa abre na última mensagem e a barra de rolagem fica visível."
+      ],
+      "novidades": "Biblioteca de skills da ALS, skills compartilhadas com a empresa e conexões numa lista só A tela Skills ganha a aba Biblioteca: as skills gerais da ALS, que cada um instala se quiser e que se atualizam sozinhas de madrugada. Peça na conversa para compartilhar uma skill sua com a empresa: ela passa a valer para o agente de todas as pessoas (administração e titular). A skill chega inteira ao agente, com o texto como foi escrito, os arquivos de apoio e as imagens. A tela Skills mostra as skills em cartões, com Ver, Editar e Remover. Nomes que começam com als- ficam reservados às bibliotecas da ALS. Agente pronto de marketing para imobiliária: arte e postagem, avaliação de imóvel, material, campanha, raio-X e próxima mensagem. O agente pronto que pesquisa na internet passa a pesquisar. A tela Conexões vira uma lista só, com os agentes e o Só eu em cada conta, e a conta ligada pela conversa já fica liberada ao Als Copilot. O agente usado na tela de conversa recebe as contas conectadas liberadas a ele. O link de conexão usa primeiro o login pronto do serviço. O que você diz na tela de conversa vale nas confirmações: publicar, apagar, decidir, proposta e contrato. Na postagem, o seu sim na conversa da tela é reconhecido, e só conta o que você mesmo disse. Pela tela de conversa, o serviço conectado recebe o seu telefone, e o pedido de site é respondido com naturalidade, uma vez por assunto. Automações podem fazer perguntas à IA com pesquisa na internet. A conversa abre na última mensagem e a barra de rolagem fica visível.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-27"
+    },
     {
       "versao": "1.10.5",
       "titulo": "Os avisos à equipe chegam por qualquer WhatsApp conectado, e arquivo e vídeo ficam melhores na conversa",
