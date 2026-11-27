@@ -1,21 +1,45 @@
 {
   "atual": {
-    "versao": "1.10.5",
-    "titulo": "Os avisos à equipe chegam por qualquer WhatsApp conectado, e arquivo e vídeo ficam melhores na conversa",
+    "versao": "1.10.6",
+    "titulo": "Biblioteca de skills da ALS, skills compartilhadas com a empresa e conexões numa lista só",
     "itens": [
-      "Pelo WhatsApp e pelo Telegram, o Als Copilot passa a receber vídeo quando quem fala é a administração ou a equipe; no atendimento ao lead nada muda.",
-      "O arquivo que chega na conversa aparece como um cartão com ícone, inclusive o aviso de arquivo não recebido.",
-      "Os recados internos e as marcas entre colchetes deixam de aparecer na conversa, nos títulos, nas prévias, em Atendimentos, no CRM e na cobrança.",
-      "O recado e os avisos a alguém da equipe tentam qualquer WhatsApp conectado da empresa (menos o oficial) antes de ir para o Telegram, o e-mail e o sininho.",
-      "A resposta e a falha de uma tarefa agendada e o lembrete de compromisso passam a seguir essa mesma ordem de avisos; para quem tem cadastro, o e-mail do lembrete deixa de ir junto e entra quando o WhatsApp e o Telegram não entregam.",
-      "Um aviso de entrega mandado pela ALS passa a levar ao Als Copilot o contexto do assunto, para ele responder sobre o aviso sem se perder. Inclui uma atualização do banco.",
-      "Arrumação interna nas ferramentas de trabalho da ALS, sem mudança no uso do sistema."
+      "A tela Skills ganha a aba Biblioteca: as skills gerais da ALS, que cada um instala se quiser e que se atualizam sozinhas de madrugada.",
+      "Peça na conversa para compartilhar uma skill sua com a empresa: ela passa a valer para o agente de todas as pessoas (administração e titular).",
+      "A skill chega inteira ao agente, com o texto como foi escrito, os arquivos de apoio e as imagens.",
+      "A tela Skills mostra as skills em cartões, com Ver, Editar e Remover.",
+      "Nomes que começam com als- ficam reservados às bibliotecas da ALS.",
+      "Agente pronto de marketing para imobiliária: arte e postagem, avaliação de imóvel, material, campanha, raio-X e próxima mensagem.",
+      "O agente pronto que pesquisa na internet passa a pesquisar.",
+      "A tela Conexões vira uma lista só, com os agentes e o Só eu em cada conta, e a conta ligada pela conversa já fica liberada ao Als Copilot.",
+      "O agente usado na tela de conversa recebe as contas conectadas liberadas a ele.",
+      "O link de conexão usa primeiro o login pronto do serviço.",
+      "O que você diz na tela de conversa vale nas confirmações: publicar, apagar, decidir, proposta e contrato.",
+      "Na postagem, o seu sim na conversa da tela é reconhecido, e só conta o que você mesmo disse.",
+      "Pela tela de conversa, o serviço conectado recebe o seu telefone, e o pedido de site é respondido com naturalidade, uma vez por assunto.",
+      "Automações podem fazer perguntas à IA com pesquisa na internet.",
+      "A conversa abre na última mensagem e a barra de rolagem fica visível."
     ],
-    "novidades": "Os avisos à equipe chegam por qualquer WhatsApp conectado, e arquivo e vídeo ficam melhores na conversa Pelo WhatsApp e pelo Telegram, o Als Copilot passa a receber vídeo quando quem fala é a administração ou a equipe; no atendimento ao lead nada muda. O arquivo que chega na conversa aparece como um cartão com ícone, inclusive o aviso de arquivo não recebido. Os recados internos e as marcas entre colchetes deixam de aparecer na conversa, nos títulos, nas prévias, em Atendimentos, no CRM e na cobrança. O recado e os avisos a alguém da equipe tentam qualquer WhatsApp conectado da empresa (menos o oficial) antes de ir para o Telegram, o e-mail e o sininho. A resposta e a falha de uma tarefa agendada e o lembrete de compromisso passam a seguir essa mesma ordem de avisos; para quem tem cadastro, o e-mail do lembrete deixa de ir junto e entra quando o WhatsApp e o Telegram não entregam. Um aviso de entrega mandado pela ALS passa a levar ao Als Copilot o contexto do assunto, para ele responder sobre o aviso sem se perder. Inclui uma atualização do banco. Arrumação interna nas ferramentas de trabalho da ALS, sem mudança no uso do sistema.",
+    "novidades": "Biblioteca de skills da ALS, skills compartilhadas com a empresa e conexões numa lista só A tela Skills ganha a aba Biblioteca: as skills gerais da ALS, que cada um instala se quiser e que se atualizam sozinhas de madrugada. Peça na conversa para compartilhar uma skill sua com a empresa: ela passa a valer para o agente de todas as pessoas (administração e titular). A skill chega inteira ao agente, com o texto como foi escrito, os arquivos de apoio e as imagens. A tela Skills mostra as skills em cartões, com Ver, Editar e Remover. Nomes que começam com als- ficam reservados às bibliotecas da ALS. Agente pronto de marketing para imobiliária: arte e postagem, avaliação de imóvel, material, campanha, raio-X e próxima mensagem. O agente pronto que pesquisa na internet passa a pesquisar. A tela Conexões vira uma lista só, com os agentes e o Só eu em cada conta, e a conta ligada pela conversa já fica liberada ao Als Copilot. O agente usado na tela de conversa recebe as contas conectadas liberadas a ele. O link de conexão usa primeiro o login pronto do serviço. O que você diz na tela de conversa vale nas confirmações: publicar, apagar, decidir, proposta e contrato. Na postagem, o seu sim na conversa da tela é reconhecido, e só conta o que você mesmo disse. Pela tela de conversa, o serviço conectado recebe o seu telefone, e o pedido de site é respondido com naturalidade, uma vez por assunto. Automações podem fazer perguntas à IA com pesquisa na internet. A conversa abre na última mensagem e a barra de rolagem fica visível.",
     "obrigatoria": false,
-    "publicada_em": "2026-11-26"
+    "publicada_em": "2026-11-27"
   },
   "anteriores": [
+    {
+      "versao": "1.10.5",
+      "titulo": "Os avisos à equipe chegam por qualquer WhatsApp conectado, e arquivo e vídeo ficam melhores na conversa",
+      "itens": [
+        "Pelo WhatsApp e pelo Telegram, o Als Copilot passa a receber vídeo quando quem fala é a administração ou a equipe; no atendimento ao lead nada muda.",
+        "O arquivo que chega na conversa aparece como um cartão com ícone, inclusive o aviso de arquivo não recebido.",
+        "Os recados internos e as marcas entre colchetes deixam de aparecer na conversa, nos títulos, nas prévias, em Atendimentos, no CRM e na cobrança.",
+        "O recado e os avisos a alguém da equipe tentam qualquer WhatsApp conectado da empresa (menos o oficial) antes de ir para o Telegram, o e-mail e o sininho.",
+        "A resposta e a falha de uma tarefa agendada e o lembrete de compromisso passam a seguir essa mesma ordem de avisos; para quem tem cadastro, o e-mail do lembrete deixa de ir junto e entra quando o WhatsApp e o Telegram não entregam.",
+        "Um aviso de entrega mandado pela ALS passa a levar ao Als Copilot o contexto do assunto, para ele responder sobre o aviso sem se perder. Inclui uma atualização do banco.",
+        "Arrumação interna nas ferramentas de trabalho da ALS, sem mudança no uso do sistema."
+      ],
+      "novidades": "Os avisos à equipe chegam por qualquer WhatsApp conectado, e arquivo e vídeo ficam melhores na conversa Pelo WhatsApp e pelo Telegram, o Als Copilot passa a receber vídeo quando quem fala é a administração ou a equipe; no atendimento ao lead nada muda. O arquivo que chega na conversa aparece como um cartão com ícone, inclusive o aviso de arquivo não recebido. Os recados internos e as marcas entre colchetes deixam de aparecer na conversa, nos títulos, nas prévias, em Atendimentos, no CRM e na cobrança. O recado e os avisos a alguém da equipe tentam qualquer WhatsApp conectado da empresa (menos o oficial) antes de ir para o Telegram, o e-mail e o sininho. A resposta e a falha de uma tarefa agendada e o lembrete de compromisso passam a seguir essa mesma ordem de avisos; para quem tem cadastro, o e-mail do lembrete deixa de ir junto e entra quando o WhatsApp e o Telegram não entregam. Um aviso de entrega mandado pela ALS passa a levar ao Als Copilot o contexto do assunto, para ele responder sobre o aviso sem se perder. Inclui uma atualização do banco. Arrumação interna nas ferramentas de trabalho da ALS, sem mudança no uso do sistema.",
+      "obrigatoria": false,
+      "publicada_em": "2026-11-26"
+    },
     {
       "versao": "1.10.4",
       "titulo": "Falar com qualquer agente pela tela de conversa, conversa mais rápida e chaves de serviço só pelo campo seguro",
@@ -322,38 +346,6 @@
         "A próxima ação combinada que vence sem novidade traz a cobrança de volta para quem ainda cuida do lead."
       ],
       "novidades": "Quem recebe um lead passado pelo CRM ou pelo Lead Frio é avisado no WhatsApp Reatribuir um negócio no CRM agora manda à pessoa que recebe o cartão no WhatsApp, com o link para assumir o atendimento. Passar para outra pessoa na decisão do Lead Frio também manda o cartão no WhatsApp para quem recebe o lead. Quem pediu o Lead Frio é avisado de como a administração decidiu: concordou, assumiu o atendimento ou passou o lead para outra pessoa. A próxima ação combinada que vence sem novidade traz a cobrança de volta para quem ainda cuida do lead.",
-      "obrigatoria": false,
-      "publicada_em": "2026-11-10"
-    },
-    {
-      "versao": "1.8.9",
-      "titulo": "A conversa longa nunca fica pesada, as contas conectadas ganham tela própria e o negócio se ajusta sozinho",
-      "itens": [
-        "A conversa longa com o Als Copilot não fica mais pesada demais: quando o histórico engorda, o sistema troca de fio sozinho, antes de carregá-lo, e leva o histórico sem as imagens.",
-        "A imagem que o Als Copilot cria deixa de ficar guardada na memória da conversa: ela é gerada à parte e só o endereço dela no armazenamento fica.",
-        "A foto que a pessoa manda e a imagem que o agente olha saem da memória da conversa no turno seguinte; o histórico leva só o endereço da foto no armazenamento.",
-        "O conteúdo dos arquivos que o agente cria deixa de ficar no histórico quando a conversa troca de fio.",
-        "O serviço de IA passa a ter 2 GB de memória de fábrica, em vez de 1 GB.",
-        "O lead que a pessoa assumiu fica na lista dela, em atendimento, com o botão do WhatsApp do cliente; a lista vai do mais novo ao mais antigo, de 10 em 10 até 100.",
-        "Base das conexões: várias contas por serviço, cada uma com apelido, e os acessos de cada agente a elas (nada muda para quem já usa).",
-        "A tela Conexões (Da empresa e Minhas), a janela de conectar e a versão para celular, atrás de uma chave que vem desligada.",
-        "A sessão do agente passa a usar só as contas liberadas a ele (regra nova, atrás da mesma chave); o Als Copilot de fábrica ganha as contas de volta.",
-        "Reconectar as contas de antes na tela Conexões, sem login novo: a conta antiga fica anotada e não é apagada; o resumo das conexões aparece dentro do agente.",
-        "Depois de conectar uma conta, a janela oferece Conectar outra do mesmo serviço ou Concluir.",
-        "Ligar ou desligar um agente numa conta responde na hora, e a lista de contas carrega em cerca de 0,5 s em vez de 1,5 s.",
-        "Quando a pessoa nomeia uma conta que nenhum agente tem liberada, o agente diz isso em uma frase clara.",
-        "A lista da tela inteligente ganha link, fonte, etiqueta e foto; as imagens anteriores de uma resposta ficam recolhidas.",
-        "O Als Copilot ganha o campo Tamanho da resposta (curta, média, longa) na tela do agente.",
-        "A foto que a pessoa manda aparece na bolha da conversa desde o primeiro sinal.",
-        "O Als Copilot sem foto própria passa a ter o robô da ALS Digital como retrato de fábrica.",
-        "O modo Als Copilot de fábrica (desligado por padrão) ganha de volta as skills, o criar skill, as consultas de leitura da empresa, o recado à equipe, o registro de lead e a tela inteligente.",
-        "O negócio se ajusta sozinho: toda mudança é enfileirada pelo banco, por qualquer caminho, e o sistema liga as pontas (cobrança de quem é responsável, quem passou sai do lead, próxima ação velha sai, Passado para só enquanto vale).",
-        "O item da passagem entra no negócio sem item cadastrado; o perfil e o termômetro do lead são relidos em segundo plano depois de uma troca de mãos real; o histórico do descarte leva o motivo.",
-        "A fila do ajuste automático não trava mais ninguém, e a atualização não mexe em dado que já existe.",
-        "A pessoa que sai da equipe devolve o lead ao agente (e a conversa), acaba a cobrança, deixa de enxergar o lead e fica no histórico; o item que sai do ar fica dito no histórico de quem o tem.",
-        "O item apagado do catálogo deixa uma linha no histórico dos negócios abertos que o tinham, e o Passado para nomeia só quem ficou numa passagem a duas pessoas."
-      ],
-      "novidades": "A conversa longa nunca fica pesada, as contas conectadas ganham tela própria e o negócio se ajusta sozinho A conversa longa com o Als Copilot não fica mais pesada demais: quando o histórico engorda, o sistema troca de fio sozinho, antes de carregá-lo, e leva o histórico sem as imagens. A imagem que o Als Copilot cria deixa de ficar guardada na memória da conversa: ela é gerada à parte e só o endereço dela no armazenamento fica. A foto que a pessoa manda e a imagem que o agente olha saem da memória da conversa no turno seguinte; o histórico leva só o endereço da foto no armazenamento. O conteúdo dos arquivos que o agente cria deixa de ficar no histórico quando a conversa troca de fio. O serviço de IA passa a ter 2 GB de memória de fábrica, em vez de 1 GB. O lead que a pessoa assumiu fica na lista dela, em atendimento, com o botão do WhatsApp do cliente; a lista vai do mais novo ao mais antigo, de 10 em 10 até 100. Base das conexões: várias contas por serviço, cada uma com apelido, e os acessos de cada agente a elas (nada muda para quem já usa). A tela Conexões (Da empresa e Minhas), a janela de conectar e a versão para celular, atrás de uma chave que vem desligada. A sessão do agente passa a usar só as contas liberadas a ele (regra nova, atrás da mesma chave); o Als Copilot de fábrica ganha as contas de volta. Reconectar as contas de antes na tela Conexões, sem login novo: a conta antiga fica anotada e não é apagada; o resumo das conexões aparece dentro do agente. Depois de conectar uma conta, a janela oferece Conectar outra do mesmo serviço ou Concluir. Ligar ou desligar um agente numa conta responde na hora, e a lista de contas carrega em cerca de 0,5 s em vez de 1,5 s. Quando a pessoa nomeia uma conta que nenhum agente tem liberada, o agente diz isso em uma frase clara. A lista da tela inteligente ganha link, fonte, etiqueta e foto; as imagens anteriores de uma resposta ficam recolhidas. O Als Copilot ganha o campo Tamanho da resposta (curta, média, longa) na tela do agente. A foto que a pessoa manda aparece na bolha da conversa desde o primeiro sinal. O Als Copilot sem foto própria passa a ter o robô da ALS Digital como retrato de fábrica. O modo Als Copilot de fábrica (desligado por padrão) ganha de volta as skills, o criar skill, as consultas de leitura da empresa, o recado à equipe, o registro de lead e a tela inteligente. O negócio se ajusta sozinho: toda mudança é enfileirada pelo banco, por qualquer caminho, e o sistema liga as pontas (cobrança de quem é responsável, quem passou sai do lead, próxima ação velha sai, Passado para só enquanto vale). O item da passagem entra no negócio sem item cadastrado; o perfil e o termômetro do lead são relidos em segundo plano depois de uma troca de mãos real; o histórico do descarte leva o motivo. A fila do ajuste automático não trava mais ninguém, e a atualização não mexe em dado que já existe. A pessoa que sai da equipe devolve o lead ao agente (e a conversa), acaba a cobrança, deixa de enxergar o lead e fica no histórico; o item que sai do ar fica dito no histórico de quem o tem. O item apagado do catálogo deixa uma linha no histórico dos negócios abertos que o tinham, e o Passado para nomeia só quem ficou numa passagem a duas pessoas.",
       "obrigatoria": false,
       "publicada_em": "2026-11-10"
     }
